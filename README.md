@@ -63,7 +63,7 @@ GET /vX.Y.Z/speeds_by_tag.json
 
 Example:
 ```
-https://felixstaude.github.io/foundry-recipe-data/v0.6.0.23789/recipes_clean.json
+https://felixstaude.github.io/foundry-recipe-data/v0.6.0.22650/recipes_clean.json
 ```
 
 ---
