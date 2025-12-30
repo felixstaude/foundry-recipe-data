@@ -1,0 +1,341 @@
+{
+  "machines": {
+    "advanced_smelter@1": {
+      "name": "advanced_smelter Tier I",
+      "craftingTags": [
+        "advanced_smelter"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "advanced_smelter@1.5": {
+      "name": "advanced_smelter Tier II",
+      "craftingTags": [
+        "advanced_smelter"
+      ],
+      "craftingSpeedMultiplier": 1.5,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "advanced_smelter@2": {
+      "name": "advanced_smelter Tier III",
+      "craftingTags": [
+        "advanced_smelter"
+      ],
+      "craftingSpeedMultiplier": 2.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "assembler@1": {
+      "name": "assembler Tier I",
+      "craftingTags": [
+        "assembler"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "assembler@1.5": {
+      "name": "assembler Tier II",
+      "craftingTags": [
+        "assembler"
+      ],
+      "craftingSpeedMultiplier": 1.5,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "assembler@2": {
+      "name": "assembler Tier III",
+      "craftingTags": [
+        "assembler"
+      ],
+      "craftingSpeedMultiplier": 2.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "assembler_fluid@1": {
+      "name": "assembler_fluid Tier I",
+      "craftingTags": [
+        "assembler_fluid"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "assembler_fluid@1.5": {
+      "name": "assembler_fluid Tier II",
+      "craftingTags": [
+        "assembler_fluid"
+      ],
+      "craftingSpeedMultiplier": 1.5,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "assembler_fluid@2": {
+      "name": "assembler_fluid Tier III",
+      "craftingTags": [
+        "assembler_fluid"
+      ],
+      "craftingSpeedMultiplier": 2.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "barrel_filler@1": {
+      "name": "barrel_filler Tier I",
+      "craftingTags": [
+        "barrel_filler"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "barrel_filler@1.5": {
+      "name": "barrel_filler Tier II",
+      "craftingTags": [
+        "barrel_filler"
+      ],
+      "craftingSpeedMultiplier": 1.5,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "barrel_filler@2": {
+      "name": "barrel_filler Tier III",
+      "craftingTags": [
+        "barrel_filler"
+      ],
+      "craftingSpeedMultiplier": 2.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "base_station@1": {
+      "name": "base_station Tier I",
+      "craftingTags": [
+        "base_station"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "base_station@1.5": {
+      "name": "base_station Tier II",
+      "craftingTags": [
+        "base_station"
+      ],
+      "craftingSpeedMultiplier": 1.5,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "base_station@2": {
+      "name": "base_station Tier III",
+      "craftingTags": [
+        "base_station"
+      ],
+      "craftingSpeedMultiplier": 2.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "casting_machine@1": {
+      "name": "casting_machine Tier I",
+      "craftingTags": [
+        "casting_machine"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "casting_machine@1.5": {
+      "name": "casting_machine Tier II",
+      "craftingTags": [
+        "casting_machine"
+      ],
+      "craftingSpeedMultiplier": 1.5,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "casting_machine@2": {
+      "name": "casting_machine Tier III",
+      "craftingTags": [
+        "casting_machine"
+      ],
+      "craftingSpeedMultiplier": 2.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "character@1": {
+      "name": "character Tier I",
+      "craftingTags": [
+        "character"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "character@1.5": {
+      "name": "character Tier II",
+      "craftingTags": [
+        "character"
+      ],
+      "craftingSpeedMultiplier": 1.5,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "character@2": {
+      "name": "character Tier III",
+      "craftingTags": [
+        "character"
+      ],
+      "craftingSpeedMultiplier": 2.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "chemical_processor@1": {
+      "name": "chemical_processor Tier I",
+      "craftingTags": [
+        "chemical_processor"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "chemical_processor@1.5": {
+      "name": "chemical_processor Tier II",
+      "craftingTags": [
+        "chemical_processor"
+      ],
+      "craftingSpeedMultiplier": 1.5,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "chemical_processor@2": {
+      "name": "chemical_processor Tier III",
+      "craftingTags": [
+        "chemical_processor"
+      ],
+      "craftingSpeedMultiplier": 2.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "crusher@1": {
+      "name": "crusher Tier I",
+      "craftingTags": [
+        "crusher"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "crusher@1.5": {
+      "name": "crusher Tier II",
+      "craftingTags": [
+        "crusher"
+      ],
+      "craftingSpeedMultiplier": 1.5,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "crusher@2": {
+      "name": "crusher Tier III",
+      "craftingTags": [
+        "crusher"
+      ],
+      "craftingSpeedMultiplier": 2.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "distillation_column@1": {
+      "name": "distillation_column Tier I",
+      "craftingTags": [
+        "distillation_column"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "distillation_column@1.5": {
+      "name": "distillation_column Tier II",
+      "craftingTags": [
+        "distillation_column"
+      ],
+      "craftingSpeedMultiplier": 1.5,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "distillation_column@2": {
+      "name": "distillation_column Tier III",
+      "craftingTags": [
+        "distillation_column"
+      ],
+      "craftingSpeedMultiplier": 2.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "electric_arc_furnace@1": {
+      "name": "electric_arc_furnace Tier I",
+      "craftingTags": [
+        "electric_arc_furnace"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "electric_arc_furnace@1.5": {
+      "name": "electric_arc_furnace Tier II",
+      "craftingTags": [
+        "electric_arc_furnace"
+      ],
+      "craftingSpeedMultiplier": 1.5,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "electric_arc_furnace@2": {
+      "name": "electric_arc_furnace Tier III",
+      "craftingTags": [
+        "electric_arc_furnace"
+      ],
+      "craftingSpeedMultiplier": 2.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "greenhouse@1": {
+      "name": "greenhouse Tier I",
+      "craftingTags": [
+        "greenhouse"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "greenhouse@1.5": {
+      "name": "greenhouse Tier II",
+      "craftingTags": [
+        "greenhouse"
+      ],
+      "craftingSpeedMultiplier": 1.5,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "greenhouse@2": {
+      "name": "greenhouse Tier III",
+      "craftingTags": [
+        "greenhouse"
+      ],
+      "craftingSpeedMultiplier": 2.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "smelter@1": {
+      "name": "smelter Tier I",
+      "craftingTags": [
+        "smelter"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "smelter@1.5": {
+      "name": "smelter Tier II",
+      "craftingTags": [
+        "smelter"
+      ],
+      "craftingSpeedMultiplier": 1.5,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "smelter@2": {
+      "name": "smelter Tier III",
+      "craftingTags": [
+        "smelter"
+      ],
+      "craftingSpeedMultiplier": 2.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "smelter_lava@1": {
+      "name": "smelter_lava Tier I",
+      "craftingTags": [
+        "smelter_lava"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "smelter_lava@1.5": {
+      "name": "smelter_lava Tier II",
+      "craftingTags": [
+        "smelter_lava"
+      ],
+      "craftingSpeedMultiplier": 1.5,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    },
+    "smelter_lava@2": {
+      "name": "smelter_lava Tier III",
+      "craftingTags": [
+        "smelter_lava"
+      ],
+      "craftingSpeedMultiplier": 2.0,
+      "derivedFrom": "recipe_infobox_speed_markers"
+    }
+  },
+  "source": "generated_from_speeds_by_tag"
+}

@@ -1,0 +1,70 @@
+{
+  "count": 13,
+  "tags": [
+    {
+      "identifier": "advanced_smelter",
+      "name": "Advanced Smelter",
+      "icon_identifier": ""
+    },
+    {
+      "identifier": "assembler",
+      "name": "Assembler",
+      "icon_identifier": ""
+    },
+    {
+      "identifier": "barrel_filler",
+      "name": "Barrel Filler",
+      "icon_identifier": ""
+    },
+    {
+      "identifier": "casting_machine",
+      "name": "Casting Machine",
+      "icon_identifier": ""
+    },
+    {
+      "identifier": "character",
+      "name": "Character",
+      "icon_identifier": ""
+    },
+    {
+      "identifier": "chemical_processor",
+      "name": "Chemical Processor",
+      "icon_identifier": ""
+    },
+    {
+      "identifier": "crusher",
+      "name": "Crusher",
+      "icon_identifier": ""
+    },
+    {
+      "identifier": "distillation_column",
+      "name": "Distillation Column",
+      "icon_identifier": ""
+    },
+    {
+      "identifier": "electric_arc_furnace",
+      "name": "Electric Arc Furnace",
+      "icon_identifier": ""
+    },
+    {
+      "identifier": "assembler_fluid",
+      "name": "Fluid-Assembler",
+      "icon_identifier": ""
+    },
+    {
+      "identifier": "greenhouse",
+      "name": "Greenhouse",
+      "icon_identifier": ""
+    },
+    {
+      "identifier": "smelter_lava",
+      "name": "Lava-Smelter",
+      "icon_identifier": ""
+    },
+    {
+      "identifier": "smelter",
+      "name": "Smelter",
+      "icon_identifier": ""
+    }
+  ]
+}
