@@ -1,0 +1,77 @@
+{
+  "scanned_recipe_assets": 270,
+  "recipes_with_infobox": 270,
+  "recipes_with_speed_markers": 250,
+  "tags": {
+    "advanced_smelter": [
+      1.0,
+      1.5,
+      2.0
+    ],
+    "assembler": [
+      1.0,
+      1.5,
+      2.0
+    ],
+    "assembler_fluid": [
+      1.0,
+      1.5,
+      2.0
+    ],
+    "barrel_filler": [
+      1.0,
+      1.5,
+      2.0
+    ],
+    "base_station": [
+      1.0,
+      1.5,
+      2.0
+    ],
+    "casting_machine": [
+      1.0,
+      1.5,
+      2.0
+    ],
+    "character": [
+      1.0,
+      1.5,
+      2.0
+    ],
+    "chemical_processor": [
+      1.0,
+      1.5,
+      2.0
+    ],
+    "crusher": [
+      1.0,
+      1.5,
+      2.0
+    ],
+    "distillation_column": [
+      1.0,
+      1.5,
+      2.0
+    ],
+    "electric_arc_furnace": [
+      1.0,
+      1.5,
+      2.0
+    ],
+    "greenhouse": [
+      1.0,
+      1.5,
+      2.0
+    ],
+    "smelter": [
+      1.0,
+      1.5,
+      2.0
+    ],
+    "smelter_lava": [
+      1.0,
+      1.5,
+      2.0
+    ]
+  }
+}
