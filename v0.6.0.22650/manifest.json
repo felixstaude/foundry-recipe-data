@@ -1,0 +1,14 @@
+{
+  "version": "v0.6.0.22650",
+  "title": "Update 2.2",
+  "description": "latest stable version",
+  "publishedAt": "2025-12-30T14:58:36.488414+00:00",
+  "files": [
+    "recipes_clean.json",
+    "machines.json",
+    "tags.json",
+    "speeds_by_tag.json",
+    "speeds_by_tag_report.txt",
+    "build_meta.json"
+  ]
+}
