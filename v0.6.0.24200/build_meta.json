@@ -1,0 +1,11 @@
+{
+  "builtAt": "2026-01-28T16:04:41.546152+00:00",
+  "generator": "foundry-recipe-data",
+  "outputs": [
+    "recipes_clean.json",
+    "speeds_by_tag.json",
+    "speeds_by_tag_report.txt",
+    "tags.json",
+    "machines.json"
+  ]
+}
