@@ -26,7 +26,7 @@ except AttributeError:  # pragma: no cover - libyaml missing
 # the template types build.py reads (keep in sync with build.Data)
 EXPORTED_TYPES = ('ItemTemplate', 'ElementTemplate', 'CraftingTag', 'CraftingRecipe', 'BuildableObjectTemplate',
                   'ResearchTemplate', 'ExplorationUnlockTemplate', 'AssemblyLineObjectTemplate',
-                  'AssemblyLineProducerActionTemplate')
+                  'AssemblyLineProducerActionTemplate', 'ItemCategoryTemplate', 'CreativeModeCategoryTemplate')
 # decoded Odin AssemblyLineStages (the robot "recipes"), scanned like a template type and treated as exported
 STAGES_TYPE = 'AssemblyLineStages'
 # fields build.py branches on: a value never seen before must be reported, not silently fall through

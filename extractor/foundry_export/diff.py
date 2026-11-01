@@ -29,7 +29,8 @@ COVERAGE_LANGS = (('de', 'deutsche Übersetzung'), ('en', 'englischen Text'))   
 # section key -> localization category (strings[<category>][<id>]); alActions are localized by producer action id
 LOC_CATEGORY = {'items': 'items', 'recipes': 'recipes', 'machines': 'machines', 'research': 'research',
                 'explorationUnlocks': 'explorationUnlocks', 'alObjects': 'assemblyLineObjects',
-                'alActions': 'assemblyLineActions', 'elements': 'elements', 'craftingTags': 'craftingTags'}
+                'alActions': 'assemblyLineActions', 'elements': 'elements', 'craftingTags': 'craftingTags',
+                'itemCategories': 'itemCategories', 'creativeModeCategories': 'creativeModeCategories'}
 
 
 # ---------------------------------------------------------------- loading / views
@@ -110,6 +111,9 @@ SECTIONS = (
      'view': _plain('assembly_line.json', 'machines')},
     {'key': 'elements', 'title': 'Elemente', 'file': 'elements.json', 'view': _plain('elements.json', 'elements')},
     {'key': 'craftingTags', 'title': 'Crafting-Tags', 'file': 'crafting_tags.json', 'view': _plain('crafting_tags.json', 'tags')},
+    {'key': 'itemCategories', 'title': 'Item-Kategorien', 'file': 'items.json', 'view': _plain('items.json', 'categories')},
+    {'key': 'creativeModeCategories', 'title': 'Creative-Mode-Kategorien', 'file': 'items.json',
+     'view': _plain('items.json', 'creativeModeCategories')},
 )
 
 

@@ -6,9 +6,9 @@
 | Spielversion | 0.6.0.26518 |
 | Steam-Build | 23077581 |
 | Unity | 2022.3.51f1 |
-| Datum (generatedAt) | 2026-11-01T17:44:47+00:00 |
+| Datum (generatedAt) | 2026-11-01T20:36:48+00:00 |
 | Generator | foundry-export 1.0.0 |
-| Schema-Version | 1.1 |
+| Schema-Version | 1.2 |
 | Template-Quelle | StreamingAssets/Templates |
 
 Dies ist der erste Export – es gibt keine Vorgängerversion zum Vergleich. Aufgeführt sind nur die Umfänge.
@@ -28,6 +28,8 @@ Dies ist der erste Export – es gibt keine Vorgängerversion zum Vergleich. Auf
 | Assembly-Line-Maschinen | 14 |
 | Elemente | 28 |
 | Crafting-Tags | 17 |
+| Item-Kategorien | 5 |
+| Creative-Mode-Kategorien | 19 |
 
 ## Template-Typen
 
@@ -116,6 +118,6 @@ Dies ist der erste Export – es gibt keine Vorgängerversion zum Vergleich. Auf
 
 ## Lokalisierung
 
-19 Sprachen: af (2862), cs (2862), de (2862), en (2862), es-419 (2862), es-ES (2862), fr (2862), hu (2862), it (2862), ja (2862), ko (2862), pl (2862), pt-BR (2862), pt-PT (2862), ro (2862), ru (2862), tr (2862), uk (2862), zh-CN (2862)
+19 Sprachen: af (2886), cs (2886), de (2886), en (2886), es-419 (2886), es-ES (2886), fr (2886), hu (2886), it (2886), ja (2886), ko (2886), pl (2886), pt-BR (2886), pt-PT (2886), ro (2886), ru (2886), tr (2886), uk (2886), zh-CN (2886)
 
-Alle 1812 Einträge haben `name`/`title` in de.json und en.json.
+Alle 1836 Einträge haben `name`/`title` in de.json und en.json.

@@ -4,7 +4,7 @@
   "type": "object",
   "properties": {
     "schemaVersion": {
-      "const": "1.1"
+      "const": "1.2"
     },
     "gameVersion": {
       "type": "string"
@@ -16,6 +16,18 @@
       ]
     },
     "steamBranch": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "description": {
       "type": [
         "string",
         "null"
@@ -97,6 +109,8 @@
     "gameVersion",
     "steamBuildId",
     "steamBranch",
+    "title",
+    "description",
     "unityVersion",
     "generatedAt",
     "generator",

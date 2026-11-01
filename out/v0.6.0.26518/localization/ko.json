@@ -3,7 +3,7 @@
   "gameVersion": "0.6.0.26518",
   "steamBuildId": "23077581",
   "language": "ko",
-  "count": 2439,
+  "count": 2463,
   "strings": {
     "assemblyLineActions": {
       "_ad01_attachArmLeft": {
@@ -1030,6 +1030,65 @@
         "slotLockDescription": "용암제련 가능"
       }
     },
+    "creativeModeCategories": {
+      "_base_cmct_assembly_line": {
+        "name": "조립 라인"
+      },
+      "_base_cmct_assembly_line_components": {
+        "name": "로봇 부품"
+      },
+      "_base_cmct_blocks": {
+        "name": "블록"
+      },
+      "_base_cmct_character_movement": {
+        "name": "캐릭터 이동"
+      },
+      "_base_cmct_components": {
+        "name": "부품"
+      },
+      "_base_cmct_container": {
+        "name": "창고"
+      },
+      "_base_cmct_data_cable": {
+        "name": "데이터 케이블 시스템"
+      },
+      "_base_cmct_decoratives": {
+        "name": "장식 & 조명"
+      },
+      "_base_cmct_energy": {
+        "name": "에너지"
+      },
+      "_base_cmct_factory": {
+        "name": "공장"
+      },
+      "_base_cmct_general": {
+        "name": "일반"
+      },
+      "_base_cmct_handhelds": {
+        "name": "휴대기기"
+      },
+      "_base_cmct_logistics": {
+        "name": "물류 & 유체 관리"
+      },
+      "_base_cmct_modular_buildings": {
+        "name": "모듈식 건물"
+      },
+      "_base_cmct_plant_seeds": {
+        "name": "식물 씨앗"
+      },
+      "_base_cmct_resources": {
+        "name": "자원"
+      },
+      "_base_cmct_robots_and_bots": {
+        "name": "로봇 & 봇"
+      },
+      "_base_cmct_science": {
+        "name": "과학"
+      },
+      "_base_cmct_trains": {
+        "name": "Trains"
+      }
+    },
     "elements": {
       "_base_air": {
         "name": "공기"
@@ -1336,6 +1395,23 @@
       "_base_water_tool": {
         "title": "관개 도구",
         "description": "관개 도구는 물줄기를 발사하여 흙 지형에 풀을 다시 자라게 할 수 있게 해줍니다."
+      }
+    },
+    "itemCategories": {
+      "_base_components": {
+        "name": "부품"
+      },
+      "_base_construction_material": {
+        "name": "건설 재료"
+      },
+      "_base_raw_materials": {
+        "name": "원자재"
+      },
+      "_base_resources": {
+        "name": "자원"
+      },
+      "_base_sales_items": {
+        "name": "제품"
       }
     },
     "items": {

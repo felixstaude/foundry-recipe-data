@@ -3,7 +3,7 @@
   "gameVersion": "0.6.0.26518",
   "steamBuildId": "23077581",
   "language": "tr",
-  "count": 2439,
+  "count": 2463,
   "strings": {
     "assemblyLineActions": {
       "_ad01_attachArmLeft": {
@@ -1030,6 +1030,65 @@
         "slotLockDescription": "Lava-Smeltable"
       }
     },
+    "creativeModeCategories": {
+      "_base_cmct_assembly_line": {
+        "name": "Montaj Hattı"
+      },
+      "_base_cmct_assembly_line_components": {
+        "name": "Robot Parts"
+      },
+      "_base_cmct_blocks": {
+        "name": "Bloklar"
+      },
+      "_base_cmct_character_movement": {
+        "name": "Karakter Hareketi"
+      },
+      "_base_cmct_components": {
+        "name": "Bileşenler"
+      },
+      "_base_cmct_container": {
+        "name": "Storage"
+      },
+      "_base_cmct_data_cable": {
+        "name": "Data Cable System"
+      },
+      "_base_cmct_decoratives": {
+        "name": "Dekor & Işıklar"
+      },
+      "_base_cmct_energy": {
+        "name": "Enerji"
+      },
+      "_base_cmct_factory": {
+        "name": "Fabrika"
+      },
+      "_base_cmct_general": {
+        "name": "Genel"
+      },
+      "_base_cmct_handhelds": {
+        "name": "Handhelds"
+      },
+      "_base_cmct_logistics": {
+        "name": "Logistics & Fluid Handling"
+      },
+      "_base_cmct_modular_buildings": {
+        "name": "Modular Buildings"
+      },
+      "_base_cmct_plant_seeds": {
+        "name": "Bitki Tohumları"
+      },
+      "_base_cmct_resources": {
+        "name": "Kaynaklar"
+      },
+      "_base_cmct_robots_and_bots": {
+        "name": "Robots & Bots"
+      },
+      "_base_cmct_science": {
+        "name": "Bilim"
+      },
+      "_base_cmct_trains": {
+        "name": "Trains"
+      }
+    },
     "elements": {
       "_base_air": {
         "name": "Hava"
@@ -1336,6 +1395,23 @@
       "_base_water_tool": {
         "title": "Irrigation Tool",
         "description": "The Irrigation Tool shoots a stream of water which allows you to regrow grass on dirt terrain."
+      }
+    },
+    "itemCategories": {
+      "_base_components": {
+        "name": "Components"
+      },
+      "_base_construction_material": {
+        "name": "Construction Material"
+      },
+      "_base_raw_materials": {
+        "name": "Raw Materials"
+      },
+      "_base_resources": {
+        "name": "Resources"
+      },
+      "_base_sales_items": {
+        "name": "Products"
       }
     },
     "items": {

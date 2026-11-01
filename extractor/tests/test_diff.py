@@ -57,12 +57,15 @@ def section(md: str, title: str) -> str:
 
 def mini_export(vdir: Path, *, items=(), recipes=(), machines=(), research=(), exploration=(), al_objects=(),
                 al_machines=(), elements=(), tags=(), warnings=(), strings=None, loc=None, manifest_extra=None,
-                template_fields=None, skip=()) -> Path:
+                template_fields=None, skip=(), categories=None, creative_categories=None) -> Path:
     """Minimal export folder in out/v<version> layout (only the fields the tests need). loc: {lang: strings}
-    (default: en.json with `strings`); template_fields: {type: [field paths]} -> template_fields.json."""
+    (default: en.json with `strings`); template_fields: {type: [field paths]} -> template_fields.json;
+    categories / creative_categories: items.json categories / creativeModeCategories (None: key missing, as before 1.2)."""
     ver = vdir.name.lstrip('v')
     head = {'gameVersion': ver, 'steamBuildId': '1'}
-    docs = {'items.json': {'items': list(items)}, 'elements.json': {'elements': list(elements)},
+    cats = {k: list(v) for k, v in (('categories', categories), ('creativeModeCategories', creative_categories))
+            if v is not None}
+    docs = {'items.json': {'items': list(items), **cats}, 'elements.json': {'elements': list(elements)},
             'crafting_tags.json': {'tags': list(tags)}, 'recipes.json': {'recipes': list(recipes)},
             'machines.json': {'machines': list(machines)},
             'research.json': {'research': list(research), 'explorationUnlocks': list(exploration)},
@@ -370,6 +373,31 @@ class SyntheticDiffTests(unittest.TestCase):
         self.assertIn('neue Einträge ohne englischen Text (en.json, kein `name`/`title`): 3\n\n- Items: `i2`', sec)
         self.assertIn('- 3 neue Einträge ohne deutsche Übersetzung (de.json, siehe „Lokalisierung“)', md)
         self.assertTrue(d['hasChanges'])   # new entries are data changes; missing translations are only listed
+
+    def test_item_categories(self):
+        cat = lambda i, n, **kw: {'identifier': i, 'name': n, 'sortOrder': 0, **kw}  # noqa: E731
+        # export before schema 1.2 (no category lists) -> not comparable, no crash
+        d, md = self.pair({'items': [item('i1')]}, {'items': [item('i1')], 'categories': [cat('c1', 'Products')],
+                                                     'creative_categories': [cat('m1', 'Factory')]})
+        secs = {s['key']: s for s in d['sections']}
+        self.assertFalse(secs['itemCategories']['comparable'])
+        self.assertEqual((secs['itemCategories']['oldCount'], secs['itemCategories']['newCount']), (None, 1))
+        self.assertEqual(secs['creativeModeCategories']['newCount'], 1)
+        # renamed / added categories; the new one has no German name
+        st = {'itemCategories': {'c1': {'name': 'Produkte'}}, 'creativeModeCategories': {'m1': {'name': 'Fabrik'}}}
+        old = {'categories': [cat('c1', 'Products')], 'creative_categories': [cat('m1', 'Factory')],
+               'loc': {'de': st, 'en': st}}
+        new = {'categories': [cat('c1', 'Sales Items')], 'creative_categories': [cat('m1', 'Factory'), cat('m2', 'Decor')],
+               'loc': {'de': st, 'en': {**st, 'creativeModeCategories': {'m1': {'name': 'Factory'}, 'm2': {'name': 'Decor'}}}}}
+        d, md = self.pair(old, new)
+        secs = {s['key']: s for s in d['sections']}
+        self.assertEqual([c['id'] for c in secs['itemCategories']['changed']], ['c1'])
+        self.assertEqual([c['id'] for c in secs['creativeModeCategories']['added']], ['m2'])
+        self.assertEqual([(x['section'], x['id']) for x in d['localization']['newEntries']['missing']['de']],
+                         [('Creative-Mode-Kategorien', 'm2')])
+        self.assertEqual(d['localization']['newEntries']['missing']['en'], [])
+        self.assertIn('Sales Items', md)
+        self.assertTrue(d['hasChanges'])
 
     def test_new_entries_all_translated_or_language_missing(self):
         st = {'items': {'i1': {'name': 'A'}, 'i2': {'name': 'B'}}}

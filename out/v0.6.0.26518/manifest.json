@@ -1,10 +1,12 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "1.2",
   "gameVersion": "0.6.0.26518",
   "steamBuildId": "23077581",
   "steamBranch": null,
+  "title": "Update 4",
+  "description": "Rails & Reactors",
   "unityVersion": "2022.3.51f1",
-  "generatedAt": "2026-11-01T17:44:47+00:00",
+  "generatedAt": "2026-11-01T20:36:48+00:00",
   "generator": "foundry-export 1.0.0",
   "templateSource": "StreamingAssets/Templates",
   "previousVersion": null,
@@ -115,10 +117,10 @@
     "assembly_line.schema.json": "45fc9b8161a1af1f43ee57c4b06b20f5967afe609194e93025411e3679e265dc",
     "crafting_tags.schema.json": "af80f9fb9a5c48f7ae088f4f6ab8d3f0f30fd169553e379c3572aa14b7b2aa6d",
     "elements.schema.json": "d3ce24a0c6282ca39aea832900e078c7c98eb4129523d2afa901a89dcaed24e9",
-    "items.schema.json": "31d7da6254a0b3f9490c2ff972b83a27489539a0e95bbb5a852e48fafd95f4c0",
+    "items.schema.json": "3e0ad2fe51e0592f8ddba7237b9ebf413d8730ac18b0145cf967b91ae42b00a3",
     "localization.schema.json": "d2db13994f42a6d5199d69471830331f9003eaa3f520717408f9c16d1cbe6403",
     "machines.schema.json": "d361fe4e08e27f7af4930fa1ae508999c952fcc1879c22fb67c96354275d2489",
-    "manifest.schema.json": "5444a3e9fa4f209e3ba65521fd82709d4f050cdcbc4b7adf19159bf2799ef491",
+    "manifest.schema.json": "c5c483c711bf6252b49d64b691c9b83299724b863eb3d4bdad85c1e727cc8691",
     "recipes.schema.json": "6277fe59835682a11f6279fd21aaa65d3818928a3201cfeecb94facb57c25bb5",
     "research.schema.json": "849a93bd4b66060f8e83d79b70f8e70e26cf48d7ba5cce6dd1b985b9930be5b7",
     "template_fields.schema.json": "0d7bd8cfa4d069239a42710329b5963726f277cb03766e45979142610ff0d80b"
@@ -126,7 +128,7 @@
   "files": {
     "items.json": {
       "count": 512,
-      "sha256": "4de96dd7fe380aa1d6726123aa8d3a0f77c4d293a2a7166270b642df342cb778"
+      "sha256": "072031d40b1770e999611a708c7e05ac05c4c25b169c1c8118bcf76e33d51e06"
     },
     "elements.json": {
       "count": 28,
@@ -157,80 +159,80 @@
       "sha256": "31273757deb424ae38333fb72047c22944ac453cde7eee019cb18fcd93f004bf"
     },
     "localization/af.json": {
-      "count": 2439,
-      "sha256": "2746a2c878bd2392dba3c92ccc36f3827e1fe87dab0fc5e6c85062d1b5b6cb9c"
+      "count": 2463,
+      "sha256": "614c60616bf2550f7a98f0ec7a43ed30da0c93a13c9cf0e609779dfd283f6bfd"
     },
     "localization/cs.json": {
-      "count": 2439,
-      "sha256": "f262405b5d78449e82a3a4b7a184397c723cd9783f8408f92a48ea36d11bb432"
+      "count": 2463,
+      "sha256": "9fdda4a8ae38d3c03f998c135719aab365517618198a40936d4b57ff9788105d"
     },
     "localization/de.json": {
-      "count": 2439,
-      "sha256": "3cb4ed21fc737058de2c7fb83e7dd234c96ed985c77f779c2c05c7b0b9ebe61e"
+      "count": 2463,
+      "sha256": "228c420cae56fcffe2ca297119f85ae4e30c0a3597871a9bd4a9a784e9be059b"
     },
     "localization/en.json": {
-      "count": 2439,
-      "sha256": "107148500febad2524fb2cbb96ad28eedb4d1145a219272a911ae5a1816cc28d"
+      "count": 2463,
+      "sha256": "5736420837130da6e17a8c1a0e65f2b06b36fe86131d0d3ce265693714d28fb4"
     },
     "localization/es-419.json": {
-      "count": 2439,
-      "sha256": "a9a0602164974436bfda258ea7037c832f1bbc7d7bcdda2c44dd1013fe44f279"
+      "count": 2463,
+      "sha256": "c9c74d5926919966089ad3cdf44418e3b274340d3330a5a7795adf47fd048ec4"
     },
     "localization/es-ES.json": {
-      "count": 2439,
-      "sha256": "0f7e3d4748919402771953bd70f2764ab1365e54d7541f0c3d2ace25456ed203"
+      "count": 2463,
+      "sha256": "57b559fef4183c5f258208d76e238ae8b6367fc05f8d0ff80fa1607bfca6e632"
     },
     "localization/fr.json": {
-      "count": 2439,
-      "sha256": "ae48f039f0bf42d11d89f591d44de83ce2f5f62329b0ae2842bc8c7dc6c82018"
+      "count": 2463,
+      "sha256": "f00f389b9a13d0e7040358bf02b10ef11a494feb5e8f569d10eb179933e56241"
     },
     "localization/hu.json": {
-      "count": 2439,
-      "sha256": "82987976320ffd35a237e167791e2f3fd7160d430ec5f64e80f26a186e3a1b0a"
+      "count": 2463,
+      "sha256": "1d57690ef66aa9a5140c200ed786c6a36fabeaa71ac939fcb95b115935c675eb"
     },
     "localization/it.json": {
-      "count": 2439,
-      "sha256": "5426d1ba946552b594cfc1fbc47253ea226d4dfe38003f7d641c2e68471264ca"
+      "count": 2463,
+      "sha256": "b917c245da25839582f91fada429907c82d57199bc953e4e0b3550514b2fa705"
     },
     "localization/ja.json": {
-      "count": 2439,
-      "sha256": "bfedf9c86a8c8bcca4725e98ecaa561d1a4f5ab32f851626b71767dd8f718c76"
+      "count": 2463,
+      "sha256": "00dc11cd915ef98bb57177dd9b9c4f33cf3dd2c62655a33c5099814d64f14e6a"
     },
     "localization/ko.json": {
-      "count": 2439,
-      "sha256": "f18490dde5efa6e4537b65e8feeed315f91e3348a67933ed2b2ad016b9245df0"
+      "count": 2463,
+      "sha256": "4ae2c2d2a61662168fe9517f82328a620a1e3eb451379f19032970e3725251e1"
     },
     "localization/pl.json": {
-      "count": 2439,
-      "sha256": "563841a2f5e385d0db541741324b2dd86fec375f81a754bc0b2ae1219d4b04af"
+      "count": 2463,
+      "sha256": "2053455415d12a639bdc6161dd479f18d7e0711700f800d1134045d1400d64f7"
     },
     "localization/pt-BR.json": {
-      "count": 2439,
-      "sha256": "a6f4cfcbb798be933cacd2280e57f9c3136ae22162ba0516c49a3575b0e28b19"
+      "count": 2463,
+      "sha256": "8ba3f77bc46fd04d31008df6dbe8dc6c016e547e7ca748aff4c7f87832b0d63f"
     },
     "localization/pt-PT.json": {
-      "count": 2439,
-      "sha256": "7d4428dfafc5f79b05b5bbbf467f536676cbc3add13d9d260d5f80e7620539ce"
+      "count": 2463,
+      "sha256": "0ad827cff203b3e8bfa09e625eab28ba54ee73bcfa5edea876bf3b0cb40a945c"
     },
     "localization/ro.json": {
-      "count": 2439,
-      "sha256": "33224e0818fac1d02f430d604c5b682a15b72f02e71958cec10cf807e9a75422"
+      "count": 2463,
+      "sha256": "38bd13afac2280995da3ea7d3cbcad047c14ee64d3b5f5a73bf41c06012f27fe"
     },
     "localization/ru.json": {
-      "count": 2439,
-      "sha256": "08d73c4cffe97515237243a433cdea1a54ef32208aaf2534bf68ea019f58ead7"
+      "count": 2463,
+      "sha256": "d7b4f274f57774736788400774fbf545fc6277a3eae84f5eeb2135b20f8c13ac"
     },
     "localization/tr.json": {
-      "count": 2439,
-      "sha256": "b6354345eac2ab6c022793fe00017e44d7f336194a95a3ba32fe1a3ff8d7d912"
+      "count": 2463,
+      "sha256": "5d591fae92d9288f3f72394a3f2a0b3dbcde5ea16f10bac0f1b6578546fcd690"
     },
     "localization/uk.json": {
-      "count": 2439,
-      "sha256": "6ccc51dbf3c99fdd952b7cd471cb1bd673d566c90f5d2aa4740d7d29d087b6c2"
+      "count": 2463,
+      "sha256": "366918c963c521d380a9b49ee8bea7d2ee8fd7265b78ae69fdb0575f0d31a6a8"
     },
     "localization/zh-CN.json": {
-      "count": 2439,
-      "sha256": "5696413ce934ad2b9f3f21c3932a9c9f1ebcfedd691db8872a079ac9d8402338"
+      "count": 2463,
+      "sha256": "bc7468af2995ae40c3155666faddcb1f39c68536f3e7c9b867dd4360fe74372d"
     }
   }
 }

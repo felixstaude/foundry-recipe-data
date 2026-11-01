@@ -16064,5 +16064,134 @@
         "producedByAssemblyLine": []
       }
     }
+  ],
+  "categories": [
+    {
+      "identifier": "_base_components",
+      "name": "Components",
+      "iconIdentifier": "components",
+      "sortOrder": 20
+    },
+    {
+      "identifier": "_base_construction_material",
+      "name": "Construction Material",
+      "iconIdentifier": "ic_construction_material",
+      "sortOrder": 10
+    },
+    {
+      "identifier": "_base_raw_materials",
+      "name": "Raw Materials",
+      "iconIdentifier": "ic_raw_materials",
+      "sortOrder": 40
+    },
+    {
+      "identifier": "_base_resources",
+      "name": "Resources",
+      "iconIdentifier": "ic_resources",
+      "sortOrder": 50
+    },
+    {
+      "identifier": "_base_sales_items",
+      "name": "Products",
+      "iconIdentifier": "ic_sales_items",
+      "sortOrder": 0
+    }
+  ],
+  "creativeModeCategories": [
+    {
+      "identifier": "_base_cmct_assembly_line",
+      "name": "Assembly Line",
+      "sortOrder": 0
+    },
+    {
+      "identifier": "_base_cmct_assembly_line_components",
+      "name": "Robot Parts",
+      "sortOrder": 0
+    },
+    {
+      "identifier": "_base_cmct_blocks",
+      "name": "Blocks",
+      "sortOrder": 0
+    },
+    {
+      "identifier": "_base_cmct_character_movement",
+      "name": "Character Movement",
+      "sortOrder": 0
+    },
+    {
+      "identifier": "_base_cmct_components",
+      "name": "Components",
+      "sortOrder": 0
+    },
+    {
+      "identifier": "_base_cmct_container",
+      "name": "Storage",
+      "sortOrder": 0
+    },
+    {
+      "identifier": "_base_cmct_data_cable",
+      "name": "Data Cable System",
+      "sortOrder": 0
+    },
+    {
+      "identifier": "_base_cmct_decoratives",
+      "name": "Decor & Lights",
+      "sortOrder": 0
+    },
+    {
+      "identifier": "_base_cmct_energy",
+      "name": "Energy",
+      "sortOrder": 0
+    },
+    {
+      "identifier": "_base_cmct_factory",
+      "name": "Factory",
+      "sortOrder": 0
+    },
+    {
+      "identifier": "_base_cmct_general",
+      "name": "General",
+      "sortOrder": 0
+    },
+    {
+      "identifier": "_base_cmct_handhelds",
+      "name": "Handhelds",
+      "sortOrder": 0
+    },
+    {
+      "identifier": "_base_cmct_logistics",
+      "name": "Logistics & Fluid Handling",
+      "sortOrder": 0
+    },
+    {
+      "identifier": "_base_cmct_modular_buildings",
+      "name": "Modular Buildings",
+      "sortOrder": 0
+    },
+    {
+      "identifier": "_base_cmct_plant_seeds",
+      "name": "Plant Seeds",
+      "sortOrder": 0
+    },
+    {
+      "identifier": "_base_cmct_resources",
+      "name": "Resources",
+      "sortOrder": 0
+    },
+    {
+      "identifier": "_base_cmct_robots_and_bots",
+      "name": "Robots & Bots",
+      "sortOrder": 0
+    },
+    {
+      "identifier": "_base_cmct_science",
+      "name": "Science",
+      "sortOrder": 0
+    },
+    {
+      "identifier": "_base_cmct_trains",
+      "name": "Trains",
+      "sortOrder": 0
+    }
   ]
 }

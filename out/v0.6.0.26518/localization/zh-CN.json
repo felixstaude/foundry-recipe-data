@@ -3,7 +3,7 @@
   "gameVersion": "0.6.0.26518",
   "steamBuildId": "23077581",
   "language": "zh-CN",
-  "count": 2439,
+  "count": 2463,
   "strings": {
     "assemblyLineActions": {
       "_ad01_attachArmLeft": {
@@ -1030,6 +1030,65 @@
         "slotLockDescription": "熔岩可熔炼"
       }
     },
+    "creativeModeCategories": {
+      "_base_cmct_assembly_line": {
+        "name": "装配线"
+      },
+      "_base_cmct_assembly_line_components": {
+        "name": "机器人零件"
+      },
+      "_base_cmct_blocks": {
+        "name": "块"
+      },
+      "_base_cmct_character_movement": {
+        "name": "角色移动"
+      },
+      "_base_cmct_components": {
+        "name": "组件"
+      },
+      "_base_cmct_container": {
+        "name": "储存"
+      },
+      "_base_cmct_data_cable": {
+        "name": "数据电缆系统"
+      },
+      "_base_cmct_decoratives": {
+        "name": "装饰和灯光"
+      },
+      "_base_cmct_energy": {
+        "name": "能源"
+      },
+      "_base_cmct_factory": {
+        "name": "工厂"
+      },
+      "_base_cmct_general": {
+        "name": "通用"
+      },
+      "_base_cmct_handhelds": {
+        "name": "手持设备"
+      },
+      "_base_cmct_logistics": {
+        "name": "物流与液体处理"
+      },
+      "_base_cmct_modular_buildings": {
+        "name": "模块化建筑"
+      },
+      "_base_cmct_plant_seeds": {
+        "name": "植物种子"
+      },
+      "_base_cmct_resources": {
+        "name": "资源"
+      },
+      "_base_cmct_robots_and_bots": {
+        "name": "各类机器人"
+      },
+      "_base_cmct_science": {
+        "name": "科研"
+      },
+      "_base_cmct_trains": {
+        "name": "火车"
+      }
+    },
     "elements": {
       "_base_air": {
         "name": "空气"
@@ -1336,6 +1395,23 @@
       "_base_water_tool": {
         "title": "灌溉工具",
         "description": "灌溉工具可以喷出水流，让泥泞的土地重新长出草来。"
+      }
+    },
+    "itemCategories": {
+      "_base_components": {
+        "name": "组件"
+      },
+      "_base_construction_material": {
+        "name": "建筑材料"
+      },
+      "_base_raw_materials": {
+        "name": "原料"
+      },
+      "_base_resources": {
+        "name": "资源"
+      },
+      "_base_sales_items": {
+        "name": "产品"
       }
     },
     "items": {

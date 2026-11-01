@@ -31,6 +31,8 @@ class Data:
         self.source = open_template_source(gp, self.warnings, bundle=self.bundle, mode=source_mode, types=EXPORTED_TYPES)
         lt = self.source.load
         self.items = lt('ItemTemplate')
+        self.item_categories = lt('ItemCategoryTemplate')
+        self.creative_categories = lt('CreativeModeCategoryTemplate')
         self.elements = lt('ElementTemplate')
         self.tags = lt('CraftingTag')
         self.recipes = lt('CraftingRecipe')
@@ -538,6 +540,11 @@ def build_all(d: Data, header: dict) -> dict[str, dict]:
         for e in rr['fluidInputs'] + rr['fluidOutputs']:
             if e['element'] not in d.elements:
                 d.warnings.append(f'recipe {rr["identifier"]}: unknown element {e["element"]}')
+    for it in items.values():
+        if it['category'] and it['category'] not in d.item_categories:
+            d.warnings.append(f'item {it["identifier"]}: unknown item category {it["category"]}')
+        if it['creativeModeCategory'] and it['creativeModeCategory'] not in d.creative_categories:
+            d.warnings.append(f'item {it["identifier"]}: unknown creative mode category {it["creativeModeCategory"]}')
     for o in objects.values():
         for e in o['derived']['inputs']:
             if e['item'] not in items:
@@ -563,11 +570,17 @@ def build_all(d: Data, header: dict) -> dict[str, dict]:
     for t in sorted(set(tag_recipes) - set(tags)):
         d.warnings.append(f'recipes use undefined crafting tag {t}')
 
+    item_categories = {i: {'identifier': i, 'name': c.get('name'), 'iconIdentifier': text(c.get('icon_identifier')),
+                           'sortOrder': c.get('sortingOrder')} for i, c in d.item_categories.items()}
+    creative_categories = {i: {'identifier': i, 'name': c.get('categoryName'), 'sortOrder': c.get('sortingOrder')}
+                           for i, c in d.creative_categories.items()}
+
     def doc(name, key, values, **extra):
         return {'schema': f'foundry-data/{name}@1', **header, **extra, 'count': len(values), key: values}
 
     docs = {
-        'items.json': doc('items', 'items', _sorted(items)),
+        'items.json': {**doc('items', 'items', _sorted(items)), 'categories': _sorted(item_categories),
+                       'creativeModeCategories': _sorted(creative_categories)},
         'elements.json': doc('elements', 'elements', _sorted(elements)),
         'crafting_tags.json': doc('crafting_tags', 'tags', _sorted(tags)),
         'recipes.json': doc('recipes', 'recipes', _sorted(recipes)),
@@ -597,6 +610,10 @@ def build_localization(d: Data, catalogs: dict[str, dict[str, str]], header: dic
         for i in d.items:
             put('items', i, 'name', lkey('ItemTemplate', i, 'name'))
             put('items', i, 'description', lkey('ItemTemplate', i, 'tooltipInfoMessage'))
+        for i in d.item_categories:
+            put('itemCategories', i, 'name', lkey('ItemCategoryTemplate', i, 'name'))
+        for i in d.creative_categories:
+            put('creativeModeCategories', i, 'name', lkey('CreativeModeCategoryTemplate', i, 'categoryName'))
         for i in d.recipes:
             put('recipes', i, 'name', lkey('CraftingRecipe', i, 'name'))
         for i, b in d.bots.items():

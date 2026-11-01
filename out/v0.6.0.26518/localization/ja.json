@@ -3,7 +3,7 @@
   "gameVersion": "0.6.0.26518",
   "steamBuildId": "23077581",
   "language": "ja",
-  "count": 2439,
+  "count": 2463,
   "strings": {
     "assemblyLineActions": {
       "_ad01_attachArmLeft": {
@@ -1030,6 +1030,65 @@
         "slotLockDescription": "溶岩溶鉱可能"
       }
     },
+    "creativeModeCategories": {
+      "_base_cmct_assembly_line": {
+        "name": "組み立てライン"
+      },
+      "_base_cmct_assembly_line_components": {
+        "name": "ロボットの部品"
+      },
+      "_base_cmct_blocks": {
+        "name": "ブロック"
+      },
+      "_base_cmct_character_movement": {
+        "name": "キャラクターの動き"
+      },
+      "_base_cmct_components": {
+        "name": "部品"
+      },
+      "_base_cmct_container": {
+        "name": "保管庫"
+      },
+      "_base_cmct_data_cable": {
+        "name": "データケーブルシステム"
+      },
+      "_base_cmct_decoratives": {
+        "name": "飾りと照明"
+      },
+      "_base_cmct_energy": {
+        "name": "エネルギー"
+      },
+      "_base_cmct_factory": {
+        "name": "工場"
+      },
+      "_base_cmct_general": {
+        "name": "全般"
+      },
+      "_base_cmct_handhelds": {
+        "name": "手持ち工具"
+      },
+      "_base_cmct_logistics": {
+        "name": "ロジスティクスと液体の取り扱い"
+      },
+      "_base_cmct_modular_buildings": {
+        "name": "モジュラー建築物"
+      },
+      "_base_cmct_plant_seeds": {
+        "name": "植物の種子"
+      },
+      "_base_cmct_resources": {
+        "name": "資源"
+      },
+      "_base_cmct_robots_and_bots": {
+        "name": "ロボットとボット"
+      },
+      "_base_cmct_science": {
+        "name": "サイエンス"
+      },
+      "_base_cmct_trains": {
+        "name": "列車"
+      }
+    },
     "elements": {
       "_base_air": {
         "name": "空気"
@@ -1336,6 +1395,23 @@
       "_base_water_tool": {
         "title": "灌漑ツール",
         "description": "灌漑ツールは水の流れを放出することで土の地形に草を再び生やすことができます。"
+      }
+    },
+    "itemCategories": {
+      "_base_components": {
+        "name": "部品"
+      },
+      "_base_construction_material": {
+        "name": "建設資材"
+      },
+      "_base_raw_materials": {
+        "name": "原料"
+      },
+      "_base_resources": {
+        "name": "資源"
+      },
+      "_base_sales_items": {
+        "name": "製品"
       }
     },
     "items": {

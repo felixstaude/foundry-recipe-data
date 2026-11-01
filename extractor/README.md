@@ -1,7 +1,7 @@
 # foundry-export
 
 Exportiert die Spieldaten von FOUNDRY (Steam-App 983870) pro Spielversion als versioniertes JSON-Set
-im Format `foundry-data` v1: Items, Elemente (Flüssigkeiten/Gase), Crafting-Tags, Rezepte mit echten
+im Format `foundry-data` v1: Items (mit Item- und Creative-Mode-Kategorien), Elemente (Flüssigkeiten/Gase), Crafting-Tags, Rezepte mit echten
 Maschinengeschwindigkeiten, Maschinen/Gebäude, Forschung, Assembly Line (Roboterbau) und Lokalisierung.
 Ablauf bei einer neuen Spielversion: [`UPDATE.md`](../UPDATE.md).
 
@@ -15,7 +15,7 @@ Ablauf bei einer neuen Spielversion: [`UPDATE.md`](../UPDATE.md).
 ## Befehle
 
 ```
-python3 extractor/export [<Spielordner>] <Ausgabe> [--source auto|yaml|bundle] [--force] [--overwrite] [--strict]
+python3 extractor/export [<Spielordner>] <Ausgabe> [--title TEXT] [--description TEXT] [--source auto|yaml|bundle] [--force] [--overwrite] [--strict]
                                                                          # Export (Spielordner optional: automatisch)
 python3 extractor/export check  [--game <Pfad>] [--out out]              # installierte Version vs. out/latest.json
 python3 extractor/export locate [--game <Pfad>] [--field gameDir]        # Spielordner, Version, Build (JSON)
@@ -31,10 +31,14 @@ FOUNDRY_REQUIRE_GAME=1 python3 -m unittest discover -s extractor/tests -v   # Te
 - **Spielordner:** `--game`/Positionsargument, sonst `FOUNDRY_GAME_DIR`, sonst alle Steam-Bibliotheken (`libraryfolders.vdf`,
   `appmanifest_983870.acf`; Linux nativ/Flatpak/Snap, macOS, Windows), zuletzt `game_path.txt` im Repo.
   Ein ungültiger expliziter Pfad bricht ab (Exit-Code 3), es gibt keinen stillen Rückfall.
-- **Template-Quelle (`--source`):** `auto` (Standard) nimmt den Template-Dump, wenn er vollständig ist und für die 9 exportierten
+- **Template-Quelle (`--source`):** `auto` (Standard) nimmt den Template-Dump, wenn er vollständig ist und für die 11 exportierten
   Typen mit `foundry_main_bundle` übereinstimmt. Fehlt er oder hat ein exportierter Typ keine Dateien: Bundle + Warnung
   `source: … (fallback)`. Weichen Dump und Bundle ab: Bundle (das lädt das Spiel) + Warnungen `source-mismatch:`; meldet der
   Bundle-Leser Probleme (`bundle:`), bleibt es beim Dump. `yaml`/`bundle` erzwingen eine Quelle.
+- **Titel und Beschreibung (`--title`, `--description`):** Name der Spielversion laut Spielmenü (z. B. `Update 4` /
+  `Rails & Reactors`), steht in keiner Spieldatei. Landet in `manifest.json`, `index.json` und `latest.json`. Ohne die Optionen
+  übernimmt der Export die Werte aus dem `index.json`-Eintrag mit derselben `gameVersion`, sonst `null` (Hinweis
+  `note: no title/description …`).
 - **Schreiben:** Alles wird im Speicher gebaut und gegen die Schemas geprüft, dann nach `<Ausgabe>/.tmp-<Ordner>` geschrieben und
   als Ganzes eingetauscht. Danach `index.json`, `latest.json` und `CHANGES.md`.
 - **Exit-Codes Export:** 0 ok · 1 Warnungen mit `--strict` (ohne `--strict`: unerwarteter Fehler) · 2 Schemafehler

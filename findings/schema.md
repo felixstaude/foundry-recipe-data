@@ -7,7 +7,7 @@ Der Extractor prüft jede Ausgabe beim Export gegen diese Schemas. Diese Datei i
 
 | Daten | Quelle | Beleg |
 |---|---|---|
-| Templates (Items, Rezepte, Maschinen, Forschung, Tags, Elemente, Assembly Line) | `foundry_Data/StreamingAssets/Templates/<Typ>/<identifier>.yaml` | Mitgelieferter Dump des Entwickler-Werkzeugs `Main/TemplateExporter.cs` `runExportAll` (Editor-Knopf "Export All Templates To YAML"; nur Templates mit `shouldIncludeInBuild() && shouldIncludeInGame()`, ohne TrainTrack-/Spline-Typen; Felder: public, nicht `[NonSerialized]`, nicht `[HideInInspector]`, `TweakManager.createYamlFromTemplate`). **Das Spiel liest den Dump nicht** (es lädt `foundry_main_bundle`). Er kann also in einem Patch veralten. Darum vergleicht jeder Export die 9 exportierten Typen mit dem Bundle (Warnung `source-mismatch:`) und nimmt bei Abweichung das Bundle (`sources.open_template_source`, `--source auto`). Für 0.6.0.26518: alle 67 Typen, 2750 Templates identisch (bis auf fehlende GUIDs in Referenzen und `null` ↔ `""` bei 14 Feldern, die nicht exportiert werden) |
+| Templates (Items, Item-/Creative-Mode-Kategorien, Rezepte, Maschinen, Forschung, Tags, Elemente, Assembly Line) | `foundry_Data/StreamingAssets/Templates/<Typ>/<identifier>.yaml` | Mitgelieferter Dump des Entwickler-Werkzeugs `Main/TemplateExporter.cs` `runExportAll` (Editor-Knopf "Export All Templates To YAML"; nur Templates mit `shouldIncludeInBuild() && shouldIncludeInGame()`, ohne TrainTrack-/Spline-Typen; Felder: public, nicht `[NonSerialized]`, nicht `[HideInInspector]`, `TweakManager.createYamlFromTemplate`). **Das Spiel liest den Dump nicht** (es lädt `foundry_main_bundle`). Er kann also in einem Patch veralten. Darum vergleicht jeder Export die 11 exportierten Typen mit dem Bundle (Warnung `source-mismatch:`) und nimmt bei Abweichung das Bundle (`sources.open_template_source`, `--source auto`). Für 0.6.0.26518: alle 67 Typen, 2750 Templates identisch (bis auf fehlende GUIDs in Referenzen und `null` ↔ `""` bei 14 Feldern, die nicht exportiert werden) |
 | Templates aus dem Bundle | `foundry_main_bundle`, MonoBehaviours mit `m_Script` → MonoScript-Klasse ⊂ `C3.FoundryTemplate`, nur Objekte aus `m_Container`, `includeInBuild && includeIngame` | `foundry_export/bundle_templates.py`. Wird benutzt, wenn der Dump fehlt oder für einen exportierten Typ keine Dateien hat (Warnung `source: … (fallback)`), wenn Dump und Bundle abweichen (`source-mismatch:`, außer der Bundle-Leser meldet `bundle:`-Probleme) oder mit `--source bundle`. Liefert für 0.6.0.26518 byte-gleiche Daten. Feldnamen/Enum-Namen aus `Managed/*.dll` (ECMA-335-Metadaten), ohne DLLs aus `foundry_export/data/managed_types.json`. `manifest.templateSource` nennt die benutzte Quelle |
 | Assembly-Line-Stages (Odin-binär, kein FoundryTemplate, fehlen im YAML-Dump) | `foundry_Data/StreamingAssets/AssetBundles/foundry_main_bundle`, Objekt laut `m_Container`-Pfad aus `AssemblyLineObjectTemplate.assemblyLineStages` | `Main/AssemblyLineStages.cs`; geladen in `Main/GlobalStateManager.cs` Z. 733 |
 | Lokalisierung | `foundry_Data/StreamingAssets/locale/<lang>/LC_MESSAGES/foundry_templates-<lang>.mo` | `Main/PoMgr.cs` Z. 43, Schlüssel aus `PoMgr.generateId` |
@@ -53,14 +53,16 @@ Der Extractor prüft jede Ausgabe beim Export gegen diese Schemas. Diese Datei i
   bzw. sind in diesem Dokument als abgeleitet markiert, mit Formel und Quelle.
 - Enum-/Flag-Werte stehen als Namen wie im YAML (`"Producer"`, `["SALES_ITEM", "WORKSTATION_ITEM"]`).
 
-## manifest.json (schemaVersion 1.1)
+## manifest.json (schemaVersion 1.2)
 
 | Feld | Typ | Bedeutung |
 |---|---|---|
-| `schemaVersion` | string | `"1.1"` |
+| `schemaVersion` | string | `"1.2"` (1.2: Kategorien in `items.json` und `localization`) |
 | `gameVersion` | string | aus `version.txt` |
 | `steamBuildId` | string \| null | aus dem Steam-Appmanifest |
 | `steamBranch` | string \| null | Beta-Branch (`BetaKey`), `null` = öffentlicher Branch |
+| `title` | string \| null | Titel der Spielversion laut Spielmenü (z. B. `"Update 4"`). Steht in keiner Spieldatei: Export-Option `--title`, sonst aus `index.json` (Eintrag mit derselben `gameVersion`), sonst `null` |
+| `description` | string \| null | Beschreibung der Spielversion laut Spielmenü (z. B. `"Rails & Reactors"`), Option `--description`, Rückfall wie `title` |
 | `unityVersion` | string | aus dem Bundle-Header |
 | `generatedAt` | string (ISO 8601) | Zeitpunkt des Exports |
 | `generator` | string | `foundry-export <Version>` |
@@ -73,8 +75,9 @@ Der Extractor prüft jede Ausgabe beim Export gegen diese Schemas. Diese Datei i
 | `languages` | string[] | exportierte Sprachen |
 | `warnings` | string[] | alles Auffällige, sortiert. Präfixe siehe `extractor/README.md` ("Warnungen im Manifest"): `new-template-type`, `removed-template-type`, `unknown-field`, `removed-field`, `new-enum-value`, `removed-enum-value`, `count-change`, `sanity`, `dll-types`, `code-changed`, `source-mismatch`, `source`, `bundle`, `baseline`, ohne Präfix = Konsistenz. `--strict` bricht dann mit Exit-Code 1 ab |
 
-`index.json`: `{"latest": "v…", "versions": [{"version", "gameVersion", "steamBuildId", "generatedAt"}]}`.
-`latest.json`: `{"version", "gameVersion", "steamBuildId", "generatedAt"}`.
+`index.json`: `{"latest": "v…", "versions": [{"version", "gameVersion", "steamBuildId", "title", "description", "generatedAt"}]}`.
+`latest.json`: `{"version", "gameVersion", "steamBuildId", "title", "description", "generatedAt"}` (`title`/`description` wie im Manifest).
+Quelle für 0.6.0.26518 (`"Update 4"`, `"Rails & Reactors"`): Spielmenü, vom Nutzer bestätigt.
 Ordnername `v<gameVersion>`. Gibt es ihn schon mit anderem Steam-Build: `v<gameVersion>-b<steamBuildId>`. Ein vorhandener Ordner wird
 nur ersetzt, wenn er der neueste Export ist und denselben Build hat; sonst verweigert der Export (Exit-Code 7, `--overwrite`).
 Exit-Codes und Optionen: `extractor/README.md`.
@@ -128,6 +131,27 @@ Enthält `generatedAt` und ist daher nicht byte-reproduzierbar.
 | `derived.usedBy` | Rezepte mit diesem Item als Eingabe |
 | `derived.usedByAssemblyLine` | Assembly-Line-Objekte, die das Item verbrauchen (Starter oder Aktion) |
 | `derived.producedByAssemblyLine` | Assembly-Line-Objekte, die das Item als Verkaufs-Item erzeugen |
+
+Seit Schema 1.2 hat `items.json` zusätzlich zwei Listen (nach `items`, sortiert nach Identifier, alle Templates des Typs, auch
+ungenutzte wie `_base_cmct_general`). Verweist ein Item auf eine Kategorie, die es nicht gibt, meldet der Export
+`item X: unknown item category Y` bzw. `… unknown creative mode category Y`.
+
+`categories[]` (`ItemCategoryTemplate`, Ziel von `items[].category`):
+
+| Feld | Quelle (`ItemCategoryTemplate`) |
+|---|---|
+| `identifier`, `name`, `iconIdentifier` | `identifier`, `name`, `icon_identifier` |
+| `sortOrder` | `sortingOrder` |
+
+`creativeModeCategories[]` (`CreativeModeCategoryTemplate`, Ziel von `items[].creativeModeCategory`):
+
+| Feld | Quelle (`CreativeModeCategoryTemplate`) |
+|---|---|
+| `identifier`, `name` | `identifier`, `categoryName` |
+| `sortOrder` | `sortingOrder` (in 0.6.0.26518 überall 0) |
+
+Nicht exportiert: `ItemCategoryTemplate.stationCapacityPerLevel` (Bedeutung nicht geprüft) und `buildTags` beider Typen
+(in 0.6.0.26518 überall leer).
 
 ## elements.json → `elements[]` (Flüssigkeiten/Gase, `ElementTemplate`)
 
@@ -282,6 +306,8 @@ Nativ (`ResearchEntity`/`ResearchManager`): alle Wissenschafts-Items werden para
 { "schema": "foundry-data/localization@1", "gameVersion": "...", "language": "de",
   "strings": {
     "items":        { "<id>": {"name": "...", "description": "..."} },
+    "itemCategories":         { "<id>": {"name": "..."} },
+    "creativeModeCategories": { "<id>": {"name": "..."} },
     "recipes":      { "<id>": {"name": "..."} },
     "machines":     { "<id>": {"name": "...", "modeName": "..."} },
     "elements":     { "<id>": {"name": "..."} },
@@ -299,7 +325,8 @@ Bei Array-Elementen wird `_<FELD>_<i>` an den Pfad und `_<i>` an das Feld gehän
 `ASSEMBLYLINEOBJECTTEMPLATE_BASE_DROID01_OBJECTPARTS_0_COLORVARIANTS_1_TITLE_1`.
 Fehlt ein Schlüssel, fällt das Spiel auf den englischen Originaltext zurück. Der Export lässt den Eintrag dann weg.
 Maschinennamen kommen über das Item (bzw. `NAMEOVERRIDE`), Modus-Namen über
-`ITEMTEMPLATE<ITEM>_TOGGLEABLEMODES_<i>_NAME_<i>`. Stage-Titel/-Beschreibungen sind **nicht** lokalisiert:
+`ITEMTEMPLATE<ITEM>_TOGGLEABLEMODES_<i>_NAME_<i>`. Kategorien: `ITEMCATEGORYTEMPLATE<ID>_NAME`,
+`CREATIVEMODECATEGORYTEMPLATE<ID>_CATEGORYNAME`. Stage-Titel/-Beschreibungen sind **nicht** lokalisiert:
 `AssemblyLineStages` ist ein eigenes Unity-Objekt und wird von `PoMgr.setFieldsRecursively` übersprungen; im `.mo` gibt es keine Stage-Schlüssel.
 
 ## Bewusst nicht exportiert (Stand 0.6.0.26518)
@@ -324,7 +351,8 @@ nach der Prüfung neu gesetzt (`export baseline`, UPDATE.md Schritt d); welche F
 - *ResearchTemplate:* `manualEndlessResearchTemplate_str`, `inventorySize_additionalInventorySlots`, `miningHardness_unlockedLevel`,
   `jetpackSpeed_speedIncreasmentPercent_str`.
 - *ExplorationUnlockTemplate:* `sortOrderASC`, `miningDrillSpeed_*`, `personalMiningDrones_*`, `personalLogistics*`, `buildingDrone_additionalRange`.
-- Namen der Kategorie-Templates (CraftingRecipeCategory, CraftingRecipeRowGroup, ItemCategory, CreativeModeCategory, SalesItemCategory, Industry).
+- Namen der Kategorie-Templates CraftingRecipeCategory, CraftingRecipeRowGroup, SalesItemCategory und Industry. (ItemCategory und
+  CreativeModeCategory werden seit Schema 1.2 exportiert, `items.json → categories`/`creativeModeCategories`.)
 - `items.derived.usedBy` zählt nur Rezepte, nicht Forschungskosten oder Erkundungs-Anforderungen.
 
 **Ohne Bedeutung für Wiki/Calculator** (nicht exportiert): Biome-, Terrain-, Noise-, Planeten-, Sektor-, Galaxie-, Höhlen-, Kritter-, Skin-, UI-,

@@ -3,7 +3,7 @@
   "gameVersion": "0.6.0.26518",
   "steamBuildId": "23077581",
   "language": "de",
-  "count": 2439,
+  "count": 2463,
   "strings": {
     "assemblyLineActions": {
       "_ad01_attachArmLeft": {
@@ -1030,6 +1030,65 @@
         "slotLockDescription": "Lava-Schmelzbar"
       }
     },
+    "creativeModeCategories": {
+      "_base_cmct_assembly_line": {
+        "name": "Fertigungslinie"
+      },
+      "_base_cmct_assembly_line_components": {
+        "name": "Roboterteile"
+      },
+      "_base_cmct_blocks": {
+        "name": "Blöcke"
+      },
+      "_base_cmct_character_movement": {
+        "name": "Charakterbewegung"
+      },
+      "_base_cmct_components": {
+        "name": "Komponenten"
+      },
+      "_base_cmct_container": {
+        "name": "Lagerung"
+      },
+      "_base_cmct_data_cable": {
+        "name": "Datenkabelsystem"
+      },
+      "_base_cmct_decoratives": {
+        "name": "Dekor und Licht"
+      },
+      "_base_cmct_energy": {
+        "name": "Energie"
+      },
+      "_base_cmct_factory": {
+        "name": "Fabrik"
+      },
+      "_base_cmct_general": {
+        "name": "Allgemein"
+      },
+      "_base_cmct_handhelds": {
+        "name": "Tragbar"
+      },
+      "_base_cmct_logistics": {
+        "name": "Logistik & Flüssigkeitsumschlag"
+      },
+      "_base_cmct_modular_buildings": {
+        "name": "Modulare Gebäude"
+      },
+      "_base_cmct_plant_seeds": {
+        "name": "Pflanzensamen"
+      },
+      "_base_cmct_resources": {
+        "name": "Ressourcen"
+      },
+      "_base_cmct_robots_and_bots": {
+        "name": "Roboter und Bots"
+      },
+      "_base_cmct_science": {
+        "name": "Forschung"
+      },
+      "_base_cmct_trains": {
+        "name": "Züge"
+      }
+    },
     "elements": {
       "_base_air": {
         "name": "Luft"
@@ -1336,6 +1395,23 @@
       "_base_water_tool": {
         "title": "Bewässerungswerkzeug",
         "description": "Mit dem Bewässerungswerkzeug kannst du Gras auf Erdgelände neu wachsen lassen."
+      }
+    },
+    "itemCategories": {
+      "_base_components": {
+        "name": "Komponenten"
+      },
+      "_base_construction_material": {
+        "name": "Baumaterial"
+      },
+      "_base_raw_materials": {
+        "name": "Rohmaterial"
+      },
+      "_base_resources": {
+        "name": "Ressourcen"
+      },
+      "_base_sales_items": {
+        "name": "Produkte"
       }
     },
     "items": {

@@ -3,7 +3,7 @@
   "gameVersion": "0.6.0.26518",
   "steamBuildId": "23077581",
   "language": "pl",
-  "count": 2439,
+  "count": 2463,
   "strings": {
     "assemblyLineActions": {
       "_ad01_attachArmLeft": {
@@ -1030,6 +1030,65 @@
         "slotLockDescription": "Można wytopić metodą lawową"
       }
     },
+    "creativeModeCategories": {
+      "_base_cmct_assembly_line": {
+        "name": "Linia montażowa"
+      },
+      "_base_cmct_assembly_line_components": {
+        "name": "Części robota"
+      },
+      "_base_cmct_blocks": {
+        "name": "Bloki"
+      },
+      "_base_cmct_character_movement": {
+        "name": "Ruch postaci"
+      },
+      "_base_cmct_components": {
+        "name": "Komponenty"
+      },
+      "_base_cmct_container": {
+        "name": "Magazyn"
+      },
+      "_base_cmct_data_cable": {
+        "name": "System kabli przesyłu danych"
+      },
+      "_base_cmct_decoratives": {
+        "name": "Wystrój i oświetlenie"
+      },
+      "_base_cmct_energy": {
+        "name": "Energia"
+      },
+      "_base_cmct_factory": {
+        "name": "Fabryka"
+      },
+      "_base_cmct_general": {
+        "name": "Ogólne"
+      },
+      "_base_cmct_handhelds": {
+        "name": "Narzędzia"
+      },
+      "_base_cmct_logistics": {
+        "name": "Logistyka i wykorzystanie cieczy"
+      },
+      "_base_cmct_modular_buildings": {
+        "name": "Budynki modułowe"
+      },
+      "_base_cmct_plant_seeds": {
+        "name": "Nasiona roślin"
+      },
+      "_base_cmct_resources": {
+        "name": "Zasoby"
+      },
+      "_base_cmct_robots_and_bots": {
+        "name": "Roboty i boty"
+      },
+      "_base_cmct_science": {
+        "name": "Nauka"
+      },
+      "_base_cmct_trains": {
+        "name": "Pociągi"
+      }
+    },
     "elements": {
       "_base_air": {
         "name": "Powietrze"
@@ -1336,6 +1395,23 @@
       "_base_water_tool": {
         "title": "Narzędzie do irygacji",
         "description": "Narzędzie do irygacji służy do nawadniania terenu, dzięki czemu na ziemistym terenie ponownie może urosnąć trawa."
+      }
+    },
+    "itemCategories": {
+      "_base_components": {
+        "name": "Komponenty"
+      },
+      "_base_construction_material": {
+        "name": "Materiał budowlany"
+      },
+      "_base_raw_materials": {
+        "name": "Surowce"
+      },
+      "_base_resources": {
+        "name": "Zasoby"
+      },
+      "_base_sales_items": {
+        "name": "Produkty"
       }
     },
     "items": {

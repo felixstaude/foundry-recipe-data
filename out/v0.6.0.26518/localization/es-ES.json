@@ -3,7 +3,7 @@
   "gameVersion": "0.6.0.26518",
   "steamBuildId": "23077581",
   "language": "es-ES",
-  "count": 2439,
+  "count": 2463,
   "strings": {
     "assemblyLineActions": {
       "_ad01_attachArmLeft": {
@@ -1030,6 +1030,65 @@
         "slotLockDescription": "Fundible en lava"
       }
     },
+    "creativeModeCategories": {
+      "_base_cmct_assembly_line": {
+        "name": "Cadena de montaje"
+      },
+      "_base_cmct_assembly_line_components": {
+        "name": "Piezas de robot"
+      },
+      "_base_cmct_blocks": {
+        "name": "Bloques"
+      },
+      "_base_cmct_character_movement": {
+        "name": "Movimiento de personaje"
+      },
+      "_base_cmct_components": {
+        "name": "Componentes"
+      },
+      "_base_cmct_container": {
+        "name": "Almacenamiento"
+      },
+      "_base_cmct_data_cable": {
+        "name": "Sistema de cables de datos"
+      },
+      "_base_cmct_decoratives": {
+        "name": "Decoración y luces"
+      },
+      "_base_cmct_energy": {
+        "name": "Energía"
+      },
+      "_base_cmct_factory": {
+        "name": "Fábrica"
+      },
+      "_base_cmct_general": {
+        "name": "General"
+      },
+      "_base_cmct_handhelds": {
+        "name": "Herramientas de mano"
+      },
+      "_base_cmct_logistics": {
+        "name": "Logística y gestión de fluidos"
+      },
+      "_base_cmct_modular_buildings": {
+        "name": "Construcciones modulares"
+      },
+      "_base_cmct_plant_seeds": {
+        "name": "Semillas de plantas"
+      },
+      "_base_cmct_resources": {
+        "name": "Recursos"
+      },
+      "_base_cmct_robots_and_bots": {
+        "name": "Robots y bots"
+      },
+      "_base_cmct_science": {
+        "name": "Ciencia"
+      },
+      "_base_cmct_trains": {
+        "name": "Trenes"
+      }
+    },
     "elements": {
       "_base_air": {
         "name": "Aire"
@@ -1336,6 +1395,23 @@
       "_base_water_tool": {
         "title": "Herramienta de riego",
         "description": "La herramienta de riego lanza un chorro de agua que te permite regenerar hierba en terreno de tierra."
+      }
+    },
+    "itemCategories": {
+      "_base_components": {
+        "name": "Componentes"
+      },
+      "_base_construction_material": {
+        "name": "Material de construcción"
+      },
+      "_base_raw_materials": {
+        "name": "Materias primas"
+      },
+      "_base_resources": {
+        "name": "Recursos"
+      },
+      "_base_sales_items": {
+        "name": "Productos"
       }
     },
     "items": {

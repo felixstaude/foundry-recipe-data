@@ -3,7 +3,7 @@
   "gameVersion": "0.6.0.26518",
   "steamBuildId": "23077581",
   "language": "it",
-  "count": 2439,
+  "count": 2463,
   "strings": {
     "assemblyLineActions": {
       "_ad01_attachArmLeft": {
@@ -1030,6 +1030,65 @@
         "slotLockDescription": "Fondibile nella Lava"
       }
     },
+    "creativeModeCategories": {
+      "_base_cmct_assembly_line": {
+        "name": "Linea di Assemblaggio"
+      },
+      "_base_cmct_assembly_line_components": {
+        "name": "Parti di Robot"
+      },
+      "_base_cmct_blocks": {
+        "name": "Blocchi"
+      },
+      "_base_cmct_character_movement": {
+        "name": "Movimento del Personaggio"
+      },
+      "_base_cmct_components": {
+        "name": "Componenti"
+      },
+      "_base_cmct_container": {
+        "name": "Magazzino"
+      },
+      "_base_cmct_data_cable": {
+        "name": "Sistema Cavi Dati"
+      },
+      "_base_cmct_decoratives": {
+        "name": "Decorazioni & Luci"
+      },
+      "_base_cmct_energy": {
+        "name": "Energia"
+      },
+      "_base_cmct_factory": {
+        "name": "Fabbrica"
+      },
+      "_base_cmct_general": {
+        "name": "Generale"
+      },
+      "_base_cmct_handhelds": {
+        "name": "Portatili"
+      },
+      "_base_cmct_logistics": {
+        "name": "Logistica & Gestione dei Fluidi"
+      },
+      "_base_cmct_modular_buildings": {
+        "name": "Edifici Modulari"
+      },
+      "_base_cmct_plant_seeds": {
+        "name": "Semi di Pianta"
+      },
+      "_base_cmct_resources": {
+        "name": "Risorse"
+      },
+      "_base_cmct_robots_and_bots": {
+        "name": "Robot & Bot"
+      },
+      "_base_cmct_science": {
+        "name": "Scienza"
+      },
+      "_base_cmct_trains": {
+        "name": "Treni"
+      }
+    },
     "elements": {
       "_base_air": {
         "name": "Aria"
@@ -1336,6 +1395,23 @@
       "_base_water_tool": {
         "title": "Strumento d'Irrigazione",
         "description": "Lo Strumento d'Irrigazione spara un getto d'acqua che ti permette di far ricrescere l'erba sul terreno."
+      }
+    },
+    "itemCategories": {
+      "_base_components": {
+        "name": "Componenti"
+      },
+      "_base_construction_material": {
+        "name": "Materiale da Costruzione"
+      },
+      "_base_raw_materials": {
+        "name": "Materiali Grezzi"
+      },
+      "_base_resources": {
+        "name": "Risorse"
+      },
+      "_base_sales_items": {
+        "name": "Prodotti"
       }
     },
     "items": {

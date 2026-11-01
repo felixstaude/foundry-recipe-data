@@ -1,6 +1,7 @@
 """foundry-export command line (see extractor/README.md and UPDATE.md).
 
     export [<Spielordner>] <Ausgabe> [--strict] [--force] [--overwrite] [--source auto|yaml|bundle]
+           [--title TEXT] [--description TEXT]
                                                   writes <Ausgabe>/v<gameVersion>/ (JSON, manifest.json, CHANGES.md)
                                                   atomically, then index.json / latest.json; game folder auto-detected
     check  [--game DIR] [--out out]               compare the installed game with <out>/latest.json (exit codes CHECK_*)
@@ -141,6 +142,22 @@ def _version_dir_name(root: Path, ver: dict, warnings: list[str], overwrite: boo
     return name
 
 
+def _release_info(root: Path, game_version: str, title: str | None, description: str | None) -> tuple[str | None, str | None]:
+    """Title and description of the game version (e.g. "Update 4" / "Rails & Reactors"; shown in the game menu, not in the
+    game files). Given values win (empty -> null); otherwise the newest index.json entry with the same gameVersion is kept
+    (re-export, other Steam build); else null (UPDATE.md step c)."""
+    known: dict = {}
+    try:
+        entries = _read_json(root / 'index.json').get('versions', [])
+    except (OSError, ValueError, AttributeError):
+        entries = []
+    for e in entries:
+        if isinstance(e, dict) and e.get('gameVersion') == game_version:
+            known = e
+    return (title or None if title is not None else known.get('title'),
+            description or None if description is not None else known.get('description'))
+
+
 def _sanity(outputs: list[tuple[str, dict]], prev_manifest: dict | None, prev_name: str | None) -> list[str]:
     """Problems that make an export unusable: an empty exported data file, or one losing > SANITY_DROP of its entries."""
     old = (prev_manifest or {}).get('files', {})
@@ -174,7 +191,8 @@ def _swap_in(tmp: Path, vdir: Path) -> None:
         os.replace(tmp, vdir)
 
 
-def cmd_export(game_arg: str | None, out_dir: str, strict: bool, force: bool, overwrite: bool, source_mode: str) -> int:
+def cmd_export(game_arg: str | None, out_dir: str, strict: bool, force: bool, overwrite: bool, source_mode: str,
+               title: str | None = None, description: str | None = None) -> int:
     loc, gp, ver = _find(game_arg)
     print(f'FOUNDRY {ver["gameVersion"]} (Steam build {ver["steamBuildId"] or "?"}'
           f'{", branch " + ver["steamBranch"] if ver["steamBranch"] else ""}) at {gp.root} [{loc.source}]', flush=True)
@@ -235,7 +253,9 @@ def cmd_export(game_arg: str | None, out_dir: str, strict: bool, force: bool, ov
     schemas = schema_files()
     now = datetime.now(timezone.utc).isoformat(timespec='seconds')
     warnings = sorted(set(d.warnings))
-    manifest = {'schemaVersion': MANIFEST_SCHEMA_VERSION, **ver, 'unityVersion': d.bundle.unity_version, 'generatedAt': now,
+    title, description = _release_info(root, ver['gameVersion'], title, description)
+    manifest = {'schemaVersion': MANIFEST_SCHEMA_VERSION, **ver, 'title': title, 'description': description,
+                'unityVersion': d.bundle.unity_version, 'generatedAt': now,
                 'generator': f'foundry-export {__version__}', 'templateSource': d.source.label, 'previousVersion': prev_name,
                 'languages': sorted(loc_docs), 'warnings': warnings, 'templateCounts': template_counts,
                 'codeHashes': code, 'schemaHashes': {n: _sha(b) for n, b in sorted(schemas.items())},
@@ -259,7 +279,8 @@ def cmd_export(game_arg: str | None, out_dir: str, strict: bool, force: bool, ov
 
     idx_path = root / 'index.json'
     index = _read_json(idx_path) if idx_path.exists() else {'versions': []}
-    entry = {'version': vname, 'gameVersion': ver['gameVersion'], 'steamBuildId': ver['steamBuildId'], 'generatedAt': now}
+    entry = {'version': vname, 'gameVersion': ver['gameVersion'], 'steamBuildId': ver['steamBuildId'], 'title': title,
+             'description': description, 'generatedAt': now}
     index['versions'] = [v for v in index.get('versions', []) if v.get('version') != vname] + [entry]
     index['versions'].sort(key=lambda v: checks.version_key(v['version']))
     index['latest'] = index['versions'][-1]['version']
@@ -280,6 +301,9 @@ def cmd_export(game_arg: str | None, out_dir: str, strict: bool, force: bool, ov
         print(f'{len(warnings)} warnings (see manifest.json):')
         for w in warnings:
             print('  -', w)
+    if title is None or description is None:
+        print(f'note: no title/description for {ver["gameVersion"]} (null in manifest.json / index.json); they are not in '
+              'the game files - pass --title/--description (UPDATE.md step c)')
     print(f'written to {vdir}')
     if changes is None:
         return EXIT_CHANGES_FAILED
@@ -440,6 +464,10 @@ def main(argv=None) -> int:
     e.add_argument('--overwrite', action='store_true', help='allow replacing an existing version folder that is not '
                                                             'the newest export or holds another build')
     e.add_argument('--source', choices=SOURCE_MODES, default='auto', help='template source (default: auto)')
+    e.add_argument('--title', help='title of the game version as shown in the game menu, e.g. "Update 4" (default: kept '
+                                   'from index.json for the same game version)')
+    e.add_argument('--description', help='description of the game version, e.g. "Rails & Reactors" (default: kept '
+                                         'from index.json for the same game version)')
     c = sub.add_parser('check', help='compare installed game with <out>/latest.json')
     c.add_argument('--game'); c.add_argument('--out', default='out')
     lo = sub.add_parser('locate', help='find the game folder')
@@ -466,7 +494,8 @@ def main(argv=None) -> int:
             if len(args.paths) > 2:
                 ap.error('export takes [game_dir] out_dir')
             game = args.paths[0] if len(args.paths) == 2 else args.game
-            return cmd_export(game, args.paths[-1], args.strict, args.force, args.overwrite, args.source)
+            return cmd_export(game, args.paths[-1], args.strict, args.force, args.overwrite, args.source,
+                              args.title, args.description)
         if args.cmd == 'check':
             return cmd_check(args.game, args.out)
         if args.cmd == 'locate':

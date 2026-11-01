@@ -290,6 +290,37 @@
       "file": "localization/de.json",
       "path": "strings.items._base_robot01_head.name",
       "value": "Persönlicher Assistenzroboter-Kopf"
+    },
+    {
+      "file": "items.json",
+      "list": "categories",
+      "id": "_base_sales_items",
+      "path": "name",
+      "value": "Products"
+    },
+    {
+      "file": "items.json",
+      "list": "categories",
+      "id": "_base_raw_materials",
+      "path": "sortOrder",
+      "value": 40
+    },
+    {
+      "file": "items.json",
+      "list": "creativeModeCategories",
+      "id": "_base_cmct_decoratives",
+      "path": "name",
+      "value": "Decor & Lights"
+    },
+    {
+      "file": "localization/de.json",
+      "path": "strings.itemCategories._base_sales_items.name",
+      "value": "Produkte"
+    },
+    {
+      "file": "localization/de.json",
+      "path": "strings.creativeModeCategories._base_cmct_factory.name",
+      "value": "Fabrik"
     }
   ]
 }

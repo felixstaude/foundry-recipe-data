@@ -205,6 +205,20 @@ class ExportTests(unittest.TestCase):
         self.assertEqual(len(manifest['warnings']), 5, manifest['warnings'])
         self.assertEqual(manifest['templateSource'], 'StreamingAssets/Templates')
 
+    def test_item_categories(self):
+        """Every category an item references is exported with a name, and en.json carries the same English name."""
+        vdir = version_dir(self.out_a)
+        doc, en = read_json(vdir / 'items.json'), read_json(vdir / 'localization' / 'en.json')['strings']
+        for list_key, item_key, loc_key in (('categories', 'category', 'itemCategories'),
+                                            ('creativeModeCategories', 'creativeModeCategory', 'creativeModeCategories')):
+            cats = {c['identifier']: c for c in doc[list_key]}
+            self.assertTrue(cats, list_key)
+            used = {i[item_key] for i in doc['items'] if i[item_key]}
+            self.assertLessEqual(used, set(cats), list_key)
+            for ident, c in cats.items():
+                self.assertTrue(c['name'], f'{list_key} {ident}')
+                self.assertEqual(en.get(loc_key, {}).get(ident, {}).get('name'), c['name'], f'{loc_key} {ident}')
+
     def test_reference_values(self):
         ref = read_json(REFERENCE)
         vdir = version_dir(self.out_a)

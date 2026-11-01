@@ -1,0 +1,43 @@
+Scanned recipe assets: 270
+Recipes with _infoBox: 270
+Recipes with SPEED markers: 250
+
+Speeds by tag:
+  - advanced_smelter: 1, 1.5, 2
+  - assembler: 1, 1.5, 2
+  - assembler_fluid: 1, 1.5, 2
+  - barrel_filler: 1, 1.5, 2
+  - base_station: 1, 1.5, 2
+  - casting_machine: 1, 1.5, 2
+  - character: 1, 1.5, 2
+  - chemical_processor: 1, 1.5, 2
+  - crusher: 1, 1.5, 2
+  - distillation_column: 1, 1.5, 2
+  - electric_arc_furnace: 1, 1.5, 2
+  - greenhouse: 1, 1.5, 2
+  - smelter: 1, 1.5, 2
+  - smelter_lava: 1, 1.5, 2
+
+Files missing _infoBox (sample up to 30):
+
+Files with _infoBox but no SPEED markers (sample up to 30):
+  - CraftingRecipes/Buildings/Assembler I CR.asset  id=_base_assembler_i tags=['character', 'assembler']
+  - CraftingRecipes/Buildings/Battery II CR.asset  id=_base_battery_ii tags=['character', 'assembler']
+  - CraftingRecipes/Buildings/Casting Machine CR.asset  id=_base_casting_machine tags=['character', 'assembler']
+  - CraftingRecipes/Buildings/Container CR.asset  id=_base_container tags=['character', 'assembler']
+  - CraftingRecipes/Buildings/Conveyor Balancer I CR.asset  id=_base_conveyor_balancer_i tags=['character', 'assembler']
+  - CraftingRecipes/Buildings/Crate CR.asset  id=_base_crate tags=['character', 'assembler']
+  - CraftingRecipes/Buildings/Drone Miner I CR.asset  id=_base_drone_miner_i tags=['character', 'assembler']
+  - CraftingRecipes/Buildings/Light, Ceiling CR.asset  id=_base_light_ceiling_i tags=['character', 'assembler']
+  - CraftingRecipes/Buildings/Light, Pole I CR.asset  id=_base_lightpole_i tags=['character', 'assembler']
+  - CraftingRecipes/Buildings/Light, Wall CR.asset  id=_base_light_wall_i tags=['character', 'assembler']
+  - CraftingRecipes/Buildings/Loader I, 2nd Lane CR.asset  id=_base_loader_2nd_i tags=['character', 'assembler']
+  - CraftingRecipes/Buildings/Loader I, 3rd Lane CR.asset  id=_base_loader_3rd_i tags=['character', 'assembler']
+  - CraftingRecipes/Buildings/Logistic Container I CR.asset  id=_base_logistic_container_i tags=['character', 'assembler']
+  - CraftingRecipes/Buildings/Logistic Container II CR.asset  id=_base_logistic_container_ii tags=['character', 'assembler']
+  - CraftingRecipes/Buildings/Power Pole I CR.asset  id=_base_power_pole_i tags=['character', 'assembler']
+  - CraftingRecipes/Buildings/Railings CR.asset  id=_base_railings tags=['character', 'assembler']
+  - CraftingRecipes/Buildings/Stairs CR.asset  id=_base_stairs tags=['character', 'assembler']
+  - CraftingRecipes/Buildings/Tank CR.asset  id=_base_tank tags=['character', 'assembler']
+  - CraftingRecipes/Buildings/Transformer I CR.asset  id=_base_transformer_i tags=['character', 'assembler']
+  - CraftingRecipes/Handhelds/Power Line CR.asset  id=_base_power_line tags=['character', 'assembler']

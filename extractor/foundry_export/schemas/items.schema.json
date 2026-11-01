@@ -18,6 +18,71 @@
     "count": {
       "type": "integer"
     },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "identifier": {
+            "type": "string"
+          },
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "iconIdentifier": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sortOrder": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "identifier",
+          "name",
+          "iconIdentifier",
+          "sortOrder"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "creativeModeCategories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "identifier": {
+            "type": "string"
+          },
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sortOrder": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "identifier",
+          "name",
+          "sortOrder"
+        ],
+        "additionalProperties": false
+      }
+    },
     "items": {
       "type": "array",
       "items": {
@@ -304,6 +369,8 @@
     "gameVersion",
     "steamBuildId",
     "count",
+    "categories",
+    "creativeModeCategories",
     "items"
   ],
   "additionalProperties": false,

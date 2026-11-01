@@ -3,7 +3,7 @@
   "gameVersion": "0.6.0.26518",
   "steamBuildId": "23077581",
   "language": "fr",
-  "count": 2439,
+  "count": 2463,
   "strings": {
     "assemblyLineActions": {
       "_ad01_attachArmLeft": {
@@ -1030,6 +1030,65 @@
         "slotLockDescription": "Peut être fondu à la lave"
       }
     },
+    "creativeModeCategories": {
+      "_base_cmct_assembly_line": {
+        "name": "Chaîne de montage"
+      },
+      "_base_cmct_assembly_line_components": {
+        "name": "Parties de robots"
+      },
+      "_base_cmct_blocks": {
+        "name": "Blocs"
+      },
+      "_base_cmct_character_movement": {
+        "name": "Déplacement du personnage"
+      },
+      "_base_cmct_components": {
+        "name": "Composants"
+      },
+      "_base_cmct_container": {
+        "name": "Stockage"
+      },
+      "_base_cmct_data_cable": {
+        "name": "Système de câbles de données"
+      },
+      "_base_cmct_decoratives": {
+        "name": "Décorations et lumières"
+      },
+      "_base_cmct_energy": {
+        "name": "Énergie"
+      },
+      "_base_cmct_factory": {
+        "name": "Usine"
+      },
+      "_base_cmct_general": {
+        "name": "Général"
+      },
+      "_base_cmct_handhelds": {
+        "name": "Portatif"
+      },
+      "_base_cmct_logistics": {
+        "name": "Logistique et manipulation des fluides"
+      },
+      "_base_cmct_modular_buildings": {
+        "name": "Bâtiments modulaires"
+      },
+      "_base_cmct_plant_seeds": {
+        "name": "Semence de plantes"
+      },
+      "_base_cmct_resources": {
+        "name": "Ressources"
+      },
+      "_base_cmct_robots_and_bots": {
+        "name": "Robots"
+      },
+      "_base_cmct_science": {
+        "name": "Science"
+      },
+      "_base_cmct_trains": {
+        "name": "Trains"
+      }
+    },
     "elements": {
       "_base_air": {
         "name": "Air"
@@ -1336,6 +1395,23 @@
       "_base_water_tool": {
         "title": "Outil d'irrigation",
         "description": "L'outil d'irrigation tire un jet d'eau qui vous permet de faire repousser l'herbe sur les terrains de terre."
+      }
+    },
+    "itemCategories": {
+      "_base_components": {
+        "name": "Composants"
+      },
+      "_base_construction_material": {
+        "name": "Matériau de construction"
+      },
+      "_base_raw_materials": {
+        "name": "Matériaux bruts"
+      },
+      "_base_resources": {
+        "name": "Ressources"
+      },
+      "_base_sales_items": {
+        "name": "Produits"
       }
     },
     "items": {

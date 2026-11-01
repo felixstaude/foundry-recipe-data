@@ -90,9 +90,17 @@ Nach Schritt c `python3 extractor/export verify out/<alt>` noch einmal laufen la
 sowie `out/index.json` und `out/latest.json` anfassen.
 
 ### c. Export
+**Vorher den Nutzer fragen** (dieses Runbook verlangt es ausdrücklich): Titel und Beschreibung der neuen Version, so wie sie
+im Spielmenü stehen, z. B. Titel `Update 4`, Beschreibung `Rails & Reactors` für 0.6.0.26518. Sie stehen in keiner Spieldatei.
+Nicht fragen im Trockenmodus und bei gleicher Spielversion mit neuem Steam-Build (`-b`-Ordner, Schritt a): Dann übernimmt der
+Export beides aus dem Eintrag mit derselben `gameVersion` in `out/index.json`.
 ```
-python3 extractor/export out
+python3 extractor/export out --title "<Titel>" --description "<Beschreibung>"
 ```
+Beides landet in `out/<neu>/manifest.json`, `out/index.json` und `out/latest.json` (`title`, `description`). Ohne die Optionen
+(Nutzer weiß es noch nicht) steht dort `null`, und die Konsole meldet `note: no title/description …`: in h melden. Nachtragen durch
+denselben Export mit `--title`/`--description` (ersetzt den eben angelegten Ordner, gleicher Build). Spätere Exporte derselben
+Version ohne die Optionen (z. B. in Schritt d) behalten die Werte aus `out/index.json`.
 Der Export rechnet und validiert alles im Speicher, schreibt nach `out/.tmp-<neu>/` und tauscht den Ordner erst dann ein.
 Danach aktualisiert er `out/index.json`/`out/latest.json` und schreibt `out/<neu>/CHANGES.md` gegen die Vorversion (Schritt e).
 Dauer ca. 6 s, davon ca. 3 s für den Abgleich Template-Dump ↔ Bundle.
@@ -103,13 +111,13 @@ Dauer ca. 6 s, davon ca. 3 s für den Abgleich Template-Dump ↔ Bundle.
 | 2  | Schemafehler (stderr beginnt mit `SCHEMA ERRORS`) oder falscher Aufruf (stderr `usage:` / `error:`). **Nichts geschrieben** | Schemafehler: Ursache im Extractor suchen (meist ein neuer Wertetyp in einem Template-Feld), beheben, erneut exportieren. |
 | 3  | Spiel nicht gefunden oder Spielordner unvollständig (stderr nennt durchsuchte Orte bzw. `incomplete game folder - missing …`) | wie Schritt a; bei `incomplete game folder`: Steam-Installation unvollständig, dem Nutzer melden (Steam: Dateien überprüfen) |
 | 4  | Daten geschrieben, CHANGES.md fehlgeschlagen | `python3 extractor/export diff out/<alt> out/<neu>` von Hand (Schritt e), Fehler im Diff-Code beheben. |
-| 5  | Template-Typ nicht lesbar (stderr `TEMPLATE LOAD ERROR: …`: Ordner fehlt, YAML nicht reparierbar, Typ nicht im Bundle). **Nichts geschrieben** | Meldung lesen. Betrifft sie den Dump (`Templates/…`): `python3 extractor/export out --source bundle` versuchen und es in h melden. Betrifft sie das Bundle: Extractor-Fehler, beheben. |
+| 5  | Template-Typ nicht lesbar (stderr `TEMPLATE LOAD ERROR: …`: Ordner fehlt, YAML nicht reparierbar, Typ nicht im Bundle). **Nichts geschrieben** | Meldung lesen. Betrifft sie den Dump (`Templates/…`): `python3 extractor/export out --source bundle` (mit `--title`/`--description`) versuchen und es in h melden. Betrifft sie das Bundle: Extractor-Fehler, beheben. |
 | 6  | Plausibilitätssperre: eine exportierte Datendatei ist leer oder hat weniger als 50 % der Einträge der Vorversion. **Nichts geschrieben** | Fast immer ein Ladefehler (Quelle, Warnungen ansehen). Nur wenn die Ursache belegt ist (Inhalt wirklich entfernt) und der Nutzer zustimmt: `--force`. |
 | 7  | Überschreiben verweigert: Der Ordner existiert und ist nicht der neueste Export oder hat einen anderen bzw. keinen Steam-Build. **Nichts geschrieben** | Abbrechen und melden. `--overwrite` nur mit Zustimmung des Nutzers (ersetzt einen vorhandenen, evtl. committeten Ordner). |
 | 12 | Steam-Update unvollständig | Abbrechen wie in Schritt a. `--force` nur auf ausdrücklichen Wunsch. |
 | 1  | mit `--strict`: es gab Warnungen. Ohne `--strict`: unerwarteter Fehler (Traceback) | `--strict` im Runbook nicht benutzen (die bekannten Warnungen gibt es immer). Traceback: Extractor-Fehler, Ursache nennen und beheben. |
 
-Optionen: `--source auto|yaml|bundle` (Template-Quelle, Standard `auto`, siehe Schritt d "Template-Quelle"), `--force`
+Optionen: `--title`/`--description` (siehe oben), `--source auto|yaml|bundle` (Template-Quelle, Standard `auto`, siehe Schritt d "Template-Quelle"), `--force`
 (Steam-Update unvollständig oder Plausibilitätssperre übergehen, Warnung `sanity: … (exported with --force)`),
 `--overwrite` (vorhandenen Ordner trotz Exit-Code 7 ersetzen). `--force` und `--overwrite` nie ohne Zustimmung.
 
@@ -154,7 +162,7 @@ Nur wenn eine der Warnungen oben es verlangt oder die Bedeutung eines Felds/Wert
 
 #### Template-Quelle (`--source auto`, Standard)
 Das Spiel lädt nur `foundry_main_bundle`. Der Dump `StreamingAssets/Templates` ist ein Entwickler-Artefakt (siehe Stolpersteine).
-Jeder Export vergleicht beide für die 9 exportierten Typen:
+Jeder Export vergleicht beide für die 11 exportierten Typen:
 - Dump vollständig und gleich: Daten aus dem Dump (`templateSource: StreamingAssets/Templates`).
 - Dump fehlt oder hat für einen exportierten Typ keine Dateien: Daten aus dem Bundle, Warnung `source: … (fallback)`.
 - Dump ≠ Bundle: Zeilen `source-mismatch: <Typ>: …` (mit Beispiel `dump X vs bundle Y`), Daten aus dem **Bundle**, weil das
@@ -318,7 +326,7 @@ Exit-Code 0 = alles `OK`, 1 = `MISMATCH`/`NOT FOUND`, 2 = DLL/PDB fehlt, 3 = Spi
 Bereits gemessene Werte gelten nur für die Version in der Spalte "gemessen am".
 
 ### h. Zusammenfassung an den Nutzer (höchstens 15 Zeilen)
-Inhalt: Version alt → neu (Build), Template-Quelle (bei `source-mismatch:`/Rückfall ausdrücklich), was ist neu, was hat sich
+Inhalt: Version alt → neu (Build), Titel und Beschreibung (Schritt c, oder dass sie fehlen), Template-Quelle (bei `source-mismatch:`/Rückfall ausdrücklich), was ist neu, was hat sich
 geändert (die wichtigsten Zahlen aus CHANGES.md), welche Warnungen (aus `/tmp/fx_warnings_before_baseline.txt`, und was damit
 gemacht wurde), fehlende Übersetzungen neuer Einträge, Teststatus (wörtlich), was im Spiel nachzumessen ist (aus g), welche
 Dateien geändert wurden, ggf. "Ausgangsstand war nicht committet" (Schritt b) und die Entscheidung (A)/(B) bei einem `-b`-Ordner (Schritt a).
@@ -356,7 +364,7 @@ Von Hand: `grep -A2 '"path"' ~/.local/share/Steam/steamapps/libraryfolders.vdf` 
 ### Extractor
 ```
 python3 extractor/export check  [--game <Pfad>] [--out out]                 # Schritt a, Exit-Codes siehe dort
-python3 extractor/export [<Spielordner>] out [--source auto|yaml|bundle] [--force] [--overwrite] [--strict]
+python3 extractor/export [<Spielordner>] out [--title TEXT] [--description TEXT] [--source auto|yaml|bundle] [--force] [--overwrite] [--strict]
                                                                             # Export (Schritt c); ohne Spielordner: automatisch suchen
 python3 extractor/export verify out/<Version>                               # sha256 (Daten + schemas/) gegen manifest.json
 python3 extractor/export diff out/<alt> out/<neu> [--out FILE]              # CHANGES.md; erste Version: diff none out/<neu>

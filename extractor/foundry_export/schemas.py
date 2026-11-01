@@ -48,6 +48,9 @@ ITEM = obj({
     'derived': obj({'producedBy': SL, 'usedBy': SL, 'usedByAssemblyLine': SL, 'producedByAssemblyLine': SL}),
 })
 
+ITEM_CATEGORY = obj({'identifier': S, 'name': NS, 'iconIdentifier': NS, 'sortOrder': NI})
+CREATIVE_MODE_CATEGORY = obj({'identifier': S, 'name': NS, 'sortOrder': NI})
+
 ELEMENT = obj({'identifier': S, 'name': NS, 'iconIdentifier': NS, 'flags': SL, 'pipeContentType': NI,
                'fuel': obj({'fuelValueKJPerLiter': N, 'residualElement': NS, 'residualLitersPerLiter': NN,
                             'minViableLiters': NN, 'flags': SL}, nullable=True)})
@@ -127,12 +130,13 @@ AL_OBJECT = obj({
 AL_MACHINE = obj({'identifier': S, 'name': NS, 'type': S, **AL_MACHINE_CORE, 'fluidBoxes': arr(FLUID_BOX)},
                  ['identifier', 'name', 'type', 'fluidBoxes'] + AL_MACHINE_REQ)
 
-MANIFEST_SCHEMA_VERSION = '1.1'   # 1.1: steamBranch, templateSource, previousVersion, templateCounts, codeHashes, schemaHashes
+MANIFEST_SCHEMA_VERSION = '1.2'   # 1.1: steamBranch, templateSource, previousVersion, templateCounts, codeHashes, schemaHashes
+                                  # 1.2: items.json categories/creativeModeCategories, localization itemCategories/creativeModeCategories
 
 LOC_SECTION = {'type': 'object', 'additionalProperties': {'type': 'object'}}
 
 SCHEMAS = {
-    'items': doc('items', 'items', ITEM),
+    'items': doc('items', 'items', ITEM, {'categories': arr(ITEM_CATEGORY), 'creativeModeCategories': arr(CREATIVE_MODE_CATEGORY)}),
     'elements': doc('elements', 'elements', ELEMENT),
     'crafting_tags': doc('crafting_tags', 'tags', TAG),
     'recipes': doc('recipes', 'recipes', RECIPE),
@@ -148,7 +152,7 @@ SCHEMAS = {
                             'type': 'object', 'additionalProperties': obj({'count': I, 'fields': SL})}})},
     'manifest': {'$schema': 'https://json-schema.org/draft/2020-12/schema', '$id': 'foundry-data/manifest@1',
                  **obj({'schemaVersion': {'const': MANIFEST_SCHEMA_VERSION}, 'gameVersion': S, 'steamBuildId': NS, 'steamBranch': NS,
-                        'unityVersion': S, 'generatedAt': S, 'generator': S,
+                        'title': NS, 'description': NS, 'unityVersion': S, 'generatedAt': S, 'generator': S,
                         'templateSource': {'enum': ['StreamingAssets/Templates', 'foundry_main_bundle']},
                         'previousVersion': NS, 'languages': SL, 'warnings': SL,
                         'templateCounts': {'type': 'object', 'additionalProperties': I},
