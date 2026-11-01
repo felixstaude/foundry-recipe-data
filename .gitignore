@@ -1,0 +1,47 @@
+# Lokale Hinweise / Inventar (maschinenspezifisch)
+game_path.txt
+inventory.txt
+
+# Spieldateien und dekompilierter Code - nie committen
+raw/
+raw.*/
+decompiled/
+decompiled.*/
+*.dll
+*.pdb
+*.exe
+*.so
+*.assets
+*.resS
+*.resource
+*.bundle
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# out/ bleibt versioniert, aber nur abgeleitete JSON/Markdown-Daten - keine Icons, Texturen oder sonstigen Spiel-Assets
+out/**/*.png
+out/**/*.jpg
+out/**/*.jpeg
+out/**/*.tga
+out/**/*.dds
+out/**/*.psd
+out/**/*.exr
+out/**/*.ktx
+out/**/*.webp
+out/**/*.asset
+out/**/*.prefab
+out/**/*.mat
+out/**/*.wav
+out/**/*.ogg
+out/**/*.mp3
+out/**/*.fbx
+out/**/*.obj
+out/**/*.glb
+out/**/*.yaml
+
+# Temporäre Export-Ordner (Abbruch mitten im Schreiben)
+out/.tmp-*/
+out/.old-*/

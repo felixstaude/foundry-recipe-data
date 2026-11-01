@@ -1,0 +1,326 @@
+{
+  "pinnedAt": "0.6.0.26518",
+  "note": "Festgenagelte Referenzwerte, von Hand gegen die Template-YAMLs geprüft. Schlägt ein Wert nach einem Spiel-Update fehl: Ursache klären (CHANGES.md, Warnungen in manifest.json, Template-YAML). Bei source-mismatch-Warnungen gilt foundry_main_bundle (das lädt das Spiel), nicht die YAML. Nur wenn das Spiel den Wert wirklich geändert hat, Wert hier anpassen und pinnedAt/Notiz aktualisieren.",
+  "values": [
+    {
+      "file": "recipes.json",
+      "list": "recipes",
+      "id": "_base_robot01_head",
+      "path": "timeMs",
+      "value": 15000
+    },
+    {
+      "file": "recipes.json",
+      "list": "recipes",
+      "id": "_base_robot01_head",
+      "path": "tags",
+      "value": [
+        "assembler"
+      ]
+    },
+    {
+      "file": "recipes.json",
+      "list": "recipes",
+      "id": "_base_robot01_head",
+      "path": "inputs",
+      "value": [
+        {
+          "item": "_base_robot_parts_i",
+          "amount": 1
+        },
+        {
+          "item": "_base_cpu",
+          "amount": 1
+        },
+        {
+          "item": "_base_glass",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "file": "recipes.json",
+      "list": "recipes",
+      "id": "_base_robot01_head",
+      "path": "derived.producers[machine=_base_assembler_i].craftTimeSec",
+      "value": 15.0
+    },
+    {
+      "file": "recipes.json",
+      "list": "recipes",
+      "id": "_base_robot01_head",
+      "path": "derived.producers[machine=_base_assembler_ii].craftTimeSec",
+      "value": 10.0
+    },
+    {
+      "file": "recipes.json",
+      "list": "recipes",
+      "id": "_base_robot01_head",
+      "path": "derived.producers[machine=_base_assembler_iii].craftTimeSec",
+      "value": 7.5
+    },
+    {
+      "file": "recipes.json",
+      "list": "recipes",
+      "id": "_base_science_pack_i",
+      "path": "derived.producers[machine=character].craftTimeSec",
+      "value": 10.0,
+      "note": "Handwerk timeMs/3: 30000 ms / 3 = 600 Ticks (Tooltip: 6 s); Faktor 3 nativ belegt, Messung offen: open_questions.md Nr. 1"
+    },
+    {
+      "file": "recipes.json",
+      "list": "recipes",
+      "id": "_base_al_merger",
+      "path": "derived.producers[machine=character].craftTimeSec",
+      "value": 1.65,
+      "note": "Handwerk nativ timeMs/3 in ganzen Ticks: 5000 ms -> 99 Ticks (CraftingAction::reinitialize); Tooltip zeigt 1,0 s (/5); Messung offen: open_questions.md Nr. 1"
+    },
+    {
+      "file": "recipes.json",
+      "list": "recipes",
+      "id": "_base_technum_rods_t3",
+      "path": "derived.producers[machine=_base_casting_building_base].perMinute.outputs[item=_base_technum_rods].perMin",
+      "value": 1280.0,
+      "note": "Heavy-Caster-Faktor 32 (nativ belegt, Messung offen: open_questions.md Nr. 3)"
+    },
+    {
+      "file": "machines.json",
+      "list": "machines",
+      "id": "_base_assembler_i",
+      "path": "crafting.speedMultiplier",
+      "value": 1
+    },
+    {
+      "file": "machines.json",
+      "list": "machines",
+      "id": "_base_assembler_ii",
+      "path": "crafting.speedMultiplier",
+      "value": 1.5
+    },
+    {
+      "file": "machines.json",
+      "list": "machines",
+      "id": "_base_assembler_iii",
+      "path": "crafting.speedMultiplier",
+      "value": 2
+    },
+    {
+      "file": "machines.json",
+      "list": "machines",
+      "id": "_base_assembler_i",
+      "path": "power.consumptionKW",
+      "value": 50
+    },
+    {
+      "file": "machines.json",
+      "list": "machines",
+      "id": "_base_assembler_iii",
+      "path": "power.consumptionKW",
+      "value": 250
+    },
+    {
+      "file": "machines.json",
+      "list": "machines",
+      "id": "_base_smelter_i",
+      "path": "crafting.kind",
+      "value": "AutoProducer"
+    },
+    {
+      "file": "machines.json",
+      "list": "machines",
+      "id": "_base_smelter_i",
+      "path": "crafting.speedMultiplier",
+      "value": 1.5
+    },
+    {
+      "file": "machines.json",
+      "list": "machines",
+      "id": "_base_casting_building_base",
+      "path": "crafting.speedMultiplier",
+      "value": 32
+    },
+    {
+      "file": "machines.json",
+      "list": "machines",
+      "id": "_base_baseStation01",
+      "path": "crafting.speedMultiplier",
+      "value": 1
+    },
+    {
+      "file": "machines.json",
+      "list": "machines",
+      "id": "_base_al_start",
+      "path": "assemblyLine.powerPerActionKJ",
+      "value": 50
+    },
+    {
+      "file": "items.json",
+      "list": "items",
+      "id": "_base_robot01_torso",
+      "path": "flags",
+      "value": [
+        "AL_STARTER"
+      ]
+    },
+    {
+      "file": "items.json",
+      "list": "items",
+      "id": "_base_robot01_torso",
+      "path": "assemblyLineStarter",
+      "value": {
+        "object": "_base_droid01",
+        "sellItem": "_base_robot_01"
+      }
+    },
+    {
+      "file": "research.json",
+      "list": "research",
+      "id": "_base_personal_assistant_robot_i",
+      "path": "unlocks.assemblyLineObjects",
+      "value": [
+        "_base_droid01"
+      ]
+    },
+    {
+      "file": "assembly_line.json",
+      "path": "constants",
+      "value": {
+        "ticksPerSecond": 60,
+        "slotsPerMeter": 600,
+        "railItemLengthSlots": 1125
+      }
+    },
+    {
+      "file": "assembly_line.json",
+      "list": "machines",
+      "id": "_base_al_producer_i",
+      "path": "speedSlotsPerTick",
+      "value": 10
+    },
+    {
+      "file": "assembly_line.json",
+      "list": "objects",
+      "id": "_base_droid01",
+      "path": "derived.producerActionCount",
+      "value": 10
+    },
+    {
+      "file": "assembly_line.json",
+      "list": "objects",
+      "id": "_base_droid01",
+      "path": "derived.producerPowerKJ",
+      "value": 3500
+    },
+    {
+      "file": "assembly_line.json",
+      "list": "objects",
+      "id": "_base_droid01",
+      "path": "derived.startPowerKJ",
+      "value": 50
+    },
+    {
+      "file": "assembly_line.json",
+      "list": "objects",
+      "id": "_base_droid01",
+      "path": "derived.painterPowerKJ",
+      "value": 425,
+      "note": "Lackieren ist Pflicht; alle Teile, auch Metall (recalculatePainterCosts)"
+    },
+    {
+      "file": "assembly_line.json",
+      "list": "objects",
+      "id": "_base_droid01",
+      "path": "derived.totalPowerKJ",
+      "value": 3975
+    },
+    {
+      "file": "assembly_line.json",
+      "list": "objects",
+      "id": "_base_droid01",
+      "path": "derived.singleStartObjectsPerMinute",
+      "value": 31.8584,
+      "note": "ein AL-Start: 1 Objekt alle ceil(1125/10)=113 Ticks"
+    },
+    {
+      "file": "assembly_line.json",
+      "list": "objects",
+      "id": "_base_droid01",
+      "path": "derived.maxObjectsPerMinute",
+      "value": 32.0,
+      "note": "nur Schienenlimit; echte Zeit pro Aktion offen (open_questions.md Nr. 4)"
+    },
+    {
+      "file": "assembly_line.json",
+      "list": "objects",
+      "id": "_base_droid01",
+      "path": "derived.fullPaint",
+      "value": [
+        {
+          "element": "_base_paint",
+          "liters": 100.0,
+          "powerKJ": 425
+        }
+      ]
+    },
+    {
+      "file": "assembly_line.json",
+      "list": "objects",
+      "id": "_base_droid01",
+      "path": "derived.inputs",
+      "value": [
+        {
+          "item": "_base_robot01_arm",
+          "amount": 2
+        },
+        {
+          "item": "_base_robot01_head",
+          "amount": 1
+        },
+        {
+          "item": "_base_robot01_leg",
+          "amount": 2
+        },
+        {
+          "item": "_base_robot01_torso",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "file": "localization/de.json",
+      "path": "strings.items._base_robot01_head.name",
+      "value": "Persönlicher Assistenzroboter-Kopf"
+    },
+    {
+      "file": "items.json",
+      "list": "categories",
+      "id": "_base_sales_items",
+      "path": "name",
+      "value": "Products"
+    },
+    {
+      "file": "items.json",
+      "list": "categories",
+      "id": "_base_raw_materials",
+      "path": "sortOrder",
+      "value": 40
+    },
+    {
+      "file": "items.json",
+      "list": "creativeModeCategories",
+      "id": "_base_cmct_decoratives",
+      "path": "name",
+      "value": "Decor & Lights"
+    },
+    {
+      "file": "localization/de.json",
+      "path": "strings.itemCategories._base_sales_items.name",
+      "value": "Produkte"
+    },
+    {
+      "file": "localization/de.json",
+      "path": "strings.creativeModeCategories._base_cmct_factory.name",
+      "value": "Fabrik"
+    }
+  ]
+}

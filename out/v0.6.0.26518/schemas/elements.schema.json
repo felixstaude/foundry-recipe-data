@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "foundry-data/elements@1",
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "foundry-data/elements@1"
+    },
+    "gameVersion": {
+      "type": "string"
+    },
+    "steamBuildId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "count": {
+      "type": "integer"
+    },
+    "elements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "identifier": {
+            "type": "string"
+          },
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "iconIdentifier": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "flags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "pipeContentType": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "fuel": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "fuelValueKJPerLiter": {
+                "type": "number"
+              },
+              "residualElement": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "residualLitersPerLiter": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "minViableLiters": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "flags": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "fuelValueKJPerLiter",
+              "residualElement",
+              "residualLitersPerLiter",
+              "minViableLiters",
+              "flags"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "identifier",
+          "name",
+          "iconIdentifier",
+          "flags",
+          "pipeContentType",
+          "fuel"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schema",
+    "gameVersion",
+    "steamBuildId",
+    "count",
+    "elements"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "itemAmount": {
+      "type": "object",
+      "properties": {
+        "item": {
+          "type": "string"
+        },
+        "amount": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "item",
+        "amount"
+      ],
+      "additionalProperties": false
+    },
+    "fluidAmount": {
+      "type": "object",
+      "properties": {
+        "element": {
+          "type": "string"
+        },
+        "liters": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "element",
+        "liters"
+      ],
+      "additionalProperties": false
+    },
+    "vec3": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "y": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "z": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "x",
+        "y",
+        "z"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

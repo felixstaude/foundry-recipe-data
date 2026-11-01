@@ -1,0 +1,262 @@
+{
+  "schema": "foundry-data/elements@1",
+  "gameVersion": "0.6.0.26518",
+  "steamBuildId": "23077581",
+  "count": 28,
+  "elements": [
+    {
+      "identifier": "_base_air",
+      "name": "Air",
+      "iconIdentifier": "air",
+      "flags": [],
+      "pipeContentType": 1,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_bf_slag",
+      "name": "Blast Furnace Slag",
+      "iconIdentifier": "slag",
+      "flags": [],
+      "pipeContentType": 2,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_fracking_liquid_i",
+      "name": "Fracking Liquid",
+      "iconIdentifier": "fracking_liquid",
+      "flags": [],
+      "pipeContentType": 2,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_hdo",
+      "name": "High Density Olumite",
+      "iconIdentifier": "hdo",
+      "flags": [],
+      "pipeContentType": 2,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_hot_air",
+      "name": "Hot Air",
+      "iconIdentifier": "air_hot",
+      "flags": [],
+      "pipeContentType": 1,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_ignium_enriched_water",
+      "name": "Ignium-Enriched Water",
+      "iconIdentifier": "ignium_enriched_water",
+      "flags": [],
+      "pipeContentType": 2,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_impure_hdo",
+      "name": "Impure High Density Olumite",
+      "iconIdentifier": "impure_hdo",
+      "flags": [],
+      "pipeContentType": 2,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_ldo",
+      "name": "Low Density Olumite",
+      "iconIdentifier": "ldo",
+      "flags": [],
+      "pipeContentType": 2,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_liquid_firmarlite",
+      "name": "Liquid Firmarlite",
+      "iconIdentifier": "liquid_firmarlite",
+      "flags": [],
+      "pipeContentType": 2,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_liquid_fuel",
+      "name": "Liquid Fuel",
+      "iconIdentifier": "liquid_fuel",
+      "flags": [
+        "FUEL"
+      ],
+      "pipeContentType": 2,
+      "fuel": {
+        "fuelValueKJPerLiter": 500,
+        "residualElement": null,
+        "residualLitersPerLiter": 0,
+        "minViableLiters": 100,
+        "flags": [
+          "BURNABLE"
+        ]
+      }
+    },
+    {
+      "identifier": "_base_liquid_polymer",
+      "name": "Liquid Polymer",
+      "iconIdentifier": "liquid_polymer",
+      "flags": [],
+      "pipeContentType": 2,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_liquid_telluxite",
+      "name": "Liquid Telluxite",
+      "iconIdentifier": "liquid_telluxite",
+      "flags": [],
+      "pipeContentType": 2,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_molten_super_alloy",
+      "name": "Molten Superalloy",
+      "iconIdentifier": "molten_superalloy",
+      "flags": [],
+      "pipeContentType": 2,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_molten_te",
+      "name": "Molten Technum",
+      "iconIdentifier": "molten_te",
+      "flags": [],
+      "pipeContentType": 2,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_molten_xf",
+      "name": "Molten Xenoferrite",
+      "iconIdentifier": "molten_xf",
+      "flags": [],
+      "pipeContentType": 2,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_npp_reactor_compound_depleted",
+      "name": "Depleted Reactor Compound",
+      "iconIdentifier": "npp_reactor_compound_depleted",
+      "flags": [],
+      "pipeContentType": 2,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_npp_reactor_compound_energized",
+      "name": "Energized Reactor Compound",
+      "iconIdentifier": "npp_reactor_compound_energized",
+      "flags": [],
+      "pipeContentType": 2,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_npp_reactor_fuel_mix",
+      "name": "Reactor Fuel Mix",
+      "iconIdentifier": "npp_reactor_fuel_mix",
+      "flags": [],
+      "pipeContentType": 2,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_npp_steam_exhaust",
+      "name": "Exhaust Steam",
+      "iconIdentifier": "npp_steam_exhaust",
+      "flags": [],
+      "pipeContentType": 2,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_npp_steam_high_pressure",
+      "name": "High-Pressure Steam",
+      "iconIdentifier": "npp_steam_high_pressure",
+      "flags": [
+        "FUEL"
+      ],
+      "pipeContentType": 1,
+      "fuel": {
+        "fuelValueKJPerLiter": 60,
+        "residualElement": "_base_npp_steam_exhaust",
+        "residualLitersPerLiter": 1,
+        "minViableLiters": 400,
+        "flags": [
+          "TURBINE"
+        ]
+      }
+    },
+    {
+      "identifier": "_base_olumic_acid",
+      "name": "Olumic Acid",
+      "iconIdentifier": "olumic_acid",
+      "flags": [],
+      "pipeContentType": 2,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_olumite",
+      "name": "Crude Olumite",
+      "iconIdentifier": "olumite",
+      "flags": [],
+      "pipeContentType": 2,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_olumite_gas",
+      "name": "Olumite Gas",
+      "iconIdentifier": "olumite_gas",
+      "flags": [],
+      "pipeContentType": 1,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_paint",
+      "name": "Paint",
+      "iconIdentifier": "paint",
+      "flags": [],
+      "pipeContentType": 2,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_steam",
+      "name": "Steam",
+      "iconIdentifier": "steam",
+      "flags": [
+        "FUEL"
+      ],
+      "pipeContentType": 1,
+      "fuel": {
+        "fuelValueKJPerLiter": 60,
+        "residualElement": null,
+        "residualLitersPerLiter": 0,
+        "minViableLiters": 40,
+        "flags": [
+          "TURBINE"
+        ]
+      }
+    },
+    {
+      "identifier": "_base_waste_gas",
+      "name": "Waste Gas",
+      "iconIdentifier": "waste_gas",
+      "flags": [],
+      "pipeContentType": 1,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_water",
+      "name": "Water",
+      "iconIdentifier": "water",
+      "flags": [],
+      "pipeContentType": 2,
+      "fuel": null
+    },
+    {
+      "identifier": "_base_xeno_crystal_sludge",
+      "name": "Xeno-Crystal Sludge",
+      "iconIdentifier": "xeno_crystal_sludge",
+      "flags": [],
+      "pipeContentType": 2,
+      "fuel": null
+    }
+  ]
+}

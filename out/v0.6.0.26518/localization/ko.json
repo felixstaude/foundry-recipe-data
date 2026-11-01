@@ -1,0 +1,6823 @@
+{
+  "schema": "foundry-data/localization@1",
+  "gameVersion": "0.6.0.26518",
+  "steamBuildId": "23077581",
+  "language": "ko",
+  "count": 2463,
+  "strings": {
+    "assemblyLineActions": {
+      "_ad01_attachArmLeft": {
+        "name": "팔 부착 (왼쪽)"
+      },
+      "_ad01_attachArmRight": {
+        "name": "팔 부착 (오른쪽)"
+      },
+      "_ad01_attachHead": {
+        "name": "머리 부착"
+      },
+      "_ad01_attachLegLeft": {
+        "name": "다리 부착 (왼쪽)"
+      },
+      "_ad01_attachLegRight": {
+        "name": "다리 부착 (오른쪽)"
+      },
+      "_ad01_weldArmLeft": {
+        "name": "팔 용접 (왼쪽)"
+      },
+      "_ad01_weldHead": {
+        "name": "머리 용접"
+      },
+      "_ad01_weldLegLeft": {
+        "name": "다리 용접 (왼쪽)"
+      },
+      "_ad01_weldLegRight": {
+        "name": "다리 용접 (오른쪽)"
+      },
+      "_admin01_weldArmRight": {
+        "name": "팔 용접 (오른쪽)"
+      },
+      "_ar01_attachArmLeft": {
+        "name": "팔 부착 (왼쪽)"
+      },
+      "_ar01_attachArmRight": {
+        "name": "팔 부착 (오른쪽)"
+      },
+      "_ar01_attachHead": {
+        "name": "머리 부착"
+      },
+      "_ar01_attachLegLeft": {
+        "name": "다리 부착 (왼쪽)"
+      },
+      "_ar01_attachLegRight": {
+        "name": "다리 부착 (오른쪽)"
+      },
+      "_ar01_weldArmLeft": {
+        "name": "팔 용접 (왼쪽)"
+      },
+      "_ar01_weldArmRight": {
+        "name": "팔 용접 (오른쪽)"
+      },
+      "_ar01_weldHead": {
+        "name": "머리 용접"
+      },
+      "_ar01_weldLegLeft": {
+        "name": "다리 용접 (왼쪽)"
+      },
+      "_ar01_weldLegRight": {
+        "name": "다리 용접 (오른쪽)"
+      },
+      "_d01_attachArmLeft": {
+        "name": "팔 부착 (왼쪽)"
+      },
+      "_d01_attachArmRight": {
+        "name": "팔 부착 (오른쪽)"
+      },
+      "_d01_attachHead": {
+        "name": "머리 부착"
+      },
+      "_d01_attachLegLeft": {
+        "name": "다리 부착 (왼쪽)"
+      },
+      "_d01_attachLegRight": {
+        "name": "다리 부착 (오른쪽)"
+      },
+      "_d01_weldArmLeft": {
+        "name": "팔 용접 (왼쪽)"
+      },
+      "_d01_weldArmRight": {
+        "name": "팔 용접 (오른쪽)"
+      },
+      "_d01_weldHead": {
+        "name": "머리 용접"
+      },
+      "_d01_weldLegLeft": {
+        "name": "다리 용접 (왼쪽)"
+      },
+      "_d01_weldLegRight": {
+        "name": "다리 용접 (오른쪽)"
+      },
+      "_hr01_attachArmLeft": {
+        "name": "Attach Arm (Left)"
+      },
+      "_hr01_attachArmRight": {
+        "name": "Attach Arm (Right)"
+      },
+      "_hr01_attachHead": {
+        "name": "Attach Head"
+      },
+      "_hr01_attachLegLeft": {
+        "name": "Attach Leg (Left)"
+      },
+      "_hr01_attachLegRight": {
+        "name": "Attach Leg (Right)"
+      },
+      "_hr01_weldArmLeft": {
+        "name": "Weld Arm (Left)"
+      },
+      "_hr01_weldArmRight": {
+        "name": "Weld Arm (Right)"
+      },
+      "_hr01_weldHead": {
+        "name": "Weld Head"
+      },
+      "_hr01_weldLegLeft": {
+        "name": "Weld Leg (Left)"
+      },
+      "_hr01_weldLegRight": {
+        "name": "Weld Leg (Right)"
+      },
+      "_mir01_attachArmLeft": {
+        "name": "팔 부착 (왼쪽)"
+      },
+      "_mir01_attachArmRight": {
+        "name": "팔 부착 (오른쪽)"
+      },
+      "_mir01_attachHead": {
+        "name": "머리 부착"
+      },
+      "_mir01_attachLegLeft": {
+        "name": "다리 부착 (왼쪽)"
+      },
+      "_mir01_attachLegRight": {
+        "name": "다리 부착 (오른쪽)"
+      },
+      "_mir01_weldArmLeft": {
+        "name": "팔 용접 (왼쪽)"
+      },
+      "_mir01_weldArmRight": {
+        "name": "팔 용접 (오른쪽)"
+      },
+      "_mir01_weldHead": {
+        "name": "머리 용접"
+      },
+      "_mir01_weldLegLeft": {
+        "name": "다리 용접 (왼쪽)"
+      },
+      "_mir01_weldLegRight": {
+        "name": "다리 용접 (오른쪽)"
+      },
+      "_mr01_attachArmLeft": {
+        "name": "팔 부착 (왼쪽)"
+      },
+      "_mr01_attachArmRight": {
+        "name": "팔 부착 (오른쪽)"
+      },
+      "_mr01_attachHead": {
+        "name": "머리 부착"
+      },
+      "_mr01_attachLegLeft": {
+        "name": "다리 부착 (왼쪽)"
+      },
+      "_mr01_attachLegRight": {
+        "name": "다리 부착 (오른쪽)"
+      },
+      "_mr01_weldArmLeft": {
+        "name": "팔 용접 (왼쪽)"
+      },
+      "_mr01_weldArmRight": {
+        "name": "팔 용접 (오른쪽)"
+      },
+      "_mr01_weldHead": {
+        "name": "머리 용접"
+      },
+      "_mr01_weldLegLeft": {
+        "name": "다리 용접 (왼쪽)"
+      },
+      "_mr01_weldLegRight": {
+        "name": "다리 용접 (오른쪽)"
+      },
+      "_mr02_attachArmLeft": {
+        "name": "Attach Arm (Left)"
+      },
+      "_mr02_attachArmRight": {
+        "name": "Attach Arm (Right)"
+      },
+      "_mr02_attachHead": {
+        "name": "Attach Head"
+      },
+      "_mr02_attachLegLeft": {
+        "name": "Attach Leg (Left)"
+      },
+      "_mr02_attachLegRight": {
+        "name": "Attach Leg (Right)"
+      },
+      "_mr02_weldArmLeft": {
+        "name": "Weld Arm (Left)"
+      },
+      "_mr02_weldArmRight": {
+        "name": "Weld Arm (Right)"
+      },
+      "_mr02_weldHead": {
+        "name": "Weld Head"
+      },
+      "_mr02_weldLegLeft": {
+        "name": "Weld Leg (Left)"
+      },
+      "_mr02_weldLegRight": {
+        "name": "Weld Leg (Right)"
+      },
+      "_scr01_attachArmLeft": {
+        "name": "Attach Arm (Left)"
+      },
+      "_scr01_attachArmRight": {
+        "name": "Attach Arm (Right)"
+      },
+      "_scr01_attachHead": {
+        "name": "Attach Head"
+      },
+      "_scr01_attachLegLeft": {
+        "name": "Attach Leg (Left)"
+      },
+      "_scr01_attachLegRight": {
+        "name": "Attach Leg (Right)"
+      },
+      "_scr01_weldArmLeft": {
+        "name": "Weld Arm (Left)"
+      },
+      "_scr01_weldArmRight": {
+        "name": "Weld Arm (Right)"
+      },
+      "_scr01_weldHead": {
+        "name": "Weld Head"
+      },
+      "_scr01_weldLegLeft": {
+        "name": "Weld Leg (Left)"
+      },
+      "_scr01_weldLegRight": {
+        "name": "Weld Leg (Right)"
+      },
+      "_sr01_attachArmLeft": {
+        "name": "팔 부착 (왼쪽)"
+      },
+      "_sr01_attachArmRight": {
+        "name": "팔 부착 (오른쪽)"
+      },
+      "_sr01_attachHead": {
+        "name": "머리 부착"
+      },
+      "_sr01_attachLegLeft": {
+        "name": "다리 부착 (왼쪽)"
+      },
+      "_sr01_attachLegRight": {
+        "name": "다리 부착 (오른쪽)"
+      },
+      "_sr01_weldArmLeft": {
+        "name": "팔 용접 (왼쪽)"
+      },
+      "_sr01_weldArmRight": {
+        "name": "팔 용접 (오른쪽)"
+      },
+      "_sr01_weldHead": {
+        "name": "머리 용접"
+      },
+      "_sr01_weldLegLeft": {
+        "name": "다리 용접 (왼쪽)"
+      },
+      "_sr01_weldLegRight": {
+        "name": "다리 용접 (오른쪽)"
+      }
+    },
+    "assemblyLineObjects": {
+      "_base_admin_robot_i": {
+        "name": "오퍼레이터 로봇",
+        "parts": {
+          "_torso": {
+            "title": "몸체",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_arms": {
+            "title": "팔 (오른쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_legs": {
+            "title": "다리 (오른쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_arm_left": {
+            "title": "팔 (왼쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_leg_left": {
+            "title": "다리 (왼쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_head": {
+            "title": "머리",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          }
+        }
+      },
+      "_base_agriculture_robot_i": {
+        "name": "농사용 로봇",
+        "parts": {
+          "_torso": {
+            "title": "몸체",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_arms": {
+            "title": "팔 (오른쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_legs": {
+            "title": "다리 (오른쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_arm_left": {
+            "title": "팔 (왼쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_leg_left": {
+            "title": "다리 (왼쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_head": {
+            "title": "머리",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          }
+        }
+      },
+      "_base_droid01": {
+        "name": "개인용 도우미 로봇",
+        "parts": {
+          "_torso": {
+            "title": "몸체",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_arms": {
+            "title": "팔 (오른쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_legs": {
+            "title": "다리 (오른쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_arm_left": {
+            "title": "팔 (왼쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_leg_left": {
+            "title": "다리 (왼쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_head": {
+            "title": "머리",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          }
+        }
+      },
+      "_base_hazard_robot_i": {
+        "name": "Hazard Robot",
+        "parts": {
+          "_torso": {
+            "title": "Torso",
+            "colorVariants": {
+              "_metal": "Metal",
+              "_green": "Green",
+              "_red": "Red",
+              "_yellow": "Yellow",
+              "_blue": "Blue",
+              "_orange": "Orange",
+              "_purple": "Purple"
+            }
+          },
+          "_arms": {
+            "title": "Arm (Right)",
+            "colorVariants": {
+              "_metal": "Metal",
+              "_green": "Green",
+              "_red": "Red",
+              "_yellow": "Yellow",
+              "_blue": "Blue",
+              "_orange": "Orange",
+              "_purple": "Purple"
+            }
+          },
+          "_legs": {
+            "title": "Leg (Right)",
+            "colorVariants": {
+              "_metal": "Metal",
+              "_green": "Green",
+              "_red": "Red",
+              "_yellow": "Yellow",
+              "_blue": "Blue",
+              "_orange": "Orange",
+              "_purple": "Purple"
+            }
+          },
+          "_arm_left": {
+            "title": "Arm (Left)",
+            "colorVariants": {
+              "_metal": "Metal",
+              "_green": "Green",
+              "_red": "Red",
+              "_yellow": "Yellow",
+              "_blue": "Blue",
+              "_orange": "Orange",
+              "_purple": "Purple"
+            }
+          },
+          "_leg_left": {
+            "title": "Leg (Left)",
+            "colorVariants": {
+              "_metal": "Metal",
+              "_green": "Green",
+              "_red": "Red",
+              "_yellow": "Yellow",
+              "_blue": "Blue",
+              "_orange": "Orange",
+              "_purple": "Purple"
+            }
+          },
+          "_head": {
+            "title": "Head",
+            "colorVariants": {
+              "_metal": "Metal",
+              "_green": "Green",
+              "_red": "Red",
+              "_yellow": "Yellow",
+              "_blue": "Blue",
+              "_orange": "Orange",
+              "_purple": "Purple"
+            }
+          }
+        }
+      },
+      "_base_military_robot_i": {
+        "name": "전투용 로봇",
+        "parts": {
+          "_torso": {
+            "title": "몸체",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_arms": {
+            "title": "팔 (오른쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_legs": {
+            "title": "다리 (오른쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_arm_left": {
+            "title": "팔 (왼쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_leg_left": {
+            "title": "다리 (왼쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_head": {
+            "title": "머리",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          }
+        }
+      },
+      "_base_military_robot_ii": {
+        "name": "Assault Robot",
+        "parts": {
+          "_torso": {
+            "title": "Torso",
+            "colorVariants": {
+              "_metal": "Metal",
+              "_green": "Green",
+              "_red": "Red",
+              "_yellow": "Yellow",
+              "_blue": "Blue",
+              "_orange": "Orange",
+              "_purple": "Purple"
+            }
+          },
+          "_arms": {
+            "title": "Arm (Right)",
+            "colorVariants": {
+              "_metal": "Metal",
+              "_green": "Green",
+              "_red": "Red",
+              "_yellow": "Yellow",
+              "_blue": "Blue",
+              "_orange": "Orange",
+              "_purple": "Purple"
+            }
+          },
+          "_legs": {
+            "title": "Leg (Right)",
+            "colorVariants": {
+              "_metal": "Metal",
+              "_green": "Green",
+              "_red": "Red",
+              "_yellow": "Yellow",
+              "_blue": "Blue",
+              "_orange": "Orange",
+              "_purple": "Purple"
+            }
+          },
+          "_arm_left": {
+            "title": "Arm (Left)",
+            "colorVariants": {
+              "_metal": "Metal",
+              "_green": "Green",
+              "_red": "Red",
+              "_yellow": "Yellow",
+              "_blue": "Blue",
+              "_orange": "Orange",
+              "_purple": "Purple"
+            }
+          },
+          "_leg_left": {
+            "title": "Leg (Left)",
+            "colorVariants": {
+              "_metal": "Metal",
+              "_green": "Green",
+              "_red": "Red",
+              "_yellow": "Yellow",
+              "_blue": "Blue",
+              "_orange": "Orange",
+              "_purple": "Purple"
+            }
+          },
+          "_head": {
+            "title": "Head",
+            "colorVariants": {
+              "_metal": "Metal",
+              "_green": "Green",
+              "_red": "Red",
+              "_yellow": "Yellow",
+              "_blue": "Blue",
+              "_orange": "Orange",
+              "_purple": "Purple"
+            }
+          }
+        }
+      },
+      "_base_mining_robot_i": {
+        "name": "채굴용 로봇",
+        "parts": {
+          "_torso": {
+            "title": "몸체",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_arms": {
+            "title": "팔 (오른쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_legs": {
+            "title": "다리 (오른쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_arm_left": {
+            "title": "팔 (왼쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_leg_left": {
+            "title": "다리 (왼쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_head": {
+            "title": "머리",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          }
+        }
+      },
+      "_base_science_robot_i": {
+        "name": "과학 로봇",
+        "parts": {
+          "_torso": {
+            "title": "몸체",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_arms": {
+            "title": "팔 (오른쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_legs": {
+            "title": "다리 (오른쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_arm_left": {
+            "title": "팔 (왼쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_leg_left": {
+            "title": "다리 (왼쪽)",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          },
+          "_head": {
+            "title": "머리",
+            "colorVariants": {
+              "_metal": "금속",
+              "_green": "초록색",
+              "_red": "빨간색",
+              "_yellow": "노란색",
+              "_blue": "파란색",
+              "_orange": "주황색",
+              "_purple": "보라색"
+            }
+          }
+        }
+      },
+      "_base_scout_robot_i": {
+        "name": "Scout Robot",
+        "parts": {
+          "_torso": {
+            "title": "Torso",
+            "colorVariants": {
+              "_metal": "Metal",
+              "_green": "Green",
+              "_red": "Red",
+              "_yellow": "Yellow",
+              "_blue": "Blue",
+              "_orange": "Orange",
+              "_purple": "Purple"
+            }
+          },
+          "_arms": {
+            "title": "Arm (Right)",
+            "colorVariants": {
+              "_metal": "Metal",
+              "_green": "Green",
+              "_red": "Red",
+              "_yellow": "Yellow",
+              "_blue": "Blue",
+              "_orange": "Orange",
+              "_purple": "Purple"
+            }
+          },
+          "_legs": {
+            "title": "Leg (Right)",
+            "colorVariants": {
+              "_metal": "Metal",
+              "_green": "Green",
+              "_red": "Red",
+              "_yellow": "Yellow",
+              "_blue": "Blue",
+              "_orange": "Orange",
+              "_purple": "Purple"
+            }
+          },
+          "_arm_left": {
+            "title": "Arm (Left)",
+            "colorVariants": {
+              "_metal": "Metal",
+              "_green": "Green",
+              "_red": "Red",
+              "_yellow": "Yellow",
+              "_blue": "Blue",
+              "_orange": "Orange",
+              "_purple": "Purple"
+            }
+          },
+          "_leg_left": {
+            "title": "Leg (Left)",
+            "colorVariants": {
+              "_metal": "Metal",
+              "_green": "Green",
+              "_red": "Red",
+              "_yellow": "Yellow",
+              "_blue": "Blue",
+              "_orange": "Orange",
+              "_purple": "Purple"
+            }
+          },
+          "_head": {
+            "title": "Head",
+            "colorVariants": {
+              "_metal": "Metal",
+              "_green": "Green",
+              "_red": "Red",
+              "_yellow": "Yellow",
+              "_blue": "Blue",
+              "_orange": "Orange",
+              "_purple": "Purple"
+            }
+          }
+        }
+      }
+    },
+    "craftingTags": {
+      "advanced_smelter": {
+        "name": "고급 제련소",
+        "slotLockDescription": "제련 가능"
+      },
+      "assembler": {
+        "name": "조립기"
+      },
+      "assembler_fluid": {
+        "name": "유체 조립기"
+      },
+      "barrel_filler": {
+        "name": "통 충전제"
+      },
+      "casting_machine": {
+        "name": "주조기"
+      },
+      "character": {
+        "name": "캐릭터"
+      },
+      "chemical_processor": {
+        "name": "화학 처리기"
+      },
+      "crusher": {
+        "name": "분쇄기",
+        "slotLockDescription": "분쇄 가능"
+      },
+      "crystal_refiner": {
+        "name": "크리스탈 정제기"
+      },
+      "distillation_column": {
+        "name": "증류탑"
+      },
+      "electric_arc_furnace": {
+        "name": "전기 아크 용광로"
+      },
+      "geothermal_generator": {
+        "name": "지열 발전기"
+      },
+      "greenhouse": {
+        "name": "온실",
+        "slotLockDescription": "식물 씨앗"
+      },
+      "heavy_caster": {
+        "name": "Heavy Caster"
+      },
+      "npp_fuel_mixer": {
+        "name": "Fuel Mixer"
+      },
+      "smelter": {
+        "name": "제련소",
+        "slotLockDescription": "제련 가능"
+      },
+      "smelter_lava": {
+        "name": "용암 제련기",
+        "slotLockDescription": "용암제련 가능"
+      }
+    },
+    "creativeModeCategories": {
+      "_base_cmct_assembly_line": {
+        "name": "조립 라인"
+      },
+      "_base_cmct_assembly_line_components": {
+        "name": "로봇 부품"
+      },
+      "_base_cmct_blocks": {
+        "name": "블록"
+      },
+      "_base_cmct_character_movement": {
+        "name": "캐릭터 이동"
+      },
+      "_base_cmct_components": {
+        "name": "부품"
+      },
+      "_base_cmct_container": {
+        "name": "창고"
+      },
+      "_base_cmct_data_cable": {
+        "name": "데이터 케이블 시스템"
+      },
+      "_base_cmct_decoratives": {
+        "name": "장식 & 조명"
+      },
+      "_base_cmct_energy": {
+        "name": "에너지"
+      },
+      "_base_cmct_factory": {
+        "name": "공장"
+      },
+      "_base_cmct_general": {
+        "name": "일반"
+      },
+      "_base_cmct_handhelds": {
+        "name": "휴대기기"
+      },
+      "_base_cmct_logistics": {
+        "name": "물류 & 유체 관리"
+      },
+      "_base_cmct_modular_buildings": {
+        "name": "모듈식 건물"
+      },
+      "_base_cmct_plant_seeds": {
+        "name": "식물 씨앗"
+      },
+      "_base_cmct_resources": {
+        "name": "자원"
+      },
+      "_base_cmct_robots_and_bots": {
+        "name": "로봇 & 봇"
+      },
+      "_base_cmct_science": {
+        "name": "과학"
+      },
+      "_base_cmct_trains": {
+        "name": "Trains"
+      }
+    },
+    "elements": {
+      "_base_air": {
+        "name": "공기"
+      },
+      "_base_bf_slag": {
+        "name": "용광로 슬래그"
+      },
+      "_base_fracking_liquid_i": {
+        "name": "수압파쇄 액체"
+      },
+      "_base_hdo": {
+        "name": "고밀도 올루마이트"
+      },
+      "_base_hot_air": {
+        "name": "열풍"
+      },
+      "_base_ignium_enriched_water": {
+        "name": "이그늄 강화수"
+      },
+      "_base_impure_hdo": {
+        "name": "불순물이 포함된 고밀도 올루마이트"
+      },
+      "_base_ldo": {
+        "name": "저밀도 올루마이트"
+      },
+      "_base_liquid_firmarlite": {
+        "name": "액체 피마라이트"
+      },
+      "_base_liquid_fuel": {
+        "name": "액체 연료"
+      },
+      "_base_liquid_polymer": {
+        "name": "액체 폴리머"
+      },
+      "_base_liquid_telluxite": {
+        "name": "액체 텔루사이트"
+      },
+      "_base_molten_super_alloy": {
+        "name": "용융 초합금"
+      },
+      "_base_molten_te": {
+        "name": "용해된 테크늄"
+      },
+      "_base_molten_xf": {
+        "name": "용해된 제노페라이트"
+      },
+      "_base_npp_reactor_compound_depleted": {
+        "name": "Depleted Reactor Compound"
+      },
+      "_base_npp_reactor_compound_energized": {
+        "name": "Energized Reactor Compound"
+      },
+      "_base_npp_reactor_fuel_mix": {
+        "name": "Reactor Fuel Mix"
+      },
+      "_base_npp_steam_exhaust": {
+        "name": "Exhaust Steam"
+      },
+      "_base_npp_steam_high_pressure": {
+        "name": "High-Pressure Steam"
+      },
+      "_base_olumic_acid": {
+        "name": "올루믹 산"
+      },
+      "_base_olumite": {
+        "name": "미정제 올루마이트"
+      },
+      "_base_olumite_gas": {
+        "name": "올루마이트 가스"
+      },
+      "_base_paint": {
+        "name": "페인트"
+      },
+      "_base_steam": {
+        "name": "증기"
+      },
+      "_base_waste_gas": {
+        "name": "배기 가스"
+      },
+      "_base_water": {
+        "name": "물"
+      },
+      "_base_xeno_crystal_sludge": {
+        "name": "Xeno-Crystal Sludge"
+      }
+    },
+    "explorationUnlocks": {
+      "_base_building_drone_range_i": {
+        "title": "Construction Drone Range I",
+        "description": "Increases the range of the construction drone by 20 voxels."
+      },
+      "_base_building_drone_range_ii": {
+        "title": "Construction Drone Range II",
+        "description": "Increases the range of the construction drone by 20 voxels."
+      },
+      "_base_building_drone_range_iii": {
+        "title": "Construction Drone Range III",
+        "description": "Increases the range of the construction drone by 20 voxels."
+      },
+      "_base_building_drone_range_iv": {
+        "title": "Construction Drone Range IV",
+        "description": "Increases the range of the construction drone by 20 voxels."
+      },
+      "_base_building_drone_range_v": {
+        "title": "Construction Drone Range V",
+        "description": "Increases the range of the construction drone by 20 voxels."
+      },
+      "_base_character_crafting_speed_i": {
+        "title": "캐릭터 제작 속도 I",
+        "description": "캐릭터의 수동 제작 시간이 10% 단축됩니다."
+      },
+      "_base_character_crafting_speed_ii": {
+        "title": "캐릭터 제작 속도 II",
+        "description": "캐릭터의 수동 제작 시간이 10% 단축됩니다."
+      },
+      "_base_character_crafting_speed_iii": {
+        "title": "캐릭터 제작 속도 III",
+        "description": "캐릭터의 수동 제작 시간이 10% 단축됩니다."
+      },
+      "_base_character_crafting_speed_iv": {
+        "title": "캐릭터 제작 속도 IV",
+        "description": "캐릭터의 수동 제작 시간이 10% 단축됩니다."
+      },
+      "_base_character_crafting_speed_v": {
+        "title": "캐릭터 제작 속도 V",
+        "description": "캐릭터의 수동 제작 시간이 10% 단축됩니다."
+      },
+      "_base_character_logistics_slots_i": {
+        "title": "재보급 슬롯 I",
+        "description": "캐릭터를 위한 추가 보급 슬롯을 해금합니다."
+      },
+      "_base_character_logistics_slots_ii": {
+        "title": "재보급 슬롯 II",
+        "description": "캐릭터를 위한 추가 보급 슬롯을 해금합니다."
+      },
+      "_base_character_logistics_slots_iii": {
+        "title": "재보급 슬롯 III",
+        "description": "캐릭터를 위한 추가 보급 슬롯을 해금합니다."
+      },
+      "_base_character_logistics_slots_iv": {
+        "title": "재보급 슬롯 IV",
+        "description": "캐릭터를 위한 추가 보급 슬롯을 해금합니다."
+      },
+      "_base_character_logistics_slots_v": {
+        "title": "재보급 슬롯 V",
+        "description": "캐릭터를 위한 추가 보급 슬롯을 해금합니다."
+      },
+      "_base_character_logistics_throughput_i": {
+        "title": "처리량 증가 I",
+        "description": "보급 속도를 증가시킵니다."
+      },
+      "_base_character_logistics_throughput_ii": {
+        "title": "처리량 증가 II",
+        "description": "보급 속도를 증가시킵니다."
+      },
+      "_base_character_logistics_throughput_iii": {
+        "title": "처리량 증가 III",
+        "description": "보급 속도를 증가시킵니다."
+      },
+      "_base_character_logistics_throughput_iv": {
+        "title": "처리량 증가 IV",
+        "description": "보급 속도를 증가시킵니다."
+      },
+      "_base_character_logistics_throughput_v": {
+        "title": "처리량 증가 V",
+        "description": "보급 속도를 증가시킵니다."
+      },
+      "_base_character_logistics_unlock": {
+        "title": "제노 물류 시스템",
+        "description": "외계 스크랩은 물품을 단거리로 순간 이동시키는 방법에 대한 단서를 제공합니다. 분석을 통해 우리가 제노 물류라 부르는 기술을 활용할 수 있을 만큼의 충분한 통찰을 얻을 수 있을 것입니다.\n\n이 시스템은 제노 물류 타워를 통해 제노 물류 컨테이너에 있는 아이템을 자동으로 캐릭터 인벤토리로 보급할 수 있게 해줍니다.\n\n이는 기계 간 아이템 이동에는 사용할 수 없으며, 공장 물류를 대체하는 수단도 아닙니다."
+      },
+      "_base_charged_crystal_production": {
+        "title": "충전된 제노 크리스탈 생산",
+        "description": "제노 크리스탈을 충전된 제노 크리스탈로 에너지화할 수 있는 크리스탈 정제기를 해금하여, 그들의 진정한 잠재력을 해방하는 데 한 걸음 더 다가가게 합니다."
+      },
+      "_base_crystal_mining": {
+        "title": "제노 크리스탈 채굴",
+        "description": "용암 동굴 내부에서 초고밀도로 응축된 제노 크리스탈 광맥을 발견했습니다. 스크랩 채굴과 마찬가지로, 전용 채굴 건물을 활용하면 사실상 무한한 자원원에서 제노 크리스탈을 채굴할 수 있을 것입니다.\n\n또한 단거리 스캐너로 이러한 매장지를 추적하는 기능이 해금됩니다."
+      },
+      "_base_crystal_ore_refinement": {
+        "title": "크리스탈 광석 정제",
+        "description": "초과 생산 크리스탈이 있는 경우 이를 광석 잔해와 혼합하여 광석 소비를 줄일 수 있습니다."
+      },
+      "_base_double_jump": {
+        "title": "로켓 부츠",
+        "description": "플레이어 캐릭터에 로켓 부츠를 장착하여 공중에서 다시 점프함으로써 이중 점프를 할 수 있게 합니다."
+      },
+      "_base_drill_shape_2x2": {
+        "title": "드릴 형태: 2x2",
+        "description": "채굴 드릴로 여러 블록을 한 번에 굴착할 수 있습니다. 마우스 오른쪽 버튼(기본 키)을 누른 상태로 드릴 형태를 전환하세요."
+      },
+      "_base_drill_shape_3x3": {
+        "title": "드릴 형태: 3x3",
+        "description": "채굴 드릴로 여러 블록을 한 번에 굴착할 수 있습니다. 마우스 오른쪽 버튼(기본 키)을 누른 상태로 드릴 형태를 전환하세요."
+      },
+      "_base_drill_shape_4x4": {
+        "title": "드릴 형태: 4x4",
+        "description": "채굴 레이저로 한 번에 여러 블록을 파낼 수 있습니다. 모양을 전환하려면 마우스 오른쪽 버튼(기본 키)을 누르고 계십시오."
+      },
+      "_base_drill_shape_5x5": {
+        "title": "드릴 형태: 5x5",
+        "description": "채굴 레이저로 한 번에 여러 블록을 파낼 수 있습니다. 모양을 전환하려면 마우스 오른쪽 버튼(기본 키)을 누르고 계십시오."
+      },
+      "_base_drill_ship_i": {
+        "title": "드릴 쉽",
+        "description": "터널 굴착 차량인 드릴 쉽을 해금합니다. 터널을 파는 데 특화되어 있지만, 다양한 굴착 작업에도 유용하게 사용할 수 있습니다."
+      },
+      "_base_mining_drill_speed_i": {
+        "title": "채굴 드릴 속도 I",
+        "description": "채굴 시간이 20% 단축됩니다."
+      },
+      "_base_mining_drill_speed_ii": {
+        "title": "채굴 드릴 속도 II",
+        "description": "채굴 시간이 20% 단축됩니다."
+      },
+      "_base_mining_drill_speed_iii": {
+        "title": "채굴 드릴 속도 III",
+        "description": "채굴 시간이 20% 단축됩니다."
+      },
+      "_base_mining_laser": {
+        "title": "채굴 레이저",
+        "description": "먼 곳에서 채굴할 수 있는 강력한 채굴 레이저입니다."
+      },
+      "_base_personal_mining_drone_count_i": {
+        "title": "채굴 드론 수 I",
+        "description": "개인 굴착 드론 2대를 추가로 해금합니다. 굴착 드론 컨트롤러를 사용해 이들을 지휘할 수 있습니다."
+      },
+      "_base_personal_mining_drone_count_ii": {
+        "title": "채굴 드론 수 II",
+        "description": "개인 굴착 드론 2대를 추가로 해금합니다. 굴착 드론 컨트롤러를 사용해 이들을 지휘할 수 있습니다."
+      },
+      "_base_personal_mining_drone_count_iii": {
+        "title": "채굴 드론 수 III",
+        "description": "개인 굴착 드론 2대를 추가로 해금합니다. 굴착 드론 컨트롤러를 사용해 이들을 지휘할 수 있습니다."
+      },
+      "_base_personal_mining_drone_count_iv": {
+        "title": "채굴 드론 수 IV",
+        "description": "개인 굴착 드론 2대를 추가로 해금합니다. 굴착 드론 컨트롤러를 사용해 이들을 지휘할 수 있습니다."
+      },
+      "_base_personal_mining_drone_count_v": {
+        "title": "채굴 드론 수 V",
+        "description": "개인 굴착 드론 2대를 추가로 해금합니다. 굴착 드론 컨트롤러를 사용해 이들을 지휘할 수 있습니다."
+      },
+      "_base_personal_mining_drone_speed_i": {
+        "title": "채굴 드론 속도 I",
+        "description": "개인 채굴 드론의 이동 속도를 증가시킵니다. 휴대용 채굴 드론 컨트롤러를 사용하여 드론을 지휘하세요."
+      },
+      "_base_personal_mining_drone_speed_ii": {
+        "title": "채굴 드론 속도 II",
+        "description": "개인 채굴 드론의 이동 속도를 증가시킵니다. 휴대용 채굴 드론 컨트롤러를 사용하여 드론을 지휘하세요."
+      },
+      "_base_personal_mining_drone_speed_iii": {
+        "title": "채굴 드론 속도 III",
+        "description": "개인 채굴 드론의 이동 속도를 증가시킵니다. 휴대용 채굴 드론 컨트롤러를 사용하여 드론을 지휘하세요."
+      },
+      "_base_personal_mining_drone_speed_iv": {
+        "title": "채굴 드론 속도 IV",
+        "description": "개인 채굴 드론의 이동 속도를 증가시킵니다. 휴대용 채굴 드론 컨트롤러를 사용하여 드론을 지휘하세요."
+      },
+      "_base_personal_mining_drone_speed_v": {
+        "title": "채굴 드론 속도 V",
+        "description": "개인 채굴 드론의 이동 속도를 증가시킵니다. 휴대용 채굴 드론 컨트롤러를 사용하여 드론을 지휘하세요."
+      },
+      "_base_personal_mining_drones": {
+        "title": "개인 굴착 드론",
+        "description": "개인 채굴 드론과 그 휴대용 컨트롤러를 해금합니다. 이 도구를 사용하면 채굴 구역을 지정할 수 있습니다. 지정된 구역은 충분히 가까이 있는 동안 개인 채굴 드론이 자동으로 채굴합니다.\n"
+      },
+      "_base_power_core_crafting": {
+        "title": "제노 파워 코어 제조",
+        "description": "지금까지 수집한 모든 정보를 바탕으로, 이제 우리만의 제노 파워 코어를 제작할 수 있을 것입니다."
+      },
+      "_base_quarry_building_i": {
+        "title": "채석장",
+        "description": "구역을 채굴할 수 있는 건물인 채석장을 해금합니다. 수직 갱도나 구덩이를 파는 데 특히 뛰어나며, 다양한 채굴 프로젝트에 유용하게 활용할 수 있습니다."
+      },
+      "_base_scrap_mining": {
+        "title": "제노 스크랩 채굴",
+        "description": "지하에서 초고밀도로 응축된 제노 스크랩 덩어리를 발견했으며, 전용 채굴 건물을 활용하면 사실상 무한한 자원원에서 제노 스크랩을 채굴할 수 있습니다.\n\n또한 단거리 스캐너로 이러한 매장지를 추적하는 기능이 해금됩니다."
+      },
+      "_base_scrap_recycling": {
+        "title": "스크랩 재활용",
+        "description": "제노 스크랩을 재활용하여 다른 용도로 활용할 수 있는 부품으로 변환하는 스크랩 재활용기를 해금합니다."
+      },
+      "_base_short_range_scanner": {
+        "title": "단거리 스캐너",
+        "description": "지표에 있는 제노 스크랩 잔해를 추적하고 찾을 수 있는 단거리 스캐너를 해금합니다.\n\n해금 후 스캐너는 화면 왼쪽 상단에 표시됩니다."
+      },
+      "_base_short_range_scanner_crystals": {
+        "title": "크리스탈 스캔",
+        "description": "단거리 스캐너를 조정하여 제노 크리스탈을 추적할 수 있게 합니다.\n\n참고: 스캔 범위가 지표에서 제노 크리스탈을 감지하기에는 충분하지 않을 수 있습니다."
+      },
+      "_base_short_range_scanner_power_core_ii": {
+        "title": "제노 파워 코어 스캔",
+        "description": "Tunes the short range scanner so that it can track intact Xeno Power Cores.\n\nNote: Scan range might not be high enough to detect those buried pieces from the surface."
+      },
+      "_base_short_range_scanner_scrap_ii": {
+        "title": "큰 제노 스크랩 스캔",
+        "description": "Tunes the short range scanner so that it can track larger Xeno-Scrap pieces, which may contain damaged Xeno Power Cores.\n\nNote: Large Xeno-Scrap can be tracked from the surface, but you'll have to explore a bit until you get close enough. Open your scanning frame (default key: J) to customize which objects the Short Range Scanner should track."
+      },
+      "_base_short_range_scanner_surface_caves": {
+        "title": "동굴 스캔",
+        "description": "단거리 스캐너를 조정하여 지하 동굴에 매장된 제노 스크랩 조각을 추적할 수 있게 합니다. 이곳에서는 훨씬 더 많은 스크랩을 밀집된 구역에서 발견할 수 있습니다.\n\n스캔 프레임을 열어(기본 키: J) 단거리 스캐너가 추적할 대상 오브젝트를 사용자 지정하세요."
+      },
+      "_base_water_tool": {
+        "title": "관개 도구",
+        "description": "관개 도구는 물줄기를 발사하여 흙 지형에 풀을 다시 자라게 할 수 있게 해줍니다."
+      }
+    },
+    "itemCategories": {
+      "_base_components": {
+        "name": "부품"
+      },
+      "_base_construction_material": {
+        "name": "건설 재료"
+      },
+      "_base_raw_materials": {
+        "name": "원자재"
+      },
+      "_base_resources": {
+        "name": "자원"
+      },
+      "_base_sales_items": {
+        "name": "제품"
+      }
+    },
+    "items": {
+      "_base_admin_bot_i": {
+        "name": "오퍼레이터 봇"
+      },
+      "_base_admin_robot_01_arm": {
+        "name": "오퍼레이터 로봇 팔"
+      },
+      "_base_admin_robot_01_head": {
+        "name": "오퍼레이터 로봇 머리"
+      },
+      "_base_admin_robot_01_leg": {
+        "name": "오퍼레이터 로봇 다리"
+      },
+      "_base_admin_robot_01_torso": {
+        "name": "오퍼레이터 로봇 몸체"
+      },
+      "_base_admin_robot_i": {
+        "name": "오퍼레이터 로봇"
+      },
+      "_base_advanced_steel_mixture": {
+        "name": "고급 제노페라이트-이그늄 광석 혼합물"
+      },
+      "_base_agriculture_bot_i": {
+        "name": "재배용 드론"
+      },
+      "_base_agriculture_bot_ii": {
+        "name": "수경 재배 봇"
+      },
+      "_base_agriculture_robot_01_arm": {
+        "name": "농사용 로봇 팔"
+      },
+      "_base_agriculture_robot_01_head": {
+        "name": "농사용 로봇 머리"
+      },
+      "_base_agriculture_robot_01_leg": {
+        "name": "농사용 로봇 다리"
+      },
+      "_base_agriculture_robot_01_torso": {
+        "name": "농사용 로봇 몸체"
+      },
+      "_base_agriculture_robot_i": {
+        "name": "농사용 로봇"
+      },
+      "_base_air_intake_base": {
+        "name": "공기 흡입구 기초"
+      },
+      "_base_air_intake_module": {
+        "name": "공기 흡입구 모듈"
+      },
+      "_base_al_end_consumer_i": {
+        "name": "조립 라인 물류 컨테이너",
+        "description": "완성된 로봇을 정거장으로 보내는 대신 공장에 보관하는 데 사용합니다. 로봇을 작업대에 배치하려는 경우에만 유용합니다."
+      },
+      "_base_al_merger": {
+        "name": "조립 라인 병합기"
+      },
+      "_base_al_painter_i": {
+        "name": "조립 라인 도장기"
+      },
+      "_base_al_producer_i": {
+        "name": "조립 라인 생산기"
+      },
+      "_base_al_rail_straight": {
+        "name": "조립 라인 레일"
+      },
+      "_base_al_splitter": {
+        "name": "조립 라인 분배기"
+      },
+      "_base_al_start": {
+        "name": "조립 라인 시작"
+      },
+      "_base_alien_scrap_i": {
+        "name": "제노 스크랩"
+      },
+      "_base_alien_scrap_world_decor_i": {
+        "name": "큰 제노 스크랩"
+      },
+      "_base_alien_scrap_world_decor_ii": {
+        "name": "제노 스크랩"
+      },
+      "_base_alien_scrap_world_decor_iii": {
+        "name": "제노 스크랩"
+      },
+      "_base_alien_scrap_world_decor_iv": {
+        "name": "제노 스크랩"
+      },
+      "_base_alien_scrap_world_decor_v": {
+        "name": "제노 스크랩 잔해"
+      },
+      "_base_assembler_fluid_i": {
+        "name": "유체 조립기 I"
+      },
+      "_base_assembler_i": {
+        "name": "조립기 I"
+      },
+      "_base_assembler_ii": {
+        "name": "조립기 II"
+      },
+      "_base_assembler_iii": {
+        "name": "조립기 III"
+      },
+      "_base_barrel_empty": {
+        "name": "통 (비어있음)"
+      },
+      "_base_barrel_filler_i": {
+        "name": "통 충전제 I"
+      },
+      "_base_barrel_olumite": {
+        "name": "통 (올루마이트)"
+      },
+      "_base_baseStation01": {
+        "name": "드롭 포드"
+      },
+      "_base_battery_i": {
+        "name": "배터리 (소형)",
+        "description": "Stores power from the connected High-Voltage Grid and releases it when necessary."
+      },
+      "_base_battery_ii": {
+        "name": "배터리 (대형)",
+        "description": "Stores power from the connected High-Voltage Grid and releases it when necessary."
+      },
+      "_base_biomass": {
+        "name": "바이오매스"
+      },
+      "_base_biomass_burner": {
+        "name": "바이오매스 연소기",
+        "description": "Burns Biomass to provide low voltage power to the foundation it is placed on."
+      },
+      "_base_blast_furnace_base": {
+        "name": "용광로 기반",
+        "description": "Requires Hot Air, Coked Ignium, Mineral Rock and Xenoferrite/Technum Ore to produce Molten Metals, which are processed by Casting Machines or the Heavy Caster. Produces Slag as waste product which is processed by Chemical Processors."
+      },
+      "_base_blast_furnace_module": {
+        "name": "용광로 모듈"
+      },
+      "_base_boiler_i": {
+        "name": "보일러",
+        "description": "Burns fuel to generate Steam from Water, which can be used to power Steam Turbines."
+      },
+      "_base_boreal_forest_grouprock_small": {
+        "name": "북방침엽수림 바위"
+      },
+      "_base_boreal_forest_mushroom_01": {
+        "name": "북방침엽수림 식물"
+      },
+      "_base_boreal_forest_mushroom_02": {
+        "name": "북방침엽수림 식물"
+      },
+      "_base_boreal_forest_mushroom_03": {
+        "name": "북방침엽수림 식물"
+      },
+      "_base_boreal_forest_mushroom_04": {
+        "name": "북방침엽수림 식물"
+      },
+      "_base_boreal_forest_plant_01": {
+        "name": "북방침엽수림 식물"
+      },
+      "_base_boreal_forest_rock_01": {
+        "name": "북방침엽수림 바위"
+      },
+      "_base_boreal_forest_rock_02": {
+        "name": "북방침엽수림 바위"
+      },
+      "_base_boreal_forest_seed_plants": {
+        "name": "숲 씨앗 (식물)"
+      },
+      "_base_boreal_forest_seed_trees": {
+        "name": "숲 씨앗 (나무)"
+      },
+      "_base_boreal_forest_tree_01": {
+        "name": "북방침엽수림 나무"
+      },
+      "_base_boreal_forest_tree_02": {
+        "name": "북방침엽수림 나무"
+      },
+      "_base_boreal_forest_tree_03": {
+        "name": "북방침엽수림 나무"
+      },
+      "_base_boreal_forest_tree_04": {
+        "name": "북방침엽수림 나무"
+      },
+      "_base_bugfix_wastegasdrain": {
+        "name": "WGD[do not use]"
+      },
+      "_base_building_part": {
+        "name": "건축 블록",
+        "description": "Most buildings require Building Blocks as a foundation. Building blocks also conduct low voltage power."
+      },
+      "_base_burner_generator_lvg": {
+        "name": "연소 발전기",
+        "description": "Burns various fuel items to provide low voltage power to the foundation it is placed on."
+      },
+      "_base_c3bb_hub": {
+        "name": "C3-BB 허브"
+      },
+      "_base_casting_building_base": {
+        "name": "Heavy Caster Base",
+        "description": "Used together with the Blast Furnace to process molten metals."
+      },
+      "_base_casting_building_module": {
+        "name": "Heavy Caster Module"
+      },
+      "_base_casting_machine": {
+        "name": "주조기"
+      },
+      "_base_cave_crystal_large_i": {
+        "name": "제노 크리스탈"
+      },
+      "_base_cave_crystal_large_ii": {
+        "name": "제노 크리스탈"
+      },
+      "_base_cave_crystal_large_iii": {
+        "name": "제노 크리스탈"
+      },
+      "_base_cave_crystal_medium_i": {
+        "name": "제노 크리스탈"
+      },
+      "_base_cave_crystal_small_i": {
+        "name": "제노 크리스탈"
+      },
+      "_base_cave_stalactite_01": {
+        "name": "종유석"
+      },
+      "_base_cave_stalactite_02": {
+        "name": "종유석"
+      },
+      "_base_cave_stalactite_03": {
+        "name": "종유석"
+      },
+      "_base_cave_stalagmite_large": {
+        "name": "석순"
+      },
+      "_base_cave_stalagmite_medium": {
+        "name": "석순"
+      },
+      "_base_cave_stalagmite_small": {
+        "name": "석순"
+      },
+      "_base_caveplant_01_large": {
+        "name": "동굴 식물"
+      },
+      "_base_caveplant_01_medium": {
+        "name": "동굴 식물"
+      },
+      "_base_caveplant_01_small": {
+        "name": "동굴 식물"
+      },
+      "_base_caveplant_02_large": {
+        "name": "동굴 식물"
+      },
+      "_base_caveplant_02_medium": {
+        "name": "동굴 식물"
+      },
+      "_base_caveplant_02_small": {
+        "name": "동굴 식물"
+      },
+      "_base_cement": {
+        "name": "시멘트"
+      },
+      "_base_chemical_processor_i": {
+        "name": "화학 처리기"
+      },
+      "_base_chest": {
+        "name": "상자"
+      },
+      "_base_cleaning_bot_i": {
+        "name": "진공 봇"
+      },
+      "_base_cleaning_bot_ii": {
+        "name": "청소 봇"
+      },
+      "_base_coked_ignium": {
+        "name": "코크화 이그늄"
+      },
+      "_base_commands": {
+        "name": "커맨드"
+      },
+      "_base_concrete": {
+        "name": "콘크리트"
+      },
+      "_base_construction_decor": {
+        "name": "건설 현장 장식"
+      },
+      "_base_construction_drone_port_i": {
+        "name": "건설선 포트",
+        "description": "Required for constructing Modular Buildings. Houses construction ships that assemble Modular Buildings once enough materials have been delivered to the construction site."
+      },
+      "_base_construction_hazard_block": {
+        "name": "위험 콘크리트"
+      },
+      "_base_construction_material_i": {
+        "name": "건설 재료"
+      },
+      "_base_construction_material_ii": {
+        "name": "High-Tech Construction Material"
+      },
+      "_base_construction_rubble_i": {
+        "name": "공사 현장 잔해물"
+      },
+      "_base_construction_rubble_ii": {
+        "name": "High-Tech Construction Site Rubble"
+      },
+      "_base_construction_warehouse_i": {
+        "name": "건설 물류창고",
+        "description": "Required for constructing Modular Buildings. Stores materials that will be picked up by transport ships for delivery to construction sites."
+      },
+      "_base_container": {
+        "name": "컨테이너"
+      },
+      "_base_conveyor_balancer_i": {
+        "name": "컨베이어 밸런서 I",
+        "description": "Splits, merges, or shuffles belts. Supports input/output belt priority settings and item type filtering."
+      },
+      "_base_conveyor_balancer_ii": {
+        "name": "컨베이어 밸런서 II",
+        "description": "Splits, merges, or shuffles belts. Supports input/output belt priority settings and item type filtering."
+      },
+      "_base_conveyor_balancer_iii": {
+        "name": "컨베이어 밸런서 III",
+        "description": "Splits, merges, or shuffles belts. Supports input/output belt priority settings and item type filtering."
+      },
+      "_base_conveyor_balancer_iv": {
+        "name": "컨베이어 밸런서 IV",
+        "description": "Splits, merges, or shuffles belts. Supports input/output belt priority settings and item type filtering."
+      },
+      "_base_conveyor_i": {
+        "name": "컨베이어 I"
+      },
+      "_base_conveyor_ii": {
+        "name": "컨베이어 II"
+      },
+      "_base_conveyor_iii": {
+        "name": "컨베이어 III"
+      },
+      "_base_conveyor_iv": {
+        "name": "컨베이어 IV"
+      },
+      "_base_conveyor_slope_i": {
+        "name": "컨베이어 경사로 I"
+      },
+      "_base_conveyor_slope_ii": {
+        "name": "컨베이어 경사로 II"
+      },
+      "_base_conveyor_slope_iii": {
+        "name": "컨베이어 경사로 III"
+      },
+      "_base_conveyor_slope_iv": {
+        "name": "컨베이어 경사로 IV"
+      },
+      "_base_coral_plant_01_large": {
+        "name": "산호 식물"
+      },
+      "_base_coral_plant_01_medium": {
+        "name": "산호 식물"
+      },
+      "_base_coral_plant_01_small": {
+        "name": "산호 식물"
+      },
+      "_base_coral_plant_02_large": {
+        "name": "산호 식물"
+      },
+      "_base_coral_plant_02_medium": {
+        "name": "산호 식물"
+      },
+      "_base_coral_plant_02_small": {
+        "name": "산호 식물"
+      },
+      "_base_coral_plant_03_large": {
+        "name": "산호 식물"
+      },
+      "_base_coral_plant_03_medium": {
+        "name": "산호 식물"
+      },
+      "_base_coral_plant_03_small": {
+        "name": "산호 식물"
+      },
+      "_base_cpu": {
+        "name": "CPU"
+      },
+      "_base_critter_forest": {
+        "name": "숲 생명체"
+      },
+      "_base_critter_jungle": {
+        "name": "정글 생명체"
+      },
+      "_base_critter_rocky_desert": {
+        "name": "바위 사막 생명체"
+      },
+      "_base_critter_sandy_desert": {
+        "name": "모래 사막 생명체"
+      },
+      "_base_critter_shrublands": {
+        "name": "관목 군락지 생물"
+      },
+      "_base_critter_tundra": {
+        "name": "Tundra Critter"
+      },
+      "_base_crusher_i": {
+        "name": "분쇄기 I"
+      },
+      "_base_crusher_ii": {
+        "name": "분쇄기 II"
+      },
+      "_base_crystal_i": {
+        "name": "제노 크리스탈"
+      },
+      "_base_crystal_ii": {
+        "name": "충전된 제노 크리스탈"
+      },
+      "_base_crystal_refiner_i": {
+        "name": "크리스탈 정제기"
+      },
+      "_base_crystals_medium": {
+        "name": "크리스탈"
+      },
+      "_base_data_cable": {
+        "name": "데이터 케이블"
+      },
+      "_base_data_comparer": {
+        "name": "데이터 평가기"
+      },
+      "_base_data_memory": {
+        "name": "데이터 메모리 셀"
+      },
+      "_base_data_processor": {
+        "name": "데이터 프로세서"
+      },
+      "_base_data_source_button": {
+        "name": "데이터 송신부 (버튼)",
+        "description": "켜기 버튼을 누르면 구성된 신호가 한 번 펄스됩니다."
+      },
+      "_base_data_source_lever": {
+        "name": "데이터 송신부 (레버)"
+      },
+      "_base_data_source_static": {
+        "name": "데이터 송신부"
+      },
+      "_base_debris_decor_i": {
+        "name": "파편"
+      },
+      "_base_debris_i": {
+        "name": "파편 I"
+      },
+      "_base_debris_ii": {
+        "name": "파편 I"
+      },
+      "_base_debris_iii": {
+        "name": "파편 I"
+      },
+      "_base_decor_base": {
+        "name": "장식 (기본 모양)"
+      },
+      "_base_decor_base_cube_caution": {
+        "name": "장식 (기본 모양)"
+      },
+      "_base_decor_misc": {
+        "name": "장식 (기타)"
+      },
+      "_base_decor_struts": {
+        "name": "장식 (지주)"
+      },
+      "_base_decor_support": {
+        "name": "장식 (서포트)"
+      },
+      "_base_decor_support_truss": {
+        "name": "장식 (서포트 트러스)"
+      },
+      "_base_decor_wall": {
+        "name": "장식 (벽)"
+      },
+      "_base_decor_window": {
+        "name": "장식 (창)"
+      },
+      "_base_decor_window_modular": {
+        "name": "장식 (모듈식 창)"
+      },
+      "_base_decor_window_modular_slope": {
+        "name": "장식 (창 모듈식 경사)"
+      },
+      "_base_decor_window_modular_slope_edge": {
+        "name": "장식 (창 모듈식 경사 가장자리)",
+        "description": "이 블록을 사용하여 일자형과 경사진 모듈식 창 사이를 전환할 수 있습니다."
+      },
+      "_base_decor_window_modular_wedge": {
+        "name": "장식 (창 모듈식 웨지)",
+        "description": "_base_decor_window_wedge_corner_iii"
+      },
+      "_base_dirt": {
+        "name": "흙"
+      },
+      "_base_distillation_column_i": {
+        "name": "증류탑"
+      },
+      "_base_door_i": {
+        "name": "문 (단일)"
+      },
+      "_base_door_ii": {
+        "name": "문 (이중)"
+      },
+      "_base_door_iii": {
+        "name": "격납고 출입문"
+      },
+      "_base_door_iii_station": {
+        "name": "격납고 출입문"
+      },
+      "_base_drill_bot": {
+        "name": "드릴 쉽",
+        "description": "Tunnel boring vehicle. Excels at digging tunnels, but can be useful for various excavation projects."
+      },
+      "_base_drill_bot_preview": {
+        "name": "드릴 쉽 미리보기"
+      },
+      "_base_drone_controller": {
+        "name": "굴착 드론 컨트롤러",
+        "description": "Use this tool to mark areas for excavation by either your personal mining drones or the modular building construction ships (not unlocked together)."
+      },
+      "_base_drone_miner_i": {
+        "name": "드론 채굴기 I",
+        "description": "Mines ore patches when placed close to them. Cannot mine the larger ore veins."
+      },
+      "_base_drone_miner_ii": {
+        "name": "드론 채굴기 II",
+        "description": "Mines ore patches when placed close to them. Cannot mine the larger ore veins."
+      },
+      "_base_drone_transport_startpad_i": {
+        "name": "화물 셔틀 출발 패드",
+        "description": "Transports items to a Cargo Shuttle Target Pad of your choice. For planetary transport only."
+      },
+      "_base_drone_transport_startpad_liquid_i": {
+        "name": "화물 셔틀 출발 패드 (액체)",
+        "description": "Transports items to a Cargo Shuttle Target Pad of your choice. For planetary transport only."
+      },
+      "_base_drone_transport_targetpad_i": {
+        "name": "화물 셔틀 도착 패드",
+        "description": "Receives items from Cargo Shuttle Start Pads. Can receive from multiple Start Pads. For planetary transport only."
+      },
+      "_base_drone_transport_targetpad_liquid_i": {
+        "name": "화물 셔틀 도착 패드 (액체)",
+        "description": "Receives items from Cargo Shuttle Start Pads. Can receive from multiple Start Pads. For planetary transport only."
+      },
+      "_base_dynamite_i": {
+        "name": "원격 폭발물"
+      },
+      "_base_dynamite_ii": {
+        "name": "중형 원격 폭발물"
+      },
+      "_base_dynamite_remote_control": {
+        "name": "폭발물 원격 기폭장치"
+      },
+      "_base_eic_i": {
+        "name": "전자 부품"
+      },
+      "_base_eic_ii": {
+        "name": "회로 기판"
+      },
+      "_base_electric_arc_furnace": {
+        "name": "전기 아크 용광로"
+      },
+      "_base_elevator_i": {
+        "name": "엘리베이터",
+        "description": "Character elevator which also conducts high voltage power between all stations. Once placed, configure the other stations from its screen panel. Can automatically dig out the elevator shaft."
+      },
+      "_base_elevator_structure_i": {
+        "name": "엘리베이터 구조물"
+      },
+      "_base_emergency_beacon": {
+        "name": "긴급신호 송신장치"
+      },
+      "_base_emotes": {
+        "name": "감정표현"
+      },
+      "_base_endless_miner_crystals_i": {
+        "name": "제노 크리스탈 추출기",
+        "description": "Mines Xeno-Crystals when placed on top of a crystal deposit. Xeno Power Cores and Robot Workstations can be used to increase its output drastically."
+      },
+      "_base_endless_miner_scrap_i": {
+        "name": "제노 스크랩 추출기",
+        "description": "Mines Xeno-Scrap when placed on top of a scrap deposit. Xeno Power Cores and Robot Workstations can be used to increase its output drastically."
+      },
+      "_base_energy_cell": {
+        "name": "에너지 셀"
+      },
+      "_base_escalator": {
+        "name": "에스컬레이터 I"
+      },
+      "_base_escalator_ii": {
+        "name": "에스컬레이터 II"
+      },
+      "_base_escalator_iii": {
+        "name": "에스컬레이터 III"
+      },
+      "_base_exploration_analyzer": {
+        "name": "옴니 분석기",
+        "description": "Allows to analyze collectibles like scrap and crystals to unlock upgrades."
+      },
+      "_base_explosives_i": {
+        "name": "폭발물",
+        "description": "원격 폭파를 위한 전구체 아이템입니다."
+      },
+      "_base_firmarlite_bar": {
+        "name": "피마라이트 바",
+        "description": "Made from Firmarlite Bars in a Lava Smelter."
+      },
+      "_base_firmarlite_sheet": {
+        "name": "피마라이트 시트"
+      },
+      "_base_flare_stack": {
+        "name": "플레어 스택",
+        "description": "Destroys any liquid/gas inserted. Primarily used for burning of waste products."
+      },
+      "_base_forest_plant_01_large": {
+        "name": "북방침엽수림 대형 식물"
+      },
+      "_base_forest_plant_01_small": {
+        "name": "북방침엽수림 소형 식물"
+      },
+      "_base_forest_plant_01_small_ff": {
+        "name": "북방침엽수림 소형 식물"
+      },
+      "_base_fracking_tower_base": {
+        "name": "수압파쇄 타워 기반",
+        "description": "Needs to be placed on top of an ore vein to convert it into an infinite ore source. Requires Fracking Liquid."
+      },
+      "_base_fracking_tower_module": {
+        "name": "수압파쇄 타워 모듈"
+      },
+      "_base_freight_elevator_i": {
+        "name": "화물 엘리베이터 I",
+        "description": "Can vertically move items both up and down simultaneously, requires Loaders at both ends. Once upper and lower parts are placed, will automatically dig the ground in-between."
+      },
+      "_base_freight_elevator_ii": {
+        "name": "화물 엘리베이터 II",
+        "description": "Can vertically move items both up and down simultaneously, requires Loaders at both ends. Once upper and lower parts are placed, will automatically dig the ground in-between."
+      },
+      "_base_freight_elevator_iii": {
+        "name": "화물 엘리베이터 III",
+        "description": "Can vertically move items both up and down simultaneously, requires Loaders at both ends. Once upper and lower parts are placed, will automatically dig the ground in-between."
+      },
+      "_base_freight_elevator_iv": {
+        "name": "화물 엘리베이터 IV",
+        "description": "Can vertically move items both up and down simultaneously, requires Loaders at both ends. Once upper and lower parts are placed, will automatically dig the ground in-between."
+      },
+      "_base_fuel_rod_casing": {
+        "name": "연료봉 피복관"
+      },
+      "_base_geological_scanner_i": {
+        "name": "지질 탐사기"
+      },
+      "_base_geothermal_generator_i": {
+        "name": "지열 보일러",
+        "description": "Consumes Ignium-Enriched Water to create Steam for Steam Turbines. Needs to be placed on a Geothermal Vent."
+      },
+      "_base_geothermal_vent": {
+        "name": "지열 통풍구"
+      },
+      "_base_gl_birch_01": {
+        "name": "나무"
+      },
+      "_base_gl_birch_02": {
+        "name": "나무"
+      },
+      "_base_gl_birch_02_large": {
+        "name": "나무"
+      },
+      "_base_gl_birch_03": {
+        "name": "나무"
+      },
+      "_base_gl_birch_03_large": {
+        "name": "나무"
+      },
+      "_base_gl_birch_04": {
+        "name": "나무"
+      },
+      "_base_gl_birch_04_large": {
+        "name": "나무"
+      },
+      "_base_gl_fansy_plant_large": {
+        "name": "식물"
+      },
+      "_base_gl_fansy_plant_small": {
+        "name": "식물"
+      },
+      "_base_glass": {
+        "name": "유리"
+      },
+      "_base_gravel": {
+        "name": "자갈"
+      },
+      "_base_greenhouse_i": {
+        "name": "온실"
+      },
+      "_base_hazard_robot_i": {
+        "name": "Hazard Robot"
+      },
+      "_base_hot_air_stove_base": {
+        "name": "열풍기 기반"
+      },
+      "_base_hot_air_stove_module": {
+        "name": "열풍기 모듈"
+      },
+      "_base_hover_engine": {
+        "name": "호버 엔진"
+      },
+      "_base_hydraulic_piston": {
+        "name": "유압 피스톤"
+      },
+      "_base_ignium_fuel_rod": {
+        "name": "이그늄 연료봉"
+      },
+      "_base_ignium_powder": {
+        "name": "이그늄 분말"
+      },
+      "_base_incinerator": {
+        "name": "소각로",
+        "description": "Destroys any item inserted."
+      },
+      "_base_jetpack_fuel": {
+        "name": "제트팩 연료"
+      },
+      "_base_jungle_palmtree_01": {
+        "name": "정글 나무"
+      },
+      "_base_jungle_palmtree_02": {
+        "name": "정글 나무"
+      },
+      "_base_jungle_palmtree_03": {
+        "name": "정글 나무"
+      },
+      "_base_jungle_plant_large_01": {
+        "name": "정글 나무"
+      },
+      "_base_jungle_tree_large_01": {
+        "name": "정글 나무"
+      },
+      "_base_kelp_01_large": {
+        "name": "켈프"
+      },
+      "_base_kelp_01_medium": {
+        "name": "켈프"
+      },
+      "_base_kelp_01_small": {
+        "name": "켈프"
+      },
+      "_base_kelp_02_large": {
+        "name": "켈프"
+      },
+      "_base_kelp_02_medium": {
+        "name": "켈프"
+      },
+      "_base_kelp_02_small": {
+        "name": "켈프"
+      },
+      "_base_ladder_i": {
+        "name": "사다리"
+      },
+      "_base_light_bot_i": {
+        "name": "조명 봇"
+      },
+      "_base_light_ceiling_i": {
+        "name": "천장 조명 I"
+      },
+      "_base_light_ceiling_ii": {
+        "name": "천장 조명 II"
+      },
+      "_base_light_portable_i": {
+        "name": "휴대용 조명"
+      },
+      "_base_light_wall_i": {
+        "name": "벽면 조명 I"
+      },
+      "_base_lightpole_i": {
+        "name": "가로등 I"
+      },
+      "_base_lightpole_ii": {
+        "name": "가로등 II"
+      },
+      "_base_loader_1st_i": {
+        "name": "로더",
+        "description": "Moves items from belts to buildings when configured as input or from buildings to belts when configured as output."
+      },
+      "_base_loader_1st_i_filter": {
+        "name": "선별 로더",
+        "description": "Moves items from belts to buildings when configured as input or from buildings to belts when configured as output. Supports configuring a filter item type, and will then only move the set item type."
+      },
+      "_base_loader_2nd_i": {
+        "name": "로더 (2 레인)",
+        "description": "Moves items from belts to buildings when configured as input or from buildings to belts when configured as output."
+      },
+      "_base_loader_3rd_i": {
+        "name": "로더 (3 레인)",
+        "description": "Moves items from belts to buildings when configured as input or from buildings to belts when configured as output."
+      },
+      "_base_logistic_container_i": {
+        "name": "물류 컨테이너 I"
+      },
+      "_base_logistic_container_ii": {
+        "name": "물류 컨테이너 II"
+      },
+      "_base_logistic_container_iii": {
+        "name": "물류 컨테이너 III"
+      },
+      "_base_logistics_tower_i": {
+        "name": "제노 물류 타워",
+        "description": "Extends the coverage of your Xeno-Logistics Network, which teleports requested items from Xeno-Logistics-Containers into your inventory. Item requests can be configured at your inventory frame."
+      },
+      "_base_lrs_module": {
+        "name": "장거리 스캐너 모듈"
+      },
+      "_base_maintenance_drone_i": {
+        "name": "유지보수 드론"
+      },
+      "_base_mb_planner": {
+        "name": "모듈식 건물 계획 도구",
+        "description": "Required to construct and configure Modular Buildings."
+      },
+      "_base_mic_i": {
+        "name": "기계 부품"
+      },
+      "_base_mic_ii": {
+        "name": "고급 기계 부품"
+      },
+      "_base_mic_iii": {
+        "name": "첨단 기계 부품"
+      },
+      "_base_military_bot_i": {
+        "name": "전투용 드론"
+      },
+      "_base_military_robot_01_arm": {
+        "name": "전투용 로봇 팔"
+      },
+      "_base_military_robot_01_head": {
+        "name": "전투용 로봇 머리"
+      },
+      "_base_military_robot_01_leg": {
+        "name": "전투용 로봇 다리"
+      },
+      "_base_military_robot_01_torso": {
+        "name": "전투용 로봇 몸체"
+      },
+      "_base_military_robot_02_arm": {
+        "name": "Assault Robot Arm"
+      },
+      "_base_military_robot_02_head": {
+        "name": "Assault Robot Head"
+      },
+      "_base_military_robot_02_leg": {
+        "name": "Assault Robot Leg"
+      },
+      "_base_military_robot_02_torso": {
+        "name": "Assault Robot Torso"
+      },
+      "_base_military_robot_i": {
+        "name": "전투용 로봇"
+      },
+      "_base_military_robot_ii": {
+        "name": "Assault Robot"
+      },
+      "_base_mining_bot_i": {
+        "name": "채굴용 드론"
+      },
+      "_base_mining_bot_ii": {
+        "name": "수중 채굴 봇"
+      },
+      "_base_mining_drill": {
+        "name": "채굴 드릴"
+      },
+      "_base_mining_laser": {
+        "name": "채굴 레이저"
+      },
+      "_base_mining_robot_01_arm": {
+        "name": "채굴용 로봇 팔"
+      },
+      "_base_mining_robot_01_head": {
+        "name": "채굴용 로봇 머리"
+      },
+      "_base_mining_robot_01_leg": {
+        "name": "채굴용 로봇 다리"
+      },
+      "_base_mining_robot_01_torso": {
+        "name": "채굴용 로봇 몸체"
+      },
+      "_base_mining_robot_i": {
+        "name": "채굴용 로봇"
+      },
+      "_base_modular_entity_module_debug_tool": {
+        "name": "모듈 디버그 도구"
+      },
+      "_base_modular_fluid_tank_base": {
+        "name": "모듈식 저장 탱크 기반",
+        "description": "Stores large amounts of liquids or gases."
+      },
+      "_base_modular_fluid_tank_module": {
+        "name": "모듈식 저장 탱크 (모듈)"
+      },
+      "_base_monument": {
+        "name": "기념비 기반",
+        "description": "A decorative monument."
+      },
+      "_base_monument_module": {
+        "name": "기념비 (모듈)"
+      },
+      "_base_mussel_large": {
+        "name": "대형 홍합"
+      },
+      "_base_mussel_medium": {
+        "name": "중형 홍합"
+      },
+      "_base_mussel_small": {
+        "name": "소형 홍합"
+      },
+      "_base_neon_decor_i": {
+        "name": "Neon Decor"
+      },
+      "_base_neon_decor_i_slope": {
+        "name": "Neon Decor (Slopes)"
+      },
+      "_base_neon_decor_i_slope_junctions": {
+        "name": "Neon Decor (Slope Junctions)"
+      },
+      "_base_neon_decor_ii": {
+        "name": "Neon Decor (Large)"
+      },
+      "_base_neon_decor_slope": {
+        "name": "Neon Decor (Large Slopes)"
+      },
+      "_base_neon_decor_slope_junctions": {
+        "name": "Neon Decor (Large Slope Junctions)"
+      },
+      "_base_npp_cooling_tower_base": {
+        "name": "Cooling Tower Base"
+      },
+      "_base_npp_cooling_tower_module": {
+        "name": "Cooling Tower Module"
+      },
+      "_base_npp_pressurizer_base": {
+        "name": "Reactor Fuel Mixer Base"
+      },
+      "_base_npp_pressurizer_module": {
+        "name": "Reactor Fuel Mixer Module"
+      },
+      "_base_npp_reactor_base": {
+        "name": "Xeno Reactor Base"
+      },
+      "_base_npp_reactor_module": {
+        "name": "Xeno Reactor Module"
+      },
+      "_base_npp_steam_generator_base": {
+        "name": "Steam Generator Base"
+      },
+      "_base_npp_steam_generator_module": {
+        "name": "Steam Generator Module"
+      },
+      "_base_npp_steam_turbine_base": {
+        "name": "High-Pressure Turbine Base"
+      },
+      "_base_npp_steam_turbine_module": {
+        "name": "High-Pressure Turbine Module"
+      },
+      "_base_office_blocks": {
+        "name": "목재 블록"
+      },
+      "_base_office_blocks_deluxe": {
+        "name": "목재 장식 블록"
+      },
+      "_base_office_chair": {
+        "name": "사무실 의자"
+      },
+      "_base_office_chair_deluxe": {
+        "name": "임원 사무실 의자"
+      },
+      "_base_office_couch": {
+        "name": "사무실 소파"
+      },
+      "_base_office_couch_deluxe": {
+        "name": "임원 사무실 소파"
+      },
+      "_base_office_desk": {
+        "name": "사무실 책상"
+      },
+      "_base_office_desk_deluxe": {
+        "name": "임원 사무실 책상"
+      },
+      "_base_office_file_cabinet": {
+        "name": "사무실 문서 보관함"
+      },
+      "_base_office_file_cabinet_deluxe": {
+        "name": "임원 사무실 문서 보관함"
+      },
+      "_base_office_marble_black_deluxe": {
+        "name": "대리석 (검정)"
+      },
+      "_base_office_marble_white_deluxe": {
+        "name": "대리석 (흰색)"
+      },
+      "_base_office_nameplate_deluxe": {
+        "name": "사무실 명패"
+      },
+      "_base_office_plant": {
+        "name": "사무실 식물"
+      },
+      "_base_office_plant_deluxe": {
+        "name": "임원 사무실 식물"
+      },
+      "_base_office_statue_deluxe": {
+        "name": "사무실 동상"
+      },
+      "_base_office_table": {
+        "name": "사무실 탁자"
+      },
+      "_base_office_table_deluxe": {
+        "name": "임원 사무실 탁자"
+      },
+      "_base_office_wall_plaque_deluxe": {
+        "name": "사무실 벽면 명판"
+      },
+      "_base_orbital_uplink": {
+        "name": "궤도 업링크",
+        "description": "Allows for remote access to all of the Space Station's features."
+      },
+      "_base_ore_ignium": {
+        "name": "이그늄 광석"
+      },
+      "_base_ore_mineral_rock": {
+        "name": "광물 암석"
+      },
+      "_base_ore_technum": {
+        "name": "테크늄 광석"
+      },
+      "_base_ore_telluxite": {
+        "name": "텔루사이트 광석"
+      },
+      "_base_ore_vein_miner_i": {
+        "name": "광석 광맥 채굴기",
+        "description": "Mines ore seams of Ore Veins. Cannot mine the smaller ore patches."
+      },
+      "_base_ore_vein_scanner": {
+        "name": "광석 스캐너"
+      },
+      "_base_ore_xenoferrite": {
+        "name": "제노페라이트 광석"
+      },
+      "_base_paint_roller": {
+        "name": "페인트 롤러",
+        "description": "Can be used to change the color of certain objects and buildings that support this feature."
+      },
+      "_base_personal_logistic_container": {
+        "name": "제노 물류 컨테이너",
+        "description": "Stores items to be used for resupply in your Xeno-Logistics Network. See Xeno-Logistics Tower for more details."
+      },
+      "_base_pipe": {
+        "name": "파이프",
+        "description": "Moves liquids or gases. Requires a pump when the pipe length exceeds the limit."
+      },
+      "_base_pipe_adapter": {
+        "name": "파이프 어댑터"
+      },
+      "_base_pipe_intake_i": {
+        "name": "액체 흡입구",
+        "description": "Draws in Water when placed submerged."
+      },
+      "_base_pipeline": {
+        "name": "파이프라인",
+        "description": "Moves liquids or gases at higher rates than pipes. Requires a pipeline pump when the pipeline length exceeds the limit."
+      },
+      "_base_pipeline_intake_i": {
+        "name": "Liquid Intake (Pipeline)",
+        "description": "Draws in Water when placed submerged."
+      },
+      "_base_plumber_tool": {
+        "name": "배관용 도구",
+        "description": "Allows you to discard a pipe network’s contents."
+      },
+      "_base_polymer_board": {
+        "name": "폴리머 보드"
+      },
+      "_base_portable_fuel": {
+        "name": "휴대용 연료"
+      },
+      "_base_power_core_entity_ii": {
+        "name": "제노 파워 코어"
+      },
+      "_base_power_core_i": {
+        "name": "제노 파워 코어 (손상됨)"
+      },
+      "_base_power_core_ii": {
+        "name": "제노 파워 코어"
+      },
+      "_base_power_line_i": {
+        "name": "전선",
+        "description": "Use this item to build your high-voltage power grid, also requires Power Poles in your inventory unless you just want to connect existing objects."
+      },
+      "_base_power_pole_i": {
+        "name": "전신주 (소형)",
+        "description": "Extends the reach of the High-Voltage Grid. Use Power Lines for a convenient way of placing both Power Poles and Power Lines together."
+      },
+      "_base_power_pole_ii": {
+        "name": "전신주 (대형)",
+        "description": "Extends the reach of the High-Voltage Grid. Use Power Lines for a convenient way of placing both Power Poles and Power Lines together."
+      },
+      "_base_power_pole_iii": {
+        "name": "전신주 (벽)",
+        "description": "Extends the reach of the High-Voltage Grid. Use Power Lines for a convenient way of placing both Power Poles and Power Lines together."
+      },
+      "_base_pump_pipe_to_pipeline_i": {
+        "name": "파이프-파이프라인 펌프",
+        "description": "Pumps pipe contents into a pipeline."
+      },
+      "_base_pump_pipeline_to_pipe_i": {
+        "name": "파이프라인-파이프 펌프",
+        "description": "Pumps pipeline contents into a pipe."
+      },
+      "_base_pump_pipelines_i": {
+        "name": "펌프 (파이프라인)",
+        "description": "Required once a pipeline network exceeds the complexity limit. Can also be used to create a one-way flow."
+      },
+      "_base_pump_pipes_i": {
+        "name": "펌프 (파이프)",
+        "description": "Required once a pipe network exceeds the complexity limit. Can also be used to create a one-way flow."
+      },
+      "_base_pumpjack_i": {
+        "name": "펌프잭 I",
+        "description": "Extracts Olumite when placed above an Olumite Reservoir."
+      },
+      "_base_quarry_building_i": {
+        "name": "채석장",
+        "description": "Automatically excavates areas. Excels at digging shafts or pits, but can be useful for various excavation projects."
+      },
+      "_base_radio_tower_base": {
+        "name": "라디오 타워 기반",
+        "description": "Allows contacting the space station remotely with the Orbital Uplink tool."
+      },
+      "_base_radio_tower_module": {
+        "name": "라디오 타워 모듈"
+      },
+      "_base_railings": {
+        "name": "난간"
+      },
+      "_base_reactive_briquette_i": {
+        "name": "Reactive Briquette"
+      },
+      "_base_recycler_scrap": {
+        "name": "스크랩 재활용기",
+        "description": "제노 스크랩에서 부품을 추출합니다."
+      },
+      "_base_recycler_terrain": {
+        "name": "자원 분리기",
+        "description": "지형 블록과 씨앗에서 자원을 추출합니다."
+      },
+      "_base_research_entity": {
+        "name": "연구 서버",
+        "description": "Analyzes Science Packs to research new technologies. Using multiple increases research speed."
+      },
+      "_base_resource_node_alien_scrap": {
+        "name": "자원 노드: 외계 스크랩"
+      },
+      "_base_resource_node_crystal": {
+        "name": "자원 노드: 크리스탈"
+      },
+      "_base_robot01_arm": {
+        "name": "개인용 도우미 로봇 팔"
+      },
+      "_base_robot01_head": {
+        "name": "개인용 도우미 로봇 머리"
+      },
+      "_base_robot01_leg": {
+        "name": "개인용 도우미 로봇 다리"
+      },
+      "_base_robot01_torso": {
+        "name": "개인용 도우미 로봇 몸체"
+      },
+      "_base_robot_01": {
+        "name": "개인용 도우미 로봇"
+      },
+      "_base_robot_hazard_01_arm": {
+        "name": "Hazard Robot Arm"
+      },
+      "_base_robot_hazard_01_head": {
+        "name": "Hazard Robot Head"
+      },
+      "_base_robot_hazard_01_leg": {
+        "name": "Hazard Robot Leg"
+      },
+      "_base_robot_hazard_01_torso": {
+        "name": "Hazard Robot Torso"
+      },
+      "_base_robot_parts_i": {
+        "name": "로봇 부품"
+      },
+      "_base_robot_parts_ii": {
+        "name": "High-Tech Robot Parts"
+      },
+      "_base_robot_science_01_arm": {
+        "name": "과학 로봇 팔"
+      },
+      "_base_robot_science_01_head": {
+        "name": "과학 로봇 머리"
+      },
+      "_base_robot_science_01_leg": {
+        "name": "과학 로봇 다리"
+      },
+      "_base_robot_science_01_torso": {
+        "name": "과학 로봇 몸체"
+      },
+      "_base_robot_scout_01_arm": {
+        "name": "Scout Robot Arm"
+      },
+      "_base_robot_scout_01_head": {
+        "name": "Scout Robot Head"
+      },
+      "_base_robot_scout_01_leg": {
+        "name": "Scout Robot Leg"
+      },
+      "_base_robot_scout_01_torso": {
+        "name": "Scout Robot Torso"
+      },
+      "_base_rocky_desert_dirt": {
+        "name": "바위 사막 흙"
+      },
+      "_base_rocky_desert_plant_01": {
+        "name": "바위 사막 식물"
+      },
+      "_base_rocky_desert_plant_02": {
+        "name": "바위 사막 식물"
+      },
+      "_base_rocky_desert_plant_03": {
+        "name": "바위 사막 식물"
+      },
+      "_base_rocky_desert_plant_04": {
+        "name": "바위 사막 식물"
+      },
+      "_base_rocky_desert_plant_05": {
+        "name": "바위 사막 식물"
+      },
+      "_base_rocky_desert_plant_06": {
+        "name": "바위 사막 식물"
+      },
+      "_base_rocky_desert_rock_01": {
+        "name": "바위 사막 바위"
+      },
+      "_base_rocky_desert_rock_pillar_01": {
+        "name": "바위 사막 바위"
+      },
+      "_base_rocky_desert_rock_pillar_01_large": {
+        "name": "바위 사막 바위"
+      },
+      "_base_rocky_desert_rock_pillar_02": {
+        "name": "바위 사막 바위"
+      },
+      "_base_rocky_desert_rock_pillar_02_large": {
+        "name": "바위 사막 바위"
+      },
+      "_base_rocky_desert_rock_pillar_03": {
+        "name": "바위 사막 바위"
+      },
+      "_base_rocky_desert_rock_pillar_03_large": {
+        "name": "바위 사막 바위"
+      },
+      "_base_rocky_desert_rock_pillar_04": {
+        "name": "바위 사막 바위"
+      },
+      "_base_rocky_desert_rock_pillar_04_large": {
+        "name": "바위 사막 바위"
+      },
+      "_base_rocky_desert_seed_plants": {
+        "name": "바위 사막 씨앗 (식물)"
+      },
+      "_base_rocky_desert_seed_trees": {
+        "name": "바위 사막 씨앗 (나무)"
+      },
+      "_base_rocky_desert_tree_01": {
+        "name": "바위 사막 나무"
+      },
+      "_base_rocky_desert_tree_02": {
+        "name": "바위 사막 나무"
+      },
+      "_base_rubber_i": {
+        "name": "고무"
+      },
+      "_base_rubble_ignium": {
+        "name": "이그늄 원석"
+      },
+      "_base_rubble_technum": {
+        "name": "테크늄 원석"
+      },
+      "_base_rubble_telluxite": {
+        "name": "텔루사이트 원석"
+      },
+      "_base_rubble_xenoferrite": {
+        "name": "제노페라이트 원석"
+      },
+      "_base_sand": {
+        "name": "모래"
+      },
+      "_base_sandy_desert_plant_01": {
+        "name": "모래 사막 식물"
+      },
+      "_base_sandy_desert_plant_03": {
+        "name": "모래 사막 식물"
+      },
+      "_base_sandy_desert_plant_05": {
+        "name": "모래 사막 식물"
+      },
+      "_base_sandy_desert_rock_01": {
+        "name": "모래 사막 바위"
+      },
+      "_base_sandy_desert_rock_02": {
+        "name": "모래 사막 바위"
+      },
+      "_base_sandy_desert_seed_plants": {
+        "name": "모래 사막 씨앗 (식물)"
+      },
+      "_base_sandy_desert_seed_trees": {
+        "name": "모래 사막 씨앗 (나무)"
+      },
+      "_base_sandy_desert_tree_01": {
+        "name": "모래 사막 나무"
+      },
+      "_base_sandy_desert_tree_04": {
+        "name": "모래 사막 나무"
+      },
+      "_base_sandy_desert_tree_05": {
+        "name": "모래 사막 나무"
+      },
+      "_base_sandy_desert_tree_07": {
+        "name": "모래 사막 나무"
+      },
+      "_base_scanning_entity_i": {
+        "name": "장거리 스캐너",
+        "description": "Scans for ores and reservoirs within a very large radius."
+      },
+      "_base_science_bot_i": {
+        "name": "과학용 도우미 드론"
+      },
+      "_base_science_bot_ii": {
+        "name": "해양 탐사 봇"
+      },
+      "_base_science_pack_i": {
+        "name": "과학팩 I"
+      },
+      "_base_science_pack_ii": {
+        "name": "과학팩 II"
+      },
+      "_base_science_pack_iii": {
+        "name": "과학팩 III"
+      },
+      "_base_science_pack_iv": {
+        "name": "과학팩 IV"
+      },
+      "_base_science_pack_v": {
+        "name": "과학팩 V"
+      },
+      "_base_science_robot_i": {
+        "name": "과학 로봇"
+      },
+      "_base_scout_robot_i": {
+        "name": "Scout Robot"
+      },
+      "_base_screen_bot_i": {
+        "name": "화면 봇"
+      },
+      "_base_shaped_charge_i": {
+        "name": "성형 폭약"
+      },
+      "_base_shaped_charge_i_preview": {
+        "name": "성형 폭약 미리보기"
+      },
+      "_base_shaped_charge_ii": {
+        "name": "성형 폭약 (중형)"
+      },
+      "_base_shaped_charge_ii_preview": {
+        "name": "성형 폭약 미리보기"
+      },
+      "_base_shipping_pad_i": {
+        "name": "배송 패드 (소형)",
+        "description": "Transports items to or from the space station. Requires an available space ship on the station."
+      },
+      "_base_shipping_pad_ii": {
+        "name": "배송 패드 (중형)",
+        "description": "Transports items to or from the space station. Requires an available space ship on the station."
+      },
+      "_base_shipping_pad_ii_al": {
+        "name": "배송 패드 (중형, 조립라인)",
+        "description": "Transports items to or from the space station. Requires an available space ship on the station."
+      },
+      "_base_sign": {
+        "name": "표지판"
+      },
+      "_base_smelter_i": {
+        "name": "고급 제련소",
+        "description": "Automatically smelts inserted ores."
+      },
+      "_base_smelter_lava_i": {
+        "name": "용암 제련기 I",
+        "description": "Smelts Firmarlite Bars into Firmarlite Sheets. Needs to be placed on lava."
+      },
+      "_base_smelter_lava_ii": {
+        "name": "용암 제련기 II",
+        "description": "Smelts Firmarlite Bars into Firmarlite Sheets. Needs to be placed on lava."
+      },
+      "_base_smelter_small_i": {
+        "name": "제련소 (소형)",
+        "description": "Automatically smelts inserted ores."
+      },
+      "_base_snack_bot_i": {
+        "name": "스낵 봇"
+      },
+      "_base_solar_panel_i": {
+        "name": "태양광 패널 (소형)",
+        "description": "Generates high voltage power for the connected high-voltage grid while exposed to sunlight."
+      },
+      "_base_solar_panel_ii": {
+        "name": "태양광 패널 (대형)",
+        "description": "Generates high voltage power for the connected high-voltage grid while exposed to sunlight."
+      },
+      "_base_space_ship_fuel": {
+        "name": "우주선 연료통"
+      },
+      "_base_space_station_props": {
+        "name": "우주 정거장 기계류"
+      },
+      "_base_space_station_terminal": {
+        "name": "우주 정거장 터미널",
+        "description": "Contact your space station from here."
+      },
+      "_base_stairs_straight": {
+        "name": "계단"
+      },
+      "_base_stalagmite_large": {
+        "name": "석순"
+      },
+      "_base_stalagmite_large_ceiling": {
+        "name": "종유석"
+      },
+      "_base_stalagmite_medium": {
+        "name": "석순"
+      },
+      "_base_stalagmite_medium_ceiling": {
+        "name": "종유석"
+      },
+      "_base_stalagmite_small": {
+        "name": "석순"
+      },
+      "_base_stalagmite_tall": {
+        "name": "석순"
+      },
+      "_base_stalagmite_tall_ceiling": {
+        "name": "종유석"
+      },
+      "_base_station_shuttle_pad_i": {
+        "name": "스테이션 셔틀 패드"
+      },
+      "_base_steel_mixture": {
+        "name": "제노페라이트-이그늄 광석 혼합물"
+      },
+      "_base_stone": {
+        "name": "돌"
+      },
+      "_base_strut_pillar_i": {
+        "name": "지주"
+      },
+      "_base_super_alloy_plate_i": {
+        "name": "초합금"
+      },
+      "_base_tank_i": {
+        "name": "탱크 I"
+      },
+      "_base_technum_rods": {
+        "name": "테크늄 막대"
+      },
+      "_base_telluxite_ingot": {
+        "name": "텔루사이트 주괴"
+      },
+      "_base_telluxite_wafer": {
+        "name": "텔루사이트 웨이퍼"
+      },
+      "_base_train_loading_station": {
+        "name": "열차 적재 스테이션",
+        "description": "Loading Stations are extensions to Train Stations where a wagon can be loaded or unloaded. Each wagon needs its own loading station."
+      },
+      "_base_train_station": {
+        "name": "열차 스테이션",
+        "description": "Trains can stop here."
+      },
+      "_base_transformer_i": {
+        "name": "변압기 (소형)",
+        "description": "When placed on a foundation, supplies it with low voltage power drawn from the high-voltage grid."
+      },
+      "_base_transformer_ii": {
+        "name": "변압기 (대형)",
+        "description": "When placed on a foundation, supplies it with low voltage power drawn from the high-voltage grid."
+      },
+      "_base_transport_bot_i": {
+        "name": "수송 봇"
+      },
+      "_base_transport_bot_ii": {
+        "name": "중장비 수송 봇"
+      },
+      "_base_transport_bot_iii": {
+        "name": "수중 운반 봇"
+      },
+      "_base_transport_drone_i": {
+        "name": "수송 드론"
+      },
+      "_base_transport_drone_port_i": {
+        "name": "수송선 포트",
+        "description": "Required for constructing Modular Buildings. Houses transport ships that move materials from Construction Warehouses to construction sites."
+      },
+      "_base_tropical_rainforest_dirt": {
+        "name": "열대우림 흙"
+      },
+      "_base_tropical_rainforest_seed_plants": {
+        "name": "열대우림 씨앗 (식물)"
+      },
+      "_base_tropical_rainforest_seed_trees": {
+        "name": "열대우림 씨앗 (나무)"
+      },
+      "_base_tundra_dirt": {
+        "name": "툰드라 흙"
+      },
+      "_base_tundra_large_plant_01": {
+        "name": "툰드라 대형 식물 01"
+      },
+      "_base_tundra_large_plant_02": {
+        "name": "툰드라 대형 식물 02"
+      },
+      "_base_tundra_large_rock_01": {
+        "name": "툰드라 대형 암석 01"
+      },
+      "_base_tundra_medium_rock_01": {
+        "name": "툰드라 중형 암석 01"
+      },
+      "_base_tundra_medium_rock_02": {
+        "name": "툰드라 중형 암석 02"
+      },
+      "_base_tundra_rock_pillar_01": {
+        "name": "툰드라 바위 기둥 01"
+      },
+      "_base_tundra_rock_pillar_02": {
+        "name": "툰드라 바위 기둥 02"
+      },
+      "_base_tundra_seed_plants": {
+        "name": "툰드라 씨앗 (식물)"
+      },
+      "_base_tundra_seed_trees": {
+        "name": "툰드라 씨앗 (나무)"
+      },
+      "_base_tundra_tree_01": {
+        "name": "툰드라 나무 01"
+      },
+      "_base_tundra_tree_02": {
+        "name": "툰드라 나무 02"
+      },
+      "_base_tundra_tree_03": {
+        "name": "툰드라 나무 03"
+      },
+      "_base_turbine_i": {
+        "name": "증기 터빈",
+        "description": "Consumes Steam to generate high voltage power for the connected high-voltage grid."
+      },
+      "_base_underwater_chassis_i": {
+        "name": "수중 프레임"
+      },
+      "_base_walkway_platform": {
+        "name": "보행로"
+      },
+      "_base_water_tool": {
+        "name": "관개 도구",
+        "description": "다양한 지형 블록에 사용하여 풀이나 유사한 요소를 다시 자라게 할 수 있습니다."
+      },
+      "_base_wd_ore_large_technum": {
+        "name": "테크늄 광석"
+      },
+      "_base_wd_ore_large_xf": {
+        "name": "제노페라이트 광석"
+      },
+      "_base_wd_ore_medium_technum": {
+        "name": "테크늄 광석"
+      },
+      "_base_wd_ore_medium_xf": {
+        "name": "제노페라이트 광석"
+      },
+      "_base_wd_ore_small_technum": {
+        "name": "테크늄 광석"
+      },
+      "_base_wd_ore_small_xf": {
+        "name": "제노페라이트 광석"
+      },
+      "_base_weapon_components": {
+        "name": "무기 부품"
+      },
+      "_base_wire_coil": {
+        "name": "와이어 코일"
+      },
+      "_base_workstation_i": {
+        "name": "로봇 작업대 I",
+        "description": "로봇이 이곳에서 작업하여 다양한 기계를 개선할 수 있습니다."
+      },
+      "_base_workstation_ii": {
+        "name": "로봇 작업대 II",
+        "description": "로봇이 이곳에서 작업하여 다양한 기계를 개선할 수 있습니다."
+      },
+      "_base_workstation_iii": {
+        "name": "로봇 작업대 III",
+        "description": "로봇이 이곳에서 작업하여 다양한 기계를 개선할 수 있습니다."
+      },
+      "_base_xenoferrite_plates": {
+        "name": "제노페라이트 판"
+      },
+      "_base_xf_steel_beams": {
+        "name": "강철 빔"
+      },
+      "_rail_tracks": {
+        "name": "열차 선로"
+      },
+      "_trainSignal_chained": {
+        "name": "열차 신호 (연속)"
+      },
+      "_trainSignal_simple": {
+        "name": "열차 신호"
+      },
+      "_train_engine_01": {
+        "name": "Train Engine"
+      },
+      "_train_wagon_element_01": {
+        "name": "Train Tanker Wagon",
+        "description": "For liquids and gases."
+      },
+      "_train_wagon_solid_01": {
+        "name": "Train Cargo Wagon",
+        "description": "For solid items."
+      }
+    },
+    "machines": {
+      "_base_air_intake_1": {
+        "name": "공기 흡입구"
+      },
+      "_base_air_intake_tower_1": {
+        "name": "공기 흡입구 모듈",
+        "modeName": "타워"
+      },
+      "_base_air_intake_utility_1": {
+        "name": "공기 흡입구",
+        "modeName": "유틸리티 패널"
+      },
+      "_base_air_intake_vent_1": {
+        "name": "공기 흡입구 모듈",
+        "modeName": "통풍구"
+      },
+      "_base_al_end_consumer_i": {
+        "name": "조립 라인 물류 컨테이너"
+      },
+      "_base_al_merger": {
+        "name": "조립 라인 병합기"
+      },
+      "_base_al_painter_i": {
+        "name": "조립 라인 도장기"
+      },
+      "_base_al_producer_i": {
+        "name": "조립 라인 생산기"
+      },
+      "_base_al_rail_curve_left": {
+        "name": "조립 라인 레일",
+        "modeName": "왼쪽 커브 (HVG 연결기)"
+      },
+      "_base_al_rail_curve_right": {
+        "name": "조립 라인 레일",
+        "modeName": "오른쪽 커브 (HVG 연결기)"
+      },
+      "_base_al_rail_slope_down": {
+        "name": "조립 라인 레일",
+        "modeName": "내리막"
+      },
+      "_base_al_rail_slope_down_hvg": {
+        "name": "조립 라인 레일",
+        "modeName": "내리막 (HVG 연결기)"
+      },
+      "_base_al_rail_slope_up": {
+        "name": "조립 라인 레일",
+        "modeName": "오르막"
+      },
+      "_base_al_rail_slope_up_hvg": {
+        "name": "조립 라인 레일",
+        "modeName": "오르막 (HVG 연결기)"
+      },
+      "_base_al_rail_straight": {
+        "name": "조립 라인 레일",
+        "modeName": "직선"
+      },
+      "_base_al_rail_straight_hvg": {
+        "name": "조립 라인 레일",
+        "modeName": "직선 (HVG 연결기)"
+      },
+      "_base_al_splitter": {
+        "name": "조립 라인 분배기"
+      },
+      "_base_al_start": {
+        "name": "조립 라인 시작"
+      },
+      "_base_alien_scrap_world_decor_i": {
+        "name": "큰 제노 스크랩"
+      },
+      "_base_alien_scrap_world_decor_ii": {
+        "name": "제노 스크랩"
+      },
+      "_base_alien_scrap_world_decor_iii": {
+        "name": "제노 스크랩"
+      },
+      "_base_alien_scrap_world_decor_iv": {
+        "name": "제노 스크랩"
+      },
+      "_base_alien_scrap_world_decor_v": {
+        "name": "제노 스크랩 잔해"
+      },
+      "_base_assembler_fluid_i": {
+        "name": "유체 조립기 I"
+      },
+      "_base_assembler_i": {
+        "name": "조립기 I"
+      },
+      "_base_assembler_ii": {
+        "name": "조립기 II"
+      },
+      "_base_assembler_iii": {
+        "name": "조립기 III"
+      },
+      "_base_barrel_filler_i": {
+        "name": "통 충전제 I"
+      },
+      "_base_baseStation01": {
+        "name": "드롭 포드"
+      },
+      "_base_battery_i": {
+        "name": "배터리 (소형)"
+      },
+      "_base_battery_ii": {
+        "name": "배터리 (대형)"
+      },
+      "_base_biomass_burner": {
+        "name": "바이오매스 연소기"
+      },
+      "_base_blast_furnace_base_1": {
+        "name": "용광로"
+      },
+      "_base_blast_furnace_module_conveyor_attachment_1": {
+        "name": "용광로 모듈",
+        "modeName": "컨베이어 부착물 (입력)"
+      },
+      "_base_blast_furnace_module_gas_exhaust_1": {
+        "name": "용광로 모듈",
+        "modeName": "플레어 스택"
+      },
+      "_base_blast_furnace_module_gas_exhaust_drain_1": {
+        "name": "WGD[do not use]"
+      },
+      "_base_blast_furnace_module_hopper_bottom_1": {
+        "name": "용광로 모듈",
+        "modeName": "호퍼 (하단)"
+      },
+      "_base_blast_furnace_module_hopper_top_1": {
+        "name": "용광로 모듈",
+        "modeName": "호퍼 (상단)"
+      },
+      "_base_blast_furnace_module_hot_air_intake_1": {
+        "name": "용광로 모듈",
+        "modeName": "열풍 흡입구"
+      },
+      "_base_blast_furnace_module_pipe_attachment_in_1": {
+        "name": "Blast Furnace",
+        "modeName": "파이프라인 연결부 (입력)"
+      },
+      "_base_blast_furnace_module_pipe_attachment_out_1": {
+        "name": "Blast Furnace",
+        "modeName": "파이프 연결부 (출력)"
+      },
+      "_base_blast_furnace_module_pipe_attachment_out_2": {
+        "name": "Blast Furnace",
+        "modeName": "Pipeline Attachment (Output)"
+      },
+      "_base_blast_furnace_module_tower_1": {
+        "name": "용광로 모듈",
+        "modeName": "타워"
+      },
+      "_base_boiler_i": {
+        "name": "보일러"
+      },
+      "_base_boreal_forest_grouprock_small": {
+        "name": "북방침엽수림 바위"
+      },
+      "_base_boreal_forest_mushroom_01": {
+        "name": "북방침엽수림 식물"
+      },
+      "_base_boreal_forest_mushroom_02": {
+        "name": "북방침엽수림 식물"
+      },
+      "_base_boreal_forest_mushroom_03": {
+        "name": "북방침엽수림 식물"
+      },
+      "_base_boreal_forest_mushroom_04": {
+        "name": "북방침엽수림 식물"
+      },
+      "_base_boreal_forest_plant_01": {
+        "name": "북방침엽수림 식물"
+      },
+      "_base_boreal_forest_rock_01": {
+        "name": "북방침엽수림 바위"
+      },
+      "_base_boreal_forest_rock_02": {
+        "name": "북방침엽수림 바위"
+      },
+      "_base_boreal_forest_tree_01": {
+        "name": "북방침엽수림 나무"
+      },
+      "_base_boreal_forest_tree_02": {
+        "name": "북방침엽수림 나무"
+      },
+      "_base_boreal_forest_tree_03": {
+        "name": "북방침엽수림 나무"
+      },
+      "_base_boreal_forest_tree_04": {
+        "name": "북방침엽수림 나무"
+      },
+      "_base_building_part": {
+        "name": "건축 블록"
+      },
+      "_base_burner_generator_lvg": {
+        "name": "연소 발전기"
+      },
+      "_base_c3bb_hub": {
+        "name": "C3-BB 허브"
+      },
+      "_base_casting_building_base": {
+        "name": "Heavy Caster"
+      },
+      "_base_casting_building_body": {
+        "name": "Heavy Caster",
+        "modeName": "Casting Module"
+      },
+      "_base_casting_building_input": {
+        "name": "Heavy Caster",
+        "modeName": "Input Module"
+      },
+      "_base_casting_building_output": {
+        "name": "Heavy Caster",
+        "modeName": "Output Module"
+      },
+      "_base_casting_machine": {
+        "name": "주조기"
+      },
+      "_base_cave_crystal_large_i": {
+        "name": "제노 크리스탈"
+      },
+      "_base_cave_crystal_large_ii": {
+        "name": "제노 크리스탈"
+      },
+      "_base_cave_crystal_large_iii": {
+        "name": "제노 크리스탈"
+      },
+      "_base_cave_crystal_medium_i": {
+        "name": "제노 크리스탈"
+      },
+      "_base_cave_crystal_small_i": {
+        "name": "제노 크리스탈"
+      },
+      "_base_cave_stalactite_01": {
+        "name": "종유석"
+      },
+      "_base_cave_stalactite_02": {
+        "name": "종유석"
+      },
+      "_base_cave_stalactite_03": {
+        "name": "종유석"
+      },
+      "_base_cave_stalagmite_large": {
+        "name": "석순"
+      },
+      "_base_cave_stalagmite_medium": {
+        "name": "석순"
+      },
+      "_base_cave_stalagmite_small": {
+        "name": "석순"
+      },
+      "_base_caveplant_01_large": {
+        "name": "동굴 식물"
+      },
+      "_base_caveplant_01_medium": {
+        "name": "동굴 식물"
+      },
+      "_base_caveplant_01_small": {
+        "name": "동굴 식물"
+      },
+      "_base_caveplant_02_large": {
+        "name": "동굴 식물"
+      },
+      "_base_caveplant_02_medium": {
+        "name": "동굴 식물"
+      },
+      "_base_caveplant_02_small": {
+        "name": "동굴 식물"
+      },
+      "_base_chemical_processor_i": {
+        "name": "화학 처리기"
+      },
+      "_base_chest_i": {
+        "name": "상자"
+      },
+      "_base_construction_barrier_corner": {
+        "name": "건설 현장 장식",
+        "modeName": "코너 장벽"
+      },
+      "_base_construction_barrier_straight": {
+        "name": "건설 현장 장식",
+        "modeName": "직선 장벽"
+      },
+      "_base_construction_cone": {
+        "name": "건설 현장 장식",
+        "modeName": "원뿔"
+      },
+      "_base_construction_drone_port_i": {
+        "name": "건설선 포트"
+      },
+      "_base_construction_hazard_block": {
+        "name": "위험 콘크리트"
+      },
+      "_base_construction_pylon": {
+        "name": "건설 현장 장식",
+        "modeName": "파일런"
+      },
+      "_base_construction_warehouse_i": {
+        "name": "건설 물류창고"
+      },
+      "_base_container": {
+        "name": "컨테이너"
+      },
+      "_base_conveyor_balancer_i": {
+        "name": "컨베이어 밸런서 I"
+      },
+      "_base_conveyor_balancer_ii": {
+        "name": "컨베이어 밸런서 II"
+      },
+      "_base_conveyor_balancer_iii": {
+        "name": "컨베이어 밸런서 III"
+      },
+      "_base_conveyor_balancer_iv": {
+        "name": "컨베이어 밸런서 IV"
+      },
+      "_base_conveyor_i": {
+        "name": "컨베이어 I"
+      },
+      "_base_conveyor_ii": {
+        "name": "컨베이어 II"
+      },
+      "_base_conveyor_iii": {
+        "name": "컨베이어 III"
+      },
+      "_base_conveyor_iv": {
+        "name": "컨베이어 IV"
+      },
+      "_base_conveyor_slope_i": {
+        "name": "컨베이어 경사로 I",
+        "modeName": "경사로 상승"
+      },
+      "_base_conveyor_slope_i_down": {
+        "name": "컨베이어 경사로 I",
+        "modeName": "경사로 하강"
+      },
+      "_base_conveyor_slope_ii": {
+        "name": "컨베이어 경사로 II",
+        "modeName": "경사로 상승"
+      },
+      "_base_conveyor_slope_ii_down": {
+        "name": "컨베이어 경사로 II",
+        "modeName": "경사로 하강"
+      },
+      "_base_conveyor_slope_iii": {
+        "name": "컨베이어 경사로 III",
+        "modeName": "경사로 상승"
+      },
+      "_base_conveyor_slope_iii_down": {
+        "name": "컨베이어 경사로 III",
+        "modeName": "경사로 하강"
+      },
+      "_base_conveyor_slope_iv": {
+        "name": "컨베이어 경사로 IV",
+        "modeName": "오르막"
+      },
+      "_base_conveyor_slope_iv_down": {
+        "name": "컨베이어 경사로 IV",
+        "modeName": "내리막"
+      },
+      "_base_coral_plant_01_large": {
+        "name": "산호 식물"
+      },
+      "_base_coral_plant_01_medium": {
+        "name": "산호 식물"
+      },
+      "_base_coral_plant_01_small": {
+        "name": "산호 식물"
+      },
+      "_base_coral_plant_02_large": {
+        "name": "산호 식물"
+      },
+      "_base_coral_plant_02_medium": {
+        "name": "산호 식물"
+      },
+      "_base_coral_plant_02_small": {
+        "name": "산호 식물"
+      },
+      "_base_coral_plant_03_large": {
+        "name": "산호 식물"
+      },
+      "_base_coral_plant_03_medium": {
+        "name": "산호 식물"
+      },
+      "_base_coral_plant_03_small": {
+        "name": "산호 식물"
+      },
+      "_base_crusher_i": {
+        "name": "분쇄기 I"
+      },
+      "_base_crusher_ii": {
+        "name": "분쇄기 II"
+      },
+      "_base_crystal_refiner_i": {
+        "name": "크리스탈 정제기"
+      },
+      "_base_crystals_medium": {
+        "name": "크리스탈"
+      },
+      "_base_data_cable": {
+        "name": "데이터 케이블"
+      },
+      "_base_data_comparer": {
+        "name": "데이터 평가기"
+      },
+      "_base_data_memory": {
+        "name": "데이터 메모리 셀"
+      },
+      "_base_data_processor": {
+        "name": "데이터 프로세서"
+      },
+      "_base_data_source_button": {
+        "name": "데이터 송신부 (버튼)"
+      },
+      "_base_data_source_lever": {
+        "name": "데이터 송신부 (레버)"
+      },
+      "_base_data_source_static": {
+        "name": "데이터 송신부"
+      },
+      "_base_debris_decor_i": {
+        "name": "파편"
+      },
+      "_base_debris_i": {
+        "name": "파편 I"
+      },
+      "_base_debris_ii": {
+        "name": "파편 I"
+      },
+      "_base_debris_iii": {
+        "name": "파편 I"
+      },
+      "_base_decor_ac_i": {
+        "name": "장식 (기타)",
+        "modeName": "AC 유닛 (2x1x2)"
+      },
+      "_base_decor_base_cube": {
+        "name": "장식 (기본 모양)",
+        "modeName": "큐브"
+      },
+      "_base_decor_base_cube_caution": {
+        "name": "장식 (기본 모양)"
+      },
+      "_base_decor_base_cube_flat": {
+        "name": "장식 (기본 모양)",
+        "modeName": "큐브 (평면 텍스처)"
+      },
+      "_base_decor_base_inside_corner": {
+        "name": "장식 (기본 모양)",
+        "modeName": "코너 (내부 45°)"
+      },
+      "_base_decor_base_inside_corner_ii": {
+        "name": "장식 (기본 모양)",
+        "modeName": "코너 (내부 22.5°)"
+      },
+      "_base_decor_base_inside_corner_iii": {
+        "name": "장식 (기본 모양)",
+        "modeName": "코너 (내부 수직 22.5°)"
+      },
+      "_base_decor_base_outside_corner": {
+        "name": "장식 (기본 모양)",
+        "modeName": "코너 (외부 45°)"
+      },
+      "_base_decor_base_outside_corner_ii": {
+        "name": "장식 (기본 모양)",
+        "modeName": "코너 (외부 22.5°)"
+      },
+      "_base_decor_base_outside_corner_iii": {
+        "name": "장식 (기본 모양)",
+        "modeName": "코너 (외부 수직 22.5°)"
+      },
+      "_base_decor_base_round_corner": {
+        "name": "장식 (기본 모양)",
+        "modeName": "코너 (외부 원형)"
+      },
+      "_base_decor_base_round_edge": {
+        "name": "장식 (기본 모양)",
+        "modeName": "가장자리 (원형)"
+      },
+      "_base_decor_base_round_inside_corner": {
+        "name": "장식 (기본 모양)",
+        "modeName": "코너 (내부 원형)"
+      },
+      "_base_decor_base_slope": {
+        "name": "장식 (기본 모양)",
+        "modeName": "경사 (45°)"
+      },
+      "_base_decor_base_slope_ii": {
+        "name": "장식 (기본 모양)",
+        "modeName": "경사 (22.5°)"
+      },
+      "_base_decor_chimney_i": {
+        "name": "장식 (기타)",
+        "modeName": "굴뚝 (2x2x2)"
+      },
+      "_base_decor_chimney_ii": {
+        "name": "장식 (기타)",
+        "modeName": "굴뚝 (2x8x3)"
+      },
+      "_base_decor_pillar_i": {
+        "name": "장식 (지주)",
+        "modeName": "기둥 (1x1x1)"
+      },
+      "_base_decor_pillar_ii": {
+        "name": "장식 (지주)",
+        "modeName": "기둥 (3x1x3)"
+      },
+      "_base_decor_pillar_iii": {
+        "name": "장식 (지주)",
+        "modeName": "기둥 (3x3x3)"
+      },
+      "_base_decor_support_cap": {
+        "name": "장식 (서포트)",
+        "modeName": "서포트 (캡)"
+      },
+      "_base_decor_support_corner": {
+        "name": "장식 (서포트)",
+        "modeName": "서포트 (코너)"
+      },
+      "_base_decor_support_slope_over": {
+        "name": "장식 (서포트)",
+        "modeName": "서포트 (오르막)"
+      },
+      "_base_decor_support_slope_under": {
+        "name": "장식 (서포트)",
+        "modeName": "서포트 (내리막)"
+      },
+      "_base_decor_support_straight": {
+        "name": "장식 (서포트)",
+        "modeName": "서포트 (직선)"
+      },
+      "_base_decor_truss_4way": {
+        "name": "장식 (서포트 트러스)",
+        "modeName": "트러스 (4 방향)"
+      },
+      "_base_decor_truss_6way": {
+        "name": "장식 (서포트 트러스)",
+        "modeName": "트러스 (6 방향)"
+      },
+      "_base_decor_truss_cap": {
+        "name": "장식 (서포트 트러스)",
+        "modeName": "트러스 (캡)"
+      },
+      "_base_decor_truss_corner": {
+        "name": "장식 (서포트 트러스)",
+        "modeName": "트러스 (코너)"
+      },
+      "_base_decor_truss_slope_1x1_i": {
+        "name": "장식 (서포트 트러스)",
+        "modeName": "트러스 (경사 45° I)"
+      },
+      "_base_decor_truss_slope_1x1_ii": {
+        "name": "장식 (서포트 트러스)",
+        "modeName": "트러스 (경사 45° II)"
+      },
+      "_base_decor_truss_slope_1x1_iii": {
+        "name": "장식 (서포트 트러스)",
+        "modeName": "트러스 (경사 45° III)"
+      },
+      "_base_decor_truss_slope_1x1_iv": {
+        "name": "장식 (서포트 트러스)",
+        "modeName": "트러스 (경사 45° IV)"
+      },
+      "_base_decor_truss_slope_1x2_i": {
+        "name": "장식 (서포트 트러스)",
+        "modeName": "트러스 (경사 22.5° I)"
+      },
+      "_base_decor_truss_slope_1x2_ii": {
+        "name": "장식 (서포트 트러스)",
+        "modeName": "트러스 (경사 22.5° II)"
+      },
+      "_base_decor_truss_slope_1x2_iii": {
+        "name": "장식 (서포트 트러스)",
+        "modeName": "트러스 (경사 22.5° III)"
+      },
+      "_base_decor_truss_straight": {
+        "name": "장식 (서포트 트러스)",
+        "modeName": "트러스 (직선)"
+      },
+      "_base_decor_truss_t_joint": {
+        "name": "장식 (서포트 트러스)",
+        "modeName": "트러스 (T 조인트)"
+      },
+      "_base_decor_wall_flat_i": {
+        "name": "장식 (벽)",
+        "modeName": "평면 벽면 (2 x 2)"
+      },
+      "_base_decor_wall_flat_ii": {
+        "name": "장식 (벽)",
+        "modeName": "평면 벽면 (3 x 3)"
+      },
+      "_base_decor_wall_flat_iii": {
+        "name": "장식 (벽)",
+        "modeName": "평면 벽면 (4 x 4)"
+      },
+      "_base_decor_wall_flat_iv": {
+        "name": "장식 (벽)",
+        "modeName": "평면 벽면 (5 x 5)"
+      },
+      "_base_decor_wall_i": {
+        "name": "장식 (벽)",
+        "modeName": "벽 I"
+      },
+      "_base_decor_wall_ii": {
+        "name": "장식 (벽)",
+        "modeName": "벽 II"
+      },
+      "_base_decor_wall_iii": {
+        "name": "장식 (벽)",
+        "modeName": "벽 III"
+      },
+      "_base_decor_wall_iv": {
+        "name": "장식 (벽)",
+        "modeName": "벽 IV"
+      },
+      "_base_decor_window_center": {
+        "name": "장식 (모듈식 창)",
+        "modeName": "창 (중앙)"
+      },
+      "_base_decor_window_corner_inside": {
+        "name": "장식 (모듈식 창)",
+        "modeName": "창 (내부 코너)"
+      },
+      "_base_decor_window_corner_outside": {
+        "name": "장식 (모듈식 창)",
+        "modeName": "창 (외부 코너)"
+      },
+      "_base_decor_window_edge": {
+        "name": "장식 (모듈식 창)",
+        "modeName": "창 (가장자리)"
+      },
+      "_base_decor_window_round_edge": {
+        "name": "장식 (모듈식 창)",
+        "modeName": "창 (둥근 가장자리)"
+      },
+      "_base_decor_window_round_edge_center": {
+        "name": "장식 (모듈식 창)",
+        "modeName": "창 (둥근 가장자리 중앙)"
+      },
+      "_base_decor_window_sharp_edge": {
+        "name": "장식 (모듈식 창)",
+        "modeName": "창 (날카로운 가장자리)"
+      },
+      "_base_decor_window_sharp_edge_center": {
+        "name": "장식 (모듈식 창)",
+        "modeName": "창 (날카로운 가장자리 중앙)"
+      },
+      "_base_decor_window_slope_i": {
+        "name": "장식 (창)",
+        "modeName": "경사면 창 (2x3x2)"
+      },
+      "_base_decor_window_slope_ii": {
+        "name": "장식 (창)",
+        "modeName": "경사면 창 (3x4x3)"
+      },
+      "_base_decor_window_slope_iii": {
+        "name": "장식 (창)",
+        "modeName": "경사면 창 (5x6x5)"
+      },
+      "_base_decor_window_slope_mod_corner_inside_LL": {
+        "name": "장식 (창 모듈식 경사)",
+        "modeName": "왼쪽 하단 가장자리 안쪽 창 경사"
+      },
+      "_base_decor_window_slope_mod_corner_inside_LR": {
+        "name": "장식 (창 모듈식 경사)",
+        "modeName": "오른쪽 하단 가장자리 안쪽 창 경사"
+      },
+      "_base_decor_window_slope_mod_corner_inside_UL": {
+        "name": "장식 (창 모듈식 경사)",
+        "modeName": "왼쪽 상단 가장자리 안쪽 창 경사"
+      },
+      "_base_decor_window_slope_mod_corner_inside_UR": {
+        "name": "장식 (창 모듈식 경사)",
+        "modeName": "오른쪽 상단 가장자리 안쪽 창 경사"
+      },
+      "_base_decor_window_slope_mod_corner_outside_LL": {
+        "name": "장식 (창 모듈식 경사)",
+        "modeName": "왼쪽 하단 가장자리 바깥쪽 창 경사"
+      },
+      "_base_decor_window_slope_mod_corner_outside_LR": {
+        "name": "장식 (창 모듈식 경사)",
+        "modeName": "오른쪽 하단 가장자리 바깥쪽 창 경사"
+      },
+      "_base_decor_window_slope_mod_corner_outside_UL": {
+        "name": "장식 (창 모듈식 경사)",
+        "modeName": "왼쪽 상단 가장자리 바깥쪽 창 경사"
+      },
+      "_base_decor_window_slope_mod_corner_outside_UR": {
+        "name": "장식 (창 모듈식 경사)",
+        "modeName": "오른쪽 상단 가장자리 바깥쪽 창 경사"
+      },
+      "_base_decor_window_slope_mod_edge_left": {
+        "name": "장식 (창 모듈식 경사)",
+        "modeName": "창 경사 가장자리 왼쪽"
+      },
+      "_base_decor_window_slope_mod_edge_lower": {
+        "name": "장식 (창 모듈식 경사)",
+        "modeName": "창 경사 가장자리 아래쪽"
+      },
+      "_base_decor_window_slope_mod_edge_open_L": {
+        "name": "장식 (창 모듈식 경사 가장자리)",
+        "modeName": "창 경사 가장자리 왼쪽 열기"
+      },
+      "_base_decor_window_slope_mod_edge_open_R": {
+        "name": "장식 (창 모듈식 경사 가장자리)",
+        "modeName": "창 경사 가장자리 오른쪽 열기"
+      },
+      "_base_decor_window_slope_mod_edge_open_inside": {
+        "name": "장식 (창 모듈식 경사 가장자리)",
+        "modeName": "창 경사 가장자리 안쪽 열기"
+      },
+      "_base_decor_window_slope_mod_edge_right": {
+        "name": "장식 (창 모듈식 경사)",
+        "modeName": "창 경사 가장자리 오른쪽"
+      },
+      "_base_decor_window_slope_mod_edge_upper": {
+        "name": "장식 (창 모듈식 경사)",
+        "modeName": "창 경사 가장자리 위쪽"
+      },
+      "_base_decor_window_slope_mod_inside": {
+        "name": "장식 (창 모듈식 경사)",
+        "modeName": "창 안쪽 경사"
+      },
+      "_base_decor_window_straight_i": {
+        "name": "장식 (창)",
+        "modeName": "창 (1x2x2)"
+      },
+      "_base_decor_window_straight_ii": {
+        "name": "장식 (창)",
+        "modeName": "창 (1x3x3)"
+      },
+      "_base_decor_window_straight_iii": {
+        "name": "장식 (창)",
+        "modeName": "창 (1x5x5)"
+      },
+      "_base_decor_window_wedge_corner_i": {
+        "name": "장식 (창 모듈식 웨지)",
+        "modeName": "창 웨지 코너 I"
+      },
+      "_base_decor_window_wedge_corner_ii": {
+        "name": "장식 (창 모듈식 웨지)",
+        "modeName": "창 웨지 코너 II"
+      },
+      "_base_decor_window_wedge_corner_iii": {
+        "name": "장식 (창 모듈식 웨지)",
+        "modeName": "창 웨지 코너 III"
+      },
+      "_base_decor_window_wedge_slope_i": {
+        "name": "장식 (창 모듈식 웨지)",
+        "modeName": "창 웨지 경사 I"
+      },
+      "_base_decor_window_wedge_slope_ii": {
+        "name": "장식 (창 모듈식 웨지)",
+        "modeName": "창 웨지 경사 II"
+      },
+      "_base_decor_window_wedge_slope_iii": {
+        "name": "장식 (창 모듈식 웨지)",
+        "modeName": "창 웨지 경사 III"
+      },
+      "_base_decor_window_wedge_slope_iv": {
+        "name": "장식 (창 모듈식 웨지)",
+        "modeName": "창 웨지 경사 IV"
+      },
+      "_base_distillation_column_i": {
+        "name": "증류탑"
+      },
+      "_base_door_i": {
+        "name": "문 (단일)"
+      },
+      "_base_door_ii": {
+        "name": "문 (이중)"
+      },
+      "_base_door_iii": {
+        "name": "격납고 출입문"
+      },
+      "_base_door_iii_station": {
+        "name": "격납고 출입문"
+      },
+      "_base_drill_bot_preview": {
+        "name": "드릴 쉽 미리보기"
+      },
+      "_base_drone_miner_i": {
+        "name": "드론 채굴기 I"
+      },
+      "_base_drone_miner_ii": {
+        "name": "드론 채굴기 II"
+      },
+      "_base_drone_transport_startpad_i": {
+        "name": "화물 셔틀 출발 패드"
+      },
+      "_base_drone_transport_startpad_liquid_i": {
+        "name": "화물 셔틀 출발 패드 (액체)"
+      },
+      "_base_drone_transport_targetpad_i": {
+        "name": "화물 셔틀 도착 패드"
+      },
+      "_base_drone_transport_targetpad_liquid_i": {
+        "name": "화물 셔틀 도착 패드 (액체)"
+      },
+      "_base_electric_arc_furnace": {
+        "name": "전기 아크 용광로"
+      },
+      "_base_elevator_i": {
+        "name": "엘리베이터"
+      },
+      "_base_elevator_structure_i": {
+        "name": "엘리베이터 구조물"
+      },
+      "_base_emergency_beacon": {
+        "name": "긴급신호 송신장치"
+      },
+      "_base_endless_miner_crystals_i": {
+        "name": "제노 크리스탈 추출기"
+      },
+      "_base_endless_miner_scrap_i": {
+        "name": "제노 스크랩 추출기"
+      },
+      "_base_escalator_curve_left": {
+        "name": "에스컬레이터 I",
+        "modeName": "왼쪽 커브"
+      },
+      "_base_escalator_curve_left_ii": {
+        "name": "에스컬레이터 II",
+        "modeName": "왼쪽 커브"
+      },
+      "_base_escalator_curve_left_iii": {
+        "name": "에스컬레이터 III",
+        "modeName": "왼쪽 커브"
+      },
+      "_base_escalator_curve_right": {
+        "name": "에스컬레이터 I",
+        "modeName": "오른쪽 커브"
+      },
+      "_base_escalator_curve_right_ii": {
+        "name": "에스컬레이터 II",
+        "modeName": "오른쪽 커브"
+      },
+      "_base_escalator_curve_right_iii": {
+        "name": "에스컬레이터 III",
+        "modeName": "오른쪽 커브"
+      },
+      "_base_escalator_slope_down": {
+        "name": "에스컬레이터 I",
+        "modeName": "경사로 하강"
+      },
+      "_base_escalator_slope_down_ii": {
+        "name": "에스컬레이터 II",
+        "modeName": "경사로 하강"
+      },
+      "_base_escalator_slope_down_iii": {
+        "name": "에스컬레이터 III",
+        "modeName": "경사로 하강"
+      },
+      "_base_escalator_slope_up": {
+        "name": "에스컬레이터 I",
+        "modeName": "경사로 상승"
+      },
+      "_base_escalator_slope_up_ii": {
+        "name": "에스컬레이터 II",
+        "modeName": "경사로 상승"
+      },
+      "_base_escalator_slope_up_iii": {
+        "name": "에스컬레이터 III",
+        "modeName": "경사로 상승"
+      },
+      "_base_escalator_straight": {
+        "name": "에스컬레이터 I",
+        "modeName": "직선"
+      },
+      "_base_escalator_straight_ii": {
+        "name": "에스컬레이터 II",
+        "modeName": "직선"
+      },
+      "_base_escalator_straight_iii": {
+        "name": "에스컬레이터 III",
+        "modeName": "직선"
+      },
+      "_base_exploration_analyzer": {
+        "name": "옴니 분석기"
+      },
+      "_base_flare_stack": {
+        "name": "플레어 스택"
+      },
+      "_base_forest_plant_01_large": {
+        "name": "북방침엽수림 대형 식물"
+      },
+      "_base_forest_plant_01_small": {
+        "name": "북방침엽수림 소형 식물"
+      },
+      "_base_forest_plant_01_small_ff": {
+        "name": "북방침엽수림 소형 식물"
+      },
+      "_base_fracking_tower_1": {
+        "name": "수압파쇄 타워 기반"
+      },
+      "_base_fracking_tower_pipe_connection_1": {
+        "name": "수압파쇄 타워 모듈",
+        "modeName": "파이프 연결부"
+      },
+      "_base_fracking_tower_pwr_connection_1": {
+        "name": "수압파쇄 타워",
+        "modeName": "전력 연결"
+      },
+      "_base_fracking_tower_top_1": {
+        "name": "수압파쇄 타워 모듈",
+        "modeName": "상단"
+      },
+      "_base_fracking_tower_tower_1": {
+        "name": "수압파쇄 타워 모듈",
+        "modeName": "타워"
+      },
+      "_base_freight_elevator_i_bottom": {
+        "name": "화물 엘리베이터 I",
+        "modeName": "화물 엘리베이터 하단"
+      },
+      "_base_freight_elevator_i_top": {
+        "name": "화물 엘리베이터 I",
+        "modeName": "화물 엘리베이터 상단"
+      },
+      "_base_freight_elevator_ii_bottom": {
+        "name": "화물 엘리베이터 II",
+        "modeName": "화물 엘리베이터 하단"
+      },
+      "_base_freight_elevator_ii_top": {
+        "name": "화물 엘리베이터 II",
+        "modeName": "화물 엘리베이터 상단"
+      },
+      "_base_freight_elevator_iii_bottom": {
+        "name": "화물 엘리베이터 III",
+        "modeName": "화물 엘리베이터 하단"
+      },
+      "_base_freight_elevator_iii_top": {
+        "name": "화물 엘리베이터 III",
+        "modeName": "화물 엘리베이터 상단"
+      },
+      "_base_freight_elevator_iv_bottom": {
+        "name": "화물 엘리베이터 IV",
+        "modeName": "화물 엘리베이터 하단"
+      },
+      "_base_freight_elevator_iv_top": {
+        "name": "화물 엘리베이터 IV",
+        "modeName": "화물 엘리베이터 상단"
+      },
+      "_base_geological_scanner_i": {
+        "name": "지질 탐사기"
+      },
+      "_base_geothermal_generator_i": {
+        "name": "지열 보일러"
+      },
+      "_base_geothermal_vent": {
+        "name": "지열 통풍구"
+      },
+      "_base_gl_birch_01": {
+        "name": "나무"
+      },
+      "_base_gl_birch_02": {
+        "name": "나무"
+      },
+      "_base_gl_birch_02_large": {
+        "name": "나무"
+      },
+      "_base_gl_birch_03": {
+        "name": "나무"
+      },
+      "_base_gl_birch_03_large": {
+        "name": "나무"
+      },
+      "_base_gl_birch_04": {
+        "name": "나무"
+      },
+      "_base_gl_birch_04_large": {
+        "name": "나무"
+      },
+      "_base_gl_fansy_plant_large": {
+        "name": "식물"
+      },
+      "_base_gl_fansy_plant_small": {
+        "name": "식물"
+      },
+      "_base_greenhouse_i": {
+        "name": "온실"
+      },
+      "_base_hot_air_stove_base_energy_1": {
+        "name": "열풍기"
+      },
+      "_base_hot_air_stove_conveyor_attachment_1": {
+        "name": "열풍기 모듈",
+        "modeName": "컨베이어 부착물"
+      },
+      "_base_hot_air_stove_pg_attachment_1": {
+        "name": "열풍기",
+        "modeName": "HVG 부착물"
+      },
+      "_base_hot_air_stove_pipe_in_1": {
+        "name": "열풍기 모듈",
+        "modeName": "파이프 연결부 (입력)"
+      },
+      "_base_hot_air_stove_pipe_out_1": {
+        "name": "열풍기 모듈",
+        "modeName": "파이프 연결부 (출력)"
+      },
+      "_base_hot_air_stove_top_1": {
+        "name": "열풍기 모듈",
+        "modeName": "상단 부품"
+      },
+      "_base_hot_air_stove_tower_1": {
+        "name": "열풍기 모듈",
+        "modeName": "타워"
+      },
+      "_base_incinerator": {
+        "name": "소각로"
+      },
+      "_base_jungle_palmtree_01": {
+        "name": "정글 나무"
+      },
+      "_base_jungle_palmtree_02": {
+        "name": "정글 나무"
+      },
+      "_base_jungle_palmtree_03": {
+        "name": "정글 나무"
+      },
+      "_base_jungle_plant_large_01": {
+        "name": "정글 나무"
+      },
+      "_base_jungle_tree_large_01": {
+        "name": "정글 나무"
+      },
+      "_base_kelp_01_large": {
+        "name": "켈프"
+      },
+      "_base_kelp_01_medium": {
+        "name": "켈프"
+      },
+      "_base_kelp_01_small": {
+        "name": "켈프"
+      },
+      "_base_kelp_02_large": {
+        "name": "켈프"
+      },
+      "_base_kelp_02_medium": {
+        "name": "켈프"
+      },
+      "_base_kelp_02_small": {
+        "name": "켈프"
+      },
+      "_base_ladder_i": {
+        "name": "사다리"
+      },
+      "_base_light_ceiling_i": {
+        "name": "천장 조명 I"
+      },
+      "_base_light_ceiling_ii": {
+        "name": "천장 조명 II"
+      },
+      "_base_light_portable_i": {
+        "name": "휴대용 조명"
+      },
+      "_base_light_wall_i": {
+        "name": "벽면 조명 I"
+      },
+      "_base_lightpole_i": {
+        "name": "가로등 I"
+      },
+      "_base_lightpole_ii": {
+        "name": "가로등 II"
+      },
+      "_base_loader_1st_i": {
+        "name": "로더"
+      },
+      "_base_loader_1st_i_filter": {
+        "name": "선별 로더"
+      },
+      "_base_loader_2nd_i": {
+        "name": "로더 (2 레인)"
+      },
+      "_base_loader_3rd_i": {
+        "name": "로더 (3 레인)"
+      },
+      "_base_logistic_container_i": {
+        "name": "물류 컨테이너 I"
+      },
+      "_base_logistic_container_ii": {
+        "name": "물류 컨테이너 II"
+      },
+      "_base_logistic_container_iii": {
+        "name": "물류 컨테이너 III"
+      },
+      "_base_logistics_tower_i": {
+        "name": "제노 물류 타워"
+      },
+      "_base_lrs_building_module": {
+        "name": "장거리 스캐너",
+        "modeName": "건물"
+      },
+      "_base_lrs_distance_module": {
+        "name": "장거리 스캐너",
+        "modeName": "거리 모듈"
+      },
+      "_base_lrs_hvg_module": {
+        "name": "장거리 스캐너",
+        "modeName": "전선 연결기"
+      },
+      "_base_lrs_speed_module": {
+        "name": "장거리 스캐너",
+        "modeName": "속도 모듈"
+      },
+      "_base_modular_fluid_tank_base_1": {
+        "name": "모듈식 저장 탱크"
+      },
+      "_base_modular_fluid_tank_top_1": {
+        "name": "모듈식 저장 탱크 (모듈)",
+        "modeName": "상단"
+      },
+      "_base_modular_fluid_tank_tower_1": {
+        "name": "모듈식 저장 탱크 (모듈)",
+        "modeName": "타워"
+      },
+      "_base_monument": {
+        "name": "기념비 기반"
+      },
+      "_base_monument_pedestal": {
+        "name": "기념비 (모듈)",
+        "modeName": "받침대"
+      },
+      "_base_monument_statue": {
+        "name": "기념비 (모듈)",
+        "modeName": "동상"
+      },
+      "_base_mussel_large": {
+        "name": "대형 홍합"
+      },
+      "_base_mussel_medium": {
+        "name": "중형 홍합"
+      },
+      "_base_mussel_small": {
+        "name": "소형 홍합"
+      },
+      "_base_neon_01_4_way": {
+        "name": "Neon Decor",
+        "modeName": "Neon (4-Way)"
+      },
+      "_base_neon_01_cap": {
+        "name": "Neon Decor",
+        "modeName": "Neon (Cap)"
+      },
+      "_base_neon_01_corner": {
+        "name": "Neon Decor",
+        "modeName": "Neon (Corner)"
+      },
+      "_base_neon_01_diagonal": {
+        "name": "Neon Decor",
+        "modeName": "Neon (Diagonal)"
+      },
+      "_base_neon_01_edge": {
+        "name": "Neon Decor",
+        "modeName": "Neon (Edge)"
+      },
+      "_base_neon_01_edge_inside": {
+        "name": "Neon Decor",
+        "modeName": "Neon (Edge Inside)"
+      },
+      "_base_neon_01_slope_4_way": {
+        "name": "Neon Decor (Slope Junctions)",
+        "modeName": "Neon Slope (4-Way)"
+      },
+      "_base_neon_01_slope_cap_btm": {
+        "name": "Neon Decor (Slopes)",
+        "modeName": "Neon Slope (Cap Bottom)"
+      },
+      "_base_neon_01_slope_cap_l": {
+        "name": "Neon Decor (Slopes)",
+        "modeName": "Neon Slope (Cap Left)"
+      },
+      "_base_neon_01_slope_cap_r": {
+        "name": "Neon Decor (Slopes)",
+        "modeName": "Neon Slope (Cap Right)"
+      },
+      "_base_neon_01_slope_cap_top": {
+        "name": "Neon Decor (Slopes)",
+        "modeName": "Neon Slope (Cap Top)"
+      },
+      "_base_neon_01_slope_corner_inside": {
+        "name": "Neon Decor (Slopes)",
+        "modeName": "Neon Slope (Inside Corner)"
+      },
+      "_base_neon_01_slope_corner_ll": {
+        "name": "Neon Decor (Slopes)",
+        "modeName": "Neon Slope (Corner Lower Left)"
+      },
+      "_base_neon_01_slope_corner_lr": {
+        "name": "Neon Decor (Slopes)",
+        "modeName": "Neon Slope (Corner Lower Right)"
+      },
+      "_base_neon_01_slope_corner_outside": {
+        "name": "Neon Decor (Slopes)",
+        "modeName": "Neon Slope (Outside Corner)"
+      },
+      "_base_neon_01_slope_corner_ul": {
+        "name": "Neon Decor (Slopes)",
+        "modeName": "Neon Slope (Corner Upper Left)"
+      },
+      "_base_neon_01_slope_corner_ur": {
+        "name": "Neon Decor (Slopes)",
+        "modeName": "Neon Slope (Corner Upper Right)"
+      },
+      "_base_neon_01_slope_edge_l": {
+        "name": "Neon Decor",
+        "modeName": "Neon (Slope Edge Left)"
+      },
+      "_base_neon_01_slope_edge_r": {
+        "name": "Neon Decor",
+        "modeName": "Neon (Slope Edge Right)"
+      },
+      "_base_neon_01_slope_straight_h": {
+        "name": "Neon Decor (Slopes)",
+        "modeName": "Neon Slope (Straight Horizontal)"
+      },
+      "_base_neon_01_slope_straight_v": {
+        "name": "Neon Decor (Slopes)",
+        "modeName": "Neon Slope (Straight Vertical)"
+      },
+      "_base_neon_01_slope_t_btm": {
+        "name": "Neon Decor (Slope Junctions)",
+        "modeName": "Neon Slope (T-Joint Bottom)"
+      },
+      "_base_neon_01_slope_t_l": {
+        "name": "Neon Decor (Slope Junctions)",
+        "modeName": "Neon Slope (T-Joint Left)"
+      },
+      "_base_neon_01_slope_t_r": {
+        "name": "Neon Decor (Slope Junctions)",
+        "modeName": "Neon Slope (T-Joint Right)"
+      },
+      "_base_neon_01_slope_t_top": {
+        "name": "Neon Decor (Slope Junctions)",
+        "modeName": "Neon Slope (T-Joint Top)"
+      },
+      "_base_neon_01_straight": {
+        "name": "Neon Decor",
+        "modeName": "Neon (Straight)"
+      },
+      "_base_neon_01_t_junction": {
+        "name": "Neon Decor",
+        "modeName": "Neon (T-Joint)"
+      },
+      "_base_neon_02_4_way": {
+        "name": "Neon Decor (Large)",
+        "modeName": "Large Neon (4-Way)"
+      },
+      "_base_neon_02_cap": {
+        "name": "Neon Decor (Large)",
+        "modeName": "Large Neon (Cap)"
+      },
+      "_base_neon_02_corner": {
+        "name": "Neon Decor (Large)",
+        "modeName": "Large Neon (Corner)"
+      },
+      "_base_neon_02_diagonal": {
+        "name": "Neon Decor (Large)",
+        "modeName": "Large Neon (Diagonal)"
+      },
+      "_base_neon_02_edge": {
+        "name": "Neon Decor (Large)",
+        "modeName": "Large Neon (Edge)"
+      },
+      "_base_neon_02_edge_inside": {
+        "name": "Neon Decor (Large)",
+        "modeName": "Large Neon (Edge Inside)"
+      },
+      "_base_neon_02_slope_4_way": {
+        "name": "Neon Decor (Large Slope Junctions)",
+        "modeName": "Large Neon Slope (4-Way)"
+      },
+      "_base_neon_02_slope_corner_inside": {
+        "name": "Neon Decor (Large Slopes)",
+        "modeName": "Large Neon Slope (Inside Corner)"
+      },
+      "_base_neon_02_slope_corner_ll": {
+        "name": "Neon Decor (Large Slopes)",
+        "modeName": "Large Neon Slope (Corner Lower Left)"
+      },
+      "_base_neon_02_slope_corner_lr": {
+        "name": "Neon Decor (Large Slopes)",
+        "modeName": "Large Neon Slope (Corner Lower Right)"
+      },
+      "_base_neon_02_slope_corner_outside": {
+        "name": "Neon Decor (Large Slopes)",
+        "modeName": "Large Neon Slope (Outside Corner)"
+      },
+      "_base_neon_02_slope_corner_ul": {
+        "name": "Neon Decor (Large Slopes)",
+        "modeName": "Large Neon Slope (Corner Upper Left)"
+      },
+      "_base_neon_02_slope_corner_ur": {
+        "name": "Neon Decor (Large Slopes)",
+        "modeName": "Large Neon Slope (Corner Upper Right)"
+      },
+      "_base_neon_02_slope_sdge_l": {
+        "name": "Neon Decor (Large)",
+        "modeName": "Large Neon (Slope Edge Left)"
+      },
+      "_base_neon_02_slope_sdge_r": {
+        "name": "Neon Decor (Large)",
+        "modeName": "Large Neon (Slope Edge Right)"
+      },
+      "_base_neon_02_slope_straight_1m_h": {
+        "name": "Neon Decor (Large Slopes)",
+        "modeName": "Large Neon Slope (Straight Horizontal 1m)"
+      },
+      "_base_neon_02_slope_straight_1m_v": {
+        "name": "Neon Decor (Large Slopes)",
+        "modeName": "Large Neon Slope (Straight Vertical 1m)"
+      },
+      "_base_neon_02_slope_straight_cap_btm": {
+        "name": "Neon Decor (Large Slopes)",
+        "modeName": "Large Neon Slope (Straight Cap Bottom)"
+      },
+      "_base_neon_02_slope_straight_cap_l": {
+        "name": "Neon Decor (Large Slopes)",
+        "modeName": "Large Neon Slope (Straight Cap Left)"
+      },
+      "_base_neon_02_slope_straight_cap_r": {
+        "name": "Neon Decor (Large Slopes)",
+        "modeName": "Large Neon Slope (Straight Cap Right)"
+      },
+      "_base_neon_02_slope_straight_cap_top": {
+        "name": "Neon Decor (Large Slopes)",
+        "modeName": "Large Neon Slope (Straight Cap Top)"
+      },
+      "_base_neon_02_slope_straight_h": {
+        "name": "Neon Decor (Large Slopes)",
+        "modeName": "Large Neon Slope (Straight Horizontal)"
+      },
+      "_base_neon_02_slope_straight_v": {
+        "name": "Neon Decor (Large Slopes)",
+        "modeName": "Large Neon Slope (Straight Vertical)"
+      },
+      "_base_neon_02_slope_t_btm": {
+        "name": "Neon Decor (Large Slope Junctions)",
+        "modeName": "Large Neon Slope (T-Joint Bottom)"
+      },
+      "_base_neon_02_slope_t_l": {
+        "name": "Neon Decor (Large Slope Junctions)",
+        "modeName": "Large Neon Slope (T-Joint Left)"
+      },
+      "_base_neon_02_slope_t_r": {
+        "name": "Neon Decor (Large Slope Junctions)",
+        "modeName": "Large Neon Slope (T-Joint Right)"
+      },
+      "_base_neon_02_slope_t_top": {
+        "name": "Neon Decor (Large Slope Junctions)",
+        "modeName": "Large Neon Slope (T-Joint Top)"
+      },
+      "_base_neon_02_straight": {
+        "name": "Neon Decor (Large)",
+        "modeName": "Large Neon (Straight)"
+      },
+      "_base_neon_02_straight_1m": {
+        "name": "Neon Decor (Large)",
+        "modeName": "Large Neon (Straight 1m)"
+      },
+      "_base_neon_02_t_junction": {
+        "name": "Neon Decor (Large)",
+        "modeName": "Large Neon (T-Joint)"
+      },
+      "_base_npp_cooling_tower_base": {
+        "name": "Cooling Tower"
+      },
+      "_base_npp_cooling_tower_pipe_in_i": {
+        "name": "Cooling Tower",
+        "modeName": "Pipeline Input"
+      },
+      "_base_npp_cooling_tower_tower": {
+        "name": "Cooling Tower",
+        "modeName": "Cooling Tower"
+      },
+      "_base_npp_pressurizer_base": {
+        "name": "Reactor Fuel Mixer"
+      },
+      "_base_npp_pressurizer_conveyor_in": {
+        "name": "Reactor Fuel Mixer",
+        "modeName": "Conveyor Input"
+      },
+      "_base_npp_pressurizer_conveyor_out": {
+        "name": "Reactor Fuel Mixer",
+        "modeName": "Conveyor Output"
+      },
+      "_base_npp_pressurizer_pipe_in": {
+        "name": "Reactor Fuel Mixer",
+        "modeName": "Pipeline Input"
+      },
+      "_base_npp_pressurizer_pipe_out": {
+        "name": "Reactor Fuel Mixer",
+        "modeName": "Pipeline Output"
+      },
+      "_base_npp_pressurizer_pressurizer": {
+        "name": "Reactor Fuel Mixer",
+        "modeName": "Reactor Fuel Mixer"
+      },
+      "_base_npp_reactor_base": {
+        "name": "Xeno Reactor"
+      },
+      "_base_npp_reactor_pipe_in_i": {
+        "name": "Xeno Reactor",
+        "modeName": "Input (Reactor Fuel Mix)"
+      },
+      "_base_npp_reactor_pipe_in_ii": {
+        "name": "Xeno Reactor",
+        "modeName": "Input (Depleted Reactor Compound)"
+      },
+      "_base_npp_reactor_pipe_out": {
+        "name": "Xeno Reactor",
+        "modeName": "Output (Energized Reactor Compound)"
+      },
+      "_base_npp_reactor_tank": {
+        "name": "Xeno Reactor",
+        "modeName": "Xeno Reactor"
+      },
+      "_base_npp_steam_generator_base": {
+        "name": "Steam Generator"
+      },
+      "_base_npp_steam_generator_generator": {
+        "name": "Steam Generator",
+        "modeName": "Steam Generator"
+      },
+      "_base_npp_steam_generator_pipe_in_i": {
+        "name": "Steam Generator",
+        "modeName": "Input (Energized Reactor Compound)"
+      },
+      "_base_npp_steam_generator_pipe_in_ii": {
+        "name": "Steam Generator",
+        "modeName": "Input (Water)"
+      },
+      "_base_npp_steam_generator_pipe_out_i": {
+        "name": "Steam Generator",
+        "modeName": "Output (Depleted Reactor Compound)"
+      },
+      "_base_npp_steam_generator_pipe_out_ii": {
+        "name": "Steam Generator",
+        "modeName": "Output (Steam)"
+      },
+      "_base_npp_steam_turbine_base": {
+        "name": "High-Pressure Turbine"
+      },
+      "_base_npp_steam_turbine_pipe_in": {
+        "name": "High-Pressure Turbine",
+        "modeName": "Pipeline Input"
+      },
+      "_base_npp_steam_turbine_pipe_out": {
+        "name": "High-Pressure Turbine",
+        "modeName": "Pipeline Output"
+      },
+      "_base_npp_steam_turbine_turbine": {
+        "name": "High-Pressure Turbine",
+        "modeName": "High-Pressure Turbine"
+      },
+      "_base_office_decor_chair_i": {
+        "name": "사무실 의자"
+      },
+      "_base_office_decor_chair_ii": {
+        "name": "임원 사무실 의자"
+      },
+      "_base_office_decor_couch_i": {
+        "name": "사무실 소파"
+      },
+      "_base_office_decor_couch_ii": {
+        "name": "임원 사무실 소파"
+      },
+      "_base_office_decor_desk_i": {
+        "name": "사무실 책상"
+      },
+      "_base_office_decor_desk_ii": {
+        "name": "임원 사무실 책상"
+      },
+      "_base_office_decor_filecabinet_i": {
+        "name": "사무실 문서 보관함"
+      },
+      "_base_office_decor_filecabinet_ii": {
+        "name": "임원 사무실 문서 보관함"
+      },
+      "_base_office_decor_nameplate": {
+        "name": "사무실 명패"
+      },
+      "_base_office_decor_plain_wallblock_i": {
+        "name": "목재 블록",
+        "modeName": "목재 벽 블록 I"
+      },
+      "_base_office_decor_plain_wallblock_ii": {
+        "name": "목재 블록",
+        "modeName": "목재 벽 블록 II"
+      },
+      "_base_office_decor_plain_wallblock_round_corner": {
+        "name": "목재 블록",
+        "modeName": "목재 코너 (외부 원형)"
+      },
+      "_base_office_decor_plain_wallblock_round_edge": {
+        "name": "목재 블록",
+        "modeName": "목재 가장자리 (원형)"
+      },
+      "_base_office_decor_plain_wallblock_round_insidecorner": {
+        "name": "목재 블록",
+        "modeName": "목재 코너 (내부 원형)"
+      },
+      "_base_office_decor_plant_i": {
+        "name": "사무실 식물"
+      },
+      "_base_office_decor_plant_ii": {
+        "name": "임원 사무실 식물"
+      },
+      "_base_office_decor_statue": {
+        "name": "사무실 동상"
+      },
+      "_base_office_decor_table_i": {
+        "name": "사무실 탁자"
+      },
+      "_base_office_decor_table_ii": {
+        "name": "임원 사무실 탁자"
+      },
+      "_base_office_decor_wallblock_i": {
+        "name": "목재 장식 블록",
+        "modeName": "목재 장식 벽 블록 I"
+      },
+      "_base_office_decor_wallblock_ii": {
+        "name": "목재 장식 블록",
+        "modeName": "목재 장식 벽 블록 II"
+      },
+      "_base_office_decor_wallblock_round_corner": {
+        "name": "목재 장식 블록",
+        "modeName": "목재 장식 코너 (외부 원형)"
+      },
+      "_base_office_decor_wallblock_round_edge": {
+        "name": "목재 장식 블록",
+        "modeName": "목재 장식 가장자리 (원형)"
+      },
+      "_base_office_decor_wallblock_round_insidecorner": {
+        "name": "목재 장식 블록",
+        "modeName": "목재 장식 코너 (내부 원형)"
+      },
+      "_base_office_decor_wallplaque": {
+        "name": "사무실 벽면 명판"
+      },
+      "_base_ore_vein_miner_i": {
+        "name": "광석 광맥 채굴기"
+      },
+      "_base_personal_logistic_container": {
+        "name": "제노 물류 컨테이너"
+      },
+      "_base_pipe_4_junction": {
+        "name": "파이프",
+        "modeName": "4-교차"
+      },
+      "_base_pipe_6_junction": {
+        "name": "파이프",
+        "modeName": "6-교차"
+      },
+      "_base_pipe_adapter": {
+        "name": "파이프 어댑터"
+      },
+      "_base_pipe_curve": {
+        "name": "파이프",
+        "modeName": "코너"
+      },
+      "_base_pipe_intake_i": {
+        "name": "액체 흡입구"
+      },
+      "_base_pipe_straight": {
+        "name": "파이프",
+        "modeName": "직선"
+      },
+      "_base_pipe_t_junction": {
+        "name": "파이프",
+        "modeName": "T-교차"
+      },
+      "_base_pipeline_4_junction": {
+        "name": "파이프라인",
+        "modeName": "4방 교차 파이프"
+      },
+      "_base_pipeline_6_junction": {
+        "name": "파이프라인",
+        "modeName": "6방 교차 파이프"
+      },
+      "_base_pipeline_curve": {
+        "name": "파이프라인",
+        "modeName": "코너"
+      },
+      "_base_pipeline_intake_i": {
+        "name": "Liquid Intake (Pipeline)"
+      },
+      "_base_pipeline_straight": {
+        "name": "파이프라인",
+        "modeName": "직선"
+      },
+      "_base_pipeline_t_junction": {
+        "name": "파이프라인",
+        "modeName": "T자 교차 파이프"
+      },
+      "_base_power_core_entity_ii": {
+        "name": "제노 파워 코어"
+      },
+      "_base_power_pole_i": {
+        "name": "전신주 (소형)"
+      },
+      "_base_power_pole_ii": {
+        "name": "전신주 (대형)"
+      },
+      "_base_power_pole_iii": {
+        "name": "전신주 (벽)"
+      },
+      "_base_pump_pipe_to_pipeline_i": {
+        "name": "파이프-파이프라인 펌프",
+        "modeName": "LVG"
+      },
+      "_base_pump_pipe_to_pipeline_i_pgm": {
+        "name": "파이프-파이프라인 펌프",
+        "modeName": "HVG"
+      },
+      "_base_pump_pipeline_to_pipe_i": {
+        "name": "파이프라인-파이프 펌프",
+        "modeName": "LVG"
+      },
+      "_base_pump_pipeline_to_pipe_i_pgm": {
+        "name": "파이프라인-파이프 펌프",
+        "modeName": "HVG"
+      },
+      "_base_pump_pipelines_i": {
+        "name": "펌프 (파이프라인)",
+        "modeName": "LVG"
+      },
+      "_base_pump_pipelines_i_pgm": {
+        "name": "펌프 (파이프라인)",
+        "modeName": "HVG"
+      },
+      "_base_pump_pipes_i": {
+        "name": "펌프 (파이프)",
+        "modeName": "LVG"
+      },
+      "_base_pump_pipes_i_pgm": {
+        "name": "펌프 (파이프)",
+        "modeName": "HVG"
+      },
+      "_base_pumpjack_i": {
+        "name": "펌프잭 I"
+      },
+      "_base_quarry_building_i": {
+        "name": "채석장"
+      },
+      "_base_radio_tower": {
+        "name": "라디오 타워 기반"
+      },
+      "_base_radio_tower_power_connector": {
+        "name": "라디오 타워"
+      },
+      "_base_radio_tower_top": {
+        "name": "모듈 디버그 도구",
+        "modeName": "RT 상단"
+      },
+      "_base_radio_tower_tower": {
+        "name": "모듈 디버그 도구",
+        "modeName": "RT 타워"
+      },
+      "_base_railings_1x2_slope": {
+        "name": "난간",
+        "modeName": "경사로 (1x2)"
+      },
+      "_base_railings_corner": {
+        "name": "난간",
+        "modeName": "코너"
+      },
+      "_base_railings_slope": {
+        "name": "난간",
+        "modeName": "경사로"
+      },
+      "_base_railings_straight": {
+        "name": "난간",
+        "modeName": "직선"
+      },
+      "_base_railings_t_intersection": {
+        "name": "난간",
+        "modeName": "T-교차"
+      },
+      "_base_railings_x_intersection": {
+        "name": "난간",
+        "modeName": "X-교차"
+      },
+      "_base_recycler_scrap": {
+        "name": "스크랩 재활용기"
+      },
+      "_base_recycler_terrain": {
+        "name": "자원 분리기"
+      },
+      "_base_research_entity": {
+        "name": "연구 서버"
+      },
+      "_base_resource_node_alien_scrap": {
+        "name": "자원 노드: 외계 스크랩"
+      },
+      "_base_resource_node_crystal": {
+        "name": "자원 노드: 크리스탈"
+      },
+      "_base_rocky_desert_plant_01": {
+        "name": "바위 사막 식물"
+      },
+      "_base_rocky_desert_plant_02": {
+        "name": "바위 사막 식물"
+      },
+      "_base_rocky_desert_plant_03": {
+        "name": "바위 사막 식물"
+      },
+      "_base_rocky_desert_plant_04": {
+        "name": "바위 사막 식물"
+      },
+      "_base_rocky_desert_plant_05": {
+        "name": "바위 사막 식물"
+      },
+      "_base_rocky_desert_plant_06": {
+        "name": "바위 사막 식물"
+      },
+      "_base_rocky_desert_rock_01": {
+        "name": "바위 사막 바위"
+      },
+      "_base_rocky_desert_rock_pillar_01": {
+        "name": "바위 사막 바위"
+      },
+      "_base_rocky_desert_rock_pillar_01_large": {
+        "name": "바위 사막 바위"
+      },
+      "_base_rocky_desert_rock_pillar_02": {
+        "name": "바위 사막 바위"
+      },
+      "_base_rocky_desert_rock_pillar_02_large": {
+        "name": "바위 사막 바위"
+      },
+      "_base_rocky_desert_rock_pillar_03": {
+        "name": "바위 사막 바위"
+      },
+      "_base_rocky_desert_rock_pillar_03_large": {
+        "name": "바위 사막 바위"
+      },
+      "_base_rocky_desert_rock_pillar_04": {
+        "name": "바위 사막 바위"
+      },
+      "_base_rocky_desert_rock_pillar_04_large": {
+        "name": "바위 사막 바위"
+      },
+      "_base_rocky_desert_tree_01": {
+        "name": "바위 사막 나무"
+      },
+      "_base_rocky_desert_tree_02": {
+        "name": "바위 사막 나무"
+      },
+      "_base_sandy_desert_plant_01": {
+        "name": "모래 사막 식물"
+      },
+      "_base_sandy_desert_plant_03": {
+        "name": "모래 사막 식물"
+      },
+      "_base_sandy_desert_plant_05": {
+        "name": "모래 사막 식물"
+      },
+      "_base_sandy_desert_rock_01": {
+        "name": "모래 사막 바위"
+      },
+      "_base_sandy_desert_rock_02": {
+        "name": "모래 사막 바위"
+      },
+      "_base_sandy_desert_tree_01": {
+        "name": "모래 사막 나무"
+      },
+      "_base_sandy_desert_tree_04": {
+        "name": "모래 사막 나무"
+      },
+      "_base_sandy_desert_tree_05": {
+        "name": "모래 사막 나무"
+      },
+      "_base_sandy_desert_tree_07": {
+        "name": "모래 사막 나무"
+      },
+      "_base_scanning_entity_i": {
+        "name": "장거리 스캐너"
+      },
+      "_base_shaped_charge_i_preview": {
+        "name": "성형 폭약 미리보기"
+      },
+      "_base_shaped_charge_ii_preview": {
+        "name": "성형 폭약 미리보기"
+      },
+      "_base_shipping_pad_i": {
+        "name": "배송 패드 (소형)"
+      },
+      "_base_shipping_pad_ii": {
+        "name": "배송 패드 (중형)"
+      },
+      "_base_shipping_pad_ii_al": {
+        "name": "배송 패드 (중형, 조립라인)"
+      },
+      "_base_sign_floor_1x1": {
+        "name": "표지판",
+        "modeName": "표지판 (바닥 1x1)"
+      },
+      "_base_sign_floor_2x1": {
+        "name": "표지판",
+        "modeName": "표지판 (바닥 2x1)"
+      },
+      "_base_sign_wall_1x1": {
+        "name": "표지판",
+        "modeName": "표지판 (벽 1x1)"
+      },
+      "_base_sign_wall_2x1": {
+        "name": "표지판",
+        "modeName": "표지판 (벽 2x1)"
+      },
+      "_base_smelter_i": {
+        "name": "고급 제련소"
+      },
+      "_base_smelter_lava_i": {
+        "name": "용암 제련기 I"
+      },
+      "_base_smelter_lava_ii": {
+        "name": "용암 제련기 II"
+      },
+      "_base_smelter_small_i": {
+        "name": "제련소 (소형)"
+      },
+      "_base_solar_panel_i": {
+        "name": "태양광 패널 (소형)"
+      },
+      "_base_solar_panel_ii": {
+        "name": "태양광 패널 (대형)"
+      },
+      "_base_space_station_prop_hangar": {
+        "name": "우주 정거장 기계류"
+      },
+      "_base_space_station_terminal": {
+        "name": "우주 정거장 터미널"
+      },
+      "_base_stairs_1x2_inside_corner": {
+        "name": "계단",
+        "modeName": "안쪽 코너 (1x2)"
+      },
+      "_base_stairs_1x2_outside_corner": {
+        "name": "계단",
+        "modeName": "바깥 코너 (1x2)"
+      },
+      "_base_stairs_1x2_straight": {
+        "name": "계단",
+        "modeName": "직선 (1x2)"
+      },
+      "_base_stairs_inside_corner": {
+        "name": "계단",
+        "modeName": "안쪽 코너"
+      },
+      "_base_stairs_outside_corner": {
+        "name": "계단",
+        "modeName": "바깥 코너"
+      },
+      "_base_stairs_straight": {
+        "name": "계단",
+        "modeName": "직선"
+      },
+      "_base_stalagmite_large": {
+        "name": "석순"
+      },
+      "_base_stalagmite_large_ceiling": {
+        "name": "종유석"
+      },
+      "_base_stalagmite_medium": {
+        "name": "석순"
+      },
+      "_base_stalagmite_medium_ceiling": {
+        "name": "종유석"
+      },
+      "_base_stalagmite_small": {
+        "name": "석순"
+      },
+      "_base_stalagmite_tall": {
+        "name": "석순"
+      },
+      "_base_stalagmite_tall_ceiling": {
+        "name": "종유석"
+      },
+      "_base_station_shuttle_pad_i": {
+        "name": "스테이션 셔틀 패드"
+      },
+      "_base_strut_pillar_i": {
+        "name": "지주"
+      },
+      "_base_tank_i": {
+        "name": "탱크 I"
+      },
+      "_base_terrain_concrete": {
+        "name": "콘크리트",
+        "modeName": "콘크리트"
+      },
+      "_base_terrain_concrete_slabs": {
+        "name": "콘크리트",
+        "modeName": "콘크리트 (슬래브)"
+      },
+      "_base_terrain_dirt": {
+        "name": "흙"
+      },
+      "_base_terrain_marble_black": {
+        "name": "대리석 (검정)"
+      },
+      "_base_terrain_marble_white": {
+        "name": "대리석 (흰색)"
+      },
+      "_base_terrain_rocky_desert_dirt": {
+        "name": "바위 사막 흙"
+      },
+      "_base_terrain_sand": {
+        "name": "모래"
+      },
+      "_base_terrain_stone_i": {
+        "name": "돌"
+      },
+      "_base_terrain_tropical_rainforest_dirt": {
+        "name": "열대우림 흙"
+      },
+      "_base_terrain_tundra_dirt": {
+        "name": "툰드라 흙"
+      },
+      "_base_train_loading_station_elemental": {
+        "name": "열차 적재 스테이션",
+        "modeName": "가스 & 액체"
+      },
+      "_base_train_loading_station_solid": {
+        "name": "열차 적재 스테이션",
+        "modeName": "단단한 상품"
+      },
+      "_base_train_signal": {
+        "name": "열차 신호",
+        "modeName": "신호"
+      },
+      "_base_train_signal_chain": {
+        "name": "열차 신호",
+        "modeName": "연속 신호"
+      },
+      "_base_train_station": {
+        "name": "열차 스테이션"
+      },
+      "_base_transformer_i": {
+        "name": "변압기 (소형)"
+      },
+      "_base_transformer_ii": {
+        "name": "변압기 (대형)"
+      },
+      "_base_transport_drone_port_i": {
+        "name": "수송선 포트"
+      },
+      "_base_tundra_large_plant_01": {
+        "name": "툰드라 대형 식물 01"
+      },
+      "_base_tundra_large_plant_02": {
+        "name": "툰드라 대형 식물 02"
+      },
+      "_base_tundra_large_rock_01": {
+        "name": "툰드라 대형 암석 01"
+      },
+      "_base_tundra_medium_rock_01": {
+        "name": "툰드라 중형 암석 01"
+      },
+      "_base_tundra_medium_rock_02": {
+        "name": "툰드라 중형 암석 02"
+      },
+      "_base_tundra_rock_pillar_01": {
+        "name": "툰드라 바위 기둥 01"
+      },
+      "_base_tundra_rock_pillar_02": {
+        "name": "툰드라 바위 기둥 02"
+      },
+      "_base_tundra_tree_01": {
+        "name": "툰드라 나무 01"
+      },
+      "_base_tundra_tree_02": {
+        "name": "툰드라 나무 02"
+      },
+      "_base_tundra_tree_03": {
+        "name": "툰드라 나무 03"
+      },
+      "_base_turbine_i": {
+        "name": "증기 터빈"
+      },
+      "_base_walkway_ledge": {
+        "name": "보행로",
+        "modeName": "렛지"
+      },
+      "_base_walkway_ledge_inside_corner": {
+        "name": "보행로",
+        "modeName": "렛지 안쪽 모서리"
+      },
+      "_base_walkway_ledge_outside_corner": {
+        "name": "보행로",
+        "modeName": "렛지 바깥쪽 모서리"
+      },
+      "_base_walkway_platform": {
+        "name": "보행로",
+        "modeName": "플랫폼"
+      },
+      "_base_walkway_stairs": {
+        "name": "보행로",
+        "modeName": "계단"
+      },
+      "_base_wd_ore_large_technum": {
+        "name": "테크늄 광석"
+      },
+      "_base_wd_ore_large_xf": {
+        "name": "제노페라이트 광석"
+      },
+      "_base_wd_ore_medium_technum": {
+        "name": "테크늄 광석"
+      },
+      "_base_wd_ore_medium_xf": {
+        "name": "제노페라이트 광석"
+      },
+      "_base_wd_ore_small_technum": {
+        "name": "테크늄 광석"
+      },
+      "_base_wd_ore_small_xf": {
+        "name": "제노페라이트 광석"
+      },
+      "_base_workstation_i": {
+        "name": "로봇 작업대 I"
+      },
+      "_base_workstation_ii": {
+        "name": "로봇 작업대 II"
+      },
+      "_base_workstation_iii": {
+        "name": "로봇 작업대 III"
+      }
+    },
+    "recipes": {
+      "_base_admin_bot_i": {
+        "name": "오퍼레이터 봇"
+      },
+      "_base_admin_robot_01_arm": {
+        "name": "오퍼레이터 로봇 팔"
+      },
+      "_base_admin_robot_01_head": {
+        "name": "오퍼레이터 로봇 머리"
+      },
+      "_base_admin_robot_01_leg": {
+        "name": "오퍼레이터 로봇 다리"
+      },
+      "_base_admin_robot_01_torso": {
+        "name": "오퍼레이터 로봇 몸체"
+      },
+      "_base_advanced_steel_mixture": {
+        "name": "고급 제노페라이트-이그늄 광석 혼합물"
+      },
+      "_base_agriculture_bot_i": {
+        "name": "재배용 드론"
+      },
+      "_base_agriculture_bot_ii": {
+        "name": "수경 재배 봇"
+      },
+      "_base_agriculture_robot_01_arm": {
+        "name": "농사용 로봇 팔"
+      },
+      "_base_agriculture_robot_01_head": {
+        "name": "농사용 로봇 머리"
+      },
+      "_base_agriculture_robot_01_leg": {
+        "name": "농사용 로봇 다리"
+      },
+      "_base_agriculture_robot_01_torso": {
+        "name": "농사용 로봇 몸체"
+      },
+      "_base_air_intake_base": {
+        "name": "공기 흡입구 기초"
+      },
+      "_base_al_end_consumer_i": {
+        "name": "조립 라인 물류 컨테이너"
+      },
+      "_base_al_merger": {
+        "name": "조립 라인 병합기"
+      },
+      "_base_al_painter_i": {
+        "name": "조립 라인 도장기"
+      },
+      "_base_al_producer_i": {
+        "name": "조립 라인 생산기"
+      },
+      "_base_al_rail_straight": {
+        "name": "Assembly Line Rail"
+      },
+      "_base_al_splitter": {
+        "name": "조립 라인 분배기"
+      },
+      "_base_al_start": {
+        "name": "조립 라인 시작"
+      },
+      "_base_assembler_fluid_i": {
+        "name": "유체 조립기 I"
+      },
+      "_base_assembler_i": {
+        "name": "조립기 I"
+      },
+      "_base_assembler_ii": {
+        "name": "조립기 II"
+      },
+      "_base_assembler_iii": {
+        "name": "조립기 III"
+      },
+      "_base_barrel_drain_olumite": {
+        "name": "빈 올루마이트 통"
+      },
+      "_base_barrel_empty": {
+        "name": "통 (비어있음)"
+      },
+      "_base_barrel_filler_i": {
+        "name": "통 충전제 I"
+      },
+      "_base_barrel_olumite": {
+        "name": "통 (올루마이트)"
+      },
+      "_base_barrel_recycle": {
+        "name": "제노페라이트 판 (통 재활용)"
+      },
+      "_base_basic_refining_gas": {
+        "name": "올루마이트 정제: 올루마이트 가스"
+      },
+      "_base_basic_refining_ldo": {
+        "name": "올루마이트 정제: 저밀도 올루마이트"
+      },
+      "_base_basic_refining_liquid_polymer": {
+        "name": "올루마이트 정제: 액체 폴리머"
+      },
+      "_base_battery_i": {
+        "name": "배터리 (소형)"
+      },
+      "_base_battery_ii": {
+        "name": "배터리 (대형)"
+      },
+      "_base_biomass": {
+        "name": "바이오매스"
+      },
+      "_base_biomass_burner": {
+        "name": "바이오매스 연소기"
+      },
+      "_base_blast_furnace_base": {
+        "name": "용광로 기반"
+      },
+      "_base_boiler_i": {
+        "name": "보일러"
+      },
+      "_base_boreal_forest_seed_plants": {
+        "name": "숲 씨앗 (식물)"
+      },
+      "_base_boreal_forest_seed_trees": {
+        "name": "숲 씨앗 (나무)"
+      },
+      "_base_building_part": {
+        "name": "건축 블록"
+      },
+      "_base_burner_generator_lvg": {
+        "name": "연소 발전기"
+      },
+      "_base_casting_building_base": {
+        "name": "Heavy Caster Base"
+      },
+      "_base_casting_machine": {
+        "name": "주조기"
+      },
+      "_base_cement": {
+        "name": "시멘트"
+      },
+      "_base_cement_reprocessed": {
+        "name": "시멘트 (슬래그 재처리)"
+      },
+      "_base_chemical_processor_i": {
+        "name": "화학 처리기"
+      },
+      "_base_cleaning_bot_i": {
+        "name": "진공 봇"
+      },
+      "_base_cleaning_bot_ii": {
+        "name": "청소 봇"
+      },
+      "_base_coked_ignium": {
+        "name": "코크화 이그늄"
+      },
+      "_base_concrete": {
+        "name": "콘크리트"
+      },
+      "_base_construction_decor": {
+        "name": "건설 현장 장식"
+      },
+      "_base_construction_drone_port_i": {
+        "name": "건설선 포트"
+      },
+      "_base_construction_hazard_block": {
+        "name": "위험 콘크리트"
+      },
+      "_base_construction_material_i": {
+        "name": "건설 재료"
+      },
+      "_base_construction_material_ii": {
+        "name": "High-Tech Construction Material"
+      },
+      "_base_construction_warehouse_i": {
+        "name": "건설 물류창고"
+      },
+      "_base_container": {
+        "name": "컨테이너"
+      },
+      "_base_conveyor_balancer_i": {
+        "name": "컨베이어 밸런서 I"
+      },
+      "_base_conveyor_balancer_ii": {
+        "name": "컨베이어 밸런서 II"
+      },
+      "_base_conveyor_balancer_iii": {
+        "name": "컨베이어 밸런서 III"
+      },
+      "_base_conveyor_balancer_iv": {
+        "name": "컨베이어 밸런서 IV"
+      },
+      "_base_conveyor_i": {
+        "name": "컨베이어 I"
+      },
+      "_base_conveyor_ii": {
+        "name": "컨베이어 II"
+      },
+      "_base_conveyor_iii": {
+        "name": "컨베이어 III"
+      },
+      "_base_conveyor_iv": {
+        "name": "컨베이어 IV"
+      },
+      "_base_conveyor_slope_i": {
+        "name": "컨베이어 경사로 I"
+      },
+      "_base_conveyor_slope_ii": {
+        "name": "컨베이어 경사로 II"
+      },
+      "_base_conveyor_slope_iii": {
+        "name": "컨베이어 경사로 III"
+      },
+      "_base_conveyor_slope_iv": {
+        "name": "컨베이어 경사로 IV"
+      },
+      "_base_cpu": {
+        "name": "CPU"
+      },
+      "_base_crate": {
+        "name": "상자"
+      },
+      "_base_crusher_i": {
+        "name": "분쇄기 I"
+      },
+      "_base_crusher_ii": {
+        "name": "분쇄기 II"
+      },
+      "_base_crystal_ii": {
+        "name": "충전된 제노 크리스탈"
+      },
+      "_base_crystal_refiner_i": {
+        "name": "크리스탈 정제기"
+      },
+      "_base_data_cable": {
+        "name": "데이터 케이블"
+      },
+      "_base_data_comparer": {
+        "name": "데이터 평가기"
+      },
+      "_base_data_memory": {
+        "name": "데이터 메모리 셀"
+      },
+      "_base_data_processor": {
+        "name": "데이터 프로세서"
+      },
+      "_base_data_source_button": {
+        "name": "데이터 송신부 (버튼)"
+      },
+      "_base_data_source_lever": {
+        "name": "데이터 송신부 (레버)"
+      },
+      "_base_data_source_static": {
+        "name": "데이터 송신부"
+      },
+      "_base_decor_base": {
+        "name": "장식 (기본 모양)"
+      },
+      "_base_decor_misc": {
+        "name": "장식 (기타)"
+      },
+      "_base_decor_struts": {
+        "name": "장식 (지주)"
+      },
+      "_base_decor_support": {
+        "name": "장식 (서포트)"
+      },
+      "_base_decor_support_truss": {
+        "name": "장식 (서포트 트러스)"
+      },
+      "_base_decor_wall": {
+        "name": "장식 (벽)"
+      },
+      "_base_decor_window": {
+        "name": "장식 (창)"
+      },
+      "_base_decor_window_modular": {
+        "name": "장식 (모듈식 창)"
+      },
+      "_base_decor_window_modular_slope": {
+        "name": "장식 (모듈식 창 경사)"
+      },
+      "_base_decor_window_modular_slope_edge": {
+        "name": "장식 (모듈식 창 경사 가장자리)"
+      },
+      "_base_decor_window_modular_wedge": {
+        "name": "장식 (모듈식 창 웨지)"
+      },
+      "_base_distillation_column_i": {
+        "name": "증류탑"
+      },
+      "_base_door_i": {
+        "name": "문 (단일)"
+      },
+      "_base_door_ii": {
+        "name": "문 (이중)"
+      },
+      "_base_door_iii": {
+        "name": "격납고 출입문"
+      },
+      "_base_drill_ship_i": {
+        "name": "드릴 쉽"
+      },
+      "_base_drone_controller": {
+        "name": "굴착 드론 컨트롤러"
+      },
+      "_base_drone_miner_i": {
+        "name": "드론 채굴기 I"
+      },
+      "_base_drone_miner_ii": {
+        "name": "드론 채굴기 II"
+      },
+      "_base_drone_transport_startpad_i": {
+        "name": "화물 셔틀 출발 패드"
+      },
+      "_base_drone_transport_startpad_liquid_i": {
+        "name": "화물 셔틀 출발 패드 (액체)"
+      },
+      "_base_drone_transport_targetpad_i": {
+        "name": "화물 셔틀 도착 패드"
+      },
+      "_base_drone_transport_targetpad_liquid_i": {
+        "name": "화물 셔틀 도착 패드 (액체)"
+      },
+      "_base_dynamite_i": {
+        "name": "원격 폭발물"
+      },
+      "_base_dynamite_ii": {
+        "name": "중형 원격 폭발물"
+      },
+      "_base_dynamite_remote_control": {
+        "name": "폭발물 원격 기폭장치"
+      },
+      "_base_eic_i": {
+        "name": "전자 부품"
+      },
+      "_base_eic_ii": {
+        "name": "회로 기판"
+      },
+      "_base_electric_arc_furnace": {
+        "name": "전기 아크 용광로"
+      },
+      "_base_elevator_i": {
+        "name": "엘리베이터"
+      },
+      "_base_emergency_beacon": {
+        "name": "긴급신호 송신장치"
+      },
+      "_base_endless_miner_crystals_i": {
+        "name": "제노 크리스탈 추출기"
+      },
+      "_base_endless_miner_scrap_i": {
+        "name": "제노 스크랩 추출기"
+      },
+      "_base_energy_cell": {
+        "name": "에너지 셀"
+      },
+      "_base_escalator": {
+        "name": "에스컬레이터 I"
+      },
+      "_base_escalator_ii": {
+        "name": "에스컬레이터 II"
+      },
+      "_base_escalator_iii": {
+        "name": "에스컬레이터 III"
+      },
+      "_base_exploration_analyzer": {
+        "name": "옴니 분석기"
+      },
+      "_base_explosives_i": {
+        "name": "폭약"
+      },
+      "_base_explosives_ii": {
+        "name": "폭발물"
+      },
+      "_base_firmarlite_sheet_t0": {
+        "name": "피마라이트 시트"
+      },
+      "_base_flare_stack": {
+        "name": "플레어 스택"
+      },
+      "_base_fracking_liquid_i": {
+        "name": "수압파쇄 액체"
+      },
+      "_base_fracking_tower_base": {
+        "name": "수압파쇄 타워 기반"
+      },
+      "_base_freight_elevator_i": {
+        "name": "화물 엘리베이터 I"
+      },
+      "_base_freight_elevator_ii": {
+        "name": "화물 엘리베이터 II"
+      },
+      "_base_freight_elevator_iii": {
+        "name": "화물 엘리베이터 III"
+      },
+      "_base_freight_elevator_iv": {
+        "name": "화물 엘리베이터 IV"
+      },
+      "_base_fuel_rod_casing": {
+        "name": "연료봉 피복관"
+      },
+      "_base_geothermal_generator_i": {
+        "name": "지열 보일러"
+      },
+      "_base_geothermal_generator_internal": {
+        "name": "지열 통풍구에서 생성된 증기"
+      },
+      "_base_glass": {
+        "name": "유리"
+      },
+      "_base_gravel": {
+        "name": "자갈"
+      },
+      "_base_greenhouse_i": {
+        "name": "온실"
+      },
+      "_base_hdo": {
+        "name": "고밀도 올루마이트"
+      },
+      "_base_hot_air_stove_base": {
+        "name": "열풍기 기반"
+      },
+      "_base_hover_engine": {
+        "name": "호버 엔진"
+      },
+      "_base_hydraulic_piston": {
+        "name": "유압 피스톤"
+      },
+      "_base_ignium_enriched_water": {
+        "name": "이그늄 강화수"
+      },
+      "_base_ignium_fuel_rod": {
+        "name": "이그늄 연료봉"
+      },
+      "_base_ignium_powder": {
+        "name": "이그늄 분말"
+      },
+      "_base_impure_hdo": {
+        "name": "불순물이 포함된 고밀도 올루마이트"
+      },
+      "_base_incinerator": {
+        "name": "소각로"
+      },
+      "_base_jetpack_fuel": {
+        "name": "제트팩 연료"
+      },
+      "_base_ladder_i": {
+        "name": "사다리"
+      },
+      "_base_light_bot_i": {
+        "name": "조명 봇"
+      },
+      "_base_light_ceiling_i": {
+        "name": "천장 조명"
+      },
+      "_base_light_ceiling_ii": {
+        "name": "천장 조명 (대형)"
+      },
+      "_base_light_portable_i": {
+        "name": "휴대용 조명"
+      },
+      "_base_light_wall_i": {
+        "name": "벽면 조명"
+      },
+      "_base_lightpole_i": {
+        "name": "가로등 I"
+      },
+      "_base_lightpole_ii": {
+        "name": "가로등 II"
+      },
+      "_base_liquid_fuel": {
+        "name": "액체 연료"
+      },
+      "_base_liquid_telluxite": {
+        "name": "액체 텔루사이트"
+      },
+      "_base_loader_1st_i": {
+        "name": "로더"
+      },
+      "_base_loader_1st_i_filter": {
+        "name": "선별 로더"
+      },
+      "_base_loader_2nd_i": {
+        "name": "로더, 2 레인"
+      },
+      "_base_loader_3rd_i": {
+        "name": "로더, 3 레인"
+      },
+      "_base_logistic_container_i": {
+        "name": "물류 컨테이너 I"
+      },
+      "_base_logistic_container_ii": {
+        "name": "물류 컨테이너 II"
+      },
+      "_base_logistic_container_iii": {
+        "name": "물류 컨테이너 III"
+      },
+      "_base_logistics_tower_i": {
+        "name": "제노 물류 타워"
+      },
+      "_base_maintenance_drone_i": {
+        "name": "유지보수 드론"
+      },
+      "_base_mb_planner": {
+        "name": "모듈식 건물 계획 도구"
+      },
+      "_base_mic_i": {
+        "name": "기계 부품"
+      },
+      "_base_mic_ii": {
+        "name": "고급 기계 부품"
+      },
+      "_base_mic_iii": {
+        "name": "첨단 기계 부품"
+      },
+      "_base_military_bot_i": {
+        "name": "전투용 드론"
+      },
+      "_base_military_robot_01_arm": {
+        "name": "전투용 로봇 팔"
+      },
+      "_base_military_robot_01_head": {
+        "name": "전투용 로봇 머리"
+      },
+      "_base_military_robot_01_leg": {
+        "name": "전투용 로봇 다리"
+      },
+      "_base_military_robot_01_torso": {
+        "name": "전투용 로봇 몸체"
+      },
+      "_base_military_robot_02_arm": {
+        "name": "Assault Robot Arm"
+      },
+      "_base_military_robot_02_head": {
+        "name": "Assault Robot Head"
+      },
+      "_base_military_robot_02_leg": {
+        "name": "Assault Robot Leg"
+      },
+      "_base_military_robot_02_torso": {
+        "name": "Assault Robot Torso"
+      },
+      "_base_mining_bot_i": {
+        "name": "채굴용 드론"
+      },
+      "_base_mining_bot_ii": {
+        "name": "수중 채굴 봇"
+      },
+      "_base_mining_drill": {
+        "name": "채굴 드릴"
+      },
+      "_base_mining_laser": {
+        "name": "채굴 레이저"
+      },
+      "_base_mining_robot_01_arm": {
+        "name": "채굴용 로봇 팔"
+      },
+      "_base_mining_robot_01_head": {
+        "name": "채굴용 로봇 머리"
+      },
+      "_base_mining_robot_01_leg": {
+        "name": "채굴용 로봇 다리"
+      },
+      "_base_mining_robot_01_torso": {
+        "name": "채굴용 로봇 몸체"
+      },
+      "_base_modular_fluid_tank_base": {
+        "name": "모듈식 저장 탱크 기반"
+      },
+      "_base_molten_super_alloy": {
+        "name": "용융 초합금"
+      },
+      "_base_monument": {
+        "name": "기념비 기반"
+      },
+      "_base_neon_decor_i": {
+        "name": "Neon Decor"
+      },
+      "_base_neon_decor_i_slope": {
+        "name": "Neon Decor (Slopes)"
+      },
+      "_base_neon_decor_i_slope_junctions": {
+        "name": "Neon Decor (Slope Junctions)"
+      },
+      "_base_neon_decor_ii": {
+        "name": "Neon Decor (Large)"
+      },
+      "_base_neon_decor_slope": {
+        "name": "Neon Decor (Large Slopes)"
+      },
+      "_base_neon_decor_slope_junctions": {
+        "name": "Neon Decor (Large Slope Junctions)"
+      },
+      "_base_npp_cooling_tower_base": {
+        "name": "Cooling Tower Base"
+      },
+      "_base_npp_press_internal_01": {
+        "name": "Reactor Fuel Mix"
+      },
+      "_base_npp_pressurizer_base": {
+        "name": "Reactor Fuel Mixer Base"
+      },
+      "_base_npp_reactor_base": {
+        "name": "Xeno Reactor Base"
+      },
+      "_base_npp_steam_generator_base": {
+        "name": "Steam Generator Base"
+      },
+      "_base_npp_steam_turbine_base": {
+        "name": "High-Pressure Turbine Base"
+      },
+      "_base_office_blocks": {
+        "name": "목재 블록"
+      },
+      "_base_office_blocks_deluxe": {
+        "name": "목재 장식 블록"
+      },
+      "_base_office_chair": {
+        "name": "사무실 의자"
+      },
+      "_base_office_chair_deluxe": {
+        "name": "임원 사무실 의자"
+      },
+      "_base_office_couch": {
+        "name": "사무실 소파"
+      },
+      "_base_office_couch_deluxe": {
+        "name": "임원 사무실 소파"
+      },
+      "_base_office_desk": {
+        "name": "사무실 책상"
+      },
+      "_base_office_desk_deluxe": {
+        "name": "임원 사무실 책상"
+      },
+      "_base_office_file_cabinet": {
+        "name": "사무실 문서 보관함"
+      },
+      "_base_office_file_cabinet_deluxe": {
+        "name": "임원 사무실 문서 보관함"
+      },
+      "_base_office_marble_black_deluxe": {
+        "name": "대리석 (검정)"
+      },
+      "_base_office_marble_white_deluxe": {
+        "name": "대리석 (흰색)"
+      },
+      "_base_office_nameplate_deluxe": {
+        "name": "사무실 명패"
+      },
+      "_base_office_plant": {
+        "name": "사무실 식물"
+      },
+      "_base_office_plant_deluxe": {
+        "name": "임원 사무실 식물"
+      },
+      "_base_office_statue_deluxe": {
+        "name": "사무실 동상"
+      },
+      "_base_office_table": {
+        "name": "사무실 탁자"
+      },
+      "_base_office_table_deluxe": {
+        "name": "임원 사무실 탁자"
+      },
+      "_base_office_wall_plaque_deluxe": {
+        "name": "사무실 벽면 명판"
+      },
+      "_base_olumic_acid": {
+        "name": "올루믹 산"
+      },
+      "_base_orbital_uplink": {
+        "name": "궤도 업링크"
+      },
+      "_base_ore_ignium": {
+        "name": "이그늄 광석"
+      },
+      "_base_ore_scanner_hh": {
+        "name": "광석 스캐너 (휴대기기)"
+      },
+      "_base_ore_technum": {
+        "name": "테크늄 광석"
+      },
+      "_base_ore_technum_crystals": {
+        "name": "테크늄 광석 (대체)"
+      },
+      "_base_ore_telluxite": {
+        "name": "텔루사이트 광석"
+      },
+      "_base_ore_vein_miner_i": {
+        "name": "광석 광맥 채굴기"
+      },
+      "_base_ore_xenoferrite": {
+        "name": "제노페라이트 광석"
+      },
+      "_base_ore_xenoferrite_crystals": {
+        "name": "제노페라이트 광석 (대체)"
+      },
+      "_base_paint": {
+        "name": "페인트"
+      },
+      "_base_paint_roller": {
+        "name": "페인트 롤러"
+      },
+      "_base_personal_logistic_container": {
+        "name": "제노 물류 컨테이너"
+      },
+      "_base_pipe": {
+        "name": "파이프"
+      },
+      "_base_pipe_adapter": {
+        "name": "파이프 어댑터"
+      },
+      "_base_pipe_intake_i": {
+        "name": "Liquid Intake"
+      },
+      "_base_pipeline": {
+        "name": "파이프라인"
+      },
+      "_base_pipeline_intake_i": {
+        "name": "Liquid Intake (Pipeline)"
+      },
+      "_base_plumber_tool": {
+        "name": "배관용 도구"
+      },
+      "_base_polymer_board": {
+        "name": "폴리머 보드"
+      },
+      "_base_portable_fuel": {
+        "name": "휴대용 연료"
+      },
+      "_base_power_core_ii": {
+        "name": "제노 파워 코어"
+      },
+      "_base_power_line": {
+        "name": "전선"
+      },
+      "_base_power_pole_i": {
+        "name": "전신주 (소형)"
+      },
+      "_base_power_pole_ii": {
+        "name": "전신주 (대형)"
+      },
+      "_base_power_pole_iii": {
+        "name": "전신주 (벽)"
+      },
+      "_base_pump_pipe_to_pipeline_i": {
+        "name": "파이프-파이프라인 펌프"
+      },
+      "_base_pump_pipeline_to_pipe_i": {
+        "name": "파이프라인-파이프 펌프"
+      },
+      "_base_pump_pipelines_i": {
+        "name": "펌프 (파이프라인)"
+      },
+      "_base_pumpjack_i": {
+        "name": "펌프잭 I"
+      },
+      "_base_pumps_pipes_i": {
+        "name": "펌프 (파이프)"
+      },
+      "_base_quarry_building_i": {
+        "name": "채석장"
+      },
+      "_base_radio_tower_base": {
+        "name": "라디오 타워 기반"
+      },
+      "_base_rail_tracks": {
+        "name": "Train Tracks"
+      },
+      "_base_railings": {
+        "name": "난간"
+      },
+      "_base_reactive_briquette_i": {
+        "name": "Reactive Briquette"
+      },
+      "_base_recycler_scrap": {
+        "name": "스크랩 재활용기"
+      },
+      "_base_recycler_terrain": {
+        "name": "자원 분리기"
+      },
+      "_base_research_entity": {
+        "name": "연구 서버"
+      },
+      "_base_robot01_arm": {
+        "name": "개인용 도우미 로봇 팔"
+      },
+      "_base_robot01_head": {
+        "name": "개인용 도우미 로봇 머리"
+      },
+      "_base_robot01_leg": {
+        "name": "개인용 도우미 로봇 다리"
+      },
+      "_base_robot01_torso": {
+        "name": "개인용 도우미 로봇 몸체"
+      },
+      "_base_robot_hazard_01_arm": {
+        "name": "Hazard Robot Arm"
+      },
+      "_base_robot_hazard_01_head": {
+        "name": "Hazard Robot Head"
+      },
+      "_base_robot_hazard_01_leg": {
+        "name": "Hazard Robot Leg"
+      },
+      "_base_robot_hazard_01_torso": {
+        "name": "Hazard Robot Torso"
+      },
+      "_base_robot_parts_i": {
+        "name": "로봇 부품"
+      },
+      "_base_robot_parts_ii": {
+        "name": "High-Tech Robot Parts"
+      },
+      "_base_robot_science_01_arm": {
+        "name": "과학 로봇 팔"
+      },
+      "_base_robot_science_01_head": {
+        "name": "과학 로봇 머리"
+      },
+      "_base_robot_science_01_leg": {
+        "name": "과학 로봇 다리"
+      },
+      "_base_robot_science_01_torso": {
+        "name": "과학 로봇 몸체"
+      },
+      "_base_robot_scout_01_arm": {
+        "name": "Scout Robot Arm"
+      },
+      "_base_robot_scout_01_head": {
+        "name": "Scout Robot Head"
+      },
+      "_base_robot_scout_01_leg": {
+        "name": "Scout Robot Leg"
+      },
+      "_base_robot_scout_01_torso": {
+        "name": "Scout Robot Torso"
+      },
+      "_base_rocky_desert_seed_plants": {
+        "name": "바위 사막 씨앗 (식물)"
+      },
+      "_base_rocky_desert_seed_trees": {
+        "name": "바위 사막 씨앗 (나무)"
+      },
+      "_base_rubber_i": {
+        "name": "고무"
+      },
+      "_base_sandy_desert_seed_plants": {
+        "name": "모래 사막 씨앗 (식물)"
+      },
+      "_base_sandy_desert_seed_trees": {
+        "name": "모래 사막 씨앗 (나무)"
+      },
+      "_base_scanning_entity_i": {
+        "name": "장거리 스캐너 기반"
+      },
+      "_base_science_bot_i": {
+        "name": "과학용 도우미 드론"
+      },
+      "_base_science_bot_ii": {
+        "name": "해양 탐사 봇"
+      },
+      "_base_science_pack_i": {
+        "name": "과학팩 I"
+      },
+      "_base_science_pack_ii": {
+        "name": "과학팩 II"
+      },
+      "_base_science_pack_iii": {
+        "name": "과학팩 III"
+      },
+      "_base_science_pack_iv": {
+        "name": "과학팩 IV"
+      },
+      "_base_science_pack_v": {
+        "name": "과학팩 V"
+      },
+      "_base_screen_bot_i": {
+        "name": "화면 봇"
+      },
+      "_base_shaped_charge_t1": {
+        "name": "성형 폭약"
+      },
+      "_base_shaped_charge_t2": {
+        "name": "성형 폭약 (중형)"
+      },
+      "_base_shipping_pad_i": {
+        "name": "배송 패드 (소형)"
+      },
+      "_base_shipping_pad_ii": {
+        "name": "배송 패드 (중형)"
+      },
+      "_base_shipping_pad_ii_al": {
+        "name": "배송 패드 (중형, 조립라인)"
+      },
+      "_base_sign": {
+        "name": "표지판"
+      },
+      "_base_smelter_i": {
+        "name": "고급 제련소"
+      },
+      "_base_smelter_lava_i": {
+        "name": "용암 제련기 I"
+      },
+      "_base_smelter_lava_ii": {
+        "name": "용암 제련기 II"
+      },
+      "_base_smelter_small_i": {
+        "name": "제련소 (소형)"
+      },
+      "_base_snack_bot_i": {
+        "name": "스낵 봇"
+      },
+      "_base_solar_panel_i": {
+        "name": "태양광 패널 (소형)"
+      },
+      "_base_solar_panel_ii": {
+        "name": "태양광 패널 (대형)"
+      },
+      "_base_space_ship_fuel": {
+        "name": "우주선 연료통"
+      },
+      "_base_space_station_terminal": {
+        "name": "우주 정거장 터미널"
+      },
+      "_base_stairs": {
+        "name": "계단"
+      },
+      "_base_steel_mixture": {
+        "name": "제노페라이트-이그늄 광석 혼합물"
+      },
+      "_base_steel_t1": {
+        "name": "강철 빔 (티어 1)"
+      },
+      "_base_steel_t2": {
+        "name": "강철 빔 (티어 2)"
+      },
+      "_base_super_alloy_plate_i": {
+        "name": "초합금"
+      },
+      "_base_tank": {
+        "name": "탱크"
+      },
+      "_base_technum_rods_t1": {
+        "name": "테크늄 막대 (티어 1)"
+      },
+      "_base_technum_rods_t1_primitive": {
+        "name": "테크늄 막대"
+      },
+      "_base_technum_rods_t2": {
+        "name": "테크늄 막대 (티어 2)"
+      },
+      "_base_technum_rods_t3": {
+        "name": "테크늄 막대 (티어 3)"
+      },
+      "_base_telluxite_ingot": {
+        "name": "텔루사이트 주괴"
+      },
+      "_base_telluxite_wafer": {
+        "name": "텔루사이트 웨이퍼"
+      },
+      "_base_trainSignal_simple": {
+        "name": "Train Signal"
+      },
+      "_base_train_engine_01": {
+        "name": "Train Engine"
+      },
+      "_base_train_loading_station": {
+        "name": "Train Loading Station"
+      },
+      "_base_train_station": {
+        "name": "Train Station"
+      },
+      "_base_train_wagon_element_01": {
+        "name": "Train Tanker Wagon"
+      },
+      "_base_train_wagon_solid_01": {
+        "name": "Train Cargo Wagon"
+      },
+      "_base_transformer_i": {
+        "name": "변압기 (소형)"
+      },
+      "_base_transformer_ii": {
+        "name": "변압기 (대형)"
+      },
+      "_base_transport_bot_i": {
+        "name": "수송 봇"
+      },
+      "_base_transport_bot_ii": {
+        "name": "중장비 수송 봇"
+      },
+      "_base_transport_bot_iii": {
+        "name": "수중 운반 봇"
+      },
+      "_base_transport_drone_i": {
+        "name": "운송용 드론"
+      },
+      "_base_transport_drone_port_i": {
+        "name": "수송선 포트"
+      },
+      "_base_tropical_rainforest_seed_plants": {
+        "name": "열대우림 씨앗 (식물)"
+      },
+      "_base_tropical_rainforest_seed_trees": {
+        "name": "열대우림 씨앗 (나무)"
+      },
+      "_base_tundra_seed_plants": {
+        "name": "툰드라 씨앗 (식물)"
+      },
+      "_base_tundra_seed_trees": {
+        "name": "툰드라 씨앗 (나무)"
+      },
+      "_base_turbine_i": {
+        "name": "증기 터빈"
+      },
+      "_base_underwater_chassis_i": {
+        "name": "수중 프레임"
+      },
+      "_base_walkway_platform": {
+        "name": "보행로"
+      },
+      "_base_water_tool": {
+        "name": "관개 도구"
+      },
+      "_base_weapon_components": {
+        "name": "무기 부품"
+      },
+      "_base_wire_coil": {
+        "name": "와이어 코일"
+      },
+      "_base_workstation_i": {
+        "name": "로봇 작업대 I"
+      },
+      "_base_workstation_ii": {
+        "name": "로봇 작업대 II"
+      },
+      "_base_workstation_iii": {
+        "name": "로봇 작업대 III"
+      },
+      "_base_xeno_crystal_sludge": {
+        "name": "Xeno-Crystal Sludge"
+      },
+      "_base_xf_plates_t1": {
+        "name": "제노페라이트 판 (티어 1)"
+      },
+      "_base_xf_plates_t1_primitive": {
+        "name": "제노페라이트 판"
+      },
+      "_base_xf_plates_t2": {
+        "name": "제노페라이트 판 (티어 2)"
+      },
+      "_base_xf_plates_t3": {
+        "name": "제노페라이트 판 (티어 3)"
+      }
+    },
+    "research": {
+      "_base_admin_bot_i": {
+        "name": "오퍼레이터 봇 조립체",
+        "description": "오퍼레이터 봇 생산을 가능하게 합니다."
+      },
+      "_base_admin_robot_i": {
+        "name": "오퍼레이터 로봇 조립체",
+        "description": "조립 라인에서 오퍼레이터 로봇을 생산할 수 있는 기능을 잠금 해제합니다."
+      },
+      "_base_advanced_firmarlite_smelting": {
+        "name": "고급 피마라이트 제련",
+        "description": "이 연구를 통해 더 빨라진 용암 제련기의 개선된 버전을 잠금 해제할 수 있습니다."
+      },
+      "_base_advanced_steelmaking": {
+        "name": "고급 제강",
+        "description": "비용 효율성을 높이기 위해 개선된 제강 공정을 잠금 해제합니다."
+      },
+      "_base_agriculture_bot_i": {
+        "name": "재배 드론 조립체",
+        "description": "농업에 사용되는 재배 드론을 제작할 수 있는 기능을 잠금 해제합니다."
+      },
+      "_base_agriculture_bot_ii": {
+        "name": "수경 재배 봇 조립체",
+        "description": "수경 재배 봇을 생산할 수 있는 기능을 잠금 해제합니다."
+      },
+      "_base_agriculture_robot_i": {
+        "name": "농사용 로봇 조립체",
+        "description": "조립 라인에서 농사용 로봇을 생산할 수 있는 기능을 잠금 해제합니다."
+      },
+      "_base_air_intake": {
+        "name": "공기 흡입구",
+        "description": "모듈식 공기 흡입구를 잠금 해제합니다. 이는 다양한 다른 모듈식 건물에 필요한 필수 설비입니다."
+      },
+      "_base_assembler_i": {
+        "name": "조립기 I",
+        "description": "일반 부품을 제작할 수 있는 기계인 조립기를 잠금 해제합니다."
+      },
+      "_base_assembler_ii": {
+        "name": "조립기 II",
+        "description": "빠른 조립기 잠금해제"
+      },
+      "_base_assembler_iii": {
+        "name": "조립기 III",
+        "description": "훨씬 더 빠른 조립기를 잠금 해제합니다."
+      },
+      "_base_assembly_lines": {
+        "name": "조립 라인",
+        "description": "고급 로봇을 제조할 수 있는 조립 라인을 잠금 해제합니다."
+      },
+      "_base_barrel_filler_i": {
+        "name": "올루마이트 통 주입",
+        "description": "올루마이트를 고체로 취급할 수 있도록 통에 채울 수 있습니다. 은하계 시장에서 올루마이트 거래 시 필요합니다."
+      },
+      "_base_basic_cmat_i": {
+        "name": "건설 재료",
+        "description": "우주 정거장을 위한 건축 자재를 직접 만들 수 있습니다."
+      },
+      "_base_basic_cmat_ii": {
+        "name": "High-Tech Construction Material",
+        "description": "High-Tech construction material is used for advanced buildings and space station constructions."
+      },
+      "_base_basic_olumite_processing": {
+        "name": "기본 올루마이트 가공",
+        "description": "올루마이트를 액체 폴리머로 정제하여 폴리머 보드로 주조할 수 있습니다."
+      },
+      "_base_basic_steelmaking": {
+        "name": "기초 제강",
+        "description": "강철을 만드는 간단한 방법을 잠금 해제합니다."
+      },
+      "_base_battery_i": {
+        "name": "배터리 (소형)",
+        "description": "적은 양의 에너지를 저장합니다."
+      },
+      "_base_battery_ii": {
+        "name": "배터리 (대형)",
+        "description": "많은 양의 에너지를 저장합니다."
+      },
+      "_base_biomass_farming": {
+        "name": "바이오매스 농업",
+        "description": "자동화된 바이오매스 농업과 장식용 목재 블록을 잠금 해제합니다. 바이오매스 농업은 비효율적이며 생산량보다 더 많은 전력이 필요합니다."
+      },
+      "_base_blast_furnace": {
+        "name": "용광로",
+        "description": "용광로는 복잡하지만 매우 효율적인 금속 제품을 생산하는 방법을 제공합니다."
+      },
+      "_base_burner_generator_lvg": {
+        "name": "연소 발전기",
+        "description": "자동화할 수 있고 효율도 약간 더 높은 더 큰 저압 발전기를 잠금 해제합니다.\n\n연소 발전기는 바이오매스를 연료로 사용할 수 있지만, 드론 채굴기가 채취한 이그늄 광석을 사용해 과정을 자동화할 것을 권장합니다."
+      },
+      "_base_character_improvement_i": {
+        "name": "Construction Drone",
+        "description": "Unlocks the personal construction drone and five additional inventory slots.\n\nThe construction drone provides an alternative mode to place buildings from a flyable drone, which often is more comfortable than from the first person character perspective."
+      },
+      "_base_chemical_processing": {
+        "name": "화학 공정",
+        "description": "화학 원소와 액체의 고급 처리를 위한 기계의 잠금을 해제합니다. 이 연구는 향후 잠금 해제를 위한 전제 조건으로 작용합니다."
+      },
+      "_base_circuit_board": {
+        "name": "회로 기판",
+        "description": "회로 기판은 고급 전자 부품과 기계를 생산할 수 있게 해줍니다."
+      },
+      "_base_cleaning_bot_i": {
+        "name": "진공 봇 조립체",
+        "description": "진공 봇을 생산할 수 있는 기능을 잠금 해제합니다."
+      },
+      "_base_cleaning_bot_ii": {
+        "name": "청소 봇 조립체",
+        "description": "청소 봇을 생산할 수 있는 기능을 잠금 해제합니다."
+      },
+      "_base_concrete_production": {
+        "name": "콘크리트 생산",
+        "description": "콘크리트는 바닥과 벽으로 사용될 수 있으며, 보행 속도를 높여줍니다."
+      },
+      "_base_construction_drone_ports": {
+        "name": "건설 산업",
+        "description": "대형 모듈식 건물을 건설하는 데 사용되는 건설용 드론 포트를 잠금 해제합니다."
+      },
+      "_base_construction_site_decor": {
+        "name": "건설 현장 장식",
+        "description": "건설 현장 테마 장식 아이템을 해금합니다."
+      },
+      "_base_container": {
+        "name": "컨테이너",
+        "description": "제품을 저장할 큰 컨테이너입니다. 이 버전은 로더 및 컨베이어로 자동화할 수 없습니다."
+      },
+      "_base_conveyor_balancer_i": {
+        "name": "컨베이어 밸런서 I",
+        "description": "두 개의 컨베이어 라인을 분할, 병합 또는 분배할 수 있습니다."
+      },
+      "_base_conveyor_balancer_ii": {
+        "name": "컨베이어 밸런서 II",
+        "description": "더 빠른 벨트로 두 컨베이어 라인을 분할하거나 병합할 수 있습니다."
+      },
+      "_base_conveyor_balancer_iii": {
+        "name": "컨베이어 밸런서 III",
+        "description": "더 빠른 벨트로 두 컨베이어 라인을 분할하거나 병합할 수 있습니다."
+      },
+      "_base_conveyor_balancer_iv": {
+        "name": "컨베이어 밸런서 IV",
+        "description": "더 빠른 벨트로 두 컨베이어 라인을 분할하거나 병합할 수 있습니다."
+      },
+      "_base_conveyor_ii": {
+        "name": "컨베이어 II",
+        "description": "더 빠른 벨트를 잠금 해제합니다.\n\n처리량: 320 개/분"
+      },
+      "_base_conveyor_iii": {
+        "name": "컨베이어 III",
+        "description": "더 빠른 벨트를 잠금 해제합니다.\n\n처리량: 640 개/분"
+      },
+      "_base_conveyor_iv": {
+        "name": "컨베이어 IV",
+        "description": "더 빠른 벨트를 잠금 해제합니다.\n\n처리량: 1280 개/분"
+      },
+      "_base_cpu_production": {
+        "name": "CPU 생산",
+        "description": "다양한 첨단 기술엔 중앙 처리 장치가 필요합니다."
+      },
+      "_base_data_cable": {
+        "name": "데이터 케이블",
+        "description": "기계 작동과 관련된 다양한 로직 연산에 사용할 수 있는 데이터 케이블을 잠금 해제합니다. 잠금이 해제되면 정보 데이터베이스에서 자세한 내용을 확인하세요."
+      },
+      "_base_data_manipulation": {
+        "name": "데이터 조작",
+        "description": "산술, 논리 및 조건부 연산을 허용하는 데이터 케이블 시스템 건물과 값을 저장할 수 있는 메모리 셀의 잠금을 해제합니다."
+      },
+      "_base_data_sources": {
+        "name": "데이터 송신부",
+        "description": "데이터 케이블 시스템의 신호 소스를 잠금 해제합니다."
+      },
+      "_base_decor_i": {
+        "name": "장식 I",
+        "description": "장식용 블록 세트와 페인트 롤러를 잠금 해제합니다."
+      },
+      "_base_decor_ii": {
+        "name": "장식 II",
+        "description": "추가 장식 개체를 잠금 해제합니다."
+      },
+      "_base_decor_iii": {
+        "name": "장식 III",
+        "description": "더 많은 장식용 개체를 잠금 해제합니다."
+      },
+      "_base_decor_window": {
+        "name": "장식: 창",
+        "description": "창 세트와 개체 세트를 잠금 해제하여 사용자 지정 창 모양을 만들 수 있습니다."
+      },
+      "_base_door_i": {
+        "name": "문 (단일)",
+        "description": "건물 문을 잠금 해제합니다."
+      },
+      "_base_door_ii": {
+        "name": "문 (이중)",
+        "description": "건물의 이중문을 잠금 해제합니다."
+      },
+      "_base_door_iii": {
+        "name": "격납고 출입문",
+        "description": "격납고 출입문의 잠금을 해제합니다."
+      },
+      "_base_drone_miner_ii": {
+        "name": "드론 채굴기 II",
+        "description": "더 높은 드론 적재 용량과 채굴 속도."
+      },
+      "_base_dynamite_ii": {
+        "name": "중형 원격 폭발물",
+        "description": "중형 폭약은 일반 폭약보다 넓은 폭발 반경을 가지며, 용암 동굴의 암반과 빈 저류층을 제거할 수 있습니다."
+      },
+      "_base_elevator_i": {
+        "name": "엘리베이터",
+        "description": "캐릭터를 위아래로 이동시키는 엘리베이터입니다."
+      },
+      "_base_emergency_beacon": {
+        "name": "긴급신호 송신장치",
+        "description": "긴급신호 송신장치를 설치하면 관제센터와의 통신을 복구할 수 있습니다."
+      },
+      "_base_energy_cell": {
+        "name": "에너지 셀",
+        "description": "고농축 에너지를 가진 셀."
+      },
+      "_base_escalators": {
+        "name": "에스컬레이터 I",
+        "description": "에스컬레이터를 사용하면 이동 속도가 빨라집니다."
+      },
+      "_base_escalators_ii": {
+        "name": "에스컬레이터 II",
+        "description": "에스컬레이터를 사용하면 이동 속도가 빨라집니다."
+      },
+      "_base_escalators_iii": {
+        "name": "에스컬레이터 III",
+        "description": "에스컬레이터를 사용하면 이동 속도가 빨라집니다."
+      },
+      "_base_exploration_analyzer": {
+        "name": "옴니 분석기",
+        "description": "이 달에서 발견되는 제노 스크랩과 같은 다양한 희귀 유물을 분석하는 데 사용되는 옴니 분석기를 해금합니다. 분석을 통해 다양한 업그레이드가 해금됩니다."
+      },
+      "_base_explosives_i": {
+        "name": "폭발물",
+        "description": "원격으로 폭발시킬 수 있는 투척형 폭발물입니다."
+      },
+      "_base_explosives_ii": {
+        "name": "고급 폭발물",
+        "description": "폭발물을 자동으로 생산하는 방법을 제공합니다."
+      },
+      "_base_firmarlite_smelting_basic": {
+        "name": "기본 피마라이트 제련",
+        "description": "By smelting Firmarlite Bars into Firmarlite Sheets the material can be used for various purposes. It is especially useful in advanced manufacturing because Firmarlite is very lightweight yet sturdy."
+      },
+      "_base_fracking_tower": {
+        "name": "수압파쇄 타워",
+        "description": "광맥에 수압파쇄를 지속적으로 사용하면 계속해서 사용할 수 있는 무한한 광물 자원으로 변화할 수 있습니다."
+      },
+      "_base_freight_elevator_i": {
+        "name": "화물 엘리베이터 I",
+        "description": "수직 방향으로 물품을 운반하기 쉽게 하기 위해 (로더를 통해) 벨트에 연결할 수 있는 화물용 엘리베이터입니다.\n\n처리량: 분당 320개"
+      },
+      "_base_freight_elevator_ii": {
+        "name": "화물 엘리베이터 II",
+        "description": "수직 방향으로 물품을 운반하기 쉽게 하기 위해 (로더를 통해) 벨트에 연결할 수 있는 화물용 엘리베이터입니다.\n\n처리량: 분당 640개"
+      },
+      "_base_freight_elevator_iii": {
+        "name": "화물 엘리베이터 III",
+        "description": "수직 방향으로 물품을 운반하기 쉽게 하기 위해 (로더를 통해) 벨트에 연결할 수 있는 화물용 엘리베이터입니다.\n\n처리량: 분당 1280개"
+      },
+      "_base_freight_elevator_iv": {
+        "name": "화물 엘리베이터 IV",
+        "description": "수직 방향으로 물품을 운반하기 쉽게 하기 위해 (로더를 통해) 벨트에 연결할 수 있는 화물용 엘리베이터입니다.\n\n처리량: 분당 2560개"
+      },
+      "_base_geothermal_power": {
+        "name": "지열 에너지",
+        "description": "지열 통풍구를 활용해 용암 동굴에서 매우 높은 효율로 증기를 생산할 수 있는 지열 보일러가 해금됩니다.\n또한 광석 스캐너를 사용하여 지열 통풍구를 탐지할 수 있게 됩니다."
+      },
+      "_base_glass": {
+        "name": "유리 생산",
+        "description": "유리 생산을 잠금 해제합니다."
+      },
+      "_base_greenhouse_i": {
+        "name": "온실",
+        "description": "온실을 사용하여 식물과 나무 씨앗을 재배할 수 있습니다."
+      },
+      "_base_hazard_robot_i": {
+        "name": "Hazard Robot Assembly",
+        "description": "Unlocks the ability to produce Hazard Robots in assembly lines."
+      },
+      "_base_high_voltage_energy": {
+        "name": "고압 에너지 전력망",
+        "description": "전신주, 변압기, 산업용 발전기로 고압 에너지 전력망을 구성하세요."
+      },
+      "_base_hover_engine": {
+        "name": "호버 엔진",
+        "description": "호버 엔진은 비행 드론을 제작하는 데 필요합니다. 호버 엔진은 여러 가지 새로운 로봇 유형에 대한 길을 열어줍니다."
+      },
+      "_base_ignium_fuel_rods": {
+        "name": "이그늄 연료봉",
+        "description": "이그늄을 테크늄으로 농축하면 강력한 연료봉을 만들 수 있습니다."
+      },
+      "_base_incinerator": {
+        "name": "소각로",
+        "description": "소각로는 불필요한 아이템을 소각할 수 있습니다."
+      },
+      "_base_infrastructure_i": {
+        "name": "기초 기반 시설",
+        "description": "물류 컨테이너(로더와 컨베이어 벨트로 자동화할 수 있는 창고 건물) 를 잠금 해제하며, 추가적인 기반 시설 잠금 해제를 위한 전제 조건입니다."
+      },
+      "_base_inventory_size_i": {
+        "name": "인벤토리 크기 I",
+        "description": "인벤토리 슬롯 5개를 추가로 획득할 수 있습니다."
+      },
+      "_base_inventory_size_ii": {
+        "name": "인벤토리 크기 II",
+        "description": "인벤토리 슬롯 10개를 추가로 획득할 수 있습니다."
+      },
+      "_base_inventory_size_iii": {
+        "name": "인벤토리 크기 III",
+        "description": "인벤토리 슬롯 10개를 추가로 획득할 수 있습니다."
+      },
+      "_base_inventory_size_iv": {
+        "name": "인벤토리 크기 IV",
+        "description": "인벤토리 슬롯 10개를 추가로 획득할 수 있습니다."
+      },
+      "_base_inventory_size_v": {
+        "name": "인벤토리 크기 V",
+        "description": "인벤토리 슬롯 10개를 추가로 획득할 수 있습니다."
+      },
+      "_base_jetpack": {
+        "name": "제트팩",
+        "description": "제트팩을 잠금 해제합니다."
+      },
+      "_base_jetpack_speed_i": {
+        "name": "제트팩 속도 I",
+        "description": "최대 제트팩 속도가 증가하지만 연료 소비량도 증가합니다."
+      },
+      "_base_jetpack_speed_ii": {
+        "name": "제트팩 속도 II",
+        "description": "최대 제트팩 속도가 증가하지만 연료 소비량도 증가합니다."
+      },
+      "_base_ladder_i": {
+        "name": "사다리",
+        "description": "사다리를 잠금해제합니다."
+      },
+      "_base_light_bot_i": {
+        "name": "조명 봇 조립체",
+        "description": "조명 봇을 생산할 수 있는 기능을 잠금 해제합니다."
+      },
+      "_base_light_portable_i": {
+        "name": "휴대용 조명",
+        "description": "전력이 필요 없는 휴대용 조명을 잠금 해제합니다."
+      },
+      "_base_lights_i": {
+        "name": "조명 I",
+        "description": "어둠 속에서도 보고 싶으신가요?"
+      },
+      "_base_lights_ii": {
+        "name": "조명 II",
+        "description": "어둠 속에서도 더 많은 것을 보고 싶으신가요?"
+      },
+      "_base_lights_iii": {
+        "name": "조명 III",
+        "description": "공장에 설치할 수 있는 더 큰 천장 조명을 잠금 해제합니다."
+      },
+      "_base_loader_1st_i_filter": {
+        "name": "선별 로더",
+        "description": "특정 물품을 설정하면 설정한 물품만 옮겨주는 로더입니다."
+      },
+      "_base_loader_2nd_i": {
+        "name": "로더 (2 레인)",
+        "description": "두 블록 거리의 벨트에서 제품을 가져오거나 내보낼 수 있는 로더입니다."
+      },
+      "_base_loader_3rd_i": {
+        "name": "로더 (3 레인)",
+        "description": "세 블록 거리의 벨트에서 제품을 가져오거나 내보낼 수 있는 로더입니다."
+      },
+      "_base_logistic_container_ii": {
+        "name": "물류 컨테이너 II",
+        "description": "제품을 저장할 큰 컨테이너입니다. 이 버전은 로더 및 컨베이어로 자동화할 수 있습니다."
+      },
+      "_base_logistic_container_iii": {
+        "name": "물류 컨테이너 III",
+        "description": "제품을 저장할 큰 컨테이너입니다. 이 버전은 로더 및 컨베이어로 자동화할 수 있습니다."
+      },
+      "_base_long_distance_transport": {
+        "name": "화물 셔틀",
+        "description": "화물 셔틀은 많은 양의 물품을 장거리로 편리하게 운송할 수 있는 수단입니다. 화물 셔틀은 행성상의 물품만 운송할 수 있으며, 정거장까지 도달할 수 없습니다."
+      },
+      "_base_long_distance_transport_liquids": {
+        "name": "화물 셔틀 (액체)",
+        "description": "액체와 가스를 운반할 수 있는 화물 셔틀을 잠금 해제합니다. 화물 셔틀은 행성상의 물품만 운송할 수 있으며, 정거장에는 도달할 수 없습니다."
+      },
+      "_base_long_range_scanner": {
+        "name": "장거리 스캐너",
+        "description": "장거리 스캐너는 멀리 떨어진 지역의 자원을 자동으로 스캔하는 모듈식 건물입니다."
+      },
+      "_base_maintenance_drone_production": {
+        "name": "유지보수 드론 생산",
+        "description": "유지보수 드론 생산을 잠금 해제합니다."
+      },
+      "_base_medium_shipping_pad": {
+        "name": "배송 패드 (중형)",
+        "description": "중형 배송 패드를 사용하면 더 큰 함선을 행성에 착륙시킬 수 있습니다."
+      },
+      "_base_military_bot_i": {
+        "name": "전투용 드론 조립체",
+        "description": "전투용 드론을 생산할 수 있는 기능을 잠금 해제합니다."
+      },
+      "_base_military_robot_i": {
+        "name": "전투용 로봇 조립체",
+        "description": "조립 라인에서 전투용 로봇을 생산할 수 있는 기능을 잠금 해제합니다."
+      },
+      "_base_military_robot_ii": {
+        "name": "Assault Robot Assembly",
+        "description": "Unlocks the ability to produce Assault Robots in assembly lines."
+      },
+      "_base_mining_bot_i": {
+        "name": "채굴 드론 조립체",
+        "description": "채굴 드론을 생산할 수 있습니다."
+      },
+      "_base_mining_bot_ii": {
+        "name": "수중 채굴 봇 조립체",
+        "description": "수중 채굴 봇을 생산할 수 있는 기능을 잠금 해제합니다."
+      },
+      "_base_mining_efficiency": {
+        "name": "채굴 효율",
+        "description": "모든 채굴 기계가 해당 광맥이나 광석 지대를 고갈시키지 않고 추가 아이템을 생산할 수 있도록 해줍니다.\n레벨당 10%의 추가 무료 광석 아이템을 생성하며, 이 연구는 무한히 진행할 수 있습니다. 단, 분당 산출량은 증가하지 않습니다.\n\n광맥 코어 채굴의 경우, 프래킹 액체 소비량을 줄여줍니다.\n레벨당 동일한 프래킹 액체 기준으로 10%의 추가 무료 광석 아이템을 획득할 수 있습니다."
+      },
+      "_base_mining_efficiency_demo": {
+        "name": "채굴 효율 (데모)",
+        "description": "채굴 기계의 자원 생산량이 레벨당 10% 증가합니다. 추가로 생산되는 아이템은 광맥을 고갈시키지 않습니다. 반복적으로 연구할 수 있습니다.\n\n이 데모에서는 채굴 효율이 드론 채굴기 화면 패널이나 태블릿에 시각적으로 표시되지 않지만, 광석이 고갈되기 전에 더 많은 광석을 추출할 수 있습니다."
+      },
+      "_base_mining_efficiency_i": {
+        "name": "채굴 효율 (1)",
+        "description": "모든 채굴 기계가 해당 광맥이나 광석 지대를 고갈시키지 않고 추가 아이템을 생산할 수 있도록 해줍니다.\n레벨당 10%의 추가 무료 광석 아이템을 생성하며, 이 연구는 무한히 진행할 수 있습니다. 단, 분당 산출량은 증가하지 않습니다.\n\n광맥 코어 채굴의 경우, 프래킹 액체 소비량을 줄여줍니다.\n레벨당 동일한 프래킹 액체 기준으로 10%의 추가 무료 광석 아이템을 획득할 수 있습니다."
+      },
+      "_base_mining_efficiency_ii": {
+        "name": "채굴 효율 (2)",
+        "description": "모든 채굴 기계가 해당 광맥이나 광석 지대를 고갈시키지 않고 추가 아이템을 생산할 수 있도록 해줍니다.\n레벨당 10%의 추가 무료 광석 아이템을 생성하며, 이 연구는 무한히 진행할 수 있습니다. 단, 분당 산출량은 증가하지 않습니다.\n\n광맥 코어 채굴의 경우, 프래킹 액체 소비량을 줄여줍니다.\n레벨당 동일한 프래킹 액체 기준으로 10%의 추가 무료 광석 아이템을 획득할 수 있습니다."
+      },
+      "_base_mining_force_i": {
+        "name": "채굴력 I",
+        "description": "더 깊은 지하 지형을 굴착하고 발파할 수 있게 하여 이전에는 접근할 수 없었던 자원에 접근할 수 있게 합니다.\n\n또한 채굴력 I 이 필요한 지역에 숨겨진 유물을 단거리 스캐너로 탐색할 수 있게 합니다."
+      },
+      "_base_mining_force_ii": {
+        "name": "채굴력 II",
+        "description": "더 깊은 지하 지형을 굴착하고 발파할 수 있게 하여 이전에는 접근할 수 없었던 자원에 접근할 수 있게 합니다.\n\n또한 채굴력 II 가 필요한 지역에 숨겨진 유물을 단거리 스캐너로 탐색할 수 있게 합니다."
+      },
+      "_base_mining_robot_i": {
+        "name": "채굴 로봇 조립체",
+        "description": "조립 라인에서 채굴 로봇을 생산할 수 있는 기능을 잠금 해제합니다."
+      },
+      "_base_modular_fluid_tank": {
+        "name": "모듈식 저장 탱크",
+        "description": "대량의 액체와 가스를 저장할 수 있는 모듈식 건물입니다."
+      },
+      "_base_monument": {
+        "name": "기념비",
+        "description": "당신의 커다란 장식 조각상 - 왜냐하면 당신은 멋지고 자격이 있기 때문입니다!"
+      },
+      "_base_neon_decor": {
+        "name": "Neon Decor",
+        "description": "Unlocks a set of decorative neon-tube blocks. Use the Paint Roller to change the color!"
+      },
+      "_base_office_blocks_deluxe_ii": {
+        "name": "대리석 블록",
+        "description": "여러분의 성원에 감사드리며, 멋진 대리석으로 공장을 아름답게 꾸며보세요!"
+      },
+      "_base_office_furniture": {
+        "name": "사무실 가구",
+        "description": "다양한 사무실 테마의 장식 개체를 잠금 해제합니다."
+      },
+      "_base_office_furniture_deluxe": {
+        "name": "임원 사무실 가구",
+        "description": "여러분의 성원에 감사드리며 임원급 삶을 즐기세요!"
+      },
+      "_base_olumite_fuel": {
+        "name": "올루마이트 연료",
+        "description": "올루마이트를 액체 연료 및 인화성 물질의 기본 재료인 저밀도 올루마이트로 정제합니다."
+      },
+      "_base_ore_refinement_i": {
+        "name": "광석 정제",
+        "description": "광석을 정제하여 효율성을 향상시키는 옵션을 잠금 해제합니다."
+      },
+      "_base_ore_scanner_ignium": {
+        "name": "광석 스캐너: 이그늄",
+        "description": "휴대용 광석 스캐너로 이그늄 광석 스캔을 잠금 해제합니다. \n\n이그늄은 발전에 사용되는 연소 가능한 자원입니다. 연소 발전기를 연구하여 연료로 사용하세요."
+      },
+      "_base_ore_scanner_mineral_rock": {
+        "name": "광석 스캐너: 광물 암석",
+        "description": "다양한 기기에 사용할 수 있는 광물이 풍부한 다용도 암석인 광물 암석 탐색기능을 잠금 해제합니다."
+      },
+      "_base_ore_vein_scanner": {
+        "name": "광석 스캐너: XF, TE, IG & MR 광맥",
+        "description": "광석 스캐너를 잠금 해제하여 제노페라이트, 테크늄, 이그늄 및 광물 암석 광맥을 탐색할 수 있습니다."
+      },
+      "_base_ore_vein_scanner_telluxite": {
+        "name": "광석 스캐너: 텔루사이트 광맥",
+        "description": "텔루사이트 광맥을 탐지할 수 있는 광석 스캐너 기능을 잠금 해제합니다. 광석 광맥은 \"지하 채굴\" 기술을 통해 접근할 수 있는 대규모 지하 자원입니다."
+      },
+      "_base_personal_assistant_robot_i": {
+        "name": "개인용 도우미 로봇 조립체",
+        "description": "조립 라인에서 개인용 도우미 로봇을 생산할 수 있는 기능을 잠금 해제합니다."
+      },
+      "_base_pipelines": {
+        "name": "파이프라인",
+        "description": "파이프라인은 파이프보다 훨씬 높은 처리량을 제공하는 대안 수송 수단입니다. 주로 용광로나 열풍로와 같은 모듈식 건물에 사용됩니다. 파이프라인은 어댑터 부품을 통해 일반 파이프와 연결할 수 있습니다."
+      },
+      "_base_piping": {
+        "name": "배관",
+        "description": "공장에서 유체를 취급할 수 있습니다."
+      },
+      "_base_power_pole_ii": {
+        "name": "전신주 (대형)",
+        "description": "더 먼 거리에 걸쳐 전선을 연결할 수 있는 더 큰 전신주입니다."
+      },
+      "_base_power_pole_iii": {
+        "name": "전신주 (벽)",
+        "description": "벽에 부착할 수 있는 소형 전신주입니다."
+      },
+      "_base_pumpjack_efficiency": {
+        "name": "펌프잭 효율",
+        "description": "레벨당 펌프잭의 자원 생산량이 10% 증가합니다. 추가로 생산되는 액체는 저류층을 고갈시키지 않습니다. 반복 연구가 가능합니다."
+      },
+      "_base_pumpjack_efficiency_i": {
+        "name": "펌프잭 효율 (1)",
+        "description": "레벨당 펌프잭의 자원 생산량이 10% 증가합니다. 추가로 생산되는 액체는 저류층을 고갈시키지 않습니다. 반복 연구가 가능합니다."
+      },
+      "_base_railings": {
+        "name": "난간",
+        "description": "안전 제일! (장식용품)"
+      },
+      "_base_recycler_terrain": {
+        "name": "자원 분리기",
+        "description": "지형 블록과 유사한 아이템을 파괴하면서 더 가치 있는 자원으로 변환하는 기계인 자원 분리기를 해금합니다. 파괴된 모든 아이템이 결과물을 생성하는 것은 아닙니다."
+      },
+      "_base_robot_components": {
+        "name": "로봇 부품",
+        "description": "이 연구를 통해 조립 라인에서 사용할 수 있도록 사전 조립된 로봇 부품을 잠금 해제할 수 있습니다."
+      },
+      "_base_rubber_production": {
+        "name": "고무 생산",
+        "description": "올루마이트를 이용해 고무를 생산할 수 있는 기능이 잠금해제됩니다. 고무는 다양한 첨단 장비 제작에 필요합니다."
+      },
+      "_base_science_bot_i": {
+        "name": "과학용 도우미 드론 조립체",
+        "description": "과학용 드론을 제작할 수 있습니다."
+      },
+      "_base_science_bot_ii": {
+        "name": "해양 탐사 봇 조립체",
+        "description": "해양 탐사 봇을 생산할 수 있는 기능을 잠금 해제합니다."
+      },
+      "_base_science_pack_ii": {
+        "name": "과학팩 II",
+        "description": "새로운 유형의 과학 팩으로 더욱 진보된 기술을 잠금 해제할 수 있습니다."
+      },
+      "_base_science_pack_iii": {
+        "name": "과학팩 III",
+        "description": "새로운 유형의 과학 팩으로 더욱 진보된 기술을 잠금 해제할 수 있습니다."
+      },
+      "_base_science_pack_iv": {
+        "name": "과학팩 IV",
+        "description": "새로운 유형의 과학 팩으로 더욱 진보된 기술을 잠금 해제할 수 있습니다."
+      },
+      "_base_science_pack_v": {
+        "name": "과학팩 V",
+        "description": "새로운 유형의 과학 팩으로 더욱 진보된 기술을 잠금 해제할 수 있습니다."
+      },
+      "_base_science_robot_i": {
+        "name": "과학 로봇 조립체",
+        "description": "조립 라인에서 과학 로봇을 생산할 수 있는 기능을 잠금 해제합니다."
+      },
+      "_base_scout_robot_i": {
+        "name": "Scout Robot Assembly",
+        "description": "Unlocks the ability to produce Scout Robots in assembly lines."
+      },
+      "_base_screen_bot_i": {
+        "name": "화면 봇 조립체",
+        "description": "은하계 전체에서 일반적으로 사용되는 화면 봇을 제작할 수 있습니다."
+      },
+      "_base_shaped_charge_t1": {
+        "name": "성형 폭약",
+        "description": "성형 폭약은 폭발 에너지를 특정 방향으로 집중시키는 폭약입니다. 일반 폭약과 비슷하지만, 정밀도가 높아 어떤 영역이 굴착되거나 파괴될지 미리 정확히 알 수 있습니다.\n\n투척용 폭약과 마찬가지로 기폭 장치를 사용해 폭파할 수 있습니다."
+      },
+      "_base_shaped_charge_t2": {
+        "name": "성형 폭약 (중형)",
+        "description": "A stronger version of the shaped charge which has a larger explosion area and the ability to clear lava cave bedrock and empty reservoirs."
+      },
+      "_base_sign": {
+        "name": "표지판",
+        "description": "공장 곳곳에 표시할 수 있는 벽면 및 바닥 장착형 표지판입니다."
+      },
+      "_base_slag_reprocessing": {
+        "name": "슬래그 재처리",
+        "description": "슬래그를 유용한 자원으로 전환하는 방법을 잠금 해제합니다."
+      },
+      "_base_snack_bot_i": {
+        "name": "스낵 봇 조립체",
+        "description": "스낵 봇을 생산할 수 있는 기능을 잠금 해제합니다."
+      },
+      "_base_solar_panel_i": {
+        "name": "태양광 패널",
+        "description": "태양으로부터의 자유로운 에너지!"
+      },
+      "_base_solar_panel_ii": {
+        "name": "태양광 패널 (대형)",
+        "description": "더 많은 에너지를 생산하고 태양을 향해 패널을 회전할 수 있는 태양광 패널입니다."
+      },
+      "_base_space_ship_fuel": {
+        "name": "우주선 연료 생산",
+        "description": "우주선 연료를 만드는 데 필요한 생산 방법과 우주 정거장의 연료 보관소를 잠금 해제합니다."
+      },
+      "_base_space_station_antenna": {
+        "name": "정거장: 안테나",
+        "description": "우주 정거장 안테나를 수리하는 데 필요한 설계도를 잠금 해제합니다. 이를 통해 은하계의 다른 행성과 연락할 수 있습니다."
+      },
+      "_base_space_station_hull_improvements_i": {
+        "name": "정거장: 선체 개선",
+        "description": "정거장 선체의 구조적 무결성을 개선함으로써 정거장을 더 확장하고 더 많은 업그레이드를 구축할 수 있습니다. 이 연구를 통해 해당 정거장 업그레이드가 가능해집니다."
+      },
+      "_base_space_station_hull_improvements_ii": {
+        "name": "정거장: 선체 확장",
+        "description": "선체를 확장하면 정거장 업그레이드를 위한 더 많은 공간을 확보할 수 있습니다."
+      },
+      "_base_space_station_orbital_laser_i": {
+        "name": "정거장: 궤도 레이저",
+        "description": "궤도 레이저를 설치하면 많은 지형을 빠르게 파괴할 수 있지만, 꽤 지저분해집니다.\n\n궤도 업링크 도구를 사용하여 제어하세요."
+      },
+      "_base_space_station_terminal": {
+        "name": "우주 정거장 터미널",
+        "description": "두 개의 긴급신호 송신장치를 결합하면 궤도 정거장에 연락할 수 있는 단말기를 만들 수 있습니다."
+      },
+      "_base_stairs": {
+        "name": "계단",
+        "description": "계단 블록을 사용하여 경사로를 건설합니다."
+      },
+      "_base_station_radio_tower": {
+        "name": "라디오 타워",
+        "description": "대형 라디오 타워를 세우면 터미널에 갈 필요 없이 어디서든 우주 정거장에 연락할 수 있습니다."
+      },
+      "_base_super_alloy_production": {
+        "name": "초합금 생산",
+        "description": "초고급 금속 빔인 초합금 제조법이 잠금해제됩니다. 또한 첨단 기계 부품의 생산도 가능해집니다."
+      },
+      "_base_tank": {
+        "name": "탱크",
+        "description": "액체 및 가스를 저장할 수 있습니다."
+      },
+      "_base_trains": {
+        "name": "Trains",
+        "description": "Unlocks trains and everything related for long distance cargo transportation."
+      },
+      "_base_transformer_ii": {
+        "name": "변압기 (대형)",
+        "description": "더 큰 용량의 변압기."
+      },
+      "_base_transport_bot_ii": {
+        "name": "중장비 수송 봇 조립체",
+        "description": "중장비 수송 봇을 생산할 수 있는 능력을 잠금 해제합니다."
+      },
+      "_base_transport_bot_iii": {
+        "name": "수중 운반 봇 조립체",
+        "description": "수중 운반 봇을 생산할 수 있는 기능을 잠금 해제합니다."
+      },
+      "_base_transport_drone_assembly": {
+        "name": "수송 봇 조립 & 배송",
+        "description": "수송 봇과 함선을 생산하여 우주 정거장으로 배송할 수 있는 기능을 잠금 해제합니다."
+      },
+      "_base_transport_drone_i": {
+        "name": "수송 드론 조립체",
+        "description": "화물을 항공으로 운송해야 할 때 유용한 수송 드론을 제작할 수 있는 기능을 잠금 해제합니다."
+      },
+      "_base_underground_mining_i": {
+        "name": "지하 채굴",
+        "description": "광맥과 함께 사용할 수 있는 고급 채굴 장비입니다."
+      },
+      "_base_underwater_chassis_i": {
+        "name": "수중 프레임",
+        "description": "다양한 수중 봇의 기반이 되는 수중 봇 프레임을 생산할 수 있는 기능을 잠금 해제합니다."
+      },
+      "_base_walkway": {
+        "name": "보행로",
+        "description": "공장의 특정 부분에 쉽게 도달하거나 위에서 잘 볼 수 있도록 보행로를 사용하십시오. 가장자리에 난간을 자동으로 생성합니다. 대형 건물의 일부인 보행로에 연결할 수 있습니다."
+      },
+      "_base_workstation_i": {
+        "name": "로봇 작업대 I",
+        "description": "작업대는 로봇이 공장에서 작업할 수 있게 하여 다양한 기계를 향상시킵니다.\n\n각 로봇이 제공하는 보너스를 확인하려면 로봇 툴팁을 확인하세요 (이 연구를 완료한 후에만 표시됩니다)."
+      },
+      "_base_workstation_ii": {
+        "name": "로봇 작업대 II",
+        "description": "더 많은 로봇이 동시에 작업할 수 있는 향상된 작업대를 해금합니다."
+      },
+      "_base_workstation_iii": {
+        "name": "로봇 작업대 III",
+        "description": "더 많은 로봇이 동시에 작업할 수 있는 향상된 작업대를 해금합니다."
+      },
+      "_base_xeno_power_plant": {
+        "name": "Xeno Power Plant",
+        "description": "Unlocks multiple modular buildings that together form the Xeno Power Plant. While complex to construct, it provides an immense amount of power."
+      }
+    }
+  }
+}

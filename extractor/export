@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+"""Usage: extractor/export [<Spielordner>] <Ausgabe>   |   extractor/export <check|locate|verify|diff|baseline|schemas> ...
+(see extractor/README.md and UPDATE.md)"""
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from foundry_export.cli import main  # noqa: E402
+
+COMMANDS = ('export', 'check', 'locate', 'verify', 'diff', 'baseline', 'itemsheet', 'schemas', '-h', '--help')
+args = sys.argv[1:]
+if args and args[0] not in COMMANDS:
+    args = ['export'] + args
+sys.exit(main(args))
