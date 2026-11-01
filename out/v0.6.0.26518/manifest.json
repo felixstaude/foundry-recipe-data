@@ -1,0 +1,236 @@
+{
+  "schemaVersion": "1.1",
+  "gameVersion": "0.6.0.26518",
+  "steamBuildId": "23077581",
+  "steamBranch": null,
+  "unityVersion": "2022.3.51f1",
+  "generatedAt": "2026-11-01T17:44:47+00:00",
+  "generator": "foundry-export 1.0.0",
+  "templateSource": "StreamingAssets/Templates",
+  "previousVersion": null,
+  "languages": [
+    "af",
+    "cs",
+    "de",
+    "en",
+    "es-419",
+    "es-ES",
+    "fr",
+    "hu",
+    "it",
+    "ja",
+    "ko",
+    "pl",
+    "pt-BR",
+    "pt-PT",
+    "ro",
+    "ru",
+    "tr",
+    "uk",
+    "zh-CN"
+  ],
+  "warnings": [
+    "recipe _base_pipe_adapter: no machine accepts tags ['character']",
+    "recipes use undefined crafting tag base_station",
+    "source: Templates/PlanetTemplate/_base_u_home.yaml line 5 is not valid YAML - value '-' read as string",
+    "source: Templates/PlanetTemplate/_base_u_trading_platform.yaml line 5 is not valid YAML - value '-' read as string",
+    "source: Templates/SkyPlatformUpgradeTemplate: 11 unquoted value(s) contain \" #\" - YAML reads the rest as a comment, the value is truncated (e.g. _base_fuel_depot_02.yaml:3)"
+  ],
+  "templateCounts": {
+    "AchievementDatabaseTemplate": 8,
+    "AssemblyLineObjectTemplate": 9,
+    "AssemblyLineProducerActionTemplate": 90,
+    "BiomeGridTemplate": 4,
+    "BiomeLayerTemplate": 29,
+    "BiomeTemplate": 6,
+    "BlastFurnaceModeTemplate": 2,
+    "BuildableObjectConversionGroup": 9,
+    "BuildableObjectTemplate": 578,
+    "CaveTemplate": 2,
+    "CharacterTemplate": 1,
+    "CompanyLogoTemplate": 16,
+    "CompanyRankTemplate": 20,
+    "CompetitorTemplate": 28,
+    "CraftingRecipe": 350,
+    "CraftingRecipeCategory": 8,
+    "CraftingRecipeRowGroup": 62,
+    "CraftingTag": 17,
+    "CreativeModeCategoryTemplate": 19,
+    "CritterTemplate": 7,
+    "DataSignalTemplate": 48,
+    "ElementTemplate": 28,
+    "ExplorationUnlockCategoryTemplate": 7,
+    "ExplorationUnlockTemplate": 55,
+    "GalaxyTemplate": 1,
+    "IndustryTemplate": 8,
+    "InfoDatabaseCategoryTemplate": 4,
+    "InfoDatabaseTemplate": 77,
+    "ItemCategoryTemplate": 5,
+    "ItemTemplate": 512,
+    "LiquidTemplate": 2,
+    "MapColorPriority": 14,
+    "MaterialLocTemplate": 2,
+    "NoiseTemplate": 22,
+    "OreVeinTemplate": 5,
+    "PipeTypeTemplate": 2,
+    "PlanetTemplate": 49,
+    "PortraitTemplate": 2,
+    "QuestTemplate": 26,
+    "ResearchTemplate": 173,
+    "ReservoirTemplate": 1,
+    "SalesItemCategoryTemplate": 6,
+    "SectorTemplate": 17,
+    "SessionSettingsCategoryTemplate": 3,
+    "SessionSettingsTemplate": 11,
+    "ShortRangeScannerGroupTemplate": 7,
+    "SkinGroupTemplate": 2,
+    "SkinTemplate": 4,
+    "SkyPlatformCategoryTemplate": 15,
+    "SkyPlatformUpgradeTemplate": 139,
+    "SpaceShipCategoryTemplate": 1,
+    "SpaceShipTemplate": 4,
+    "SpecialWorldObjectTemplate": 4,
+    "StartingPlanetTemplate": 5,
+    "StationInteriorTemplate": 2,
+    "TerrainBlockScratchGroup": 35,
+    "TerrainBlockType": 59,
+    "TerrainSingletonTemplate": 1,
+    "TestTemplate": 1,
+    "TipOfTheDayContainerTemplate": 1,
+    "TrainSignalTemplate": 2,
+    "TrainTrackAutomaticTemplateSet": 4,
+    "TrainTrackVoxelDataContainer": 10,
+    "TrainVehicleTemplate": 3,
+    "UIPresetTemplate": 1,
+    "VoiceLineTemplate": 93,
+    "WorkstationEffectTagTemplate": 12
+  },
+  "codeHashes": {
+    "Main.dll": "30a279bad60eeb8edd9e07acf439cef3a07bffa13f7bd8e28dd533fdbc0b2f63",
+    "Channel3.dll": "a92c2b820104dd8dff2a99fbea9ae9c1d02c671e7b65721cf40feb54ea2438eb",
+    "Assembly-CSharp.dll": "d5effa3a246670450ab1d1389a23c0ef48e4a07aa2a5993ea2410c714597c876",
+    "FoundryNative.dll": "cd57b91ec077c2dc9dd26dafe15b557392f550c0fe60aa51ce2cb1fae534738f"
+  },
+  "schemaHashes": {
+    "assembly_line.schema.json": "45fc9b8161a1af1f43ee57c4b06b20f5967afe609194e93025411e3679e265dc",
+    "crafting_tags.schema.json": "af80f9fb9a5c48f7ae088f4f6ab8d3f0f30fd169553e379c3572aa14b7b2aa6d",
+    "elements.schema.json": "d3ce24a0c6282ca39aea832900e078c7c98eb4129523d2afa901a89dcaed24e9",
+    "items.schema.json": "31d7da6254a0b3f9490c2ff972b83a27489539a0e95bbb5a852e48fafd95f4c0",
+    "localization.schema.json": "d2db13994f42a6d5199d69471830331f9003eaa3f520717408f9c16d1cbe6403",
+    "machines.schema.json": "d361fe4e08e27f7af4930fa1ae508999c952fcc1879c22fb67c96354275d2489",
+    "manifest.schema.json": "5444a3e9fa4f209e3ba65521fd82709d4f050cdcbc4b7adf19159bf2799ef491",
+    "recipes.schema.json": "6277fe59835682a11f6279fd21aaa65d3818928a3201cfeecb94facb57c25bb5",
+    "research.schema.json": "849a93bd4b66060f8e83d79b70f8e70e26cf48d7ba5cce6dd1b985b9930be5b7",
+    "template_fields.schema.json": "0d7bd8cfa4d069239a42710329b5963726f277cb03766e45979142610ff0d80b"
+  },
+  "files": {
+    "items.json": {
+      "count": 512,
+      "sha256": "4de96dd7fe380aa1d6726123aa8d3a0f77c4d293a2a7166270b642df342cb778"
+    },
+    "elements.json": {
+      "count": 28,
+      "sha256": "ff793d93b27307c40740455886c2f24d3549488ac9a7e1746f39728085a236a4"
+    },
+    "crafting_tags.json": {
+      "count": 17,
+      "sha256": "f2abb305de45031d7898e523ce09a77cbe15a2ccb0f71676e41eb7f68c90b13a"
+    },
+    "recipes.json": {
+      "count": 350,
+      "sha256": "3d210c62dcd5187f9364bafc3ad60c47c5434cb4f076682e88f375db80d015cb"
+    },
+    "machines.json": {
+      "count": 578,
+      "sha256": "379ce6861f95e1b9eb4b87d4c5bf4264b3f59ef117747afa8f021ab03180830b"
+    },
+    "research.json": {
+      "count": 173,
+      "sha256": "11674eafabf31e2fae448ec932fdb9704365505debef8b059d13ba227ad54376"
+    },
+    "assembly_line.json": {
+      "count": 9,
+      "sha256": "04e54db0976f05ab7ba877d4f8267e9f5d5a2ca2646d6c660885a7cd7d957d00"
+    },
+    "template_fields.json": {
+      "count": 68,
+      "sha256": "31273757deb424ae38333fb72047c22944ac453cde7eee019cb18fcd93f004bf"
+    },
+    "localization/af.json": {
+      "count": 2439,
+      "sha256": "2746a2c878bd2392dba3c92ccc36f3827e1fe87dab0fc5e6c85062d1b5b6cb9c"
+    },
+    "localization/cs.json": {
+      "count": 2439,
+      "sha256": "f262405b5d78449e82a3a4b7a184397c723cd9783f8408f92a48ea36d11bb432"
+    },
+    "localization/de.json": {
+      "count": 2439,
+      "sha256": "3cb4ed21fc737058de2c7fb83e7dd234c96ed985c77f779c2c05c7b0b9ebe61e"
+    },
+    "localization/en.json": {
+      "count": 2439,
+      "sha256": "107148500febad2524fb2cbb96ad28eedb4d1145a219272a911ae5a1816cc28d"
+    },
+    "localization/es-419.json": {
+      "count": 2439,
+      "sha256": "a9a0602164974436bfda258ea7037c832f1bbc7d7bcdda2c44dd1013fe44f279"
+    },
+    "localization/es-ES.json": {
+      "count": 2439,
+      "sha256": "0f7e3d4748919402771953bd70f2764ab1365e54d7541f0c3d2ace25456ed203"
+    },
+    "localization/fr.json": {
+      "count": 2439,
+      "sha256": "ae48f039f0bf42d11d89f591d44de83ce2f5f62329b0ae2842bc8c7dc6c82018"
+    },
+    "localization/hu.json": {
+      "count": 2439,
+      "sha256": "82987976320ffd35a237e167791e2f3fd7160d430ec5f64e80f26a186e3a1b0a"
+    },
+    "localization/it.json": {
+      "count": 2439,
+      "sha256": "5426d1ba946552b594cfc1fbc47253ea226d4dfe38003f7d641c2e68471264ca"
+    },
+    "localization/ja.json": {
+      "count": 2439,
+      "sha256": "bfedf9c86a8c8bcca4725e98ecaa561d1a4f5ab32f851626b71767dd8f718c76"
+    },
+    "localization/ko.json": {
+      "count": 2439,
+      "sha256": "f18490dde5efa6e4537b65e8feeed315f91e3348a67933ed2b2ad016b9245df0"
+    },
+    "localization/pl.json": {
+      "count": 2439,
+      "sha256": "563841a2f5e385d0db541741324b2dd86fec375f81a754bc0b2ae1219d4b04af"
+    },
+    "localization/pt-BR.json": {
+      "count": 2439,
+      "sha256": "a6f4cfcbb798be933cacd2280e57f9c3136ae22162ba0516c49a3575b0e28b19"
+    },
+    "localization/pt-PT.json": {
+      "count": 2439,
+      "sha256": "7d4428dfafc5f79b05b5bbbf467f536676cbc3add13d9d260d5f80e7620539ce"
+    },
+    "localization/ro.json": {
+      "count": 2439,
+      "sha256": "33224e0818fac1d02f430d604c5b682a15b72f02e71958cec10cf807e9a75422"
+    },
+    "localization/ru.json": {
+      "count": 2439,
+      "sha256": "08d73c4cffe97515237243a433cdea1a54ef32208aaf2534bf68ea019f58ead7"
+    },
+    "localization/tr.json": {
+      "count": 2439,
+      "sha256": "b6354345eac2ab6c022793fe00017e44d7f336194a95a3ba32fe1a3ff8d7d912"
+    },
+    "localization/uk.json": {
+      "count": 2439,
+      "sha256": "6ccc51dbf3c99fdd952b7cd471cb1bd673d566c90f5d2aa4740d7d29d087b6c2"
+    },
+    "localization/zh-CN.json": {
+      "count": 2439,
+      "sha256": "5696413ce934ad2b9f3f21c3932a9c9f1ebcfedd691db8872a079ac9d8402338"
+    }
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "foundry-data/recipes@1",
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "foundry-data/recipes@1"
+    },
+    "gameVersion": {
+      "type": "string"
+    },
+    "steamBuildId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "count": {
+      "type": "integer"
+    },
+    "recipes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "identifier": {
+            "type": "string"
+          },
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "iconIdentifier": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "category": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "rowGroup": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sortOrder": {
+            "type": "integer"
+          },
+          "timeMs": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "inputs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/itemAmount"
+            }
+          },
+          "outputs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "item": {
+                  "type": "string"
+                },
+                "amount": {
+                  "type": "integer"
+                },
+                "chance": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "item",
+                "amount",
+                "chance"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "fluidInputs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/fluidAmount"
+            }
+          },
+          "fluidOutputs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/fluidAmount"
+            }
+          },
+          "relatedItem": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "hiddenInCharacterCrafting": {
+            "type": "boolean"
+          },
+          "hiddenUntilNarrativeTrigger": {
+            "type": "boolean"
+          },
+          "narrativeTrigger": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "hideInDemo": {
+            "type": "boolean"
+          },
+          "entitlement": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "derived": {
+            "type": "object",
+            "properties": {
+              "unlockedBy": {
+                "type": "object",
+                "properties": {
+                  "research": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "explorationUnlocks": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": [
+                  "research",
+                  "explorationUnlocks"
+                ],
+                "additionalProperties": false
+              },
+              "producers": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "machine": {
+                      "type": "string"
+                    },
+                    "kind": {
+                      "enum": [
+                        "Producer",
+                        "AutoProducer",
+                        "ModularEntityProducer",
+                        "BaseStation",
+                        "Character"
+                      ]
+                    },
+                    "speedMultiplier": {
+                      "type": "number"
+                    },
+                    "craftTimeSec": {
+                      "type": "number"
+                    },
+                    "perMinute": {
+                      "type": "object",
+                      "properties": {
+                        "inputs": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "item": {
+                                "type": "string"
+                              },
+                              "perMin": {
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "item",
+                              "perMin"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "outputs": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "item": {
+                                "type": "string"
+                              },
+                              "perMin": {
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "item",
+                              "perMin"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "fluidInputs": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "element": {
+                                "type": "string"
+                              },
+                              "litersPerMin": {
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "element",
+                              "litersPerMin"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "fluidOutputs": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "element": {
+                                "type": "string"
+                              },
+                              "litersPerMin": {
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "element",
+                              "litersPerMin"
+                            ],
+                            "additionalProperties": false
+                          }
+                        }
+                      },
+                      "required": [
+                        "inputs",
+                        "outputs",
+                        "fluidInputs",
+                        "fluidOutputs"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "machine",
+                    "kind",
+                    "speedMultiplier",
+                    "craftTimeSec",
+                    "perMinute"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "unlockedBy",
+              "producers"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "identifier",
+          "name",
+          "iconIdentifier",
+          "category",
+          "rowGroup",
+          "sortOrder",
+          "timeMs",
+          "tags",
+          "inputs",
+          "outputs",
+          "fluidInputs",
+          "fluidOutputs",
+          "relatedItem",
+          "hiddenInCharacterCrafting",
+          "hiddenUntilNarrativeTrigger",
+          "narrativeTrigger",
+          "hideInDemo",
+          "entitlement",
+          "derived"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schema",
+    "gameVersion",
+    "steamBuildId",
+    "count",
+    "recipes"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "itemAmount": {
+      "type": "object",
+      "properties": {
+        "item": {
+          "type": "string"
+        },
+        "amount": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "item",
+        "amount"
+      ],
+      "additionalProperties": false
+    },
+    "fluidAmount": {
+      "type": "object",
+      "properties": {
+        "element": {
+          "type": "string"
+        },
+        "liters": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "element",
+        "liters"
+      ],
+      "additionalProperties": false
+    },
+    "vec3": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "y": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "z": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "x",
+        "y",
+        "z"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

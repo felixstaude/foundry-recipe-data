@@ -1,0 +1,6747 @@
+{
+  "schema": "foundry-data/localization@1",
+  "gameVersion": "0.6.0.26518",
+  "steamBuildId": "23077581",
+  "language": "ja",
+  "count": 2439,
+  "strings": {
+    "assemblyLineActions": {
+      "_ad01_attachArmLeft": {
+        "name": "腕（左）を取り付ける"
+      },
+      "_ad01_attachArmRight": {
+        "name": "腕（右）を取り付ける"
+      },
+      "_ad01_attachHead": {
+        "name": "頭部を取り付ける"
+      },
+      "_ad01_attachLegLeft": {
+        "name": "脚（左）を取り付ける"
+      },
+      "_ad01_attachLegRight": {
+        "name": "脚（右）を取り付ける"
+      },
+      "_ad01_weldArmLeft": {
+        "name": "腕（左）を溶接する"
+      },
+      "_ad01_weldHead": {
+        "name": "頭部を溶接する"
+      },
+      "_ad01_weldLegLeft": {
+        "name": "脚（左）を溶接する"
+      },
+      "_ad01_weldLegRight": {
+        "name": "脚（右）を溶接する"
+      },
+      "_admin01_weldArmRight": {
+        "name": "腕（右）を溶接する"
+      },
+      "_ar01_attachArmLeft": {
+        "name": "腕（左）を取り付ける"
+      },
+      "_ar01_attachArmRight": {
+        "name": "腕（右）を取り付ける"
+      },
+      "_ar01_attachHead": {
+        "name": "頭部を取り付ける"
+      },
+      "_ar01_attachLegLeft": {
+        "name": "脚（左）を取り付ける"
+      },
+      "_ar01_attachLegRight": {
+        "name": "脚（右）を取り付ける"
+      },
+      "_ar01_weldArmLeft": {
+        "name": "腕（左）を溶接する"
+      },
+      "_ar01_weldArmRight": {
+        "name": "腕（右）を溶接する"
+      },
+      "_ar01_weldHead": {
+        "name": "頭部を溶接する"
+      },
+      "_ar01_weldLegLeft": {
+        "name": "脚（左）を溶接する"
+      },
+      "_ar01_weldLegRight": {
+        "name": "脚（右）を溶接する"
+      },
+      "_d01_attachArmLeft": {
+        "name": "腕（左）を取り付ける"
+      },
+      "_d01_attachArmRight": {
+        "name": "腕（右）を取り付ける"
+      },
+      "_d01_attachHead": {
+        "name": "頭部を取り付ける"
+      },
+      "_d01_attachLegLeft": {
+        "name": "脚（左）を取り付ける"
+      },
+      "_d01_attachLegRight": {
+        "name": "脚（右）を取り付ける"
+      },
+      "_d01_weldArmLeft": {
+        "name": "腕（左）を溶接する"
+      },
+      "_d01_weldArmRight": {
+        "name": "腕（右）を溶接する"
+      },
+      "_d01_weldHead": {
+        "name": "頭部を溶接する"
+      },
+      "_d01_weldLegLeft": {
+        "name": "脚（左）を溶接する"
+      },
+      "_d01_weldLegRight": {
+        "name": "脚（右）を溶接する"
+      },
+      "_hr01_attachArmLeft": {
+        "name": "腕（左）を取り付ける"
+      },
+      "_hr01_attachArmRight": {
+        "name": "腕（右）を取り付ける"
+      },
+      "_hr01_attachHead": {
+        "name": "頭部を取り付ける"
+      },
+      "_hr01_attachLegLeft": {
+        "name": "脚（左）を取り付ける"
+      },
+      "_hr01_attachLegRight": {
+        "name": "脚（右）を取り付ける"
+      },
+      "_hr01_weldArmLeft": {
+        "name": "腕（左）を溶接する"
+      },
+      "_hr01_weldArmRight": {
+        "name": "腕（右）を溶接する"
+      },
+      "_hr01_weldHead": {
+        "name": "頭部を溶接する"
+      },
+      "_hr01_weldLegLeft": {
+        "name": "脚（左）を溶接する"
+      },
+      "_hr01_weldLegRight": {
+        "name": "脚（右）を溶接する"
+      },
+      "_mir01_attachArmLeft": {
+        "name": "腕（左）を取り付ける"
+      },
+      "_mir01_attachArmRight": {
+        "name": "腕（右）を取り付ける"
+      },
+      "_mir01_attachHead": {
+        "name": "頭部を取り付ける"
+      },
+      "_mir01_attachLegLeft": {
+        "name": "脚（左）を取り付ける"
+      },
+      "_mir01_attachLegRight": {
+        "name": "脚（右）を取り付ける"
+      },
+      "_mir01_weldArmLeft": {
+        "name": "腕（左）を溶接する"
+      },
+      "_mir01_weldArmRight": {
+        "name": "腕（右）を溶接する"
+      },
+      "_mir01_weldHead": {
+        "name": "頭部を溶接する"
+      },
+      "_mir01_weldLegLeft": {
+        "name": "脚（左）を溶接する"
+      },
+      "_mir01_weldLegRight": {
+        "name": "脚（右）を溶接する"
+      },
+      "_mr01_attachArmLeft": {
+        "name": "腕（左）を取り付ける"
+      },
+      "_mr01_attachArmRight": {
+        "name": "腕（右）を取り付ける"
+      },
+      "_mr01_attachHead": {
+        "name": "頭部を取り付ける"
+      },
+      "_mr01_attachLegLeft": {
+        "name": "脚（左）を取り付ける"
+      },
+      "_mr01_attachLegRight": {
+        "name": "脚（右）を取り付ける"
+      },
+      "_mr01_weldArmLeft": {
+        "name": "腕（左）を溶接する"
+      },
+      "_mr01_weldArmRight": {
+        "name": "腕（右）を溶接する"
+      },
+      "_mr01_weldHead": {
+        "name": "頭部を溶接する"
+      },
+      "_mr01_weldLegLeft": {
+        "name": "脚（左）を溶接する"
+      },
+      "_mr01_weldLegRight": {
+        "name": "脚（右）を溶接する"
+      },
+      "_mr02_attachArmLeft": {
+        "name": "腕（左）を取り付ける"
+      },
+      "_mr02_attachArmRight": {
+        "name": "腕（右）を取り付ける"
+      },
+      "_mr02_attachHead": {
+        "name": "頭部を取り付ける"
+      },
+      "_mr02_attachLegLeft": {
+        "name": "脚（左）を取り付ける"
+      },
+      "_mr02_attachLegRight": {
+        "name": "脚（右）を取り付ける"
+      },
+      "_mr02_weldArmLeft": {
+        "name": "腕（左）を溶接する"
+      },
+      "_mr02_weldArmRight": {
+        "name": "腕（右）を溶接する"
+      },
+      "_mr02_weldHead": {
+        "name": "頭部を溶接する"
+      },
+      "_mr02_weldLegLeft": {
+        "name": "脚（左）を溶接する"
+      },
+      "_mr02_weldLegRight": {
+        "name": "脚（右）を溶接する"
+      },
+      "_scr01_attachArmLeft": {
+        "name": "腕（左）を取り付ける"
+      },
+      "_scr01_attachArmRight": {
+        "name": "腕（右）を取り付ける"
+      },
+      "_scr01_attachHead": {
+        "name": "頭部を取り付ける"
+      },
+      "_scr01_attachLegLeft": {
+        "name": "脚（左）を取り付ける"
+      },
+      "_scr01_attachLegRight": {
+        "name": "脚（右）を取り付ける"
+      },
+      "_scr01_weldArmLeft": {
+        "name": "腕（左）を溶接する"
+      },
+      "_scr01_weldArmRight": {
+        "name": "腕（右）を溶接する"
+      },
+      "_scr01_weldHead": {
+        "name": "頭部を溶接する"
+      },
+      "_scr01_weldLegLeft": {
+        "name": "脚（左）を溶接する"
+      },
+      "_scr01_weldLegRight": {
+        "name": "脚（右）を溶接する"
+      },
+      "_sr01_attachArmLeft": {
+        "name": "腕（左）を取り付ける"
+      },
+      "_sr01_attachArmRight": {
+        "name": "腕（右）を取り付ける"
+      },
+      "_sr01_attachHead": {
+        "name": "頭部を取り付ける"
+      },
+      "_sr01_attachLegLeft": {
+        "name": "脚（左）を取り付ける"
+      },
+      "_sr01_attachLegRight": {
+        "name": "脚（右）を取り付ける"
+      },
+      "_sr01_weldArmLeft": {
+        "name": "腕（左）を溶接する"
+      },
+      "_sr01_weldArmRight": {
+        "name": "腕（右）を溶接する"
+      },
+      "_sr01_weldHead": {
+        "name": "頭部を溶接する"
+      },
+      "_sr01_weldLegLeft": {
+        "name": "脚（左）を溶接する"
+      },
+      "_sr01_weldLegRight": {
+        "name": "脚（右）を溶接する"
+      }
+    },
+    "assemblyLineObjects": {
+      "_base_admin_robot_i": {
+        "name": "オペレーターロボット",
+        "parts": {
+          "_torso": {
+            "title": "胴体",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_arms": {
+            "title": "腕（右）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_legs": {
+            "title": "脚（右）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_arm_left": {
+            "title": "腕（左）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_leg_left": {
+            "title": "脚（左）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_head": {
+            "title": "頭部",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          }
+        }
+      },
+      "_base_agriculture_robot_i": {
+        "name": "ファーマーロボット",
+        "parts": {
+          "_torso": {
+            "title": "胴体",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_arms": {
+            "title": "腕（右）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_legs": {
+            "title": "脚（右）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_arm_left": {
+            "title": "腕（左）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_leg_left": {
+            "title": "脚（左）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_head": {
+            "title": "頭部",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          }
+        }
+      },
+      "_base_droid01": {
+        "name": "専属助手ロボット",
+        "parts": {
+          "_torso": {
+            "title": "胴体",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "グリーン",
+              "_red": "レッド",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_arms": {
+            "title": "腕（右）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "グリーン",
+              "_red": "レッド",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_legs": {
+            "title": "脚（右）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "グリーン",
+              "_red": "レッド",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_arm_left": {
+            "title": "腕（左）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "グリーン",
+              "_red": "レッド",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_leg_left": {
+            "title": "脚（左）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "グリーン",
+              "_red": "レッド",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_head": {
+            "title": "頭部",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "グリーン",
+              "_red": "レッド",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          }
+        }
+      },
+      "_base_hazard_robot_i": {
+        "name": "ハザードロボット",
+        "parts": {
+          "_torso": {
+            "title": "胴体",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_arms": {
+            "title": "腕（右）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_legs": {
+            "title": "脚（右）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_arm_left": {
+            "title": "腕（左）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_leg_left": {
+            "title": "脚（左）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_head": {
+            "title": "頭部",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          }
+        }
+      },
+      "_base_military_robot_i": {
+        "name": "戦闘ロボット",
+        "parts": {
+          "_torso": {
+            "title": "胴体",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_arms": {
+            "title": "腕（右）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_legs": {
+            "title": "脚（右）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_arm_left": {
+            "title": "腕（左）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_leg_left": {
+            "title": "脚（左）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_head": {
+            "title": "頭部",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          }
+        }
+      },
+      "_base_military_robot_ii": {
+        "name": "強襲ロボット",
+        "parts": {
+          "_torso": {
+            "title": "胴体",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_arms": {
+            "title": "腕（右）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_legs": {
+            "title": "脚（右）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_arm_left": {
+            "title": "腕（左）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_leg_left": {
+            "title": "脚（左）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_head": {
+            "title": "頭部",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          }
+        }
+      },
+      "_base_mining_robot_i": {
+        "name": "採掘ロボット",
+        "parts": {
+          "_torso": {
+            "title": "胴体",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_arms": {
+            "title": "腕（右）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_legs": {
+            "title": "脚（右）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_arm_left": {
+            "title": "腕（左）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_leg_left": {
+            "title": "脚（左）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_head": {
+            "title": "頭部",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          }
+        }
+      },
+      "_base_science_robot_i": {
+        "name": "科学ロボット",
+        "parts": {
+          "_torso": {
+            "title": "胴体",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_arms": {
+            "title": "腕（右）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_legs": {
+            "title": "脚（右）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_arm_left": {
+            "title": "腕（左）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_leg_left": {
+            "title": "脚（左）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_head": {
+            "title": "頭部",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          }
+        }
+      },
+      "_base_scout_robot_i": {
+        "name": "偵察ロボット",
+        "parts": {
+          "_torso": {
+            "title": "胴体",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_arms": {
+            "title": "腕（右）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_legs": {
+            "title": "脚（右）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_arm_left": {
+            "title": "腕（左）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_leg_left": {
+            "title": "脚（左）",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          },
+          "_head": {
+            "title": "頭部",
+            "colorVariants": {
+              "_metal": "金属",
+              "_green": "緑",
+              "_red": "赤",
+              "_yellow": "黄色",
+              "_blue": "青",
+              "_orange": "オレンジ色",
+              "_purple": "紫"
+            }
+          }
+        }
+      }
+    },
+    "craftingTags": {
+      "advanced_smelter": {
+        "name": "高度溶鉱炉",
+        "slotLockDescription": "製錬可能"
+      },
+      "assembler": {
+        "name": "アセンブラー"
+      },
+      "assembler_fluid": {
+        "name": "液体アセンブラー"
+      },
+      "barrel_filler": {
+        "name": "バレル充填機"
+      },
+      "casting_machine": {
+        "name": "鋳造機"
+      },
+      "character": {
+        "name": "キャラクター"
+      },
+      "chemical_processor": {
+        "name": "化成処理装置"
+      },
+      "crusher": {
+        "name": "粉砕機",
+        "slotLockDescription": "粉砕可能"
+      },
+      "crystal_refiner": {
+        "name": "結晶精製機"
+      },
+      "distillation_column": {
+        "name": "蒸留塔"
+      },
+      "electric_arc_furnace": {
+        "name": "電気アーク炉"
+      },
+      "geothermal_generator": {
+        "name": "地熱ジェネレーター"
+      },
+      "greenhouse": {
+        "name": "温室",
+        "slotLockDescription": "植物の種子"
+      },
+      "heavy_caster": {
+        "name": "大型成形機"
+      },
+      "npp_fuel_mixer": {
+        "name": "燃料ミキサー"
+      },
+      "smelter": {
+        "name": "溶鉱炉",
+        "slotLockDescription": "製錬可能"
+      },
+      "smelter_lava": {
+        "name": "溶岩溶鉱炉",
+        "slotLockDescription": "溶岩溶鉱可能"
+      }
+    },
+    "elements": {
+      "_base_air": {
+        "name": "空気"
+      },
+      "_base_bf_slag": {
+        "name": "高炉スラグ"
+      },
+      "_base_fracking_liquid_i": {
+        "name": "粉砕液"
+      },
+      "_base_hdo": {
+        "name": "高密度オルマイト"
+      },
+      "_base_hot_air": {
+        "name": "熱風"
+      },
+      "_base_ignium_enriched_water": {
+        "name": "イグニウム水"
+      },
+      "_base_impure_hdo": {
+        "name": "不純高密度オルマイト"
+      },
+      "_base_ldo": {
+        "name": "低密度オルマイト"
+      },
+      "_base_liquid_firmarlite": {
+        "name": "液体ファーマーライト"
+      },
+      "_base_liquid_fuel": {
+        "name": "液体燃料"
+      },
+      "_base_liquid_polymer": {
+        "name": "液体ポリマー"
+      },
+      "_base_liquid_telluxite": {
+        "name": "液体テルキサイト"
+      },
+      "_base_molten_super_alloy": {
+        "name": "融解超合金"
+      },
+      "_base_molten_te": {
+        "name": "溶融テクナム"
+      },
+      "_base_molten_xf": {
+        "name": "溶融ゼノフェライト"
+      },
+      "_base_npp_reactor_compound_depleted": {
+        "name": "使用済み反応炉化合物"
+      },
+      "_base_npp_reactor_compound_energized": {
+        "name": "活性化済み反応炉化合物"
+      },
+      "_base_npp_reactor_fuel_mix": {
+        "name": "反応炉用混合燃料"
+      },
+      "_base_npp_steam_exhaust": {
+        "name": "排気"
+      },
+      "_base_npp_steam_high_pressure": {
+        "name": "高圧蒸気"
+      },
+      "_base_olumic_acid": {
+        "name": "オルマイト酸"
+      },
+      "_base_olumite": {
+        "name": "粗オルマイト"
+      },
+      "_base_olumite_gas": {
+        "name": "オルマイトガス"
+      },
+      "_base_paint": {
+        "name": "ペイント"
+      },
+      "_base_steam": {
+        "name": "蒸気"
+      },
+      "_base_waste_gas": {
+        "name": "廃ガス"
+      },
+      "_base_water": {
+        "name": "水"
+      },
+      "_base_xeno_crystal_sludge": {
+        "name": "ゼノ結晶の泥"
+      }
+    },
+    "explorationUnlocks": {
+      "_base_building_drone_range_i": {
+        "title": "建設ドローン範囲 I",
+        "description": "建設ドローンの範囲を20ボクセル増加します。"
+      },
+      "_base_building_drone_range_ii": {
+        "title": "建設ドローン範囲 II",
+        "description": "建設ドローンの範囲を20ボクセル増加します。"
+      },
+      "_base_building_drone_range_iii": {
+        "title": "建設ドローン範囲 III",
+        "description": "建設ドローンの範囲を20ボクセル増加します。"
+      },
+      "_base_building_drone_range_iv": {
+        "title": "建設ドローン範囲 IV",
+        "description": "建設ドローンの範囲を20ボクセル増加します。"
+      },
+      "_base_building_drone_range_v": {
+        "title": "建設ドローン範囲 V",
+        "description": "建設ドローンの範囲を20ボクセル増加します。"
+      },
+      "_base_character_crafting_speed_i": {
+        "title": "キャラクターのクラフト速度 Ⅰ",
+        "description": "キャラクターのクラフト時間が10%減少します。"
+      },
+      "_base_character_crafting_speed_ii": {
+        "title": "キャラクターのクラフト速度 Ⅱ",
+        "description": "キャラクターのクラフト時間が10%減少します。"
+      },
+      "_base_character_crafting_speed_iii": {
+        "title": "キャラクターのクラフト速度 ⅡI",
+        "description": "キャラクターのクラフト時間が10%減少します。"
+      },
+      "_base_character_crafting_speed_iv": {
+        "title": "キャラクターのクラフト速度 IV",
+        "description": "キャラクターのクラフト時間が10%減少します。"
+      },
+      "_base_character_crafting_speed_v": {
+        "title": "キャラクターのクラフト速度 V",
+        "description": "キャラクターのクラフト時間が10%減少します。"
+      },
+      "_base_character_logistics_slots_i": {
+        "title": "再補充スロット I",
+        "description": "キャラクターの再補充スロットをさらにアンロックします。"
+      },
+      "_base_character_logistics_slots_ii": {
+        "title": "再補充スロット II",
+        "description": "キャラクターの再補充スロットをさらにアンロックします。"
+      },
+      "_base_character_logistics_slots_iii": {
+        "title": "再補充スロット III",
+        "description": "キャラクターの再補充スロットをさらにアンロックします。"
+      },
+      "_base_character_logistics_slots_iv": {
+        "title": "再補充スロット IV",
+        "description": "キャラクターの再補充スロットをさらにアンロックします。"
+      },
+      "_base_character_logistics_slots_v": {
+        "title": "再補充スロット V",
+        "description": "キャラクターの再補充スロットをさらにアンロックします。"
+      },
+      "_base_character_logistics_throughput_i": {
+        "title": "スループット増加 I",
+        "description": "再補充速度を向上させます。"
+      },
+      "_base_character_logistics_throughput_ii": {
+        "title": "スループット増加 II",
+        "description": "再補充速度を向上させます。"
+      },
+      "_base_character_logistics_throughput_iii": {
+        "title": "スループット増加 III",
+        "description": "再補充速度を向上させます。"
+      },
+      "_base_character_logistics_throughput_iv": {
+        "title": "スループット増加 IV",
+        "description": "再補充速度を向上させます。"
+      },
+      "_base_character_logistics_throughput_v": {
+        "title": "スループット増加 V",
+        "description": "再補充速度を向上させます。"
+      },
+      "_base_character_logistics_unlock": {
+        "title": "ゼノロジスティクス・システム",
+        "description": "異星人のスクラップは、アイテムを短い距離テレポートさせる方法についての情報を提供してくれます。分析によって、ゼノロジスティクスと呼ばれる技術を活用するために十分なインサイトを獲得することが可能となります。\n\nこのシステムは、ゼノロジスティクス塔を介してゼノロジスティクス・コンテナからキャラクターのインベントリにアイテムを自動的に再補充することを可能とするものです。\n\nこれは、機械と機械の間でアイテムを移動させることはできず、工場の物流・輸送を置き換えるものではありません。"
+      },
+      "_base_charged_crystal_production": {
+        "title": "チャージ済みゼノ結晶製造",
+        "description": "ゼノ結晶をチャージ済みゼノ結晶への活性化を可能にする結晶精製機をアンロックします。これはゼノ結晶の真のポテンシャルの解放へと一歩近づきます。"
+      },
+      "_base_crystal_mining": {
+        "title": "ゼノ結晶の採掘",
+        "description": "溶岩洞窟内に極めて密度の高いゼノ結晶の埋蔵地を発見しました。この尽きることがないかのように見える鉱脈からゼノ結晶を採掘するには、スクラップ採掘と同じように、特化型の採掘用建物を活用できます。\n\nこれは、短距離スキャナーでこのような埋蔵地を捜索する能力もアンロックします。"
+      },
+      "_base_crystal_ore_refinement": {
+        "title": "結晶鉱石の精製",
+        "description": "余分の結晶がある場合に、鉱石の粗石とブレンドして鉱石の消費を減らせます。"
+      },
+      "_base_double_jump": {
+        "title": "ロケットブーツ",
+        "description": "空中でももう一度ジャンプすることでダブルジャンプを可能ににするロケットブーツでプレイヤーキャラクターをアップグレードします。"
+      },
+      "_base_drill_shape_2x2": {
+        "title": "ドリル形状: 2x2",
+        "description": "複数のブロックを同時に掘削できる採掘用ドリル。右のマウスボタン（デフォルトキー）を長押ししてドリル形状を切り替えられます。"
+      },
+      "_base_drill_shape_3x3": {
+        "title": "ドリル形状: 3x3",
+        "description": "複数のブロックを同時に掘削できる採掘用ドリル。右のマウスボタン（デフォルトキー）を長押ししてドリル形状を切り替えられます。"
+      },
+      "_base_drill_shape_4x4": {
+        "title": "ドリル形状: 4x4",
+        "description": "複数のブロックを同時に掘削できる採掘用レーザー。右のマウスボタン（デフォルトキー）を長押しして形状を切り替えられます。"
+      },
+      "_base_drill_shape_5x5": {
+        "title": "ドリル形状: 5x5",
+        "description": "複数のブロックを同時に掘削できる採掘用レーザー。右のマウスボタン（デフォルトキー）を長押しして形状を切り替えられます。"
+      },
+      "_base_drill_ship_i": {
+        "title": "掘削船",
+        "description": "トンネル掘削用の乗り物である掘削船をアンロックします。トンネルの掘削を特に得意としていますが、他の様々な掘削プロジェクトにも役立ちます。"
+      },
+      "_base_mining_drill_speed_i": {
+        "title": "採掘ドリル速度 Ⅰ",
+        "description": "採掘時間を20%短縮します。"
+      },
+      "_base_mining_drill_speed_ii": {
+        "title": "採掘ドリル速度 Ⅱ",
+        "description": "採掘時間を20%短縮します。"
+      },
+      "_base_mining_drill_speed_iii": {
+        "title": "採掘ドリル速度 Ⅲ",
+        "description": "採掘時間を20%短縮します。"
+      },
+      "_base_mining_laser": {
+        "title": "採掘レーザー",
+        "description": "遠距離からの採掘を可能にする強力な採掘レーザー。"
+      },
+      "_base_personal_mining_drone_count_i": {
+        "title": "掘削ドローン増員 I",
+        "description": "パーソナル掘削ドローンを追加で2機アンロックします。掘削ドローンコントローラーを手で持って操作します。"
+      },
+      "_base_personal_mining_drone_count_ii": {
+        "title": "掘削ドローン増員 II",
+        "description": "パーソナル掘削ドローンを追加で2機アンロックします。掘削ドローンコントローラーを手で持って操作します。"
+      },
+      "_base_personal_mining_drone_count_iii": {
+        "title": "掘削ドローン増員 III",
+        "description": "パーソナル掘削ドローンを追加で2機アンロックします。掘削ドローンコントローラーを手で持って操作します。"
+      },
+      "_base_personal_mining_drone_count_iv": {
+        "title": "掘削ドローン増員 IV",
+        "description": "パーソナル掘削ドローンを追加で2機アンロックします。掘削ドローンコントローラーを手で持って操作します。"
+      },
+      "_base_personal_mining_drone_count_v": {
+        "title": "掘削ドローン増員 V",
+        "description": "パーソナル掘削ドローンを追加で2機アンロックします。掘削ドローンコントローラーを手で持って操作します。"
+      },
+      "_base_personal_mining_drone_speed_i": {
+        "title": "掘削ドローン速度 I",
+        "description": "パーソナル掘削ドローンの移動速度を向上させます。掘削ドローンコントローラーを手で持って操作します。"
+      },
+      "_base_personal_mining_drone_speed_ii": {
+        "title": "掘削ドローン速度 II",
+        "description": "パーソナル掘削ドローンの移動速度を向上させます。掘削ドローンコントローラーを手で持って操作します。"
+      },
+      "_base_personal_mining_drone_speed_iii": {
+        "title": "掘削ドローン速度 III",
+        "description": "パーソナル掘削ドローンの移動速度を向上させます。掘削ドローンコントローラーを手で持って操作します。"
+      },
+      "_base_personal_mining_drone_speed_iv": {
+        "title": "掘削ドローン速度 IV",
+        "description": "パーソナル掘削ドローンの移動速度を向上させます。掘削ドローンコントローラーを手で持って操作します。"
+      },
+      "_base_personal_mining_drone_speed_v": {
+        "title": "掘削ドローン速度 V",
+        "description": "パーソナル掘削ドローンの移動速度を向上させます。掘削ドローンコントローラーを手で持って操作します。"
+      },
+      "_base_personal_mining_drones": {
+        "title": "パーソナル掘削ドローン",
+        "description": "パーソナル掘削ドローンとそのコントローラーをアンロックします。これを使用して採掘エリアを指定することができます。マークされたエリアは、プレイヤーが十分近くにいる限り、パーソナル掘削ドローンによって掘削されます。\n"
+      },
+      "_base_power_core_crafting": {
+        "title": "ゼノ・パワーコアの製造",
+        "description": "これまでに集めたすべての情報を活用することで、ゼノ・パワーコアを製造できるはずです。"
+      },
+      "_base_quarry_building_i": {
+        "title": "採石場",
+        "description": "エリアを掘削できる建物である採石場をアンロックします。シャフトや採掘孔の掘削を特に得意としていますが、他の様々な掘削プロジェクトにも役立ちます。"
+      },
+      "_base_scrap_mining": {
+        "title": "ゼノ・スクラップの採掘",
+        "description": "溶岩洞窟内に極めて密度の高いゼノ・スクラップの埋蔵地を発見しました。この尽きることがないかのように見える埋蔵地からゼノ・スクラップを採掘するには、特化型の採掘用建物を活用できます。\n\nこれは、短距離スキャナーでこのような埋蔵地を捜索する能力もアンロックします。"
+      },
+      "_base_scrap_recycling": {
+        "title": "スクラップリサイクル",
+        "description": "スクラップリサイクル装置をアンロックします。これはゼノ・スクラップを他の内容に再利用できるようにする部品へとリサイクルできます。"
+      },
+      "_base_short_range_scanner": {
+        "title": "短距離スキャナー",
+        "description": "短距離スキャナーをアンロックします。これは地表にあるゼノ・スクラップ残留物を捜索して位置を特定できます。\n\nアンロック後、スキャナーは画面左上に表示されます。"
+      },
+      "_base_short_range_scanner_crystals": {
+        "title": "結晶のスキャン",
+        "description": "短距離スキャナーを調整してゼノ結晶を捜索できるようにします。\n\n注意：スキャン範囲は、地表からゼノ結晶を探知するには狭すぎる可能性があります。"
+      },
+      "_base_short_range_scanner_power_core_ii": {
+        "title": "ゼノ・パワーコアのスキャン",
+        "description": "短距離スキャナーを調整してゼノ・パワーコアを捜索できるようにします。\n\n注意：スキャン範囲は、地表から埋まったパワーコアを探知するには狭すぎる可能性があります。"
+      },
+      "_base_short_range_scanner_scrap_ii": {
+        "title": "大型ゼノ・スクラップのスキャン",
+        "description": "短距離スキャナーを調整して損傷のあるゼノ・パワーコアが含まれる可能性のある大型のゼノ・スクラップを捜索できるようにします。\n\n注意：大型ゼノ・スクラップは地表から探知可能ですが、十分に近づくために多少の探査が必要です。より密度の高いエリアでは大量のスクラップを発見することができます。スキャンフレーム（デフォルトキー【J】）を開いて、短距離スキャナーが捜索するオブジェクトをカスタマイズできます。"
+      },
+      "_base_short_range_scanner_surface_caves": {
+        "title": "洞窟のスキャン",
+        "description": "短距離スキャナーを調整して地下洞窟に埋まったゼノ・スクラップを捜索できるようにします。より密度の高いエリアでは大量のスクラップを発見することができます。\n\nスキャンフレーム（デフォルトキー【J】）を開いて、短距離スキャナーが捜索するオブジェクトをカスタマイズできます。"
+      },
+      "_base_water_tool": {
+        "title": "灌漑ツール",
+        "description": "灌漑ツールは水の流れを放出することで土の地形に草を再び生やすことができます。"
+      }
+    },
+    "items": {
+      "_base_admin_bot_i": {
+        "name": "オペレーターボット"
+      },
+      "_base_admin_robot_01_arm": {
+        "name": "オペレーターロボットの腕"
+      },
+      "_base_admin_robot_01_head": {
+        "name": "オペレーターロボットの頭部"
+      },
+      "_base_admin_robot_01_leg": {
+        "name": "オペレーターロボットの脚"
+      },
+      "_base_admin_robot_01_torso": {
+        "name": "オペレーターロボットの胴体"
+      },
+      "_base_admin_robot_i": {
+        "name": "オペレーターロボット"
+      },
+      "_base_advanced_steel_mixture": {
+        "name": "高度なゼノフェライト・イグニウム鉱石混合物"
+      },
+      "_base_agriculture_bot_i": {
+        "name": "プランタードローン"
+      },
+      "_base_agriculture_bot_ii": {
+        "name": "水素ファーミングボット"
+      },
+      "_base_agriculture_robot_01_arm": {
+        "name": "ファーマーロボットの腕"
+      },
+      "_base_agriculture_robot_01_head": {
+        "name": "ファーマーロボットの頭部"
+      },
+      "_base_agriculture_robot_01_leg": {
+        "name": "ファーマーロボットの脚"
+      },
+      "_base_agriculture_robot_01_torso": {
+        "name": "ファーマーロボットの胴体"
+      },
+      "_base_agriculture_robot_i": {
+        "name": "ファーマーロボット"
+      },
+      "_base_air_intake_base": {
+        "name": "吸気口基盤"
+      },
+      "_base_air_intake_module": {
+        "name": "吸気口モジュール"
+      },
+      "_base_al_end_consumer_i": {
+        "name": "組み立てライン物流コンテナ",
+        "description": "このストアを使うことで、完成したステーションに送るのではなく、工場で保管することができます。ロボットをワークステーションに配置した場合のみ有用です。"
+      },
+      "_base_al_merger": {
+        "name": "組み立てラインのマージャー"
+      },
+      "_base_al_painter_i": {
+        "name": "組み立てラインのペインター"
+      },
+      "_base_al_producer_i": {
+        "name": "組み立てラインプロデューサー"
+      },
+      "_base_al_rail_straight": {
+        "name": "組み立てラインのレール"
+      },
+      "_base_al_splitter": {
+        "name": "組み立てラインスプリッター"
+      },
+      "_base_al_start": {
+        "name": "組み立てラインの開始"
+      },
+      "_base_alien_scrap_i": {
+        "name": "ゼノ・スクラップ"
+      },
+      "_base_alien_scrap_world_decor_i": {
+        "name": "大型ゼノ・スクラップ"
+      },
+      "_base_alien_scrap_world_decor_ii": {
+        "name": "ゼノ・スクラップ"
+      },
+      "_base_alien_scrap_world_decor_iii": {
+        "name": "ゼノ・スクラップ"
+      },
+      "_base_alien_scrap_world_decor_iv": {
+        "name": "ゼノ・スクラップ"
+      },
+      "_base_alien_scrap_world_decor_v": {
+        "name": "ゼノ・スクラップの残骸"
+      },
+      "_base_assembler_fluid_i": {
+        "name": "液体アセンブラーⅠ"
+      },
+      "_base_assembler_i": {
+        "name": "アセンブラーⅠ"
+      },
+      "_base_assembler_ii": {
+        "name": "アセンブラーⅡ"
+      },
+      "_base_assembler_iii": {
+        "name": "アセンブラーⅢ"
+      },
+      "_base_barrel_empty": {
+        "name": "バレル（空っぽ）"
+      },
+      "_base_barrel_filler_i": {
+        "name": "バレル充填機Ⅰ"
+      },
+      "_base_barrel_olumite": {
+        "name": "バレル（オルマイト）"
+      },
+      "_base_baseStation01": {
+        "name": "ドロップポッド"
+      },
+      "_base_battery_i": {
+        "name": "バッテリー（小）",
+        "description": "接続した高電圧送電網からの電力を蓄え、必要なときに放出します。"
+      },
+      "_base_battery_ii": {
+        "name": "バッテリー（大）",
+        "description": "接続した高電圧送電網からの電力を蓄え、必要なときに放出します。"
+      },
+      "_base_biomass": {
+        "name": "バイオマス"
+      },
+      "_base_biomass_burner": {
+        "name": "バイオマスバーナー",
+        "description": "バイオマスを燃やして、これが設置されている基盤に低圧の電力を供給します。"
+      },
+      "_base_blast_furnace_base": {
+        "name": "高炉基盤",
+        "description": "溶融金属を作るには、熱風、乾留イグニウム、鉱物岩、ゼノフェライト/テクナム鉱石が必要であり、鋳造機または大型成形機で加工されます。廃棄物としてスラグ（鉱滓）が精製され、これは化成処理装置で処理できます。"
+      },
+      "_base_blast_furnace_module": {
+        "name": "高炉モジュール"
+      },
+      "_base_boiler_i": {
+        "name": "ボイラー",
+        "description": "燃料を燃やして水から蒸気を作ります。蒸気は蒸気タービンを動かすのに使用できます。"
+      },
+      "_base_boreal_forest_grouprock_small": {
+        "name": "北方林の岩"
+      },
+      "_base_boreal_forest_mushroom_01": {
+        "name": "北方林の植物"
+      },
+      "_base_boreal_forest_mushroom_02": {
+        "name": "北方林の植物"
+      },
+      "_base_boreal_forest_mushroom_03": {
+        "name": "北方林の植物"
+      },
+      "_base_boreal_forest_mushroom_04": {
+        "name": "北方林の植物"
+      },
+      "_base_boreal_forest_plant_01": {
+        "name": "北方林の植物"
+      },
+      "_base_boreal_forest_rock_01": {
+        "name": "北方林の岩"
+      },
+      "_base_boreal_forest_rock_02": {
+        "name": "北方林の岩"
+      },
+      "_base_boreal_forest_seed_plants": {
+        "name": "森の種子（植物）"
+      },
+      "_base_boreal_forest_seed_trees": {
+        "name": "森の種子（樹木）"
+      },
+      "_base_boreal_forest_tree_01": {
+        "name": "北方林の木"
+      },
+      "_base_boreal_forest_tree_02": {
+        "name": "北方林の木"
+      },
+      "_base_boreal_forest_tree_03": {
+        "name": "北方林の木"
+      },
+      "_base_boreal_forest_tree_04": {
+        "name": "北方林の木"
+      },
+      "_base_bugfix_wastegasdrain": {
+        "name": "WGD【使用禁止】"
+      },
+      "_base_building_part": {
+        "name": "ビルディングブロック",
+        "description": "ほとんどの建物は基盤としてビルディングブロックが必要です。ビルディングブロックは低圧の電力も伝導させます。"
+      },
+      "_base_burner_generator_lvg": {
+        "name": "バーナージェネレーター",
+        "description": "様々な燃料アイテムを燃やして、これが設置されている基盤に低圧の電力を供給します。"
+      },
+      "_base_c3bb_hub": {
+        "name": "C3-BBハブ"
+      },
+      "_base_casting_building_base": {
+        "name": "大型成形機の基盤",
+        "description": "高炉といっしょに使用することで溶融金属を加工します。"
+      },
+      "_base_casting_building_module": {
+        "name": "大型成形機モジュール"
+      },
+      "_base_casting_machine": {
+        "name": "鋳造機"
+      },
+      "_base_cave_crystal_large_i": {
+        "name": "ゼノ結晶"
+      },
+      "_base_cave_crystal_large_ii": {
+        "name": "ゼノ結晶"
+      },
+      "_base_cave_crystal_large_iii": {
+        "name": "ゼノ結晶"
+      },
+      "_base_cave_crystal_medium_i": {
+        "name": "ゼノ結晶"
+      },
+      "_base_cave_crystal_small_i": {
+        "name": "ゼノ結晶"
+      },
+      "_base_cave_stalactite_01": {
+        "name": "鍾乳石"
+      },
+      "_base_cave_stalactite_02": {
+        "name": "鍾乳石"
+      },
+      "_base_cave_stalactite_03": {
+        "name": "鍾乳石"
+      },
+      "_base_cave_stalagmite_large": {
+        "name": "石筍"
+      },
+      "_base_cave_stalagmite_medium": {
+        "name": "石筍"
+      },
+      "_base_cave_stalagmite_small": {
+        "name": "石筍"
+      },
+      "_base_caveplant_01_large": {
+        "name": "洞窟の植物"
+      },
+      "_base_caveplant_01_medium": {
+        "name": "洞窟の植物"
+      },
+      "_base_caveplant_01_small": {
+        "name": "洞窟の植物"
+      },
+      "_base_caveplant_02_large": {
+        "name": "洞窟の植物"
+      },
+      "_base_caveplant_02_medium": {
+        "name": "洞窟の植物"
+      },
+      "_base_caveplant_02_small": {
+        "name": "洞窟の植物"
+      },
+      "_base_cement": {
+        "name": "セメント"
+      },
+      "_base_chemical_processor_i": {
+        "name": "化成処理装置"
+      },
+      "_base_chest": {
+        "name": "木箱"
+      },
+      "_base_cleaning_bot_i": {
+        "name": "掃除機ボット"
+      },
+      "_base_cleaning_bot_ii": {
+        "name": "清掃ボット"
+      },
+      "_base_coked_ignium": {
+        "name": "乾留イグニウム"
+      },
+      "_base_commands": {
+        "name": "コマンド"
+      },
+      "_base_concrete": {
+        "name": "コンクリート"
+      },
+      "_base_construction_decor": {
+        "name": "建設現場の飾り"
+      },
+      "_base_construction_drone_port_i": {
+        "name": "建設船の港",
+        "description": "モジュール建築物の建設に必要となります。建設船を収容します。建設船は建設現場に十分な資材が届けられるとモジュール建築物を組み立てる船です。"
+      },
+      "_base_construction_hazard_block": {
+        "name": "危険コンクリート"
+      },
+      "_base_construction_material_i": {
+        "name": "建設資材"
+      },
+      "_base_construction_material_ii": {
+        "name": "ハイテク建設資材"
+      },
+      "_base_construction_rubble_i": {
+        "name": "建設現場の瓦礫"
+      },
+      "_base_construction_rubble_ii": {
+        "name": "ハイテク建設現場の瓦礫"
+      },
+      "_base_construction_warehouse_i": {
+        "name": "建設倉庫",
+        "description": "モジュール建築物の建設に必要です。建設現場へと配達を行う輸送船によって回収される資材を保管します。"
+      },
+      "_base_container": {
+        "name": "コンテナ"
+      },
+      "_base_conveyor_balancer_i": {
+        "name": "コンベアバランサーⅠ",
+        "description": "ベルトを分割、結合、入れ替えます。投入/産出ベルトの優先設定とアイテムタイプのフィルターに対応しています。"
+      },
+      "_base_conveyor_balancer_ii": {
+        "name": "コンベアバランサーⅡ",
+        "description": "ベルトを分割、結合、入れ替えます。投入/産出ベルトの優先設定とアイテムタイプのフィルターに対応しています。"
+      },
+      "_base_conveyor_balancer_iii": {
+        "name": "コンベアバランサーⅢ",
+        "description": "ベルトを分割、結合、入れ替えます。投入/産出ベルトの優先設定とアイテムタイプのフィルターに対応しています。"
+      },
+      "_base_conveyor_balancer_iv": {
+        "name": "コンベアバランサーⅠV",
+        "description": "ベルトを分割、結合、入れ替えます。投入/産出ベルトの優先設定とアイテムタイプのフィルターに対応しています。"
+      },
+      "_base_conveyor_i": {
+        "name": "コンベアⅠ"
+      },
+      "_base_conveyor_ii": {
+        "name": "コンベアⅡ"
+      },
+      "_base_conveyor_iii": {
+        "name": "コンベアⅢ"
+      },
+      "_base_conveyor_iv": {
+        "name": "コンベアIV"
+      },
+      "_base_conveyor_slope_i": {
+        "name": "コンベアスロープⅠ"
+      },
+      "_base_conveyor_slope_ii": {
+        "name": "コンベアスロープⅡ"
+      },
+      "_base_conveyor_slope_iii": {
+        "name": "コンベアスロープⅢ"
+      },
+      "_base_conveyor_slope_iv": {
+        "name": "コンベアスロープⅠV"
+      },
+      "_base_coral_plant_01_large": {
+        "name": "サンゴ植物"
+      },
+      "_base_coral_plant_01_medium": {
+        "name": "サンゴ植物"
+      },
+      "_base_coral_plant_01_small": {
+        "name": "サンゴ植物"
+      },
+      "_base_coral_plant_02_large": {
+        "name": "サンゴ植物"
+      },
+      "_base_coral_plant_02_medium": {
+        "name": "サンゴ植物"
+      },
+      "_base_coral_plant_02_small": {
+        "name": "サンゴ植物"
+      },
+      "_base_coral_plant_03_large": {
+        "name": "サンゴ植物"
+      },
+      "_base_coral_plant_03_medium": {
+        "name": "サンゴ植物"
+      },
+      "_base_coral_plant_03_small": {
+        "name": "サンゴ植物"
+      },
+      "_base_cpu": {
+        "name": "CPU"
+      },
+      "_base_critter_forest": {
+        "name": "森林のクリッター"
+      },
+      "_base_critter_jungle": {
+        "name": "ジャングルのクリッター"
+      },
+      "_base_critter_rocky_desert": {
+        "name": "岩石砂漠のクリッター"
+      },
+      "_base_critter_sandy_desert": {
+        "name": "砂塵砂漠のクリッター"
+      },
+      "_base_critter_shrublands": {
+        "name": "灌木地のクリッター"
+      },
+      "_base_critter_tundra": {
+        "name": "ツンドラのクリッター"
+      },
+      "_base_crusher_i": {
+        "name": "粉砕機Ⅰ"
+      },
+      "_base_crusher_ii": {
+        "name": "粉砕機Ⅱ"
+      },
+      "_base_crystal_i": {
+        "name": "ゼノ結晶"
+      },
+      "_base_crystal_ii": {
+        "name": "チャージ済みゼノ結晶"
+      },
+      "_base_crystal_refiner_i": {
+        "name": "結晶精製機"
+      },
+      "_base_crystals_medium": {
+        "name": "結晶"
+      },
+      "_base_data_cable": {
+        "name": "データケーブル"
+      },
+      "_base_data_comparer": {
+        "name": "データ評価装置"
+      },
+      "_base_data_memory": {
+        "name": "データメモリーセル"
+      },
+      "_base_data_processor": {
+        "name": "データ処理装置"
+      },
+      "_base_data_source_button": {
+        "name": "データソース（ボタン）  ",
+        "description": "ボタンを押すと、設定された信号が一度だけパルス送信されます。  "
+      },
+      "_base_data_source_lever": {
+        "name": "データソース（レバー）"
+      },
+      "_base_data_source_static": {
+        "name": "データソース"
+      },
+      "_base_debris_decor_i": {
+        "name": "瓦礫"
+      },
+      "_base_debris_i": {
+        "name": "瓦礫Ⅰ"
+      },
+      "_base_debris_ii": {
+        "name": "瓦礫Ⅰ"
+      },
+      "_base_debris_iii": {
+        "name": "瓦礫Ⅰ"
+      },
+      "_base_decor_base": {
+        "name": "飾り（ベーシックな形）"
+      },
+      "_base_decor_base_cube_caution": {
+        "name": "飾り（ベーシックな形）"
+      },
+      "_base_decor_misc": {
+        "name": "飾り（いろいろ）"
+      },
+      "_base_decor_struts": {
+        "name": "飾り（支柱）"
+      },
+      "_base_decor_support": {
+        "name": "飾り（サポート）"
+      },
+      "_base_decor_support_truss": {
+        "name": "飾り（サポートトラス）"
+      },
+      "_base_decor_wall": {
+        "name": "飾り（壁）"
+      },
+      "_base_decor_window": {
+        "name": "飾り（窓）"
+      },
+      "_base_decor_window_modular": {
+        "name": "飾り（モジュラー窓）"
+      },
+      "_base_decor_window_modular_slope": {
+        "name": "飾り（ウィンドウモジュラースロープ）"
+      },
+      "_base_decor_window_modular_slope_edge": {
+        "name": "飾り（ウィンドウモジュラースロープエッジ）",
+        "description": "このブロックを使うことで直線とスロープのモジュラーウィンドウの間で移行できます。"
+      },
+      "_base_decor_window_modular_wedge": {
+        "name": "飾り（ウィンドウモジュラーウェッジ）",
+        "description": "_base_decor_window_wedge_corner_iii"
+      },
+      "_base_dirt": {
+        "name": "土"
+      },
+      "_base_distillation_column_i": {
+        "name": "蒸留塔"
+      },
+      "_base_door_i": {
+        "name": "ドア（1枚）"
+      },
+      "_base_door_ii": {
+        "name": "ドア（2枚）"
+      },
+      "_base_door_iii": {
+        "name": "格納庫ゲート"
+      },
+      "_base_door_iii_station": {
+        "name": "格納庫ゲート"
+      },
+      "_base_drill_bot": {
+        "name": "掘削船",
+        "description": "トンネル掘削用の乗り物。トンネルの掘削を特に得意としていますが、他の様々な掘削プロジェクトにも役立ちます。"
+      },
+      "_base_drill_bot_preview": {
+        "name": "掘削船プレビュー"
+      },
+      "_base_drone_controller": {
+        "name": "掘削ドローンコントローラー",
+        "description": "このツールを使って、パーソナル採掘ドローンまたはモジュール建築物建設船（これらは個別のアンロックが必要です）での掘削のためにエリアをマークできます。"
+      },
+      "_base_drone_miner_i": {
+        "name": "ドローン採掘機Ⅰ",
+        "description": "鉱石区域の近くに設置すると採掘を行います。より大規模な鉱脈の採掘は行えません。"
+      },
+      "_base_drone_miner_ii": {
+        "name": "ドローン採掘機Ⅱ",
+        "description": "鉱石区域の近くに設置すると採掘を行います。より大規模な鉱脈の採掘は行えません。"
+      },
+      "_base_drone_transport_startpad_i": {
+        "name": "貨物シャトルスタートパッド",
+        "description": "選択した貨物シャトルターゲットパッドへアイテムを輸送します。惑星輸送のみ。"
+      },
+      "_base_drone_transport_startpad_liquid_i": {
+        "name": "貨物シャトルスタートパッド（液体）",
+        "description": "選択した貨物シャトルターゲットパッドへアイテムを輸送します。惑星輸送のみ。"
+      },
+      "_base_drone_transport_targetpad_i": {
+        "name": "貨物シャトルターゲットパッド",
+        "description": "貨物シャトルスタートパッドからアイテムを受け取ります。複数のスタートパッドから受け取り可能です。惑星輸送のみ。"
+      },
+      "_base_drone_transport_targetpad_liquid_i": {
+        "name": "貨物シャトルターゲットパッド（液体）",
+        "description": "貨物シャトルスタートパッドからアイテムを受け取ります。複数のスタートパッドから受け取り可能です。惑星輸送のみ。"
+      },
+      "_base_dynamite_i": {
+        "name": "爆薬"
+      },
+      "_base_dynamite_ii": {
+        "name": "重爆薬"
+      },
+      "_base_dynamite_remote_control": {
+        "name": "起爆装置"
+      },
+      "_base_eic_i": {
+        "name": "電子部品"
+      },
+      "_base_eic_ii": {
+        "name": "配電盤"
+      },
+      "_base_electric_arc_furnace": {
+        "name": "電気アーク炉"
+      },
+      "_base_elevator_i": {
+        "name": "エレベーター",
+        "description": "キャラクター用エレベーター。全ステーション間の高圧電力の伝導も行います。設置したら、そのスクリーンパネルから他のステーションも設定しましょう。自動的にエレベーターシャフトを掘ることができます。"
+      },
+      "_base_elevator_structure_i": {
+        "name": "エレベーター構造物"
+      },
+      "_base_emergency_beacon": {
+        "name": "緊急ビーコン"
+      },
+      "_base_emotes": {
+        "name": "エモート"
+      },
+      "_base_endless_miner_crystals_i": {
+        "name": "ゼノ結晶抽出装置",
+        "description": "結晶埋蔵地の上に設置すると、ゼノ結晶を採掘します。ゼノ・パワーコアとロボットワークステーションを使用して、産出量を劇的に増やすことが可能です。"
+      },
+      "_base_endless_miner_scrap_i": {
+        "name": "ゼノ・スクラップ抽出装置",
+        "description": "スクラップ埋蔵地の上に設置すると、ゼノ・スクラップを採掘します。ゼノ・パワーコアとロボットワークステーションを使用して、産出量を劇的に増やすことが可能です。"
+      },
+      "_base_energy_cell": {
+        "name": "エネルギーセル"
+      },
+      "_base_escalator": {
+        "name": "エスカレーターI"
+      },
+      "_base_escalator_ii": {
+        "name": "エスカレーターII"
+      },
+      "_base_escalator_iii": {
+        "name": "エスカレーターIII"
+      },
+      "_base_exploration_analyzer": {
+        "name": "オムニ・アナライザ",
+        "description": "アップグレードのアンロック使用できるスクラップや結晶などの収集品を分析できます。"
+      },
+      "_base_explosives_i": {
+        "name": "爆発物",
+        "description": "遠隔地起爆用爆薬の前駆アイテム。"
+      },
+      "_base_firmarlite_bar": {
+        "name": "ファーマーライトバー",
+        "description": "溶岩溶鉱炉でファーマーライトバーから作られます。"
+      },
+      "_base_firmarlite_sheet": {
+        "name": "ファーマーライトシート"
+      },
+      "_base_flare_stack": {
+        "name": "フレアスタック",
+        "description": "挿入されたあらゆる液体/気体を破壊します。主に廃棄物を燃やすのに使用します。"
+      },
+      "_base_forest_plant_01_large": {
+        "name": "北方林の植物（大）"
+      },
+      "_base_forest_plant_01_small": {
+        "name": "北方林の植物（小）"
+      },
+      "_base_forest_plant_01_small_ff": {
+        "name": "北方林の植物（小）"
+      },
+      "_base_fracking_tower_base": {
+        "name": "粉砕塔の基盤",
+        "description": "鉱脈の上に設置する必要があり、無限の鉱石源へと変換します。粉砕液が必要となります。"
+      },
+      "_base_fracking_tower_module": {
+        "name": "粉砕塔モジュール"
+      },
+      "_base_freight_elevator_i": {
+        "name": "貨物用エレベーターⅠ",
+        "description": "アイテムを同時に上下に垂直移動できます。両端にローダーが必要となります。上部と下部が設置されると、その間の地層を自動的に掘ります。"
+      },
+      "_base_freight_elevator_ii": {
+        "name": "貨物用エレベーターⅡ",
+        "description": "アイテムを同時に上下に垂直移動できます。両端にローダーが必要となります。上部と下部が設置されると、その間の地層を自動的に掘ります。"
+      },
+      "_base_freight_elevator_iii": {
+        "name": "貨物用エレベーターⅢ",
+        "description": "アイテムを同時に上下に垂直移動できます。両端にローダーが必要となります。上部と下部が設置されると、その間の地層を自動的に掘ります。"
+      },
+      "_base_freight_elevator_iv": {
+        "name": "貨物用エレベーターⅠV",
+        "description": "アイテムを同時に上下に垂直移動できます。両端にローダーが必要となります。上部と下部が設置されると、その間の地層を自動的に掘ります。"
+      },
+      "_base_fuel_rod_casing": {
+        "name": "燃料ロッドケーシング"
+      },
+      "_base_geological_scanner_i": {
+        "name": "地質スキャナー"
+      },
+      "_base_geothermal_generator_i": {
+        "name": "地熱ボイラー",
+        "description": "イグニウム水を使用して蒸気タービンのための蒸気を作ります。地熱排出口の上に設置する必要があります。"
+      },
+      "_base_geothermal_vent": {
+        "name": "地熱排出口"
+      },
+      "_base_gl_birch_01": {
+        "name": "木"
+      },
+      "_base_gl_birch_02": {
+        "name": "木"
+      },
+      "_base_gl_birch_02_large": {
+        "name": "木"
+      },
+      "_base_gl_birch_03": {
+        "name": "木"
+      },
+      "_base_gl_birch_03_large": {
+        "name": "木"
+      },
+      "_base_gl_birch_04": {
+        "name": "木"
+      },
+      "_base_gl_birch_04_large": {
+        "name": "木"
+      },
+      "_base_gl_fansy_plant_large": {
+        "name": "植物"
+      },
+      "_base_gl_fansy_plant_small": {
+        "name": "植物"
+      },
+      "_base_glass": {
+        "name": "ガラス"
+      },
+      "_base_gravel": {
+        "name": "砂利"
+      },
+      "_base_greenhouse_i": {
+        "name": "温室"
+      },
+      "_base_hazard_robot_i": {
+        "name": "ハザードロボット"
+      },
+      "_base_hot_air_stove_base": {
+        "name": "熱風ストーブの基盤"
+      },
+      "_base_hot_air_stove_module": {
+        "name": "熱風ストーブモジュール"
+      },
+      "_base_hover_engine": {
+        "name": "ホバーエンジン"
+      },
+      "_base_hydraulic_piston": {
+        "name": "油圧ピストン"
+      },
+      "_base_ignium_fuel_rod": {
+        "name": "イグニウム燃料ロッド"
+      },
+      "_base_ignium_powder": {
+        "name": "イグニウム粉"
+      },
+      "_base_incinerator": {
+        "name": "焼却炉",
+        "description": "中に入れられたあらゆるアイテムを破壊します。"
+      },
+      "_base_jetpack_fuel": {
+        "name": "ジェットパック燃料"
+      },
+      "_base_jungle_palmtree_01": {
+        "name": "ジャングルの木"
+      },
+      "_base_jungle_palmtree_02": {
+        "name": "ジャングルの木"
+      },
+      "_base_jungle_palmtree_03": {
+        "name": "ジャングルの木"
+      },
+      "_base_jungle_plant_large_01": {
+        "name": "ジャングルの木"
+      },
+      "_base_jungle_tree_large_01": {
+        "name": "ジャングルの木"
+      },
+      "_base_kelp_01_large": {
+        "name": "ケルプ"
+      },
+      "_base_kelp_01_medium": {
+        "name": "ケルプ"
+      },
+      "_base_kelp_01_small": {
+        "name": "ケルプ"
+      },
+      "_base_kelp_02_large": {
+        "name": "ケルプ"
+      },
+      "_base_kelp_02_medium": {
+        "name": "ケルプ"
+      },
+      "_base_kelp_02_small": {
+        "name": "ケルプ"
+      },
+      "_base_ladder_i": {
+        "name": "はしご"
+      },
+      "_base_light_bot_i": {
+        "name": "照明ボット"
+      },
+      "_base_light_ceiling_i": {
+        "name": "天井照明Ⅰ"
+      },
+      "_base_light_ceiling_ii": {
+        "name": "天井照明ⅠI"
+      },
+      "_base_light_portable_i": {
+        "name": "ポータブルライト"
+      },
+      "_base_light_wall_i": {
+        "name": "壁掛け照明Ⅰ"
+      },
+      "_base_lightpole_i": {
+        "name": "電柱I"
+      },
+      "_base_lightpole_ii": {
+        "name": "電柱II"
+      },
+      "_base_loader_1st_i": {
+        "name": "ローダー",
+        "description": "投入として設定された際にアイテムをベルトから建物へと移動させ、産出として設定された際に建物からベルトへと移動させます。"
+      },
+      "_base_loader_1st_i_filter": {
+        "name": "フィルターローダー",
+        "description": "投入として設定された際にアイテムをベルトから建物へと移動させ、産出として設定された際に建物からベルトへと移動させます。アイテムタイムのフィルター設定に対応しており、その場合は設定されたアイテムタイプのみを移動させます。"
+      },
+      "_base_loader_2nd_i": {
+        "name": "ローダー（第2レーン）",
+        "description": "投入として設定された際にアイテムをベルトから建物へと移動させ、産出として設定された際に建物からベルトへと移動させます。"
+      },
+      "_base_loader_3rd_i": {
+        "name": "ローダー（第3レーン）",
+        "description": "投入として設定された際にアイテムをベルトから建物へと移動させ、産出として設定された際に建物からベルトへと移動させます。"
+      },
+      "_base_logistic_container_i": {
+        "name": "物流コンテナⅠ"
+      },
+      "_base_logistic_container_ii": {
+        "name": "物流コンテナⅡ"
+      },
+      "_base_logistic_container_iii": {
+        "name": "物流コンテナⅢ"
+      },
+      "_base_logistics_tower_i": {
+        "name": "ゼノロジスティクス塔",
+        "description": "ゼノロジスティクスのネットワークの範囲を拡大します。このネットワークは、リクエストしたアイテムをゼノロジスティクスコンテナからインベントリにテレポートさせます。アイテムのリクエストはインベントリフレームで設定できます。"
+      },
+      "_base_lrs_module": {
+        "name": "長距離スキャナーモジュール"
+      },
+      "_base_maintenance_drone_i": {
+        "name": "メンテナンスドローン"
+      },
+      "_base_mb_planner": {
+        "name": "モジュール建築物プランナー",
+        "description": "モジュール建築物を建設および設定するのに必要です。"
+      },
+      "_base_mic_i": {
+        "name": "機械部品"
+      },
+      "_base_mic_ii": {
+        "name": "精密機械部品"
+      },
+      "_base_mic_iii": {
+        "name": "ハイテク機械部品"
+      },
+      "_base_military_bot_i": {
+        "name": "戦闘ドローン"
+      },
+      "_base_military_robot_01_arm": {
+        "name": "戦闘ロボットの腕"
+      },
+      "_base_military_robot_01_head": {
+        "name": "戦闘ロボットの頭部"
+      },
+      "_base_military_robot_01_leg": {
+        "name": "戦闘ロボットの脚"
+      },
+      "_base_military_robot_01_torso": {
+        "name": "戦闘ロボットの胴体"
+      },
+      "_base_military_robot_02_arm": {
+        "name": "強襲ロボットの腕"
+      },
+      "_base_military_robot_02_head": {
+        "name": "強襲ロボットの頭部"
+      },
+      "_base_military_robot_02_leg": {
+        "name": "強襲ロボットの脚"
+      },
+      "_base_military_robot_02_torso": {
+        "name": "強襲ロボットの胴体"
+      },
+      "_base_military_robot_i": {
+        "name": "戦闘ロボット"
+      },
+      "_base_military_robot_ii": {
+        "name": "強襲ロボット"
+      },
+      "_base_mining_bot_i": {
+        "name": "採掘ドローン"
+      },
+      "_base_mining_bot_ii": {
+        "name": "水素採取ボット"
+      },
+      "_base_mining_drill": {
+        "name": "採掘ドリル"
+      },
+      "_base_mining_laser": {
+        "name": "採掘レーザー"
+      },
+      "_base_mining_robot_01_arm": {
+        "name": "採掘ロボットの腕"
+      },
+      "_base_mining_robot_01_head": {
+        "name": "採掘ロボットの頭部"
+      },
+      "_base_mining_robot_01_leg": {
+        "name": "採掘ロボットの脚"
+      },
+      "_base_mining_robot_01_torso": {
+        "name": "採掘ロボットの胴体"
+      },
+      "_base_mining_robot_i": {
+        "name": "採掘ロボット"
+      },
+      "_base_modular_entity_module_debug_tool": {
+        "name": "モジュールデバッグツール"
+      },
+      "_base_modular_fluid_tank_base": {
+        "name": "モジュラー貯蔵タンクの基盤",
+        "description": "大量の液体とガスを保管します。"
+      },
+      "_base_modular_fluid_tank_module": {
+        "name": "モジュラー貯蔵タンク（モジュール）"
+      },
+      "_base_monument": {
+        "name": "モニュメント基盤",
+        "description": "装飾用のモニュメント。"
+      },
+      "_base_monument_module": {
+        "name": "モニュメント（モジュール）"
+      },
+      "_base_mussel_large": {
+        "name": "ムール貝（大）"
+      },
+      "_base_mussel_medium": {
+        "name": "ムール貝（中）"
+      },
+      "_base_mussel_small": {
+        "name": "ムール貝（小）"
+      },
+      "_base_neon_decor_i": {
+        "name": "ネオンの飾り"
+      },
+      "_base_neon_decor_i_slope": {
+        "name": "ネオンの飾り（スロープ）"
+      },
+      "_base_neon_decor_i_slope_junctions": {
+        "name": "ネオンの飾り（スロープジャンクション）"
+      },
+      "_base_neon_decor_ii": {
+        "name": "ネオンの飾り（大）"
+      },
+      "_base_neon_decor_slope": {
+        "name": "ネオンの飾り（大型スロープ）"
+      },
+      "_base_neon_decor_slope_junctions": {
+        "name": "ネオンの飾り（大型スロープジャンクション）"
+      },
+      "_base_npp_cooling_tower_base": {
+        "name": "冷却塔の基盤"
+      },
+      "_base_npp_cooling_tower_module": {
+        "name": "冷却塔モジュール"
+      },
+      "_base_npp_pressurizer_base": {
+        "name": "反応炉用燃料ミキサーの基盤"
+      },
+      "_base_npp_pressurizer_module": {
+        "name": "反応炉用燃料ミキサーモジュール"
+      },
+      "_base_npp_reactor_base": {
+        "name": "ゼノ反応炉の基盤"
+      },
+      "_base_npp_reactor_module": {
+        "name": "ゼノ反応炉モジュール"
+      },
+      "_base_npp_steam_generator_base": {
+        "name": "蒸気発生装置の基盤"
+      },
+      "_base_npp_steam_generator_module": {
+        "name": "蒸気発生装置モジュール"
+      },
+      "_base_npp_steam_turbine_base": {
+        "name": "高圧タービンの基盤"
+      },
+      "_base_npp_steam_turbine_module": {
+        "name": "高圧タービンモジュール"
+      },
+      "_base_office_blocks": {
+        "name": "木製ブロック"
+      },
+      "_base_office_blocks_deluxe": {
+        "name": "木製飾りブロック"
+      },
+      "_base_office_chair": {
+        "name": "オフィスチェア"
+      },
+      "_base_office_chair_deluxe": {
+        "name": "エグゼクティブオフィスチェア"
+      },
+      "_base_office_couch": {
+        "name": "オフィスソファ"
+      },
+      "_base_office_couch_deluxe": {
+        "name": "エグゼクティブオフィスソファ"
+      },
+      "_base_office_desk": {
+        "name": "オフィスデスク"
+      },
+      "_base_office_desk_deluxe": {
+        "name": "エグゼクティブオフィス用デスク"
+      },
+      "_base_office_file_cabinet": {
+        "name": "オフィスファイルキャビネット"
+      },
+      "_base_office_file_cabinet_deluxe": {
+        "name": "エグゼクティブオフィスファイルキャビネット"
+      },
+      "_base_office_marble_black_deluxe": {
+        "name": "大理石（黒）"
+      },
+      "_base_office_marble_white_deluxe": {
+        "name": "大理石（白）"
+      },
+      "_base_office_nameplate_deluxe": {
+        "name": "オフィス用ネームプレート"
+      },
+      "_base_office_plant": {
+        "name": "オフィス用植物"
+      },
+      "_base_office_plant_deluxe": {
+        "name": "エグゼクティブオフィス用植物"
+      },
+      "_base_office_statue_deluxe": {
+        "name": "オフィス像"
+      },
+      "_base_office_table": {
+        "name": "オフィステーブル"
+      },
+      "_base_office_table_deluxe": {
+        "name": "エグゼクティブオフィステーブル"
+      },
+      "_base_office_wall_plaque_deluxe": {
+        "name": "オフィスの壁掛けプレート"
+      },
+      "_base_orbital_uplink": {
+        "name": "軌道アップリンク",
+        "description": "宇宙ステーションの全機能にリモートアクセスできるようにします。"
+      },
+      "_base_ore_ignium": {
+        "name": "イグニウム鉱石"
+      },
+      "_base_ore_mineral_rock": {
+        "name": "鉱物岩"
+      },
+      "_base_ore_technum": {
+        "name": "テクナム鉱石"
+      },
+      "_base_ore_telluxite": {
+        "name": "テルキサイト鉱石"
+      },
+      "_base_ore_vein_miner_i": {
+        "name": "鉱石採掘機",
+        "description": "鉱脈の鉱物層を採掘します。より小規模な鉱石区域の採掘は行えません。"
+      },
+      "_base_ore_vein_scanner": {
+        "name": "鉱石スキャナー"
+      },
+      "_base_ore_xenoferrite": {
+        "name": "ゼノフェライト鉱石"
+      },
+      "_base_paint_roller": {
+        "name": "塗装用ローラー",
+        "description": "この機能に対応している特定のオブジェクトと建物の色を変更することができます。"
+      },
+      "_base_personal_logistic_container": {
+        "name": "ゼノロジスティクス・コンテナ",
+        "description": "ゼノロジスティクスのネットワークの補給に使用されるアイテムを保管します。詳細はゼノロジスティクス塔を見てください。"
+      },
+      "_base_pipe": {
+        "name": "パイプ",
+        "description": "液体または気体を移動させます。パイプの長さが上限を超えるとポンプが必要になります。"
+      },
+      "_base_pipe_adapter": {
+        "name": "パイプアダプタ"
+      },
+      "_base_pipe_intake_i": {
+        "name": "取水管",
+        "description": "水面下に設置すると水を吸い込みます。"
+      },
+      "_base_pipeline": {
+        "name": "パイプライン",
+        "description": "パイプよりも速く液体または気体を移動させます。パイプラインの長さが上限を超えるとパイプライン用のポンプが必要になります。"
+      },
+      "_base_pipeline_intake_i": {
+        "name": "取水管（パイプライン）",
+        "description": "水面下に設置すると水を吸い込みます。"
+      },
+      "_base_plumber_tool": {
+        "name": "配管工具",
+        "description": "パイプネットワークの中身を破棄できるようにします。"
+      },
+      "_base_polymer_board": {
+        "name": "ポリマー板"
+      },
+      "_base_portable_fuel": {
+        "name": "ポータブル燃料"
+      },
+      "_base_power_core_entity_ii": {
+        "name": "ゼノ・パワーコア"
+      },
+      "_base_power_core_i": {
+        "name": "ゼノ・パワーコア（損傷）"
+      },
+      "_base_power_core_ii": {
+        "name": "ゼノ・パワーコア"
+      },
+      "_base_power_line_i": {
+        "name": "電力線",
+        "description": "高圧送電網の建設に使用します。既存のオブジェクトを接続するだけではない場合、インベントリ内に電柱も必要となります。"
+      },
+      "_base_power_pole_i": {
+        "name": "電柱（小）",
+        "description": "高圧送電網の範囲を拡大します。電力線を用いて、便利な形で電柱と電力線を一緒に設置しましょう。"
+      },
+      "_base_power_pole_ii": {
+        "name": "電柱（大）",
+        "description": "高圧送電網の範囲を拡大します。電力線を用いて、便利な形で電柱と電力線を一緒に設置しましょう。"
+      },
+      "_base_power_pole_iii": {
+        "name": "電柱（壁掛）",
+        "description": "高圧送電網の範囲を拡大します。電力線を用いて、便利な形で電柱と電力線を一緒に設置しましょう。"
+      },
+      "_base_pump_pipe_to_pipeline_i": {
+        "name": "パイプからパイプラインへのポンプ",
+        "description": "パイプの中身をパイプラインにポンプで注入します。"
+      },
+      "_base_pump_pipeline_to_pipe_i": {
+        "name": "パイプラインからパイプへのポンプ",
+        "description": "パイプラインの中身をパイプにポンプで注入します。"
+      },
+      "_base_pump_pipelines_i": {
+        "name": "ポンプ（パイプライン）",
+        "description": "パイプラインのネットワークが複雑性の限度を超えてしまった場合に必要となります。一方向の流れを作るのにも使用できます。"
+      },
+      "_base_pump_pipes_i": {
+        "name": "ポンプ（パイプ）",
+        "description": "パイプのネットワークが複雑性の限度を超えてしまった場合に必要となります。一方向の流れを作るのにも使用できます。"
+      },
+      "_base_pumpjack_i": {
+        "name": "ポンプジャックⅠ",
+        "description": "オルマイトリザーバーの上に設置されるとオルマイトを抽出します。"
+      },
+      "_base_quarry_building_i": {
+        "name": "採石場",
+        "description": "自動的にエリアを掘削します。シャフトや採掘孔の掘削を特に得意としていますが、他の様々な掘削プロジェクトにも役立ちます。"
+      },
+      "_base_radio_tower_base": {
+        "name": "電波塔基盤",
+        "description": "軌道アップリンクツールを用いての宇宙ステーションの遠隔操作を可能にします。"
+      },
+      "_base_radio_tower_module": {
+        "name": "電波塔モジュール"
+      },
+      "_base_railings": {
+        "name": "柵"
+      },
+      "_base_reactive_briquette_i": {
+        "name": "活性ブリケット"
+      },
+      "_base_recycler_scrap": {
+        "name": "スクラップリサイクル装置",
+        "description": "ゼノ・スクラップから部品を抽出します。"
+      },
+      "_base_recycler_terrain": {
+        "name": "資源分離機",
+        "description": "地形ブロックと種から資源を抽出できます。"
+      },
+      "_base_research_entity": {
+        "name": "調査サーバー",
+        "description": "サイエンスパックを分析して新しい技術を調査します。複数使用することで調査速度が上昇します。"
+      },
+      "_base_resource_node_alien_scrap": {
+        "name": "資源ノード：異星人のスクラップ"
+      },
+      "_base_resource_node_crystal": {
+        "name": "資源ノード：結晶"
+      },
+      "_base_robot01_arm": {
+        "name": "専属助手ロボットの腕"
+      },
+      "_base_robot01_head": {
+        "name": "専属助手ロボットの頭部"
+      },
+      "_base_robot01_leg": {
+        "name": "専属助手ロボットの脚"
+      },
+      "_base_robot01_torso": {
+        "name": "専属助手ロボットの胴体"
+      },
+      "_base_robot_01": {
+        "name": "専属助手ロボット"
+      },
+      "_base_robot_hazard_01_arm": {
+        "name": "ハザードロボットの腕"
+      },
+      "_base_robot_hazard_01_head": {
+        "name": "ハザードロボットの頭部"
+      },
+      "_base_robot_hazard_01_leg": {
+        "name": "ハザードロボットの脚"
+      },
+      "_base_robot_hazard_01_torso": {
+        "name": "ハザードロボットの胴体"
+      },
+      "_base_robot_parts_i": {
+        "name": "ロボットの部品"
+      },
+      "_base_robot_parts_ii": {
+        "name": "ハイテクロボット部品"
+      },
+      "_base_robot_science_01_arm": {
+        "name": "科学ロボットの腕"
+      },
+      "_base_robot_science_01_head": {
+        "name": "科学ロボットの頭部"
+      },
+      "_base_robot_science_01_leg": {
+        "name": "科学ロボットの脚"
+      },
+      "_base_robot_science_01_torso": {
+        "name": "科学ロボットの胴体"
+      },
+      "_base_robot_scout_01_arm": {
+        "name": "偵察ロボットの腕"
+      },
+      "_base_robot_scout_01_head": {
+        "name": "偵察ロボットの頭部"
+      },
+      "_base_robot_scout_01_leg": {
+        "name": "偵察ロボットの脚"
+      },
+      "_base_robot_scout_01_torso": {
+        "name": "偵察ロボットの胴体"
+      },
+      "_base_rocky_desert_dirt": {
+        "name": "岩石砂漠の泥"
+      },
+      "_base_rocky_desert_plant_01": {
+        "name": "岩石砂漠の植物"
+      },
+      "_base_rocky_desert_plant_02": {
+        "name": "岩石砂漠の植物"
+      },
+      "_base_rocky_desert_plant_03": {
+        "name": "岩石砂漠の植物"
+      },
+      "_base_rocky_desert_plant_04": {
+        "name": "岩石砂漠の植物"
+      },
+      "_base_rocky_desert_plant_05": {
+        "name": "岩石砂漠の植物"
+      },
+      "_base_rocky_desert_plant_06": {
+        "name": "岩石砂漠の植物"
+      },
+      "_base_rocky_desert_rock_01": {
+        "name": "岩石砂漠の岩"
+      },
+      "_base_rocky_desert_rock_pillar_01": {
+        "name": "岩石砂漠の岩"
+      },
+      "_base_rocky_desert_rock_pillar_01_large": {
+        "name": "岩石砂漠の岩"
+      },
+      "_base_rocky_desert_rock_pillar_02": {
+        "name": "岩石砂漠の岩"
+      },
+      "_base_rocky_desert_rock_pillar_02_large": {
+        "name": "岩石砂漠の岩"
+      },
+      "_base_rocky_desert_rock_pillar_03": {
+        "name": "岩石砂漠の岩"
+      },
+      "_base_rocky_desert_rock_pillar_03_large": {
+        "name": "岩石砂漠の岩"
+      },
+      "_base_rocky_desert_rock_pillar_04": {
+        "name": "岩石砂漠の岩"
+      },
+      "_base_rocky_desert_rock_pillar_04_large": {
+        "name": "岩石砂漠の岩"
+      },
+      "_base_rocky_desert_seed_plants": {
+        "name": "岩石砂漠の種子（植物）"
+      },
+      "_base_rocky_desert_seed_trees": {
+        "name": "岩石砂漠の種子（樹木）"
+      },
+      "_base_rocky_desert_tree_01": {
+        "name": "岩石砂漠の木"
+      },
+      "_base_rocky_desert_tree_02": {
+        "name": "岩石砂漠の木"
+      },
+      "_base_rubber_i": {
+        "name": "ゴム"
+      },
+      "_base_rubble_ignium": {
+        "name": "イグニウム鉱石の粗石"
+      },
+      "_base_rubble_technum": {
+        "name": "テクナム鉱石の粗石"
+      },
+      "_base_rubble_telluxite": {
+        "name": "テルキサイト鉱石の粗石"
+      },
+      "_base_rubble_xenoferrite": {
+        "name": "ゼノフェライト鉱石の粗石"
+      },
+      "_base_sand": {
+        "name": "砂"
+      },
+      "_base_sandy_desert_plant_01": {
+        "name": "砂塵砂漠の植物"
+      },
+      "_base_sandy_desert_plant_03": {
+        "name": "砂塵砂漠の植物"
+      },
+      "_base_sandy_desert_plant_05": {
+        "name": "砂塵砂漠の植物"
+      },
+      "_base_sandy_desert_rock_01": {
+        "name": "砂塵砂漠の岩"
+      },
+      "_base_sandy_desert_rock_02": {
+        "name": "砂塵砂漠の岩"
+      },
+      "_base_sandy_desert_seed_plants": {
+        "name": "砂塵砂漠の種子（植物）"
+      },
+      "_base_sandy_desert_seed_trees": {
+        "name": "砂塵砂漠の種子（樹木）"
+      },
+      "_base_sandy_desert_tree_01": {
+        "name": "砂塵砂漠の木"
+      },
+      "_base_sandy_desert_tree_04": {
+        "name": "砂塵砂漠の木"
+      },
+      "_base_sandy_desert_tree_05": {
+        "name": "砂塵砂漠の木"
+      },
+      "_base_sandy_desert_tree_07": {
+        "name": "砂塵砂漠の木"
+      },
+      "_base_scanning_entity_i": {
+        "name": "長距離スキャナー",
+        "description": "非常に広範囲の鉱石とリザーバーをスキャンします。"
+      },
+      "_base_science_bot_i": {
+        "name": "科学アシスタントドローン"
+      },
+      "_base_science_bot_ii": {
+        "name": "海洋探査ボット"
+      },
+      "_base_science_pack_i": {
+        "name": "サイエンスパックⅠ"
+      },
+      "_base_science_pack_ii": {
+        "name": "サイエンスパックⅡ"
+      },
+      "_base_science_pack_iii": {
+        "name": "サイエンスパックⅢ"
+      },
+      "_base_science_pack_iv": {
+        "name": "サイエンスパックⅣ"
+      },
+      "_base_science_pack_v": {
+        "name": "サイエンスパック V"
+      },
+      "_base_science_robot_i": {
+        "name": "科学ロボット"
+      },
+      "_base_scout_robot_i": {
+        "name": "偵察ロボット"
+      },
+      "_base_screen_bot_i": {
+        "name": "スクリーンボット"
+      },
+      "_base_shaped_charge_i": {
+        "name": "成型炸薬"
+      },
+      "_base_shaped_charge_i_preview": {
+        "name": "成型炸薬プレビュー"
+      },
+      "_base_shaped_charge_ii": {
+        "name": "成型炸薬（重）"
+      },
+      "_base_shaped_charge_ii_preview": {
+        "name": "成型炸薬プレビュー"
+      },
+      "_base_shipping_pad_i": {
+        "name": "輸送パッド（小）",
+        "description": "宇宙ステーションへ、または宇宙ステーションからアイテムを輸送します。ステーションに利用可能な宇宙船がある必要があります。"
+      },
+      "_base_shipping_pad_ii": {
+        "name": "輸送パッド（中）",
+        "description": "宇宙ステーションへ、または宇宙ステーションからアイテムを輸送します。ステーションに利用可能な宇宙船がある必要があります。"
+      },
+      "_base_shipping_pad_ii_al": {
+        "name": "輸送パッド（中、組み立てライン）",
+        "description": "宇宙ステーションへ、または宇宙ステーションからアイテムを輸送します。ステーションに利用可能な宇宙船がある必要があります。"
+      },
+      "_base_sign": {
+        "name": "看板"
+      },
+      "_base_smelter_i": {
+        "name": "高度溶鉱炉",
+        "description": "入れられた鉱石を自動的に溶解します。"
+      },
+      "_base_smelter_lava_i": {
+        "name": "溶岩溶鉱炉I",
+        "description": "ファーマーライトバーをファーマーライトシートに精錬します。溶岩の上に設置される必要があります。"
+      },
+      "_base_smelter_lava_ii": {
+        "name": "溶岩溶鉱炉II",
+        "description": "ファーマーライトバーをファーマーライトシートに精錬します。溶岩の上に設置される必要があります。"
+      },
+      "_base_smelter_small_i": {
+        "name": "溶鉱炉（小）",
+        "description": "入れられた鉱石を自動的に溶解します。"
+      },
+      "_base_snack_bot_i": {
+        "name": "スナックボット"
+      },
+      "_base_solar_panel_i": {
+        "name": "太陽光パネル（小）",
+        "description": "日光に当たっているときに、接続した高圧送電網のために高圧電力を発電します。"
+      },
+      "_base_solar_panel_ii": {
+        "name": "太陽光パネル（大）",
+        "description": "日光に当たっているときに、接続した高圧送電網のために高圧電力を発電します。"
+      },
+      "_base_space_ship_fuel": {
+        "name": "宇宙船用燃料缶"
+      },
+      "_base_space_station_props": {
+        "name": "宇宙ステーション用機械"
+      },
+      "_base_space_station_terminal": {
+        "name": "宇宙ステーションターミナル",
+        "description": "ここから宇宙ステーションに連絡します。"
+      },
+      "_base_stairs_straight": {
+        "name": "階段"
+      },
+      "_base_stalagmite_large": {
+        "name": "石筍"
+      },
+      "_base_stalagmite_large_ceiling": {
+        "name": "鍾乳石"
+      },
+      "_base_stalagmite_medium": {
+        "name": "石筍"
+      },
+      "_base_stalagmite_medium_ceiling": {
+        "name": "鍾乳石"
+      },
+      "_base_stalagmite_small": {
+        "name": "石筍"
+      },
+      "_base_stalagmite_tall": {
+        "name": "石筍"
+      },
+      "_base_stalagmite_tall_ceiling": {
+        "name": "鍾乳石"
+      },
+      "_base_station_shuttle_pad_i": {
+        "name": "ステーション・シャトルパッド"
+      },
+      "_base_steel_mixture": {
+        "name": "ゼノフェライト・イグニウム鉱石混合物"
+      },
+      "_base_stone": {
+        "name": "石"
+      },
+      "_base_strut_pillar_i": {
+        "name": "支柱"
+      },
+      "_base_super_alloy_plate_i": {
+        "name": "超合金"
+      },
+      "_base_tank_i": {
+        "name": "タンクⅠ"
+      },
+      "_base_technum_rods": {
+        "name": "テクナム・ロッド"
+      },
+      "_base_telluxite_ingot": {
+        "name": "テルキサイト・インゴット"
+      },
+      "_base_telluxite_wafer": {
+        "name": "テルキサイトウエハー"
+      },
+      "_base_train_loading_station": {
+        "name": "列車積み込みステーション",
+        "description": "積み込みステーションは列車ステーションの拡張部であり、ここで車両が積み込みと積み下ろしを行います。各車両に個別の積み込みステーションが必要です。"
+      },
+      "_base_train_station": {
+        "name": "列車ステーション",
+        "description": "列車はここで停車できます。"
+      },
+      "_base_transformer_i": {
+        "name": "変圧器（小）",
+        "description": "基盤上に設置されると、高圧送電網から得られた低圧電力を供給します。"
+      },
+      "_base_transformer_ii": {
+        "name": "変圧器（大）",
+        "description": "基盤上に設置されると、高圧送電網から得られた低圧電力を供給します。"
+      },
+      "_base_transport_bot_i": {
+        "name": "輸送ボット"
+      },
+      "_base_transport_bot_ii": {
+        "name": "ヘビーデューティ輸送ボット"
+      },
+      "_base_transport_bot_iii": {
+        "name": "水中運搬ボット"
+      },
+      "_base_transport_drone_i": {
+        "name": "輸送ドローン"
+      },
+      "_base_transport_drone_port_i": {
+        "name": "輸送船の港",
+        "description": "モジュール建築物の建設に必要です。建設倉庫から建設現場に資源を移動させる輸送船を収容します。"
+      },
+      "_base_tropical_rainforest_dirt": {
+        "name": "熱帯雨林の泥"
+      },
+      "_base_tropical_rainforest_seed_plants": {
+        "name": "熱帯雨林の種子（植物）"
+      },
+      "_base_tropical_rainforest_seed_trees": {
+        "name": "熱帯雨林の種子（樹木）"
+      },
+      "_base_tundra_dirt": {
+        "name": "ツンドラの土"
+      },
+      "_base_tundra_large_plant_01": {
+        "name": "ツンドラの大型植物01"
+      },
+      "_base_tundra_large_plant_02": {
+        "name": "ツンドラの大型植物02"
+      },
+      "_base_tundra_large_rock_01": {
+        "name": "ツンドラの岩（大）01"
+      },
+      "_base_tundra_medium_rock_01": {
+        "name": "ツンドラの岩（中）01"
+      },
+      "_base_tundra_medium_rock_02": {
+        "name": "ツンドラの岩（中）01"
+      },
+      "_base_tundra_rock_pillar_01": {
+        "name": "ツンドラの岩石柱01"
+      },
+      "_base_tundra_rock_pillar_02": {
+        "name": "ツンドラの岩石柱02"
+      },
+      "_base_tundra_seed_plants": {
+        "name": "ツンドラの種子（植物）"
+      },
+      "_base_tundra_seed_trees": {
+        "name": "ツンドラの種子（樹木）"
+      },
+      "_base_tundra_tree_01": {
+        "name": "ツンドラの木01"
+      },
+      "_base_tundra_tree_02": {
+        "name": "ツンドラの木02"
+      },
+      "_base_tundra_tree_03": {
+        "name": "ツンドラの木03"
+      },
+      "_base_turbine_i": {
+        "name": "蒸気タービン",
+        "description": "蒸気を使用して、接続されている高圧送電網のために高圧電力を発電します。"
+      },
+      "_base_underwater_chassis_i": {
+        "name": "海洋ボット胴体"
+      },
+      "_base_walkway_platform": {
+        "name": "通路"
+      },
+      "_base_water_tool": {
+        "name": "灌漑ツール",
+        "description": "様々な地形ブロックに使用して草や類似の植物などを再び生やすことができます。"
+      },
+      "_base_wd_ore_large_technum": {
+        "name": "テクナム鉱石"
+      },
+      "_base_wd_ore_large_xf": {
+        "name": "ゼノフェライト鉱石"
+      },
+      "_base_wd_ore_medium_technum": {
+        "name": "テクナム鉱石"
+      },
+      "_base_wd_ore_medium_xf": {
+        "name": "ゼノフェライト鉱石"
+      },
+      "_base_wd_ore_small_technum": {
+        "name": "テクナム鉱石"
+      },
+      "_base_wd_ore_small_xf": {
+        "name": "ゼノフェライト鉱石"
+      },
+      "_base_weapon_components": {
+        "name": "武器の部品"
+      },
+      "_base_wire_coil": {
+        "name": "ワイヤーコイル"
+      },
+      "_base_workstation_i": {
+        "name": "ロボットワークステーション I",
+        "description": "ロボットはここで作業して様々な機械の機能を向上させられます。"
+      },
+      "_base_workstation_ii": {
+        "name": "ロボットワークステーション II",
+        "description": "ロボットはここで作業して様々な機械の機能を向上させられます。"
+      },
+      "_base_workstation_iii": {
+        "name": "ロボットワークステーション III",
+        "description": "ロボットはここで作業して様々な機械の機能を向上させられます。"
+      },
+      "_base_xenoferrite_plates": {
+        "name": "ゼノフェライト・プレート"
+      },
+      "_base_xf_steel_beams": {
+        "name": "鉄骨梁"
+      },
+      "_rail_tracks": {
+        "name": "線路"
+      },
+      "_trainSignal_chained": {
+        "name": "列車の信号（連動式）"
+      },
+      "_trainSignal_simple": {
+        "name": "列車の信号"
+      },
+      "_train_engine_01": {
+        "name": "列車エンジン"
+      },
+      "_train_wagon_element_01": {
+        "name": "列車タンク車両",
+        "description": "液体およびガスの運搬に使用。"
+      },
+      "_train_wagon_solid_01": {
+        "name": "列車貨物車両",
+        "description": "固体アイテムの運搬に使用。"
+      }
+    },
+    "machines": {
+      "_base_air_intake_1": {
+        "name": "吸気口"
+      },
+      "_base_air_intake_tower_1": {
+        "name": "吸気口モジュール",
+        "modeName": "塔"
+      },
+      "_base_air_intake_utility_1": {
+        "name": "吸気口",
+        "modeName": "ユーティリティパネル"
+      },
+      "_base_air_intake_vent_1": {
+        "name": "吸気口モジュール",
+        "modeName": "排気口"
+      },
+      "_base_al_end_consumer_i": {
+        "name": "組み立てライン物流コンテナ"
+      },
+      "_base_al_merger": {
+        "name": "組み立てラインのマージャー"
+      },
+      "_base_al_painter_i": {
+        "name": "組み立てラインのペインター"
+      },
+      "_base_al_producer_i": {
+        "name": "組み立てラインプロデューサー"
+      },
+      "_base_al_rail_curve_left": {
+        "name": "組み立てラインのレール",
+        "modeName": "カーブ左（HVGコネクター）"
+      },
+      "_base_al_rail_curve_right": {
+        "name": "組み立てラインのレール",
+        "modeName": "カーブ右（HVGコネクター）"
+      },
+      "_base_al_rail_slope_down": {
+        "name": "組み立てラインのレール",
+        "modeName": "スロープ（下り）"
+      },
+      "_base_al_rail_slope_down_hvg": {
+        "name": "組み立てラインのレール",
+        "modeName": "スロープ下り（HVGコネクター）"
+      },
+      "_base_al_rail_slope_up": {
+        "name": "組み立てラインのレール",
+        "modeName": "スロープ（上り）"
+      },
+      "_base_al_rail_slope_up_hvg": {
+        "name": "組み立てラインのレール",
+        "modeName": "スロープ上り（HVGコネクター）"
+      },
+      "_base_al_rail_straight": {
+        "name": "組み立てラインのレール",
+        "modeName": "直線"
+      },
+      "_base_al_rail_straight_hvg": {
+        "name": "組み立てラインのレール",
+        "modeName": "ストレート（HVGコネクター）"
+      },
+      "_base_al_splitter": {
+        "name": "組み立てラインスプリッター"
+      },
+      "_base_al_start": {
+        "name": "組み立てラインの開始"
+      },
+      "_base_alien_scrap_world_decor_i": {
+        "name": "大型ゼノ・スクラップ"
+      },
+      "_base_alien_scrap_world_decor_ii": {
+        "name": "ゼノ・スクラップ"
+      },
+      "_base_alien_scrap_world_decor_iii": {
+        "name": "ゼノ・スクラップ"
+      },
+      "_base_alien_scrap_world_decor_iv": {
+        "name": "ゼノ・スクラップ"
+      },
+      "_base_alien_scrap_world_decor_v": {
+        "name": "ゼノ・スクラップの残骸"
+      },
+      "_base_assembler_fluid_i": {
+        "name": "液体アセンブラーⅠ"
+      },
+      "_base_assembler_i": {
+        "name": "アセンブラーⅠ"
+      },
+      "_base_assembler_ii": {
+        "name": "アセンブラーⅡ"
+      },
+      "_base_assembler_iii": {
+        "name": "アセンブラーⅢ"
+      },
+      "_base_barrel_filler_i": {
+        "name": "バレル充填機Ⅰ"
+      },
+      "_base_baseStation01": {
+        "name": "ドロップポッド"
+      },
+      "_base_battery_i": {
+        "name": "バッテリー（小）"
+      },
+      "_base_battery_ii": {
+        "name": "バッテリー（大）"
+      },
+      "_base_biomass_burner": {
+        "name": "バイオマスバーナー"
+      },
+      "_base_blast_furnace_base_1": {
+        "name": "高炉"
+      },
+      "_base_blast_furnace_module_conveyor_attachment_1": {
+        "name": "高炉モジュール",
+        "modeName": "コンベアアタッチメント（投入）"
+      },
+      "_base_blast_furnace_module_gas_exhaust_1": {
+        "name": "高炉モジュール",
+        "modeName": "フレアスタック"
+      },
+      "_base_blast_furnace_module_gas_exhaust_drain_1": {
+        "name": "WGD【使用禁止】"
+      },
+      "_base_blast_furnace_module_hopper_bottom_1": {
+        "name": "高炉モジュール",
+        "modeName": "ホッパー（下部）"
+      },
+      "_base_blast_furnace_module_hopper_top_1": {
+        "name": "高炉モジュール",
+        "modeName": "ホッパー（上部）"
+      },
+      "_base_blast_furnace_module_hot_air_intake_1": {
+        "name": "高炉モジュール",
+        "modeName": "熱風ブラスト"
+      },
+      "_base_blast_furnace_module_pipe_attachment_in_1": {
+        "name": "高炉",
+        "modeName": "パイプラインアタッチメント（投入）"
+      },
+      "_base_blast_furnace_module_pipe_attachment_out_1": {
+        "name": "高炉",
+        "modeName": "パイプアタッチメント（産出）"
+      },
+      "_base_blast_furnace_module_pipe_attachment_out_2": {
+        "name": "高炉",
+        "modeName": "パイプラインアタッチメント（産出）"
+      },
+      "_base_blast_furnace_module_tower_1": {
+        "name": "高炉モジュール",
+        "modeName": "塔"
+      },
+      "_base_boiler_i": {
+        "name": "ボイラー"
+      },
+      "_base_boreal_forest_grouprock_small": {
+        "name": "北方林の岩"
+      },
+      "_base_boreal_forest_mushroom_01": {
+        "name": "北方林の植物"
+      },
+      "_base_boreal_forest_mushroom_02": {
+        "name": "北方林の植物"
+      },
+      "_base_boreal_forest_mushroom_03": {
+        "name": "北方林の植物"
+      },
+      "_base_boreal_forest_mushroom_04": {
+        "name": "北方林の植物"
+      },
+      "_base_boreal_forest_plant_01": {
+        "name": "北方林の植物"
+      },
+      "_base_boreal_forest_rock_01": {
+        "name": "北方林の岩"
+      },
+      "_base_boreal_forest_rock_02": {
+        "name": "北方林の岩"
+      },
+      "_base_boreal_forest_tree_01": {
+        "name": "北方林の木"
+      },
+      "_base_boreal_forest_tree_02": {
+        "name": "北方林の木"
+      },
+      "_base_boreal_forest_tree_03": {
+        "name": "北方林の木"
+      },
+      "_base_boreal_forest_tree_04": {
+        "name": "北方林の木"
+      },
+      "_base_building_part": {
+        "name": "ビルディングブロック"
+      },
+      "_base_burner_generator_lvg": {
+        "name": "バーナージェネレーター"
+      },
+      "_base_c3bb_hub": {
+        "name": "C3-BBハブ"
+      },
+      "_base_casting_building_base": {
+        "name": "大型成形機"
+      },
+      "_base_casting_building_body": {
+        "name": "大型成形機",
+        "modeName": "成形モジュール"
+      },
+      "_base_casting_building_input": {
+        "name": "大型成形機",
+        "modeName": "投入モジュール"
+      },
+      "_base_casting_building_output": {
+        "name": "大型成形機",
+        "modeName": "産出モジュール"
+      },
+      "_base_casting_machine": {
+        "name": "鋳造機"
+      },
+      "_base_cave_crystal_large_i": {
+        "name": "ゼノ結晶"
+      },
+      "_base_cave_crystal_large_ii": {
+        "name": "ゼノ結晶"
+      },
+      "_base_cave_crystal_large_iii": {
+        "name": "ゼノ結晶"
+      },
+      "_base_cave_crystal_medium_i": {
+        "name": "ゼノ結晶"
+      },
+      "_base_cave_crystal_small_i": {
+        "name": "ゼノ結晶"
+      },
+      "_base_cave_stalactite_01": {
+        "name": "鍾乳石"
+      },
+      "_base_cave_stalactite_02": {
+        "name": "鍾乳石"
+      },
+      "_base_cave_stalactite_03": {
+        "name": "鍾乳石"
+      },
+      "_base_cave_stalagmite_large": {
+        "name": "石筍"
+      },
+      "_base_cave_stalagmite_medium": {
+        "name": "石筍"
+      },
+      "_base_cave_stalagmite_small": {
+        "name": "石筍"
+      },
+      "_base_caveplant_01_large": {
+        "name": "洞窟の植物"
+      },
+      "_base_caveplant_01_medium": {
+        "name": "洞窟の植物"
+      },
+      "_base_caveplant_01_small": {
+        "name": "洞窟の植物"
+      },
+      "_base_caveplant_02_large": {
+        "name": "洞窟の植物"
+      },
+      "_base_caveplant_02_medium": {
+        "name": "洞窟の植物"
+      },
+      "_base_caveplant_02_small": {
+        "name": "洞窟の植物"
+      },
+      "_base_chemical_processor_i": {
+        "name": "化成処理装置"
+      },
+      "_base_chest_i": {
+        "name": "木箱"
+      },
+      "_base_construction_barrier_corner": {
+        "name": "建設現場の飾り",
+        "modeName": "プラスチック障壁（コーナー）"
+      },
+      "_base_construction_barrier_straight": {
+        "name": "建設現場の飾り",
+        "modeName": "プラスチック障壁（直線）"
+      },
+      "_base_construction_cone": {
+        "name": "建設現場の飾り",
+        "modeName": "カラーコーン"
+      },
+      "_base_construction_drone_port_i": {
+        "name": "建設船の港"
+      },
+      "_base_construction_hazard_block": {
+        "name": "危険コンクリート"
+      },
+      "_base_construction_pylon": {
+        "name": "建設現場の飾り",
+        "modeName": "パイロン"
+      },
+      "_base_construction_warehouse_i": {
+        "name": "建設倉庫"
+      },
+      "_base_container": {
+        "name": "コンテナ"
+      },
+      "_base_conveyor_balancer_i": {
+        "name": "コンベアバランサーⅠ"
+      },
+      "_base_conveyor_balancer_ii": {
+        "name": "コンベアバランサーⅡ"
+      },
+      "_base_conveyor_balancer_iii": {
+        "name": "コンベアバランサーⅢ"
+      },
+      "_base_conveyor_balancer_iv": {
+        "name": "コンベアバランサーⅠV"
+      },
+      "_base_conveyor_i": {
+        "name": "コンベアⅠ"
+      },
+      "_base_conveyor_ii": {
+        "name": "コンベアⅡ"
+      },
+      "_base_conveyor_iii": {
+        "name": "コンベアⅢ"
+      },
+      "_base_conveyor_iv": {
+        "name": "コンベアIV"
+      },
+      "_base_conveyor_slope_i": {
+        "name": "コンベアスロープⅠ",
+        "modeName": "スロープ（上り）"
+      },
+      "_base_conveyor_slope_i_down": {
+        "name": "コンベアスロープⅠ",
+        "modeName": "スロープ（下り）"
+      },
+      "_base_conveyor_slope_ii": {
+        "name": "コンベアスロープⅡ",
+        "modeName": "スロープ（上り）"
+      },
+      "_base_conveyor_slope_ii_down": {
+        "name": "コンベアスロープⅡ",
+        "modeName": "スロープ（下り）"
+      },
+      "_base_conveyor_slope_iii": {
+        "name": "コンベアスロープⅢ",
+        "modeName": "スロープ（上り）"
+      },
+      "_base_conveyor_slope_iii_down": {
+        "name": "コンベアスロープⅢ",
+        "modeName": "スロープ（下り）"
+      },
+      "_base_conveyor_slope_iv": {
+        "name": "コンベアスロープⅠV",
+        "modeName": "スロープ（上り）"
+      },
+      "_base_conveyor_slope_iv_down": {
+        "name": "コンベアスロープⅠV",
+        "modeName": "スロープ（下り）"
+      },
+      "_base_coral_plant_01_large": {
+        "name": "サンゴ植物"
+      },
+      "_base_coral_plant_01_medium": {
+        "name": "サンゴ植物"
+      },
+      "_base_coral_plant_01_small": {
+        "name": "サンゴ植物"
+      },
+      "_base_coral_plant_02_large": {
+        "name": "サンゴ植物"
+      },
+      "_base_coral_plant_02_medium": {
+        "name": "サンゴ植物"
+      },
+      "_base_coral_plant_02_small": {
+        "name": "サンゴ植物"
+      },
+      "_base_coral_plant_03_large": {
+        "name": "サンゴ植物"
+      },
+      "_base_coral_plant_03_medium": {
+        "name": "サンゴ植物"
+      },
+      "_base_coral_plant_03_small": {
+        "name": "サンゴ植物"
+      },
+      "_base_crusher_i": {
+        "name": "粉砕機Ⅰ"
+      },
+      "_base_crusher_ii": {
+        "name": "粉砕機Ⅱ"
+      },
+      "_base_crystal_refiner_i": {
+        "name": "結晶精製機"
+      },
+      "_base_crystals_medium": {
+        "name": "結晶"
+      },
+      "_base_data_cable": {
+        "name": "データケーブル"
+      },
+      "_base_data_comparer": {
+        "name": "データ評価装置"
+      },
+      "_base_data_memory": {
+        "name": "データメモリーセル"
+      },
+      "_base_data_processor": {
+        "name": "データ処理装置"
+      },
+      "_base_data_source_button": {
+        "name": "データソース（ボタン）  "
+      },
+      "_base_data_source_lever": {
+        "name": "データソース（レバー）"
+      },
+      "_base_data_source_static": {
+        "name": "データソース"
+      },
+      "_base_debris_decor_i": {
+        "name": "瓦礫"
+      },
+      "_base_debris_i": {
+        "name": "瓦礫Ⅰ"
+      },
+      "_base_debris_ii": {
+        "name": "瓦礫Ⅰ"
+      },
+      "_base_debris_iii": {
+        "name": "瓦礫Ⅰ"
+      },
+      "_base_decor_ac_i": {
+        "name": "飾り（いろいろ）",
+        "modeName": "ACユニット（2x1x2）"
+      },
+      "_base_decor_base_cube": {
+        "name": "飾り（ベーシックな形）",
+        "modeName": "キューブ"
+      },
+      "_base_decor_base_cube_caution": {
+        "name": "飾り（ベーシックな形）"
+      },
+      "_base_decor_base_cube_flat": {
+        "name": "飾り（ベーシックな形）",
+        "modeName": "キューブ（平面テクスチャ）"
+      },
+      "_base_decor_base_inside_corner": {
+        "name": "飾り（ベーシックな形）",
+        "modeName": "コーナー（内側45度）"
+      },
+      "_base_decor_base_inside_corner_ii": {
+        "name": "飾り（ベーシックな形）",
+        "modeName": "コーナー（内側22.5度）"
+      },
+      "_base_decor_base_inside_corner_iii": {
+        "name": "飾り（ベーシックな形）",
+        "modeName": "コーナー（内側上向き22.5°）"
+      },
+      "_base_decor_base_outside_corner": {
+        "name": "飾り（ベーシックな形）",
+        "modeName": "コーナー（外側45度）"
+      },
+      "_base_decor_base_outside_corner_ii": {
+        "name": "飾り（ベーシックな形）",
+        "modeName": "コーナー（外側22.5度）"
+      },
+      "_base_decor_base_outside_corner_iii": {
+        "name": "飾り（ベーシックな形）",
+        "modeName": "コーナー（外側上向き22.5°）"
+      },
+      "_base_decor_base_round_corner": {
+        "name": "飾り（ベーシックな形）",
+        "modeName": "コーナー（外側が丸い）"
+      },
+      "_base_decor_base_round_edge": {
+        "name": "飾り（ベーシックな形）",
+        "modeName": "エッジ（ラウンド）"
+      },
+      "_base_decor_base_round_inside_corner": {
+        "name": "飾り（ベーシックな形）",
+        "modeName": "コーナー（内側が丸い）"
+      },
+      "_base_decor_base_slope": {
+        "name": "飾り（ベーシックな形）",
+        "modeName": "スロープ（45°）"
+      },
+      "_base_decor_base_slope_ii": {
+        "name": "飾り（ベーシックな形）",
+        "modeName": "スロープ（22.5°）"
+      },
+      "_base_decor_chimney_i": {
+        "name": "飾り（いろいろ）",
+        "modeName": "煙突（2x2x2）"
+      },
+      "_base_decor_chimney_ii": {
+        "name": "飾り（いろいろ）",
+        "modeName": "煙突（2x8x3）"
+      },
+      "_base_decor_pillar_i": {
+        "name": "飾り（支柱）",
+        "modeName": "柱（1x1x1）"
+      },
+      "_base_decor_pillar_ii": {
+        "name": "飾り（支柱）",
+        "modeName": "柱（3x1x3）"
+      },
+      "_base_decor_pillar_iii": {
+        "name": "飾り（支柱）",
+        "modeName": "柱（3x3x3）"
+      },
+      "_base_decor_support_cap": {
+        "name": "飾り（サポート）",
+        "modeName": "サポート（キャップ）"
+      },
+      "_base_decor_support_corner": {
+        "name": "飾り（サポート）",
+        "modeName": "サポート（コーナー）"
+      },
+      "_base_decor_support_slope_over": {
+        "name": "飾り（サポート）",
+        "modeName": "サポート（スロープオーバー）"
+      },
+      "_base_decor_support_slope_under": {
+        "name": "飾り（サポート）",
+        "modeName": "サポート（スロープアンダー）"
+      },
+      "_base_decor_support_straight": {
+        "name": "飾り（サポート）",
+        "modeName": "サポート（ストレート）"
+      },
+      "_base_decor_truss_4way": {
+        "name": "飾り（サポートトラス）",
+        "modeName": "トラス（4方向）"
+      },
+      "_base_decor_truss_6way": {
+        "name": "飾り（サポートトラス）",
+        "modeName": "トラス（6方向）"
+      },
+      "_base_decor_truss_cap": {
+        "name": "飾り（サポートトラス）",
+        "modeName": "トラス（キャップ）"
+      },
+      "_base_decor_truss_corner": {
+        "name": "飾り（サポートトラス）",
+        "modeName": "トラス（コーナー）"
+      },
+      "_base_decor_truss_slope_1x1_i": {
+        "name": "飾り（サポートトラス）",
+        "modeName": "トラス（スロープ 45° I）  "
+      },
+      "_base_decor_truss_slope_1x1_ii": {
+        "name": "飾り（サポートトラス）",
+        "modeName": "トラス（スロープ 45° II）  "
+      },
+      "_base_decor_truss_slope_1x1_iii": {
+        "name": "飾り（サポートトラス）",
+        "modeName": "トラス（スロープ 45° III）  "
+      },
+      "_base_decor_truss_slope_1x1_iv": {
+        "name": "飾り（サポートトラス）",
+        "modeName": "トラス（スロープ 45° IV）  "
+      },
+      "_base_decor_truss_slope_1x2_i": {
+        "name": "飾り（サポートトラス）",
+        "modeName": "トラス（スロープ 22.5° I）  "
+      },
+      "_base_decor_truss_slope_1x2_ii": {
+        "name": "飾り（サポートトラス）",
+        "modeName": "トラス（スロープ 22.5° II）  "
+      },
+      "_base_decor_truss_slope_1x2_iii": {
+        "name": "飾り（サポートトラス）",
+        "modeName": "トラス（スロープ 22.5° III）  "
+      },
+      "_base_decor_truss_straight": {
+        "name": "飾り（サポートトラス）",
+        "modeName": "トラス（直線）"
+      },
+      "_base_decor_truss_t_joint": {
+        "name": "飾り（サポートトラス）",
+        "modeName": "トラス（Tジョイント）"
+      },
+      "_base_decor_wall_flat_i": {
+        "name": "飾り（壁）",
+        "modeName": "壁フラット（2 x 2）  "
+      },
+      "_base_decor_wall_flat_ii": {
+        "name": "飾り（壁）",
+        "modeName": "壁フラット（3 x 3）  "
+      },
+      "_base_decor_wall_flat_iii": {
+        "name": "飾り（壁）",
+        "modeName": "壁フラット（4 x 4）  "
+      },
+      "_base_decor_wall_flat_iv": {
+        "name": "飾り（壁）",
+        "modeName": "壁フラット（5 x 5）  "
+      },
+      "_base_decor_wall_i": {
+        "name": "飾り（壁）",
+        "modeName": "壁Ⅰ "
+      },
+      "_base_decor_wall_ii": {
+        "name": "飾り（壁）",
+        "modeName": "壁II"
+      },
+      "_base_decor_wall_iii": {
+        "name": "飾り（壁）",
+        "modeName": "壁ⅠII"
+      },
+      "_base_decor_wall_iv": {
+        "name": "飾り（壁）",
+        "modeName": "壁ⅠV"
+      },
+      "_base_decor_window_center": {
+        "name": "飾り（モジュラー窓）",
+        "modeName": "ウィンドウ（センター）"
+      },
+      "_base_decor_window_corner_inside": {
+        "name": "飾り（モジュラー窓）",
+        "modeName": "ウィンドウ（内側コーナー）"
+      },
+      "_base_decor_window_corner_outside": {
+        "name": "飾り（モジュラー窓）",
+        "modeName": "ウィンドウ（外側コーナー）"
+      },
+      "_base_decor_window_edge": {
+        "name": "飾り（モジュラー窓）",
+        "modeName": "ウィンドウ（エッジ）"
+      },
+      "_base_decor_window_round_edge": {
+        "name": "飾り（モジュラー窓）",
+        "modeName": "ウィンドウ（ラウンドエッジ）"
+      },
+      "_base_decor_window_round_edge_center": {
+        "name": "飾り（モジュラー窓）",
+        "modeName": "ウィンドウ（ラウンドエッジセンター）"
+      },
+      "_base_decor_window_sharp_edge": {
+        "name": "飾り（モジュラー窓）",
+        "modeName": "ウィンドウ（シャープエッジ）"
+      },
+      "_base_decor_window_sharp_edge_center": {
+        "name": "飾り（モジュラー窓）",
+        "modeName": "ウィンドウ（シャープエッジセンター）"
+      },
+      "_base_decor_window_slope_i": {
+        "name": "飾り（窓）",
+        "modeName": "ウィンドウスロープ（2x3x2）"
+      },
+      "_base_decor_window_slope_ii": {
+        "name": "飾り（窓）",
+        "modeName": "ウィンドウスロープ（3x4x3）"
+      },
+      "_base_decor_window_slope_iii": {
+        "name": "飾り（窓）",
+        "modeName": "ウィンドウスロープ（5x6x5）"
+      },
+      "_base_decor_window_slope_mod_corner_inside_LL": {
+        "name": "飾り（ウィンドウモジュラースロープ）",
+        "modeName": "ウィンドウスロープ内部コーナー（左下）  "
+      },
+      "_base_decor_window_slope_mod_corner_inside_LR": {
+        "name": "飾り（ウィンドウモジュラースロープ）",
+        "modeName": "ウィンドウスロープ内部コーナー（右下）  "
+      },
+      "_base_decor_window_slope_mod_corner_inside_UL": {
+        "name": "飾り（ウィンドウモジュラースロープ）",
+        "modeName": "ウィンドウスロープ内部コーナー（左上）  "
+      },
+      "_base_decor_window_slope_mod_corner_inside_UR": {
+        "name": "飾り（ウィンドウモジュラースロープ）",
+        "modeName": "ウィンドウスロープ内部コーナー（右上）  "
+      },
+      "_base_decor_window_slope_mod_corner_outside_LL": {
+        "name": "飾り（ウィンドウモジュラースロープ）",
+        "modeName": "ウィンドウスロープ外部コーナー（左下）  "
+      },
+      "_base_decor_window_slope_mod_corner_outside_LR": {
+        "name": "飾り（ウィンドウモジュラースロープ）",
+        "modeName": "ウィンドウスロープ外部コーナー（右下）  "
+      },
+      "_base_decor_window_slope_mod_corner_outside_UL": {
+        "name": "飾り（ウィンドウモジュラースロープ）",
+        "modeName": "ウィンドウスロープ外部コーナー（左上）  "
+      },
+      "_base_decor_window_slope_mod_corner_outside_UR": {
+        "name": "飾り（ウィンドウモジュラースロープ）",
+        "modeName": "ウィンドウスロープ外部コーナー（右上）  "
+      },
+      "_base_decor_window_slope_mod_edge_left": {
+        "name": "飾り（ウィンドウモジュラースロープ）",
+        "modeName": "ウィンドウスロープエッジ（左）"
+      },
+      "_base_decor_window_slope_mod_edge_lower": {
+        "name": "飾り（ウィンドウモジュラースロープ）",
+        "modeName": "ウィンドウスロープエッジ（下）"
+      },
+      "_base_decor_window_slope_mod_edge_open_L": {
+        "name": "飾り（ウィンドウモジュラースロープエッジ）",
+        "modeName": "ウィンドウスロープエッジ左開き"
+      },
+      "_base_decor_window_slope_mod_edge_open_R": {
+        "name": "飾り（ウィンドウモジュラースロープエッジ）",
+        "modeName": "ウィンドウスロープエッジ右開き"
+      },
+      "_base_decor_window_slope_mod_edge_open_inside": {
+        "name": "飾り（ウィンドウモジュラースロープエッジ）",
+        "modeName": "ウィンドウスロープエッジ内開き"
+      },
+      "_base_decor_window_slope_mod_edge_right": {
+        "name": "飾り（ウィンドウモジュラースロープ）",
+        "modeName": "ウィンドウスロープエッジ（右）"
+      },
+      "_base_decor_window_slope_mod_edge_upper": {
+        "name": "飾り（ウィンドウモジュラースロープ）",
+        "modeName": "ウィンドウスロープエッジ（上）"
+      },
+      "_base_decor_window_slope_mod_inside": {
+        "name": "飾り（ウィンドウモジュラースロープ）",
+        "modeName": "ウィンドウスロープ（内側）"
+      },
+      "_base_decor_window_straight_i": {
+        "name": "飾り（窓）",
+        "modeName": "ウィンドウ（1x2x2）"
+      },
+      "_base_decor_window_straight_ii": {
+        "name": "飾り（窓）",
+        "modeName": "ウィンドウ（1x3x3）"
+      },
+      "_base_decor_window_straight_iii": {
+        "name": "飾り（窓）",
+        "modeName": "ウィンドウ（1x5x5）"
+      },
+      "_base_decor_window_wedge_corner_i": {
+        "name": "飾り（ウィンドウモジュラーウェッジ）",
+        "modeName": "ウィンドウウェッジコーナー I  "
+      },
+      "_base_decor_window_wedge_corner_ii": {
+        "name": "飾り（ウィンドウモジュラーウェッジ）",
+        "modeName": "ウィンドウウェッジコーナー II  "
+      },
+      "_base_decor_window_wedge_corner_iii": {
+        "name": "飾り（ウィンドウモジュラーウェッジ）",
+        "modeName": "ウィンドウウェッジコーナー III  "
+      },
+      "_base_decor_window_wedge_slope_i": {
+        "name": "飾り（ウィンドウモジュラーウェッジ）",
+        "modeName": "ウィンドウウェッジスロープ I  "
+      },
+      "_base_decor_window_wedge_slope_ii": {
+        "name": "飾り（ウィンドウモジュラーウェッジ）",
+        "modeName": "ウィンドウウェッジスロープ II  "
+      },
+      "_base_decor_window_wedge_slope_iii": {
+        "name": "飾り（ウィンドウモジュラーウェッジ）",
+        "modeName": "ウィンドウウェッジスロープ III  "
+      },
+      "_base_decor_window_wedge_slope_iv": {
+        "name": "飾り（ウィンドウモジュラーウェッジ）",
+        "modeName": "ウィンドウウェッジスロープ IV  "
+      },
+      "_base_distillation_column_i": {
+        "name": "蒸留塔"
+      },
+      "_base_door_i": {
+        "name": "ドア（1枚）"
+      },
+      "_base_door_ii": {
+        "name": "ドア（2枚）"
+      },
+      "_base_door_iii": {
+        "name": "格納庫ゲート"
+      },
+      "_base_door_iii_station": {
+        "name": "格納庫ゲート"
+      },
+      "_base_drill_bot_preview": {
+        "name": "掘削船プレビュー"
+      },
+      "_base_drone_miner_i": {
+        "name": "ドローン採掘機Ⅰ"
+      },
+      "_base_drone_miner_ii": {
+        "name": "ドローン採掘機Ⅱ"
+      },
+      "_base_drone_transport_startpad_i": {
+        "name": "貨物シャトルスタートパッド"
+      },
+      "_base_drone_transport_startpad_liquid_i": {
+        "name": "貨物シャトルスタートパッド（液体）"
+      },
+      "_base_drone_transport_targetpad_i": {
+        "name": "貨物シャトルターゲットパッド"
+      },
+      "_base_drone_transport_targetpad_liquid_i": {
+        "name": "貨物シャトルターゲットパッド（液体）"
+      },
+      "_base_electric_arc_furnace": {
+        "name": "電気アーク炉"
+      },
+      "_base_elevator_i": {
+        "name": "エレベーター"
+      },
+      "_base_elevator_structure_i": {
+        "name": "エレベーター構造物"
+      },
+      "_base_emergency_beacon": {
+        "name": "緊急ビーコン"
+      },
+      "_base_endless_miner_crystals_i": {
+        "name": "ゼノ結晶抽出装置"
+      },
+      "_base_endless_miner_scrap_i": {
+        "name": "ゼノ・スクラップ抽出装置"
+      },
+      "_base_escalator_curve_left": {
+        "name": "エスカレーターI",
+        "modeName": "左カーブ"
+      },
+      "_base_escalator_curve_left_ii": {
+        "name": "エスカレーターII",
+        "modeName": "左カーブ"
+      },
+      "_base_escalator_curve_left_iii": {
+        "name": "エスカレーターIII",
+        "modeName": "左カーブ"
+      },
+      "_base_escalator_curve_right": {
+        "name": "エスカレーターI",
+        "modeName": "右カーブ"
+      },
+      "_base_escalator_curve_right_ii": {
+        "name": "エスカレーターII",
+        "modeName": "右カーブ"
+      },
+      "_base_escalator_curve_right_iii": {
+        "name": "エスカレーターIII",
+        "modeName": "右カーブ"
+      },
+      "_base_escalator_slope_down": {
+        "name": "エスカレーターI",
+        "modeName": "スロープ（下り）"
+      },
+      "_base_escalator_slope_down_ii": {
+        "name": "エスカレーターII",
+        "modeName": "スロープ（下り）"
+      },
+      "_base_escalator_slope_down_iii": {
+        "name": "エスカレーターIII",
+        "modeName": "スロープ（下り）"
+      },
+      "_base_escalator_slope_up": {
+        "name": "エスカレーターI",
+        "modeName": "スロープ（上り）"
+      },
+      "_base_escalator_slope_up_ii": {
+        "name": "エスカレーターII",
+        "modeName": "スロープ（上り）"
+      },
+      "_base_escalator_slope_up_iii": {
+        "name": "エスカレーターIII",
+        "modeName": "スロープ（上り）"
+      },
+      "_base_escalator_straight": {
+        "name": "エスカレーターI",
+        "modeName": "直線"
+      },
+      "_base_escalator_straight_ii": {
+        "name": "エスカレーターII",
+        "modeName": "直線"
+      },
+      "_base_escalator_straight_iii": {
+        "name": "エスカレーターIII",
+        "modeName": "直線"
+      },
+      "_base_exploration_analyzer": {
+        "name": "オムニ・アナライザ"
+      },
+      "_base_flare_stack": {
+        "name": "フレアスタック"
+      },
+      "_base_forest_plant_01_large": {
+        "name": "北方林の植物（大）"
+      },
+      "_base_forest_plant_01_small": {
+        "name": "北方林の植物（小）"
+      },
+      "_base_forest_plant_01_small_ff": {
+        "name": "北方林の植物（小）"
+      },
+      "_base_fracking_tower_1": {
+        "name": "粉砕塔の基盤"
+      },
+      "_base_fracking_tower_pipe_connection_1": {
+        "name": "粉砕塔モジュール",
+        "modeName": "パイプ接続"
+      },
+      "_base_fracking_tower_pwr_connection_1": {
+        "name": "粉砕塔",
+        "modeName": "電力接続"
+      },
+      "_base_fracking_tower_top_1": {
+        "name": "粉砕塔モジュール",
+        "modeName": "上部"
+      },
+      "_base_fracking_tower_tower_1": {
+        "name": "粉砕塔モジュール",
+        "modeName": "塔"
+      },
+      "_base_freight_elevator_i_bottom": {
+        "name": "貨物用エレベーターⅠ",
+        "modeName": "貨物用エレベーター下部"
+      },
+      "_base_freight_elevator_i_top": {
+        "name": "貨物用エレベーターⅠ",
+        "modeName": "貨物用エレベーター最上部"
+      },
+      "_base_freight_elevator_ii_bottom": {
+        "name": "貨物用エレベーターⅡ",
+        "modeName": "貨物用エレベーター下部"
+      },
+      "_base_freight_elevator_ii_top": {
+        "name": "貨物用エレベーターⅡ",
+        "modeName": "貨物用エレベーター最上部"
+      },
+      "_base_freight_elevator_iii_bottom": {
+        "name": "貨物用エレベーターⅢ",
+        "modeName": "貨物用エレベーター下部"
+      },
+      "_base_freight_elevator_iii_top": {
+        "name": "貨物用エレベーターⅢ",
+        "modeName": "貨物用エレベーター最上部"
+      },
+      "_base_freight_elevator_iv_bottom": {
+        "name": "貨物用エレベーターⅠV",
+        "modeName": "貨物用エレベーター下部"
+      },
+      "_base_freight_elevator_iv_top": {
+        "name": "貨物用エレベーターⅠV",
+        "modeName": "貨物用エレベーター最上部"
+      },
+      "_base_geological_scanner_i": {
+        "name": "地質スキャナー"
+      },
+      "_base_geothermal_generator_i": {
+        "name": "地熱ボイラー"
+      },
+      "_base_geothermal_vent": {
+        "name": "地熱排出口"
+      },
+      "_base_gl_birch_01": {
+        "name": "木"
+      },
+      "_base_gl_birch_02": {
+        "name": "木"
+      },
+      "_base_gl_birch_02_large": {
+        "name": "木"
+      },
+      "_base_gl_birch_03": {
+        "name": "木"
+      },
+      "_base_gl_birch_03_large": {
+        "name": "木"
+      },
+      "_base_gl_birch_04": {
+        "name": "木"
+      },
+      "_base_gl_birch_04_large": {
+        "name": "木"
+      },
+      "_base_gl_fansy_plant_large": {
+        "name": "植物"
+      },
+      "_base_gl_fansy_plant_small": {
+        "name": "植物"
+      },
+      "_base_greenhouse_i": {
+        "name": "温室"
+      },
+      "_base_hot_air_stove_base_energy_1": {
+        "name": "熱風炉"
+      },
+      "_base_hot_air_stove_conveyor_attachment_1": {
+        "name": "熱風ストーブモジュール",
+        "modeName": "コンベアアタッチメント"
+      },
+      "_base_hot_air_stove_pg_attachment_1": {
+        "name": "熱風炉",
+        "modeName": "HVGアタッチメント"
+      },
+      "_base_hot_air_stove_pipe_in_1": {
+        "name": "熱風ストーブモジュール",
+        "modeName": "パイプアタッチメント（投入）"
+      },
+      "_base_hot_air_stove_pipe_out_1": {
+        "name": "熱風ストーブモジュール",
+        "modeName": "パイプアタッチメント（産出）"
+      },
+      "_base_hot_air_stove_top_1": {
+        "name": "熱風ストーブモジュール",
+        "modeName": "最上部"
+      },
+      "_base_hot_air_stove_tower_1": {
+        "name": "熱風ストーブモジュール",
+        "modeName": "塔"
+      },
+      "_base_incinerator": {
+        "name": "焼却炉"
+      },
+      "_base_jungle_palmtree_01": {
+        "name": "ジャングルの木"
+      },
+      "_base_jungle_palmtree_02": {
+        "name": "ジャングルの木"
+      },
+      "_base_jungle_palmtree_03": {
+        "name": "ジャングルの木"
+      },
+      "_base_jungle_plant_large_01": {
+        "name": "ジャングルの木"
+      },
+      "_base_jungle_tree_large_01": {
+        "name": "ジャングルの木"
+      },
+      "_base_kelp_01_large": {
+        "name": "ケルプ"
+      },
+      "_base_kelp_01_medium": {
+        "name": "ケルプ"
+      },
+      "_base_kelp_01_small": {
+        "name": "ケルプ"
+      },
+      "_base_kelp_02_large": {
+        "name": "ケルプ"
+      },
+      "_base_kelp_02_medium": {
+        "name": "ケルプ"
+      },
+      "_base_kelp_02_small": {
+        "name": "ケルプ"
+      },
+      "_base_ladder_i": {
+        "name": "はしご"
+      },
+      "_base_light_ceiling_i": {
+        "name": "天井照明Ⅰ"
+      },
+      "_base_light_ceiling_ii": {
+        "name": "天井照明ⅠI"
+      },
+      "_base_light_portable_i": {
+        "name": "ポータブルライト"
+      },
+      "_base_light_wall_i": {
+        "name": "壁掛け照明Ⅰ"
+      },
+      "_base_lightpole_i": {
+        "name": "電柱I"
+      },
+      "_base_lightpole_ii": {
+        "name": "電柱II"
+      },
+      "_base_loader_1st_i": {
+        "name": "ローダー"
+      },
+      "_base_loader_1st_i_filter": {
+        "name": "フィルターローダー"
+      },
+      "_base_loader_2nd_i": {
+        "name": "ローダー（第2レーン）"
+      },
+      "_base_loader_3rd_i": {
+        "name": "ローダー（第3レーン）"
+      },
+      "_base_logistic_container_i": {
+        "name": "物流コンテナⅠ"
+      },
+      "_base_logistic_container_ii": {
+        "name": "物流コンテナⅡ"
+      },
+      "_base_logistic_container_iii": {
+        "name": "物流コンテナⅢ"
+      },
+      "_base_logistics_tower_i": {
+        "name": "ゼノロジスティクス塔"
+      },
+      "_base_lrs_building_module": {
+        "name": "長距離スキャナー",
+        "modeName": "建物"
+      },
+      "_base_lrs_distance_module": {
+        "name": "長距離スキャナー",
+        "modeName": "距離モジュール"
+      },
+      "_base_lrs_hvg_module": {
+        "name": "長距離スキャナー",
+        "modeName": "電力線コネクタ"
+      },
+      "_base_lrs_speed_module": {
+        "name": "長距離スキャナー",
+        "modeName": "速度モジュール"
+      },
+      "_base_modular_fluid_tank_base_1": {
+        "name": "モジュラー貯蔵タンク"
+      },
+      "_base_modular_fluid_tank_top_1": {
+        "name": "モジュラー貯蔵タンク（モジュール）",
+        "modeName": "上部"
+      },
+      "_base_modular_fluid_tank_tower_1": {
+        "name": "モジュラー貯蔵タンク（モジュール）",
+        "modeName": "塔"
+      },
+      "_base_monument": {
+        "name": "モニュメント基盤"
+      },
+      "_base_monument_pedestal": {
+        "name": "モニュメント（モジュール）",
+        "modeName": "台座"
+      },
+      "_base_monument_statue": {
+        "name": "モニュメント（モジュール）",
+        "modeName": "像"
+      },
+      "_base_mussel_large": {
+        "name": "ムール貝（大）"
+      },
+      "_base_mussel_medium": {
+        "name": "ムール貝（中）"
+      },
+      "_base_mussel_small": {
+        "name": "ムール貝（小）"
+      },
+      "_base_neon_01_4_way": {
+        "name": "ネオンの飾り",
+        "modeName": "ネオン（4方向）"
+      },
+      "_base_neon_01_cap": {
+        "name": "ネオンの飾り",
+        "modeName": "ネオン（キャップ）"
+      },
+      "_base_neon_01_corner": {
+        "name": "ネオンの飾り",
+        "modeName": "ネオン（コーナー）"
+      },
+      "_base_neon_01_diagonal": {
+        "name": "ネオンの飾り",
+        "modeName": "ネオン（斜め）"
+      },
+      "_base_neon_01_edge": {
+        "name": "ネオンの飾り",
+        "modeName": "ネオン（エッジ）"
+      },
+      "_base_neon_01_edge_inside": {
+        "name": "ネオンの飾り",
+        "modeName": "ネオン（エッジ内側）"
+      },
+      "_base_neon_01_slope_4_way": {
+        "name": "ネオンの飾り（スロープジャンクション）",
+        "modeName": "ネオンスロープ（4方向）"
+      },
+      "_base_neon_01_slope_cap_btm": {
+        "name": "ネオンの飾り（スロープ）",
+        "modeName": "ネオンスロープ（キャップ 下部）"
+      },
+      "_base_neon_01_slope_cap_l": {
+        "name": "ネオンの飾り（スロープ）",
+        "modeName": "ネオンスロープ（キャップ 左）"
+      },
+      "_base_neon_01_slope_cap_r": {
+        "name": "ネオンの飾り（スロープ）",
+        "modeName": "ネオンスロープ（キャップ 右）"
+      },
+      "_base_neon_01_slope_cap_top": {
+        "name": "ネオンの飾り（スロープ）",
+        "modeName": "ネオンスロープ（キャップ 上部）"
+      },
+      "_base_neon_01_slope_corner_inside": {
+        "name": "ネオンの飾り（スロープ）",
+        "modeName": "ネオンスロープ（内部コーナー）"
+      },
+      "_base_neon_01_slope_corner_ll": {
+        "name": "ネオンの飾り（スロープ）",
+        "modeName": "ネオンスロープ（コーナー 左下）    "
+      },
+      "_base_neon_01_slope_corner_lr": {
+        "name": "ネオンの飾り（スロープ）",
+        "modeName": "ネオンスロープ（コーナー 右下）    "
+      },
+      "_base_neon_01_slope_corner_outside": {
+        "name": "ネオンの飾り（スロープ）",
+        "modeName": "ネオンスロープ（外部コーナー）"
+      },
+      "_base_neon_01_slope_corner_ul": {
+        "name": "ネオンの飾り（スロープ）",
+        "modeName": "ネオンスロープ（コーナー 左上）  "
+      },
+      "_base_neon_01_slope_corner_ur": {
+        "name": "ネオンの飾り（スロープ）",
+        "modeName": "ネオンスロープ（コーナー 右上）    "
+      },
+      "_base_neon_01_slope_edge_l": {
+        "name": "ネオンの飾り",
+        "modeName": "ネオン（スロープエッジ左）"
+      },
+      "_base_neon_01_slope_edge_r": {
+        "name": "ネオンの飾り",
+        "modeName": "ネオン（スロープエッジ右）"
+      },
+      "_base_neon_01_slope_straight_h": {
+        "name": "ネオンの飾り（スロープ）",
+        "modeName": "ネオンスロープ（直線水平）"
+      },
+      "_base_neon_01_slope_straight_v": {
+        "name": "ネオンの飾り（スロープ）",
+        "modeName": "ネオンスロープ（直線垂直）"
+      },
+      "_base_neon_01_slope_t_btm": {
+        "name": "ネオンの飾り（スロープジャンクション）",
+        "modeName": "ネオンスロープ（Tジョイント 下部）"
+      },
+      "_base_neon_01_slope_t_l": {
+        "name": "ネオンの飾り（スロープジャンクション）",
+        "modeName": "ネオンスロープ（Tジョイント 左）"
+      },
+      "_base_neon_01_slope_t_r": {
+        "name": "ネオンの飾り（スロープジャンクション）",
+        "modeName": "ネオンスロープ（Tジョイント 右）"
+      },
+      "_base_neon_01_slope_t_top": {
+        "name": "ネオンの飾り（スロープジャンクション）",
+        "modeName": "ネオンスロープ（Tジョイント 上部）"
+      },
+      "_base_neon_01_straight": {
+        "name": "ネオンの飾り",
+        "modeName": "ネオン（直線）"
+      },
+      "_base_neon_01_t_junction": {
+        "name": "ネオンの飾り",
+        "modeName": "ネオン（Tジョイント）"
+      },
+      "_base_neon_02_4_way": {
+        "name": "ネオンの飾り（大）",
+        "modeName": "大型ネオン（4方向）"
+      },
+      "_base_neon_02_cap": {
+        "name": "ネオンの飾り（大）",
+        "modeName": "大型ネオン（キャップ）"
+      },
+      "_base_neon_02_corner": {
+        "name": "ネオンの飾り（大）",
+        "modeName": "大型ネオン（コーナー）"
+      },
+      "_base_neon_02_diagonal": {
+        "name": "ネオンの飾り（大）",
+        "modeName": "大型ネオン（斜め）"
+      },
+      "_base_neon_02_edge": {
+        "name": "ネオンの飾り（大）",
+        "modeName": "大型ネオン（エッジ）"
+      },
+      "_base_neon_02_edge_inside": {
+        "name": "ネオンの飾り（大）",
+        "modeName": "大型ネオン（エッジ内側）"
+      },
+      "_base_neon_02_slope_4_way": {
+        "name": "ネオンの飾り（大型スロープジャンクション）",
+        "modeName": "大型ネオンスロープ（4方向）"
+      },
+      "_base_neon_02_slope_corner_inside": {
+        "name": "ネオンの飾り（大型スロープ）",
+        "modeName": "大型ネオンスロープ（内部コーナー）"
+      },
+      "_base_neon_02_slope_corner_ll": {
+        "name": "ネオンの飾り（大型スロープ）",
+        "modeName": "大型ネオンスロープ（コーナー 左下）    "
+      },
+      "_base_neon_02_slope_corner_lr": {
+        "name": "ネオンの飾り（大型スロープ）",
+        "modeName": "大型ネオンスロープ（コーナー 右下）    "
+      },
+      "_base_neon_02_slope_corner_outside": {
+        "name": "ネオンの飾り（大型スロープ）",
+        "modeName": "大型ネオンスロープ（外部コーナー）"
+      },
+      "_base_neon_02_slope_corner_ul": {
+        "name": "ネオンの飾り（大型スロープ）",
+        "modeName": "大型ネオンスロープ（コーナー 左上）  "
+      },
+      "_base_neon_02_slope_corner_ur": {
+        "name": "ネオンの飾り（大型スロープ）",
+        "modeName": "大型ネオンスロープ（コーナー 右上）    "
+      },
+      "_base_neon_02_slope_sdge_l": {
+        "name": "ネオンの飾り（大）",
+        "modeName": "大型ネオン（スロープエッジ左）"
+      },
+      "_base_neon_02_slope_sdge_r": {
+        "name": "ネオンの飾り（大）",
+        "modeName": "大型ネオン（スロープエッジ右）"
+      },
+      "_base_neon_02_slope_straight_1m_h": {
+        "name": "ネオンの飾り（大型スロープ）",
+        "modeName": "大型ネオンスロープ（直線水平 1m）"
+      },
+      "_base_neon_02_slope_straight_1m_v": {
+        "name": "ネオンの飾り（大型スロープ）",
+        "modeName": "大型ネオンスロープ（直線垂直 1m）"
+      },
+      "_base_neon_02_slope_straight_cap_btm": {
+        "name": "ネオンの飾り（大型スロープ）",
+        "modeName": "大型ネオンスロープ（直線キャップ 下部）"
+      },
+      "_base_neon_02_slope_straight_cap_l": {
+        "name": "ネオンの飾り（大型スロープ）",
+        "modeName": "大型ネオンスロープ（直線キャップ 左）"
+      },
+      "_base_neon_02_slope_straight_cap_r": {
+        "name": "ネオンの飾り（大型スロープ）",
+        "modeName": "大型ネオンスロープ（直線キャップ 右）"
+      },
+      "_base_neon_02_slope_straight_cap_top": {
+        "name": "ネオンの飾り（大型スロープ）",
+        "modeName": "大型ネオンスロープ（直線キャップ 上部）"
+      },
+      "_base_neon_02_slope_straight_h": {
+        "name": "ネオンの飾り（大型スロープ）",
+        "modeName": "大型ネオンスロープ（直線水平）"
+      },
+      "_base_neon_02_slope_straight_v": {
+        "name": "ネオンの飾り（大型スロープ）",
+        "modeName": "大型ネオンスロープ（直線垂直）"
+      },
+      "_base_neon_02_slope_t_btm": {
+        "name": "ネオンの飾り（大型スロープジャンクション）",
+        "modeName": "大型ネオンスロープ（Tジョイント 下部）"
+      },
+      "_base_neon_02_slope_t_l": {
+        "name": "ネオンの飾り（大型スロープジャンクション）",
+        "modeName": "大型ネオンスロープ（Tジョイント 左）"
+      },
+      "_base_neon_02_slope_t_r": {
+        "name": "ネオンの飾り（大型スロープジャンクション）",
+        "modeName": "大型ネオンスロープ（Tジョイント 右）"
+      },
+      "_base_neon_02_slope_t_top": {
+        "name": "ネオンの飾り（大型スロープジャンクション）",
+        "modeName": "大型ネオンスロープ（Tジョイント 上部）"
+      },
+      "_base_neon_02_straight": {
+        "name": "ネオンの飾り（大）",
+        "modeName": "大型ネオン（直線）"
+      },
+      "_base_neon_02_straight_1m": {
+        "name": "ネオンの飾り（大）",
+        "modeName": "大型ネオン（直線 1m）"
+      },
+      "_base_neon_02_t_junction": {
+        "name": "ネオンの飾り（大）",
+        "modeName": "大型ネオン（Tジョイント）"
+      },
+      "_base_npp_cooling_tower_base": {
+        "name": "冷却塔"
+      },
+      "_base_npp_cooling_tower_pipe_in_i": {
+        "name": "冷却塔",
+        "modeName": "投入パイプライン"
+      },
+      "_base_npp_cooling_tower_tower": {
+        "name": "冷却塔",
+        "modeName": "冷却塔"
+      },
+      "_base_npp_pressurizer_base": {
+        "name": "反応炉用燃料ミキサー"
+      },
+      "_base_npp_pressurizer_conveyor_in": {
+        "name": "反応炉用燃料ミキサー",
+        "modeName": "投入コンベア"
+      },
+      "_base_npp_pressurizer_conveyor_out": {
+        "name": "反応炉用燃料ミキサー",
+        "modeName": "産出コンベア"
+      },
+      "_base_npp_pressurizer_pipe_in": {
+        "name": "反応炉用燃料ミキサー",
+        "modeName": "投入パイプライン"
+      },
+      "_base_npp_pressurizer_pipe_out": {
+        "name": "反応炉用燃料ミキサー",
+        "modeName": "産出パイプライン"
+      },
+      "_base_npp_pressurizer_pressurizer": {
+        "name": "反応炉用燃料ミキサー",
+        "modeName": "反応炉用燃料ミキサー"
+      },
+      "_base_npp_reactor_base": {
+        "name": "ゼノ反応炉"
+      },
+      "_base_npp_reactor_pipe_in_i": {
+        "name": "ゼノ反応炉",
+        "modeName": "産出（反応炉用混合燃料）"
+      },
+      "_base_npp_reactor_pipe_in_ii": {
+        "name": "ゼノ反応炉",
+        "modeName": "投入（使用済み反応炉化合物）"
+      },
+      "_base_npp_reactor_pipe_out": {
+        "name": "ゼノ反応炉",
+        "modeName": "産出（活性化済み反応炉化合物）"
+      },
+      "_base_npp_reactor_tank": {
+        "name": "ゼノ反応炉",
+        "modeName": "ゼノ反応炉"
+      },
+      "_base_npp_steam_generator_base": {
+        "name": "蒸気発生装置"
+      },
+      "_base_npp_steam_generator_generator": {
+        "name": "蒸気発生装置",
+        "modeName": "蒸気発生装置"
+      },
+      "_base_npp_steam_generator_pipe_in_i": {
+        "name": "蒸気発生装置",
+        "modeName": "投入（活性化済み反応炉化合物）"
+      },
+      "_base_npp_steam_generator_pipe_in_ii": {
+        "name": "蒸気発生装置",
+        "modeName": "投入（水）"
+      },
+      "_base_npp_steam_generator_pipe_out_i": {
+        "name": "蒸気発生装置",
+        "modeName": "産出（使用済み反応炉化合物）"
+      },
+      "_base_npp_steam_generator_pipe_out_ii": {
+        "name": "蒸気発生装置",
+        "modeName": "産出（蒸気）"
+      },
+      "_base_npp_steam_turbine_base": {
+        "name": "高圧タービン"
+      },
+      "_base_npp_steam_turbine_pipe_in": {
+        "name": "高圧タービン",
+        "modeName": "投入パイプライン"
+      },
+      "_base_npp_steam_turbine_pipe_out": {
+        "name": "高圧タービン",
+        "modeName": "産出パイプライン"
+      },
+      "_base_npp_steam_turbine_turbine": {
+        "name": "高圧タービン",
+        "modeName": "高圧タービン"
+      },
+      "_base_office_decor_chair_i": {
+        "name": "オフィスチェア"
+      },
+      "_base_office_decor_chair_ii": {
+        "name": "エグゼクティブオフィスチェア"
+      },
+      "_base_office_decor_couch_i": {
+        "name": "オフィスソファ"
+      },
+      "_base_office_decor_couch_ii": {
+        "name": "エグゼクティブオフィスソファ"
+      },
+      "_base_office_decor_desk_i": {
+        "name": "オフィスデスク"
+      },
+      "_base_office_decor_desk_ii": {
+        "name": "エグゼクティブオフィス用デスク"
+      },
+      "_base_office_decor_filecabinet_i": {
+        "name": "オフィスファイルキャビネット"
+      },
+      "_base_office_decor_filecabinet_ii": {
+        "name": "エグゼクティブオフィスファイルキャビネット"
+      },
+      "_base_office_decor_nameplate": {
+        "name": "オフィス用ネームプレート"
+      },
+      "_base_office_decor_plain_wallblock_i": {
+        "name": "木製ブロック",
+        "modeName": "木製壁ブロック I"
+      },
+      "_base_office_decor_plain_wallblock_ii": {
+        "name": "木製ブロック",
+        "modeName": "木製壁ブロック II"
+      },
+      "_base_office_decor_plain_wallblock_round_corner": {
+        "name": "木製ブロック",
+        "modeName": "木製コーナー（外側が丸い）"
+      },
+      "_base_office_decor_plain_wallblock_round_edge": {
+        "name": "木製ブロック",
+        "modeName": "木製エッジ（ラウンド）"
+      },
+      "_base_office_decor_plain_wallblock_round_insidecorner": {
+        "name": "木製ブロック",
+        "modeName": "木製コーナー（内側が丸い）"
+      },
+      "_base_office_decor_plant_i": {
+        "name": "オフィス用植物"
+      },
+      "_base_office_decor_plant_ii": {
+        "name": "エグゼクティブオフィス用植物"
+      },
+      "_base_office_decor_statue": {
+        "name": "オフィス像"
+      },
+      "_base_office_decor_table_i": {
+        "name": "オフィステーブル"
+      },
+      "_base_office_decor_table_ii": {
+        "name": "エグゼクティブオフィステーブル"
+      },
+      "_base_office_decor_wallblock_i": {
+        "name": "木製飾りブロック",
+        "modeName": "木製飾り壁ブロック I"
+      },
+      "_base_office_decor_wallblock_ii": {
+        "name": "木製飾りブロック",
+        "modeName": "木製飾り壁ブロック II"
+      },
+      "_base_office_decor_wallblock_round_corner": {
+        "name": "木製飾りブロック",
+        "modeName": "木製飾りコーナー（外側が丸い）"
+      },
+      "_base_office_decor_wallblock_round_edge": {
+        "name": "木製飾りブロック",
+        "modeName": "木製飾りエッジ（ラウンド）"
+      },
+      "_base_office_decor_wallblock_round_insidecorner": {
+        "name": "木製飾りブロック",
+        "modeName": "木製飾りコーナー（内側が丸い）"
+      },
+      "_base_office_decor_wallplaque": {
+        "name": "オフィスの壁掛けプレート"
+      },
+      "_base_ore_vein_miner_i": {
+        "name": "鉱石採掘機"
+      },
+      "_base_personal_logistic_container": {
+        "name": "ゼノロジスティクス・コンテナ"
+      },
+      "_base_pipe_4_junction": {
+        "name": "パイプ",
+        "modeName": "4方向交差"
+      },
+      "_base_pipe_6_junction": {
+        "name": "パイプ",
+        "modeName": "6方向交差"
+      },
+      "_base_pipe_adapter": {
+        "name": "パイプアダプタ"
+      },
+      "_base_pipe_curve": {
+        "name": "パイプ",
+        "modeName": "コーナー"
+      },
+      "_base_pipe_intake_i": {
+        "name": "取水管"
+      },
+      "_base_pipe_straight": {
+        "name": "パイプ",
+        "modeName": "直線"
+      },
+      "_base_pipe_t_junction": {
+        "name": "パイプ",
+        "modeName": "T字路"
+      },
+      "_base_pipeline_4_junction": {
+        "name": "パイプライン",
+        "modeName": "4方向交差"
+      },
+      "_base_pipeline_6_junction": {
+        "name": "パイプライン",
+        "modeName": "6方向交差"
+      },
+      "_base_pipeline_curve": {
+        "name": "パイプライン",
+        "modeName": "コーナー"
+      },
+      "_base_pipeline_intake_i": {
+        "name": "取水管（パイプライン）"
+      },
+      "_base_pipeline_straight": {
+        "name": "パイプライン",
+        "modeName": "直線"
+      },
+      "_base_pipeline_t_junction": {
+        "name": "パイプライン",
+        "modeName": "T字路"
+      },
+      "_base_power_core_entity_ii": {
+        "name": "ゼノ・パワーコア"
+      },
+      "_base_power_pole_i": {
+        "name": "電柱（小）"
+      },
+      "_base_power_pole_ii": {
+        "name": "電柱（大）"
+      },
+      "_base_power_pole_iii": {
+        "name": "電柱（壁掛）"
+      },
+      "_base_pump_pipe_to_pipeline_i": {
+        "name": "パイプからパイプラインへのポンプ",
+        "modeName": "LVG"
+      },
+      "_base_pump_pipe_to_pipeline_i_pgm": {
+        "name": "パイプからパイプラインへのポンプ",
+        "modeName": "HVG"
+      },
+      "_base_pump_pipeline_to_pipe_i": {
+        "name": "パイプラインからパイプへのポンプ",
+        "modeName": "LVG"
+      },
+      "_base_pump_pipeline_to_pipe_i_pgm": {
+        "name": "パイプラインからパイプへのポンプ",
+        "modeName": "HVG"
+      },
+      "_base_pump_pipelines_i": {
+        "name": "ポンプ（パイプライン）",
+        "modeName": "LVG"
+      },
+      "_base_pump_pipelines_i_pgm": {
+        "name": "ポンプ（パイプライン）",
+        "modeName": "HVG"
+      },
+      "_base_pump_pipes_i": {
+        "name": "ポンプ（パイプ）",
+        "modeName": "LVG"
+      },
+      "_base_pump_pipes_i_pgm": {
+        "name": "ポンプ（パイプ）",
+        "modeName": "HVG"
+      },
+      "_base_pumpjack_i": {
+        "name": "ポンプジャックⅠ"
+      },
+      "_base_quarry_building_i": {
+        "name": "採石場"
+      },
+      "_base_radio_tower": {
+        "name": "電波塔基盤"
+      },
+      "_base_radio_tower_power_connector": {
+        "name": "電波塔"
+      },
+      "_base_radio_tower_top": {
+        "name": "モジュールデバッグツール",
+        "modeName": "RT最上部"
+      },
+      "_base_radio_tower_tower": {
+        "name": "モジュールデバッグツール",
+        "modeName": "RTタワー"
+      },
+      "_base_railings_1x2_slope": {
+        "name": "柵",
+        "modeName": "スロープ（1x2）"
+      },
+      "_base_railings_corner": {
+        "name": "柵",
+        "modeName": "コーナー"
+      },
+      "_base_railings_slope": {
+        "name": "柵",
+        "modeName": "スロープ"
+      },
+      "_base_railings_straight": {
+        "name": "柵",
+        "modeName": "直線"
+      },
+      "_base_railings_t_intersection": {
+        "name": "柵",
+        "modeName": "T字路"
+      },
+      "_base_railings_x_intersection": {
+        "name": "柵",
+        "modeName": "X字路"
+      },
+      "_base_recycler_scrap": {
+        "name": "スクラップリサイクル装置"
+      },
+      "_base_recycler_terrain": {
+        "name": "資源分離機"
+      },
+      "_base_research_entity": {
+        "name": "調査サーバー"
+      },
+      "_base_resource_node_alien_scrap": {
+        "name": "資源ノード：異星人のスクラップ"
+      },
+      "_base_resource_node_crystal": {
+        "name": "資源ノード：結晶"
+      },
+      "_base_rocky_desert_plant_01": {
+        "name": "岩石砂漠の植物"
+      },
+      "_base_rocky_desert_plant_02": {
+        "name": "岩石砂漠の植物"
+      },
+      "_base_rocky_desert_plant_03": {
+        "name": "岩石砂漠の植物"
+      },
+      "_base_rocky_desert_plant_04": {
+        "name": "岩石砂漠の植物"
+      },
+      "_base_rocky_desert_plant_05": {
+        "name": "岩石砂漠の植物"
+      },
+      "_base_rocky_desert_plant_06": {
+        "name": "岩石砂漠の植物"
+      },
+      "_base_rocky_desert_rock_01": {
+        "name": "岩石砂漠の岩"
+      },
+      "_base_rocky_desert_rock_pillar_01": {
+        "name": "岩石砂漠の岩"
+      },
+      "_base_rocky_desert_rock_pillar_01_large": {
+        "name": "岩石砂漠の岩"
+      },
+      "_base_rocky_desert_rock_pillar_02": {
+        "name": "岩石砂漠の岩"
+      },
+      "_base_rocky_desert_rock_pillar_02_large": {
+        "name": "岩石砂漠の岩"
+      },
+      "_base_rocky_desert_rock_pillar_03": {
+        "name": "岩石砂漠の岩"
+      },
+      "_base_rocky_desert_rock_pillar_03_large": {
+        "name": "岩石砂漠の岩"
+      },
+      "_base_rocky_desert_rock_pillar_04": {
+        "name": "岩石砂漠の岩"
+      },
+      "_base_rocky_desert_rock_pillar_04_large": {
+        "name": "岩石砂漠の岩"
+      },
+      "_base_rocky_desert_tree_01": {
+        "name": "岩石砂漠の木"
+      },
+      "_base_rocky_desert_tree_02": {
+        "name": "岩石砂漠の木"
+      },
+      "_base_sandy_desert_plant_01": {
+        "name": "砂塵砂漠の植物"
+      },
+      "_base_sandy_desert_plant_03": {
+        "name": "砂塵砂漠の植物"
+      },
+      "_base_sandy_desert_plant_05": {
+        "name": "砂塵砂漠の植物"
+      },
+      "_base_sandy_desert_rock_01": {
+        "name": "砂塵砂漠の岩"
+      },
+      "_base_sandy_desert_rock_02": {
+        "name": "砂塵砂漠の岩"
+      },
+      "_base_sandy_desert_tree_01": {
+        "name": "砂塵砂漠の木"
+      },
+      "_base_sandy_desert_tree_04": {
+        "name": "砂塵砂漠の木"
+      },
+      "_base_sandy_desert_tree_05": {
+        "name": "砂塵砂漠の木"
+      },
+      "_base_sandy_desert_tree_07": {
+        "name": "砂塵砂漠の木"
+      },
+      "_base_scanning_entity_i": {
+        "name": "長距離スキャナー"
+      },
+      "_base_shaped_charge_i_preview": {
+        "name": "成型炸薬プレビュー"
+      },
+      "_base_shaped_charge_ii_preview": {
+        "name": "成型炸薬プレビュー"
+      },
+      "_base_shipping_pad_i": {
+        "name": "輸送パッド（小）"
+      },
+      "_base_shipping_pad_ii": {
+        "name": "輸送パッド（中）"
+      },
+      "_base_shipping_pad_ii_al": {
+        "name": "輸送パッド（中、組み立てライン）"
+      },
+      "_base_sign_floor_1x1": {
+        "name": "看板",
+        "modeName": "看板（床 1x1）"
+      },
+      "_base_sign_floor_2x1": {
+        "name": "看板",
+        "modeName": "看板（床 2x1）"
+      },
+      "_base_sign_wall_1x1": {
+        "name": "看板",
+        "modeName": "看板（壁 1x1）"
+      },
+      "_base_sign_wall_2x1": {
+        "name": "看板",
+        "modeName": "看板（壁 2x1）"
+      },
+      "_base_smelter_i": {
+        "name": "高度溶鉱炉"
+      },
+      "_base_smelter_lava_i": {
+        "name": "溶岩溶鉱炉I"
+      },
+      "_base_smelter_lava_ii": {
+        "name": "溶岩溶鉱炉II"
+      },
+      "_base_smelter_small_i": {
+        "name": "溶鉱炉（小）"
+      },
+      "_base_solar_panel_i": {
+        "name": "太陽光パネル（小）"
+      },
+      "_base_solar_panel_ii": {
+        "name": "太陽光パネル（大）"
+      },
+      "_base_space_station_prop_hangar": {
+        "name": "宇宙ステーション用機械"
+      },
+      "_base_space_station_terminal": {
+        "name": "宇宙ステーションターミナル"
+      },
+      "_base_stairs_1x2_inside_corner": {
+        "name": "階段",
+        "modeName": "内部コーナー（1x2）"
+      },
+      "_base_stairs_1x2_outside_corner": {
+        "name": "階段",
+        "modeName": "外部コーナー（1x2）"
+      },
+      "_base_stairs_1x2_straight": {
+        "name": "階段",
+        "modeName": "直線（1x2）"
+      },
+      "_base_stairs_inside_corner": {
+        "name": "階段",
+        "modeName": "内部コーナー"
+      },
+      "_base_stairs_outside_corner": {
+        "name": "階段",
+        "modeName": "外部コーナー"
+      },
+      "_base_stairs_straight": {
+        "name": "階段",
+        "modeName": "直線"
+      },
+      "_base_stalagmite_large": {
+        "name": "石筍"
+      },
+      "_base_stalagmite_large_ceiling": {
+        "name": "鍾乳石"
+      },
+      "_base_stalagmite_medium": {
+        "name": "石筍"
+      },
+      "_base_stalagmite_medium_ceiling": {
+        "name": "鍾乳石"
+      },
+      "_base_stalagmite_small": {
+        "name": "石筍"
+      },
+      "_base_stalagmite_tall": {
+        "name": "石筍"
+      },
+      "_base_stalagmite_tall_ceiling": {
+        "name": "鍾乳石"
+      },
+      "_base_station_shuttle_pad_i": {
+        "name": "ステーション・シャトルパッド"
+      },
+      "_base_strut_pillar_i": {
+        "name": "支柱"
+      },
+      "_base_tank_i": {
+        "name": "タンクⅠ"
+      },
+      "_base_terrain_concrete": {
+        "name": "コンクリート",
+        "modeName": "コンクリート"
+      },
+      "_base_terrain_concrete_slabs": {
+        "name": "コンクリート",
+        "modeName": "コンクリート（スラブ）"
+      },
+      "_base_terrain_dirt": {
+        "name": "土"
+      },
+      "_base_terrain_marble_black": {
+        "name": "大理石（黒）"
+      },
+      "_base_terrain_marble_white": {
+        "name": "大理石（白）"
+      },
+      "_base_terrain_rocky_desert_dirt": {
+        "name": "岩石砂漠の泥"
+      },
+      "_base_terrain_sand": {
+        "name": "砂"
+      },
+      "_base_terrain_stone_i": {
+        "name": "石"
+      },
+      "_base_terrain_tropical_rainforest_dirt": {
+        "name": "熱帯雨林の泥"
+      },
+      "_base_terrain_tundra_dirt": {
+        "name": "ツンドラの土"
+      },
+      "_base_train_loading_station_elemental": {
+        "name": "列車積み込みステーション",
+        "modeName": "ガスと液体"
+      },
+      "_base_train_loading_station_solid": {
+        "name": "列車積み込みステーション",
+        "modeName": "固体の物資"
+      },
+      "_base_train_signal": {
+        "name": "列車の信号",
+        "modeName": "信号"
+      },
+      "_base_train_signal_chain": {
+        "name": "列車の信号",
+        "modeName": "連動式信号"
+      },
+      "_base_train_station": {
+        "name": "列車ステーション"
+      },
+      "_base_transformer_i": {
+        "name": "変圧器（小）"
+      },
+      "_base_transformer_ii": {
+        "name": "変圧器（大）"
+      },
+      "_base_transport_drone_port_i": {
+        "name": "輸送船の港"
+      },
+      "_base_tundra_large_plant_01": {
+        "name": "ツンドラの大型植物01"
+      },
+      "_base_tundra_large_plant_02": {
+        "name": "ツンドラの大型植物02"
+      },
+      "_base_tundra_large_rock_01": {
+        "name": "ツンドラの岩（大）01"
+      },
+      "_base_tundra_medium_rock_01": {
+        "name": "ツンドラの岩（中）01"
+      },
+      "_base_tundra_medium_rock_02": {
+        "name": "ツンドラの岩（中）01"
+      },
+      "_base_tundra_rock_pillar_01": {
+        "name": "ツンドラの岩石柱01"
+      },
+      "_base_tundra_rock_pillar_02": {
+        "name": "ツンドラの岩石柱02"
+      },
+      "_base_tundra_tree_01": {
+        "name": "ツンドラの木01"
+      },
+      "_base_tundra_tree_02": {
+        "name": "ツンドラの木02"
+      },
+      "_base_tundra_tree_03": {
+        "name": "ツンドラの木03"
+      },
+      "_base_turbine_i": {
+        "name": "蒸気タービン"
+      },
+      "_base_walkway_ledge": {
+        "name": "通路",
+        "modeName": "レッジ"
+      },
+      "_base_walkway_ledge_inside_corner": {
+        "name": "通路",
+        "modeName": "レッジ内部コーナー"
+      },
+      "_base_walkway_ledge_outside_corner": {
+        "name": "通路",
+        "modeName": "レッジ外部コーナー"
+      },
+      "_base_walkway_platform": {
+        "name": "通路",
+        "modeName": "プラットフォーム"
+      },
+      "_base_walkway_stairs": {
+        "name": "通路",
+        "modeName": "階段"
+      },
+      "_base_wd_ore_large_technum": {
+        "name": "テクナム鉱石"
+      },
+      "_base_wd_ore_large_xf": {
+        "name": "ゼノフェライト鉱石"
+      },
+      "_base_wd_ore_medium_technum": {
+        "name": "テクナム鉱石"
+      },
+      "_base_wd_ore_medium_xf": {
+        "name": "ゼノフェライト鉱石"
+      },
+      "_base_wd_ore_small_technum": {
+        "name": "テクナム鉱石"
+      },
+      "_base_wd_ore_small_xf": {
+        "name": "ゼノフェライト鉱石"
+      },
+      "_base_workstation_i": {
+        "name": "ロボットワークステーション I"
+      },
+      "_base_workstation_ii": {
+        "name": "ロボットワークステーション II"
+      },
+      "_base_workstation_iii": {
+        "name": "ロボットワークステーション III"
+      }
+    },
+    "recipes": {
+      "_base_admin_bot_i": {
+        "name": "オペレーターボット"
+      },
+      "_base_admin_robot_01_arm": {
+        "name": "オペレーターロボットの腕"
+      },
+      "_base_admin_robot_01_head": {
+        "name": "オペレーターロボットの頭部"
+      },
+      "_base_admin_robot_01_leg": {
+        "name": "オペレーターロボットの脚"
+      },
+      "_base_admin_robot_01_torso": {
+        "name": "オペレーターロボットの胴体"
+      },
+      "_base_advanced_steel_mixture": {
+        "name": "高度なゼノフェライト・イグニウム鉱石混合物"
+      },
+      "_base_agriculture_bot_i": {
+        "name": "プランタードローン"
+      },
+      "_base_agriculture_bot_ii": {
+        "name": "水素ファーミングボット"
+      },
+      "_base_agriculture_robot_01_arm": {
+        "name": "ファーマーロボットの腕"
+      },
+      "_base_agriculture_robot_01_head": {
+        "name": "ファーマーロボットの頭部"
+      },
+      "_base_agriculture_robot_01_leg": {
+        "name": "ファーマーロボットの脚"
+      },
+      "_base_agriculture_robot_01_torso": {
+        "name": "ファーマーロボットの胴体"
+      },
+      "_base_air_intake_base": {
+        "name": "吸気口基盤"
+      },
+      "_base_al_end_consumer_i": {
+        "name": "組み立てライン物流コンテナ"
+      },
+      "_base_al_merger": {
+        "name": "組み立てラインのマージャー"
+      },
+      "_base_al_painter_i": {
+        "name": "組み立てラインのペインター"
+      },
+      "_base_al_producer_i": {
+        "name": "組み立てラインプロデューサー"
+      },
+      "_base_al_rail_straight": {
+        "name": "組み立てラインのレール"
+      },
+      "_base_al_splitter": {
+        "name": "組み立てラインスプリッター"
+      },
+      "_base_al_start": {
+        "name": "組み立てラインの開始"
+      },
+      "_base_assembler_fluid_i": {
+        "name": "液体アセンブラーⅠ"
+      },
+      "_base_assembler_i": {
+        "name": "アセンブラーⅠ"
+      },
+      "_base_assembler_ii": {
+        "name": "アセンブラーⅡ"
+      },
+      "_base_assembler_iii": {
+        "name": "アセンブラーⅢ"
+      },
+      "_base_barrel_drain_olumite": {
+        "name": "バレル詰めオルマイトを空にする"
+      },
+      "_base_barrel_empty": {
+        "name": "バレル（空っぽ）"
+      },
+      "_base_barrel_filler_i": {
+        "name": "バレル充填機Ⅰ"
+      },
+      "_base_barrel_olumite": {
+        "name": "バレル（オルマイト）"
+      },
+      "_base_barrel_recycle": {
+        "name": "ゼノフェライト・プレート（バレルのリサイクル）"
+      },
+      "_base_basic_refining_gas": {
+        "name": "オルマイトの精製：オルマイトガス"
+      },
+      "_base_basic_refining_ldo": {
+        "name": "オルマイトの精製：低密度オルマイト"
+      },
+      "_base_basic_refining_liquid_polymer": {
+        "name": "オルマイトの精製：液状ポリマー"
+      },
+      "_base_battery_i": {
+        "name": "バッテリー（小）"
+      },
+      "_base_battery_ii": {
+        "name": "バッテリー（大）"
+      },
+      "_base_biomass": {
+        "name": "バイオマス"
+      },
+      "_base_biomass_burner": {
+        "name": "バイオマスバーナー"
+      },
+      "_base_blast_furnace_base": {
+        "name": "高炉基盤"
+      },
+      "_base_boiler_i": {
+        "name": "ボイラー"
+      },
+      "_base_boreal_forest_seed_plants": {
+        "name": "森の種子（植物）"
+      },
+      "_base_boreal_forest_seed_trees": {
+        "name": "森の種子（樹木）"
+      },
+      "_base_building_part": {
+        "name": "ビルディングブロック"
+      },
+      "_base_burner_generator_lvg": {
+        "name": "バーナージェネレーター"
+      },
+      "_base_casting_building_base": {
+        "name": "大型成形機の基盤"
+      },
+      "_base_casting_machine": {
+        "name": "鋳造機"
+      },
+      "_base_cement": {
+        "name": "セメント"
+      },
+      "_base_cement_reprocessed": {
+        "name": "セメント（スラグ再処理）"
+      },
+      "_base_chemical_processor_i": {
+        "name": "化成処理装置"
+      },
+      "_base_cleaning_bot_i": {
+        "name": "掃除機ボット"
+      },
+      "_base_cleaning_bot_ii": {
+        "name": "清掃ボット"
+      },
+      "_base_coked_ignium": {
+        "name": "乾留イグニウム"
+      },
+      "_base_concrete": {
+        "name": "コンクリート"
+      },
+      "_base_construction_decor": {
+        "name": "建設現場の飾り"
+      },
+      "_base_construction_drone_port_i": {
+        "name": "建設船の港"
+      },
+      "_base_construction_hazard_block": {
+        "name": "危険コンクリート"
+      },
+      "_base_construction_material_i": {
+        "name": "建設資材"
+      },
+      "_base_construction_material_ii": {
+        "name": "ハイテク建設資材"
+      },
+      "_base_construction_warehouse_i": {
+        "name": "建設倉庫"
+      },
+      "_base_container": {
+        "name": "コンテナ"
+      },
+      "_base_conveyor_balancer_i": {
+        "name": "コンベアバランサーⅠ"
+      },
+      "_base_conveyor_balancer_ii": {
+        "name": "コンベアバランサーⅡ"
+      },
+      "_base_conveyor_balancer_iii": {
+        "name": "コンベアバランサーⅢ"
+      },
+      "_base_conveyor_balancer_iv": {
+        "name": "コンベアバランサーⅠV"
+      },
+      "_base_conveyor_i": {
+        "name": "コンベアⅠ"
+      },
+      "_base_conveyor_ii": {
+        "name": "コンベアⅡ"
+      },
+      "_base_conveyor_iii": {
+        "name": "コンベアⅢ"
+      },
+      "_base_conveyor_iv": {
+        "name": "コンベアIV"
+      },
+      "_base_conveyor_slope_i": {
+        "name": "コンベアスロープⅠ"
+      },
+      "_base_conveyor_slope_ii": {
+        "name": "コンベアスロープⅡ"
+      },
+      "_base_conveyor_slope_iii": {
+        "name": "コンベアスロープⅢ"
+      },
+      "_base_conveyor_slope_iv": {
+        "name": "コンベアスロープⅠV"
+      },
+      "_base_cpu": {
+        "name": "CPU"
+      },
+      "_base_crate": {
+        "name": "木箱"
+      },
+      "_base_crusher_i": {
+        "name": "粉砕機Ⅰ"
+      },
+      "_base_crusher_ii": {
+        "name": "粉砕機Ⅱ"
+      },
+      "_base_crystal_ii": {
+        "name": "チャージ済みゼノ結晶"
+      },
+      "_base_crystal_refiner_i": {
+        "name": "結晶精製機"
+      },
+      "_base_data_cable": {
+        "name": "データケーブル"
+      },
+      "_base_data_comparer": {
+        "name": "データ評価装置"
+      },
+      "_base_data_memory": {
+        "name": "データメモリーセル"
+      },
+      "_base_data_processor": {
+        "name": "データ処理装置"
+      },
+      "_base_data_source_button": {
+        "name": "データソース（ボタン）  "
+      },
+      "_base_data_source_lever": {
+        "name": "データソース（レバー）"
+      },
+      "_base_data_source_static": {
+        "name": "データソース"
+      },
+      "_base_decor_base": {
+        "name": "飾り（ベーシックな形）"
+      },
+      "_base_decor_misc": {
+        "name": "飾り（いろいろ）"
+      },
+      "_base_decor_struts": {
+        "name": "飾り（支柱）"
+      },
+      "_base_decor_support": {
+        "name": "飾り（サポート）"
+      },
+      "_base_decor_support_truss": {
+        "name": "飾り（サポートトラス）"
+      },
+      "_base_decor_wall": {
+        "name": "飾り（壁）"
+      },
+      "_base_decor_window": {
+        "name": "飾り（窓）"
+      },
+      "_base_decor_window_modular": {
+        "name": "飾り（モジュラー窓）"
+      },
+      "_base_decor_window_modular_slope": {
+        "name": "飾り（モジュラー窓スロープ）"
+      },
+      "_base_decor_window_modular_slope_edge": {
+        "name": "飾り（モジュラー窓スロープエッジ）"
+      },
+      "_base_decor_window_modular_wedge": {
+        "name": "飾り（モジュラー窓のウェッジ）"
+      },
+      "_base_distillation_column_i": {
+        "name": "蒸留塔"
+      },
+      "_base_door_i": {
+        "name": "ドア（1枚）"
+      },
+      "_base_door_ii": {
+        "name": "ドア（2枚）"
+      },
+      "_base_door_iii": {
+        "name": "格納庫ゲート"
+      },
+      "_base_drill_ship_i": {
+        "name": "掘削船"
+      },
+      "_base_drone_controller": {
+        "name": "掘削ドローンコントローラー"
+      },
+      "_base_drone_miner_i": {
+        "name": "ドローン採掘機Ⅰ"
+      },
+      "_base_drone_miner_ii": {
+        "name": "ドローン採掘機Ⅱ"
+      },
+      "_base_drone_transport_startpad_i": {
+        "name": "貨物シャトルスタートパッド"
+      },
+      "_base_drone_transport_startpad_liquid_i": {
+        "name": "貨物シャトルスタートパッド（液体）"
+      },
+      "_base_drone_transport_targetpad_i": {
+        "name": "貨物シャトルターゲットパッド"
+      },
+      "_base_drone_transport_targetpad_liquid_i": {
+        "name": "貨物シャトルターゲットパッド（液体）"
+      },
+      "_base_dynamite_i": {
+        "name": "爆薬"
+      },
+      "_base_dynamite_ii": {
+        "name": "重爆薬"
+      },
+      "_base_dynamite_remote_control": {
+        "name": "起爆装置"
+      },
+      "_base_eic_i": {
+        "name": "電子部品"
+      },
+      "_base_eic_ii": {
+        "name": "配電盤"
+      },
+      "_base_electric_arc_furnace": {
+        "name": "電気アーク炉"
+      },
+      "_base_elevator_i": {
+        "name": "エレベーター"
+      },
+      "_base_emergency_beacon": {
+        "name": "緊急ビーコン"
+      },
+      "_base_endless_miner_crystals_i": {
+        "name": "ゼノ結晶抽出装置"
+      },
+      "_base_endless_miner_scrap_i": {
+        "name": "ゼノ・スクラップ抽出装置"
+      },
+      "_base_energy_cell": {
+        "name": "エネルギーセル"
+      },
+      "_base_escalator": {
+        "name": "エスカレーターI"
+      },
+      "_base_escalator_ii": {
+        "name": "エスカレーターII"
+      },
+      "_base_escalator_iii": {
+        "name": "エスカレーターIII"
+      },
+      "_base_exploration_analyzer": {
+        "name": "オムニ・アナライザ"
+      },
+      "_base_explosives_i": {
+        "name": "爆発物（旧式）"
+      },
+      "_base_explosives_ii": {
+        "name": "爆発物"
+      },
+      "_base_firmarlite_sheet_t0": {
+        "name": "ファーマーライトシート"
+      },
+      "_base_flare_stack": {
+        "name": "フレアスタック"
+      },
+      "_base_fracking_liquid_i": {
+        "name": "粉砕液"
+      },
+      "_base_fracking_tower_base": {
+        "name": "粉砕塔の基盤"
+      },
+      "_base_freight_elevator_i": {
+        "name": "貨物用エレベーターⅠ"
+      },
+      "_base_freight_elevator_ii": {
+        "name": "貨物用エレベーターⅡ"
+      },
+      "_base_freight_elevator_iii": {
+        "name": "貨物用エレベーターⅢ"
+      },
+      "_base_freight_elevator_iv": {
+        "name": "貨物用エレベーターⅠV"
+      },
+      "_base_fuel_rod_casing": {
+        "name": "燃料ロッドケーシング"
+      },
+      "_base_geothermal_generator_i": {
+        "name": "地熱ボイラー"
+      },
+      "_base_geothermal_generator_internal": {
+        "name": "地熱排出口からの蒸気"
+      },
+      "_base_glass": {
+        "name": "ガラス"
+      },
+      "_base_gravel": {
+        "name": "砂利"
+      },
+      "_base_greenhouse_i": {
+        "name": "温室"
+      },
+      "_base_hdo": {
+        "name": "高密度オルマイト"
+      },
+      "_base_hot_air_stove_base": {
+        "name": "熱風ストーブの基盤"
+      },
+      "_base_hover_engine": {
+        "name": "ホバーエンジン"
+      },
+      "_base_hydraulic_piston": {
+        "name": "油圧ピストン"
+      },
+      "_base_ignium_enriched_water": {
+        "name": "イグニウム水"
+      },
+      "_base_ignium_fuel_rod": {
+        "name": "イグニウム燃料ロッド"
+      },
+      "_base_ignium_powder": {
+        "name": "イグニウム粉"
+      },
+      "_base_impure_hdo": {
+        "name": "不純高密度オルマイト"
+      },
+      "_base_incinerator": {
+        "name": "焼却炉"
+      },
+      "_base_jetpack_fuel": {
+        "name": "ジェットパック燃料"
+      },
+      "_base_ladder_i": {
+        "name": "はしご"
+      },
+      "_base_light_bot_i": {
+        "name": "照明ボット"
+      },
+      "_base_light_ceiling_i": {
+        "name": "天井照明"
+      },
+      "_base_light_ceiling_ii": {
+        "name": "天井照明  （大）  "
+      },
+      "_base_light_portable_i": {
+        "name": "ポータブルライト"
+      },
+      "_base_light_wall_i": {
+        "name": "壁掛け照明"
+      },
+      "_base_lightpole_i": {
+        "name": "電柱I"
+      },
+      "_base_lightpole_ii": {
+        "name": "電柱II"
+      },
+      "_base_liquid_fuel": {
+        "name": "液体燃料"
+      },
+      "_base_liquid_telluxite": {
+        "name": "液体テルキサイト"
+      },
+      "_base_loader_1st_i": {
+        "name": "ローダー"
+      },
+      "_base_loader_1st_i_filter": {
+        "name": "フィルターローダー"
+      },
+      "_base_loader_2nd_i": {
+        "name": "ローダー、第2レーン"
+      },
+      "_base_loader_3rd_i": {
+        "name": "ローダー、第3レーン"
+      },
+      "_base_logistic_container_i": {
+        "name": "物流コンテナⅠ"
+      },
+      "_base_logistic_container_ii": {
+        "name": "物流コンテナⅡ"
+      },
+      "_base_logistic_container_iii": {
+        "name": "物流コンテナⅢ"
+      },
+      "_base_logistics_tower_i": {
+        "name": "ゼノロジスティクス塔"
+      },
+      "_base_maintenance_drone_i": {
+        "name": "メンテナンスドローン"
+      },
+      "_base_mb_planner": {
+        "name": "モジュール建築物プランナー"
+      },
+      "_base_mic_i": {
+        "name": "機械部品"
+      },
+      "_base_mic_ii": {
+        "name": "精密機械部品"
+      },
+      "_base_mic_iii": {
+        "name": "ハイテク機械部品"
+      },
+      "_base_military_bot_i": {
+        "name": "戦闘ドローン"
+      },
+      "_base_military_robot_01_arm": {
+        "name": "戦闘ロボットの腕"
+      },
+      "_base_military_robot_01_head": {
+        "name": "戦闘ロボットの頭部"
+      },
+      "_base_military_robot_01_leg": {
+        "name": "戦闘ロボットの脚"
+      },
+      "_base_military_robot_01_torso": {
+        "name": "戦闘ロボットの胴体"
+      },
+      "_base_military_robot_02_arm": {
+        "name": "強襲ロボットの腕"
+      },
+      "_base_military_robot_02_head": {
+        "name": "強襲ロボットの頭部"
+      },
+      "_base_military_robot_02_leg": {
+        "name": "強襲ロボットの脚"
+      },
+      "_base_military_robot_02_torso": {
+        "name": "強襲ロボットの胴体"
+      },
+      "_base_mining_bot_i": {
+        "name": "採掘ドローン"
+      },
+      "_base_mining_bot_ii": {
+        "name": "水素採取ボット"
+      },
+      "_base_mining_drill": {
+        "name": "採掘ドリル"
+      },
+      "_base_mining_laser": {
+        "name": "採掘レーザー"
+      },
+      "_base_mining_robot_01_arm": {
+        "name": "採掘ロボットの腕"
+      },
+      "_base_mining_robot_01_head": {
+        "name": "採掘ロボットの頭部"
+      },
+      "_base_mining_robot_01_leg": {
+        "name": "採掘ロボットの脚"
+      },
+      "_base_mining_robot_01_torso": {
+        "name": "採掘ロボットの胴体"
+      },
+      "_base_modular_fluid_tank_base": {
+        "name": "モジュラー貯蔵タンクの基盤"
+      },
+      "_base_molten_super_alloy": {
+        "name": "融解超合金"
+      },
+      "_base_monument": {
+        "name": "モニュメント基盤"
+      },
+      "_base_neon_decor_i": {
+        "name": "ネオンの飾り"
+      },
+      "_base_neon_decor_i_slope": {
+        "name": "ネオンの飾り（スロープ）"
+      },
+      "_base_neon_decor_i_slope_junctions": {
+        "name": "ネオンの飾り（スロープジャンクション）"
+      },
+      "_base_neon_decor_ii": {
+        "name": "ネオンの飾り（大）"
+      },
+      "_base_neon_decor_slope": {
+        "name": "ネオンの飾り（大型スロープ）"
+      },
+      "_base_neon_decor_slope_junctions": {
+        "name": "ネオンの飾り（大型スロープジャンクション）"
+      },
+      "_base_npp_cooling_tower_base": {
+        "name": "冷却塔の基盤"
+      },
+      "_base_npp_press_internal_01": {
+        "name": "反応炉用混合燃料"
+      },
+      "_base_npp_pressurizer_base": {
+        "name": "反応炉用燃料ミキサーの基盤"
+      },
+      "_base_npp_reactor_base": {
+        "name": "ゼノ反応炉の基盤"
+      },
+      "_base_npp_steam_generator_base": {
+        "name": "蒸気発生装置の基盤"
+      },
+      "_base_npp_steam_turbine_base": {
+        "name": "高圧タービンの基盤"
+      },
+      "_base_office_blocks": {
+        "name": "木製ブロック"
+      },
+      "_base_office_blocks_deluxe": {
+        "name": "木製飾りブロック"
+      },
+      "_base_office_chair": {
+        "name": "オフィスチェア"
+      },
+      "_base_office_chair_deluxe": {
+        "name": "エグゼクティブオフィスチェア"
+      },
+      "_base_office_couch": {
+        "name": "オフィスソファ"
+      },
+      "_base_office_couch_deluxe": {
+        "name": "エグゼクティブオフィスソファ"
+      },
+      "_base_office_desk": {
+        "name": "オフィスデスク"
+      },
+      "_base_office_desk_deluxe": {
+        "name": "エグゼクティブオフィス用デスク"
+      },
+      "_base_office_file_cabinet": {
+        "name": "オフィスファイルキャビネット"
+      },
+      "_base_office_file_cabinet_deluxe": {
+        "name": "エグゼクティブオフィスファイルキャビネット"
+      },
+      "_base_office_marble_black_deluxe": {
+        "name": "大理石（黒）"
+      },
+      "_base_office_marble_white_deluxe": {
+        "name": "大理石（白）"
+      },
+      "_base_office_nameplate_deluxe": {
+        "name": "オフィス用ネームプレート"
+      },
+      "_base_office_plant": {
+        "name": "オフィス用植物"
+      },
+      "_base_office_plant_deluxe": {
+        "name": "エグゼクティブオフィス用植物"
+      },
+      "_base_office_statue_deluxe": {
+        "name": "オフィス像"
+      },
+      "_base_office_table": {
+        "name": "オフィステーブル"
+      },
+      "_base_office_table_deluxe": {
+        "name": "エグゼクティブオフィステーブル"
+      },
+      "_base_office_wall_plaque_deluxe": {
+        "name": "オフィスの壁掛けプレート"
+      },
+      "_base_olumic_acid": {
+        "name": "オルマイト酸"
+      },
+      "_base_orbital_uplink": {
+        "name": "軌道アップリンク"
+      },
+      "_base_ore_ignium": {
+        "name": "イグニウム鉱石"
+      },
+      "_base_ore_scanner_hh": {
+        "name": "鉱石スキャナー（手持ち）"
+      },
+      "_base_ore_technum": {
+        "name": "テクナム鉱石"
+      },
+      "_base_ore_technum_crystals": {
+        "name": "テクナム鉱石（代替）"
+      },
+      "_base_ore_telluxite": {
+        "name": "テルキサイト鉱石"
+      },
+      "_base_ore_vein_miner_i": {
+        "name": "鉱石採掘機"
+      },
+      "_base_ore_xenoferrite": {
+        "name": "ゼノフェライト鉱石"
+      },
+      "_base_ore_xenoferrite_crystals": {
+        "name": "ゼノフェライト鉱石（代替）"
+      },
+      "_base_paint": {
+        "name": "ペイント"
+      },
+      "_base_paint_roller": {
+        "name": "塗装用ローラー"
+      },
+      "_base_personal_logistic_container": {
+        "name": "ゼノロジスティクス・コンテナ"
+      },
+      "_base_pipe": {
+        "name": "パイプ"
+      },
+      "_base_pipe_adapter": {
+        "name": "パイプアダプタ"
+      },
+      "_base_pipe_intake_i": {
+        "name": "取水管"
+      },
+      "_base_pipeline": {
+        "name": "パイプライン"
+      },
+      "_base_pipeline_intake_i": {
+        "name": "取水管（パイプライン）"
+      },
+      "_base_plumber_tool": {
+        "name": "配管工具"
+      },
+      "_base_polymer_board": {
+        "name": "ポリマー板"
+      },
+      "_base_portable_fuel": {
+        "name": "ポータブル燃料"
+      },
+      "_base_power_core_ii": {
+        "name": "ゼノ・パワーコア"
+      },
+      "_base_power_line": {
+        "name": "電力線"
+      },
+      "_base_power_pole_i": {
+        "name": "電柱（小）"
+      },
+      "_base_power_pole_ii": {
+        "name": "電柱（大）"
+      },
+      "_base_power_pole_iii": {
+        "name": "電柱（壁掛）"
+      },
+      "_base_pump_pipe_to_pipeline_i": {
+        "name": "パイプからパイプラインへのポンプ"
+      },
+      "_base_pump_pipeline_to_pipe_i": {
+        "name": "パイプラインからパイプへのポンプ"
+      },
+      "_base_pump_pipelines_i": {
+        "name": "ポンプ（パイプライン）"
+      },
+      "_base_pumpjack_i": {
+        "name": "ポンプジャックⅠ"
+      },
+      "_base_pumps_pipes_i": {
+        "name": "ポンプ（パイプ）"
+      },
+      "_base_quarry_building_i": {
+        "name": "採石場"
+      },
+      "_base_radio_tower_base": {
+        "name": "電波塔基盤"
+      },
+      "_base_rail_tracks": {
+        "name": "線路"
+      },
+      "_base_railings": {
+        "name": "柵"
+      },
+      "_base_reactive_briquette_i": {
+        "name": "活性ブリケット"
+      },
+      "_base_recycler_scrap": {
+        "name": "スクラップリサイクル装置"
+      },
+      "_base_recycler_terrain": {
+        "name": "資源分離機"
+      },
+      "_base_research_entity": {
+        "name": "調査サーバー"
+      },
+      "_base_robot01_arm": {
+        "name": "専属助手ロボットの腕"
+      },
+      "_base_robot01_head": {
+        "name": "専属助手ロボットの頭部"
+      },
+      "_base_robot01_leg": {
+        "name": "専属助手ロボットの脚"
+      },
+      "_base_robot01_torso": {
+        "name": "専属助手ロボットの胴体"
+      },
+      "_base_robot_hazard_01_arm": {
+        "name": "ハザードロボットの腕"
+      },
+      "_base_robot_hazard_01_head": {
+        "name": "ハザードロボットの頭部"
+      },
+      "_base_robot_hazard_01_leg": {
+        "name": "ハザードロボットの脚"
+      },
+      "_base_robot_hazard_01_torso": {
+        "name": "ハザードロボットの胴体"
+      },
+      "_base_robot_parts_i": {
+        "name": "ロボットの部品"
+      },
+      "_base_robot_parts_ii": {
+        "name": "ハイテクロボット部品"
+      },
+      "_base_robot_science_01_arm": {
+        "name": "科学ロボットの腕"
+      },
+      "_base_robot_science_01_head": {
+        "name": "科学ロボットの頭部"
+      },
+      "_base_robot_science_01_leg": {
+        "name": "科学ロボットの脚"
+      },
+      "_base_robot_science_01_torso": {
+        "name": "科学ロボットの胴体"
+      },
+      "_base_robot_scout_01_arm": {
+        "name": "偵察ロボットの腕"
+      },
+      "_base_robot_scout_01_head": {
+        "name": "偵察ロボットの頭部"
+      },
+      "_base_robot_scout_01_leg": {
+        "name": "偵察ロボットの脚"
+      },
+      "_base_robot_scout_01_torso": {
+        "name": "偵察ロボットの胴体"
+      },
+      "_base_rocky_desert_seed_plants": {
+        "name": "岩石砂漠の種子（植物）"
+      },
+      "_base_rocky_desert_seed_trees": {
+        "name": "岩石砂漠の種子（樹木）"
+      },
+      "_base_rubber_i": {
+        "name": "ゴム"
+      },
+      "_base_sandy_desert_seed_plants": {
+        "name": "砂塵砂漠の種子（植物）"
+      },
+      "_base_sandy_desert_seed_trees": {
+        "name": "砂塵砂漠の種子（樹木）"
+      },
+      "_base_scanning_entity_i": {
+        "name": "長距離スキャナーの基盤"
+      },
+      "_base_science_bot_i": {
+        "name": "科学アシスタントドローン"
+      },
+      "_base_science_bot_ii": {
+        "name": "海洋探査ボット"
+      },
+      "_base_science_pack_i": {
+        "name": "サイエンスパックⅠ"
+      },
+      "_base_science_pack_ii": {
+        "name": "サイエンスパックⅡ"
+      },
+      "_base_science_pack_iii": {
+        "name": "サイエンスパックⅢ"
+      },
+      "_base_science_pack_iv": {
+        "name": "サイエンスパックⅣ"
+      },
+      "_base_science_pack_v": {
+        "name": "サイエンスパック V"
+      },
+      "_base_screen_bot_i": {
+        "name": "スクリーンボット"
+      },
+      "_base_shaped_charge_t1": {
+        "name": "成型炸薬"
+      },
+      "_base_shaped_charge_t2": {
+        "name": "成型炸薬（重）"
+      },
+      "_base_shipping_pad_i": {
+        "name": "輸送パッド（小）"
+      },
+      "_base_shipping_pad_ii": {
+        "name": "輸送パッド（中）"
+      },
+      "_base_shipping_pad_ii_al": {
+        "name": "輸送パッド（中、組み立てライン）"
+      },
+      "_base_sign": {
+        "name": "看板"
+      },
+      "_base_smelter_i": {
+        "name": "高度溶鉱炉"
+      },
+      "_base_smelter_lava_i": {
+        "name": "溶岩溶鉱炉I"
+      },
+      "_base_smelter_lava_ii": {
+        "name": "溶岩溶鉱炉II"
+      },
+      "_base_smelter_small_i": {
+        "name": "溶鉱炉（小）"
+      },
+      "_base_snack_bot_i": {
+        "name": "スナックボット"
+      },
+      "_base_solar_panel_i": {
+        "name": "太陽光パネル（小）"
+      },
+      "_base_solar_panel_ii": {
+        "name": "太陽光パネル（大）"
+      },
+      "_base_space_ship_fuel": {
+        "name": "宇宙船用燃料缶"
+      },
+      "_base_space_station_terminal": {
+        "name": "宇宙ステーションターミナル"
+      },
+      "_base_stairs": {
+        "name": "階段"
+      },
+      "_base_steel_mixture": {
+        "name": "ゼノフェライト・イグニウム鉱石混合物"
+      },
+      "_base_steel_t1": {
+        "name": "鉄骨梁（ティア1）"
+      },
+      "_base_steel_t2": {
+        "name": "鉄骨梁（ティア2）"
+      },
+      "_base_super_alloy_plate_i": {
+        "name": "超合金"
+      },
+      "_base_tank": {
+        "name": "タンク"
+      },
+      "_base_technum_rods_t1": {
+        "name": "テクナム・ロッド（ティア1）"
+      },
+      "_base_technum_rods_t1_primitive": {
+        "name": "テクナム・ロッド"
+      },
+      "_base_technum_rods_t2": {
+        "name": "テクナム・ロッド（ティア2）"
+      },
+      "_base_technum_rods_t3": {
+        "name": "テクナム・ロッド（ティア3）"
+      },
+      "_base_telluxite_ingot": {
+        "name": "テルキサイト・インゴット"
+      },
+      "_base_telluxite_wafer": {
+        "name": "テルキサイトウエハー"
+      },
+      "_base_trainSignal_simple": {
+        "name": "列車の信号"
+      },
+      "_base_train_engine_01": {
+        "name": "列車エンジン"
+      },
+      "_base_train_loading_station": {
+        "name": "列車積み込みステーション"
+      },
+      "_base_train_station": {
+        "name": "列車ステーション"
+      },
+      "_base_train_wagon_element_01": {
+        "name": "列車タンク車両"
+      },
+      "_base_train_wagon_solid_01": {
+        "name": "列車貨物車両"
+      },
+      "_base_transformer_i": {
+        "name": "変圧器（小）"
+      },
+      "_base_transformer_ii": {
+        "name": "変圧器（大）"
+      },
+      "_base_transport_bot_i": {
+        "name": "輸送ボット"
+      },
+      "_base_transport_bot_ii": {
+        "name": "ヘビーデューティ輸送ボット"
+      },
+      "_base_transport_bot_iii": {
+        "name": "水中運搬ボット"
+      },
+      "_base_transport_drone_i": {
+        "name": "輸送ドローン"
+      },
+      "_base_transport_drone_port_i": {
+        "name": "輸送船の港"
+      },
+      "_base_tropical_rainforest_seed_plants": {
+        "name": "熱帯雨林の種子（植物）"
+      },
+      "_base_tropical_rainforest_seed_trees": {
+        "name": "熱帯雨林の種子（樹木）"
+      },
+      "_base_tundra_seed_plants": {
+        "name": "ツンドラの種子（植物）"
+      },
+      "_base_tundra_seed_trees": {
+        "name": "ツンドラの種子（樹木）"
+      },
+      "_base_turbine_i": {
+        "name": "蒸気タービン"
+      },
+      "_base_underwater_chassis_i": {
+        "name": "海洋ボット胴体"
+      },
+      "_base_walkway_platform": {
+        "name": "通路"
+      },
+      "_base_water_tool": {
+        "name": "灌漑ツール"
+      },
+      "_base_weapon_components": {
+        "name": "武器の部品"
+      },
+      "_base_wire_coil": {
+        "name": "ワイヤーコイル"
+      },
+      "_base_workstation_i": {
+        "name": "ロボットワークステーション I"
+      },
+      "_base_workstation_ii": {
+        "name": "ロボットワークステーション II"
+      },
+      "_base_workstation_iii": {
+        "name": "ロボットワークステーション III"
+      },
+      "_base_xeno_crystal_sludge": {
+        "name": "ゼノ結晶の泥"
+      },
+      "_base_xf_plates_t1": {
+        "name": "ゼノフェライト・プレート（ティア1）"
+      },
+      "_base_xf_plates_t1_primitive": {
+        "name": "ゼノフェライト・プレート"
+      },
+      "_base_xf_plates_t2": {
+        "name": "ゼノフェライト・プレート（ティア2）"
+      },
+      "_base_xf_plates_t3": {
+        "name": "ゼノフェライト・プレート（ティア3）"
+      }
+    },
+    "research": {
+      "_base_admin_bot_i": {
+        "name": "オペレーターボット組み立て",
+        "description": "オペレーターボット生産をアンロックします。"
+      },
+      "_base_admin_robot_i": {
+        "name": "オペレーターロボット組み立て",
+        "description": "組み立てラインでのオペレーターロボット生産をアンロックします。"
+      },
+      "_base_advanced_firmarlite_smelting": {
+        "name": "高度ファーマーライト製錬",
+        "description": "この調査は、作業が速い改良バージョンの溶岩溶鉱炉をアンロックします。"
+      },
+      "_base_advanced_steelmaking": {
+        "name": "高度な製鉄",
+        "description": "改善された製鉄プロセスをアンロックしてコスト効率を高める。"
+      },
+      "_base_agriculture_bot_i": {
+        "name": "プランタードローン組み立て",
+        "description": "農業タスクで使用するプランタードローン生産をアンロックします。"
+      },
+      "_base_agriculture_bot_ii": {
+        "name": "水素ファーミングボット組み立て",
+        "description": "水素ファーミングボット生産をアンロックします。"
+      },
+      "_base_agriculture_robot_i": {
+        "name": "ファーマーロボット組み立て",
+        "description": "組み立てラインでのファーマーロボット生産をアンロックします。"
+      },
+      "_base_air_intake": {
+        "name": "吸気口",
+        "description": "モジュール吸気口をアンロックします。これは他の様々なモジュール建築物の要件となります。"
+      },
+      "_base_assembler_i": {
+        "name": "アセンブラーⅠ",
+        "description": "一般的な部品を製造できる機械「アセンブラー」をアンロックします。"
+      },
+      "_base_assembler_ii": {
+        "name": "アセンブラーⅡ",
+        "description": "より高速なアセンブラーをアンロックします。"
+      },
+      "_base_assembler_iii": {
+        "name": "アセンブラーⅢ",
+        "description": "もっと速いアセンブラーをアンロック。"
+      },
+      "_base_assembly_lines": {
+        "name": "組み立てライン",
+        "description": "組み立てラインをアンロックして高度なロボットを製造する。"
+      },
+      "_base_barrel_filler_i": {
+        "name": "オルマイトのバレル注入",
+        "description": "オルマイトをバレルに注入して個体として取り扱えるようにします。銀河マーケットでオルマイトを取引するのに必要となります。"
+      },
+      "_base_basic_cmat_i": {
+        "name": "建設資材",
+        "description": "宇宙ステーション用の建設資材を時前で作れるようにします。"
+      },
+      "_base_basic_cmat_ii": {
+        "name": "ハイテク建設資材",
+        "description": "ハイテク建設資材は高度な建物と宇宙ステーションの建築に使用されます。"
+      },
+      "_base_basic_olumite_processing": {
+        "name": "基本的なオルマイトの加工",
+        "description": "オルマイトを液状ポリマーに精製し、ポリマーボードに鋳造することができます。"
+      },
+      "_base_basic_steelmaking": {
+        "name": "基本的な製鉄",
+        "description": "鋼鉄を作る簡単な方法をアンロックします。"
+      },
+      "_base_battery_i": {
+        "name": "バッテリー（小）",
+        "description": "少量のエネルギーを貯蔵します。"
+      },
+      "_base_battery_ii": {
+        "name": "バッテリー（大）",
+        "description": "大量のエネルギーを貯蔵します。"
+      },
+      "_base_biomass_farming": {
+        "name": "バイオマス農業",
+        "description": "自動バイオマス農業と装飾用木製ブロックをアンロックします。バイオマス農業はエネルギー効率が悪く、生産量よりも電力費がかかることに注意してください。"
+      },
+      "_base_blast_furnace": {
+        "name": "高炉",
+        "description": "高炉は複雑であるものの、治金製品を製造する極めて効率的な方法を提供します。"
+      },
+      "_base_burner_generator_lvg": {
+        "name": "バーナージェネレーター",
+        "description": "自動化が可能で、効率も若干向上した大型の低電圧ジェネレーターをアンロックします。\n\nバーナージェネレーターはバイオマスを燃やすことができますが、ドローン採掘機が採掘したイグニウム鉱石を使ってプロセスを自動化することを推奨します。"
+      },
+      "_base_character_improvement_i": {
+        "name": "建設ドローン",
+        "description": "パーソナル建設ドローンをアンロックし、インベントリスロットを5個追加します。\n\n建設ドローンは、飛行可能ドローンによる建物設置の追加モードを提供します。これは多くの場合、キャラクターの一人称視点よりも快適です。"
+      },
+      "_base_chemical_processing": {
+        "name": "化学処理",
+        "description": "化学元素と液体の高度な処理のための機械をアンロックします。 この調査は、今後のアンロックの必須条件となります。"
+      },
+      "_base_circuit_board": {
+        "name": "配電盤",
+        "description": "配電盤は、より高度な電子部品や機械の生産を可能にします。"
+      },
+      "_base_cleaning_bot_i": {
+        "name": "掃除機ボット組み立て",
+        "description": "掃除機ボット生産をアンロックします。"
+      },
+      "_base_cleaning_bot_ii": {
+        "name": "清掃ボット組み立て",
+        "description": "清掃ボット生産をアンロックします。"
+      },
+      "_base_concrete_production": {
+        "name": "コンクリートの生産",
+        "description": "コンクリートは床や壁として使用することができ、歩行速度を向上させます。"
+      },
+      "_base_construction_drone_ports": {
+        "name": "建設業界",
+        "description": "大型モジュール建築物に使用される建設ドローンポートをアンロックします。"
+      },
+      "_base_construction_site_decor": {
+        "name": "建設現場の飾り",
+        "description": "建設現場テーマの飾りアイテムをアンロックします。"
+      },
+      "_base_container": {
+        "name": "コンテナ",
+        "description": "アイテムを収納する大型コンテナ。このバージョンはローダーやコンベアで自動化できません。"
+      },
+      "_base_conveyor_balancer_i": {
+        "name": "コンベアバランサーⅠ",
+        "description": "2つのコンベアレーンを分割、結合または拮抗させることが可能です。"
+      },
+      "_base_conveyor_balancer_ii": {
+        "name": "コンベアバランサーⅡ",
+        "description": "より高速なベルトで2つのコンベアレーンを分割または結合することが可能です。"
+      },
+      "_base_conveyor_balancer_iii": {
+        "name": "コンベアバランサーⅢ",
+        "description": "より高速なベルトで2つのコンベアレーンを分割または結合することが可能です。"
+      },
+      "_base_conveyor_balancer_iv": {
+        "name": "コンベアバランサーⅠV",
+        "description": "より高速なベルトで2つのコンベアレーンを分割または結合することが可能です。"
+      },
+      "_base_conveyor_ii": {
+        "name": "コンベアⅡ",
+        "description": "より高速なベルトをアンロックします。\n\nスループット320個/分"
+      },
+      "_base_conveyor_iii": {
+        "name": "コンベアⅢ",
+        "description": "より高速なベルトをアンロックします。\n\nスループット640個/分"
+      },
+      "_base_conveyor_iv": {
+        "name": "コンベアIV",
+        "description": "より高速なベルトをアンロックします。\n\nスループット毎分1280個"
+      },
+      "_base_cpu_production": {
+        "name": "CPUの製造",
+        "description": "中央処理装置はさまざまな先端技術に必要です。"
+      },
+      "_base_data_cable": {
+        "name": "データケーブル",
+        "description": "機械の動作に関連するさまざまなロジック操作に使用できる、データケーブルをアンロックします。アンロックされたら、情報データベースから詳細を確認してください。"
+      },
+      "_base_data_manipulation": {
+        "name": "データ操作",
+        "description": "算術演算、論理演算、条件演算を可能にするデータケーブルシステム用の建物と、値を保存できるメモリセルをアンロックします。  "
+      },
+      "_base_data_sources": {
+        "name": "データソース",
+        "description": "データケーブルシステム用の信号源をアンロックします。  "
+      },
+      "_base_decor_i": {
+        "name": "飾りⅠ",
+        "description": "装飾ブロックとペイントローラーのセットをアンロックして色付けします。"
+      },
+      "_base_decor_ii": {
+        "name": "飾りⅡ",
+        "description": "追加の装飾オブジェクトをアンロックします。"
+      },
+      "_base_decor_iii": {
+        "name": "飾りⅢ",
+        "description": "さらに多くの装飾オブジェクトをアンロックします。"
+      },
+      "_base_decor_window": {
+        "name": "飾り：窓",
+        "description": "ウィンドウセットとオブジェクトセットをアンロックし、カスタムウィンドウ形状を作成します。"
+      },
+      "_base_door_i": {
+        "name": "ドア（1枚）",
+        "description": "建物のドアをアンロックします。"
+      },
+      "_base_door_ii": {
+        "name": "ドア（2枚）",
+        "description": "建物の両面ドアをアンロックします。"
+      },
+      "_base_door_iii": {
+        "name": "格納庫ゲート",
+        "description": "格納庫ゲートをアンロックします。"
+      },
+      "_base_drone_miner_ii": {
+        "name": "ドローン採掘機Ⅱ",
+        "description": "ドローンの貨物容量と採掘速度が向上します。"
+      },
+      "_base_dynamite_ii": {
+        "name": "重爆薬",
+        "description": "重爆薬は爆発範囲が広く、溶岩洞窟の岩盤と空のリザーバーを排除できます。"
+      },
+      "_base_elevator_i": {
+        "name": "エレベーター",
+        "description": "キャラクターを上下に移動させるエレベーター。"
+      },
+      "_base_emergency_beacon": {
+        "name": "緊急ビーコン",
+        "description": "緊急ビーコンを置くことで、ミッションコントロールとの通信を確立できます。"
+      },
+      "_base_energy_cell": {
+        "name": "エネルギーセル",
+        "description": "高濃度のエネルギーを持つセル。"
+      },
+      "_base_escalators": {
+        "name": "エスカレーターI",
+        "description": "エスカレーターを使うことで移動速度が上がります。"
+      },
+      "_base_escalators_ii": {
+        "name": "エスカレーターII",
+        "description": "エスカレーターを使うことで移動速度が上がります。"
+      },
+      "_base_escalators_iii": {
+        "name": "エスカレーターIII",
+        "description": "エスカレーターを使うことで移動速度が上がります。"
+      },
+      "_base_exploration_analyzer": {
+        "name": "オムニ・アナライザ",
+        "description": "オムニ・アナライザをアンロックします。これはこの衛星で見つかるゼノ・スクラップなどの様々な希少なアーティファクトを分析するのに使用されます。分析は、様々なアップグレードをアンロックします。"
+      },
+      "_base_explosives_i": {
+        "name": "爆発物",
+        "description": "遠隔操作で爆発させることができる投擲可能な爆発物。"
+      },
+      "_base_explosives_ii": {
+        "name": "高度な爆薬",
+        "description": "爆薬を自動製造する手段を提供します。"
+      },
+      "_base_firmarlite_smelting_basic": {
+        "name": "基本的ファーマーライト精錬",
+        "description": "ファーマーライトバーをファーマーライトシートに精錬すると、さまざまな目的に使用できます。ファーマーライトは非常に軽量で丈夫なので高度な製造において特に有用です。"
+      },
+      "_base_fracking_tower": {
+        "name": "粉砕塔",
+        "description": "粉砕を継続すると鉱脈は無限の鉱石源に変換できます。"
+      },
+      "_base_freight_elevator_i": {
+        "name": "貨物用エレベーターⅠ",
+        "description": "貨物用エレベーターはローダーを介してベルトに接続し、物品を縦方向に簡単に移動することができます。\n\nスループット：320個/分"
+      },
+      "_base_freight_elevator_ii": {
+        "name": "貨物用エレベーターⅡ",
+        "description": "貨物用エレベーターはローダーを介してベルトに接続し、物品を縦方向に簡単に移動することができます。\n\nスループット：640個/分"
+      },
+      "_base_freight_elevator_iii": {
+        "name": "貨物用エレベーターⅢ",
+        "description": "貨物用エレベーターはローダーを介してベルトに接続し、物品を縦方向に簡単に移動することができます。\n\nスループット：毎分1280個"
+      },
+      "_base_freight_elevator_iv": {
+        "name": "貨物用エレベーターⅠV",
+        "description": "貨物用エレベーターはローダーを介してベルトに接続し、物品を縦方向に簡単に移動することができます。\n\nスループット：毎分2560個"
+      },
+      "_base_geothermal_power": {
+        "name": "地熱発電",
+        "description": "地熱ボイラーをアンロックします。このボイラーは溶岩洞窟内の地熱排出口に設置することで極めて高効率で蒸気を生み出します。\n鉱石スキャナーで地熱排出口をスキャンすることも可能にします。"
+      },
+      "_base_glass": {
+        "name": "ガラスの生産",
+        "description": "ガラスの生産をアンロックします。"
+      },
+      "_base_greenhouse_i": {
+        "name": "温室",
+        "description": "温室を使って植物と樹木を栽培できます。"
+      },
+      "_base_hazard_robot_i": {
+        "name": "ハザードロボット組み立て",
+        "description": "組み立てラインでのハザードロボット生産をアンロックします。"
+      },
+      "_base_high_voltage_energy": {
+        "name": "高圧エネルギー送電網",
+        "description": "電柱、変圧器、産業用発電機を備えた高圧エネルギー送電網を確立します。"
+      },
+      "_base_hover_engine": {
+        "name": "ホバーエンジン",
+        "description": "飛行ドローンを生産するにはホバーエンジンが必要です。これは複数の新しいロボットタイプ製造への道を開きます。"
+      },
+      "_base_ignium_fuel_rods": {
+        "name": "イグニウム燃料ロッド",
+        "description": "イグニウムをテクナムで増強することにより、強力な燃料ロッドを作成できます。"
+      },
+      "_base_incinerator": {
+        "name": "焼却炉",
+        "description": "焼却炉を使用すると、不必要なアイテムを何でも破壊することができます。"
+      },
+      "_base_infrastructure_i": {
+        "name": "基礎インフラ",
+        "description": "物流コンテナ（ローダーとベルトコンベアで自動化できる倉庫）をアンロックし、追加のインフラをアンロックするための必須条件となります。"
+      },
+      "_base_inventory_size_i": {
+        "name": "インベントリサイズⅠ",
+        "description": "インベントリスロットを5つ追加します。"
+      },
+      "_base_inventory_size_ii": {
+        "name": "インベントリサイズⅡ",
+        "description": "インベントリスロットを10個追加します。"
+      },
+      "_base_inventory_size_iii": {
+        "name": "インベントリサイズⅢ",
+        "description": "インベントリスロットを10個追加します。"
+      },
+      "_base_inventory_size_iv": {
+        "name": "インベントリサイズⅣ",
+        "description": "インベントリスロットを10個追加します。"
+      },
+      "_base_inventory_size_v": {
+        "name": "インベントリサイズ V",
+        "description": "インベントリスロットを10個追加します。"
+      },
+      "_base_jetpack": {
+        "name": "ジェットパック",
+        "description": "ジェットパックをアンロックします。"
+      },
+      "_base_jetpack_speed_i": {
+        "name": "ジェットパックスピード I",
+        "description": "燃料消費量の増加と引き換えに、ジェットパックの最大速度が増加します。"
+      },
+      "_base_jetpack_speed_ii": {
+        "name": "ジェットパックスピード II",
+        "description": "燃料消費量の増加と引き換えに、ジェットパックの最大速度が増加します。"
+      },
+      "_base_ladder_i": {
+        "name": "はしご",
+        "description": "はしごをアンロックします。"
+      },
+      "_base_light_bot_i": {
+        "name": "照明ボット組み立て",
+        "description": "照明ボット生産をアンロックします。"
+      },
+      "_base_light_portable_i": {
+        "name": "ポータブルライト",
+        "description": "電源を必要としないポータブルライトをアンロックします。"
+      },
+      "_base_lights_i": {
+        "name": "照明Ⅰ",
+        "description": "暗闇で視界を確保したいですか？"
+      },
+      "_base_lights_ii": {
+        "name": "照明Ⅱ",
+        "description": "暗闇で視界をもっと確保したいですか？"
+      },
+      "_base_lights_iii": {
+        "name": "ライト III  ",
+        "description": "工場用の大型天井照明をアンロックします。  "
+      },
+      "_base_loader_1st_i_filter": {
+        "name": "フィルターローダー",
+        "description": "特定の物品の設定を必要とし、設定された物品のみを移動するローダー。"
+      },
+      "_base_loader_2nd_i": {
+        "name": "ローダー（第2レーン）",
+        "description": "ローダーのピックアップとドロップオフの範囲が2ブロックになります。"
+      },
+      "_base_loader_3rd_i": {
+        "name": "ローダー（第3レーン）",
+        "description": "ローダーのピックアップとドロップオフの範囲が3ブロックになります。"
+      },
+      "_base_logistic_container_ii": {
+        "name": "物流コンテナⅡ",
+        "description": "アイテムを収納する大型コンテナ。このバージョンはローダーやコンベアで自動化できます。"
+      },
+      "_base_logistic_container_iii": {
+        "name": "物流コンテナⅢ",
+        "description": "アイテムを収納する大型コンテナ。このバージョンはローダーやコンベアで自動化できます。"
+      },
+      "_base_long_distance_transport": {
+        "name": "貨物シャトル",
+        "description": "貨物シャトルは大量の物品を長距離輸送するための便利な方法を提供します。貨物シャトルは惑星上でのみ物を運ぶことができ、ステーションには移動できません。"
+      },
+      "_base_long_distance_transport_liquids": {
+        "name": "貨物シャトル（液体）",
+        "description": "液体やガスを運べる貨物シャトルをアンロックします。貨物シャトルは惑星上でのみ物品を運ぶことができ、ステーションには移動できません。"
+      },
+      "_base_long_range_scanner": {
+        "name": "長距離スキャナー",
+        "description": "長距離スキャナーは、遠隔地域の資源を自動スキャンするモジュラー建築物です。"
+      },
+      "_base_maintenance_drone_production": {
+        "name": "メンテナンスドローンの生産",
+        "description": "メンテナンスドローンの生産をアンロックします。"
+      },
+      "_base_medium_shipping_pad": {
+        "name": "輸送パッド（中）",
+        "description": "惑星により大きい船を着陸させられる中型輸送パッド。"
+      },
+      "_base_military_bot_i": {
+        "name": "戦闘ドローン組み立て",
+        "description": "戦闘ドローン生産をアンロックします。"
+      },
+      "_base_military_robot_i": {
+        "name": "戦闘ロボット組み立て",
+        "description": "組み立てラインでの戦闘ロボット生産をアンロックします。"
+      },
+      "_base_military_robot_ii": {
+        "name": "強襲ロボット組み立て",
+        "description": "組み立てラインでの強襲ロボット生産をアンロックします。"
+      },
+      "_base_mining_bot_i": {
+        "name": "採掘ドローン組み立て",
+        "description": "採掘ドローン生産をアンロックします。"
+      },
+      "_base_mining_bot_ii": {
+        "name": "水素採取ボット組み立て",
+        "description": "水素採取ボット生産をアンロックします。"
+      },
+      "_base_mining_efficiency": {
+        "name": "採掘の効率性",
+        "description": "すべての採掘機が、鉱石区域や鉱脈を枯渇させることなく追加のアイテムを生産することを可能にします。レベルごとに無料鉱石アイテムを追加で10%生産します。無限に調査可能です。毎分の産出量は増やしません。\n\n鉱脈中心部の採掘において、粉砕液消費量を減らします。各レベルで、必要となる同じ量の粉砕液ごとに得られる無料鉱石アイテムが10%増加します。"
+      },
+      "_base_mining_efficiency_demo": {
+        "name": "採掘の効率性（デモ）",
+        "description": "採掘機の資源生産量を1レベルにつき10%増加させます。余分に生産されたアイテムは鉱脈を枯渇させません。繰り返し調査可能。\n\nこのデモでは、採掘効率はドローン採掘機のスクリーンパネルやタブレットでは視覚化されませんが、採掘機は鉱石が枯渇する前に、より多くの鉱石を採掘することができます。"
+      },
+      "_base_mining_efficiency_i": {
+        "name": "採掘の効率性（1）",
+        "description": "すべての採掘機が、鉱石区域や鉱脈を枯渇させることなく追加のアイテムを生産することを可能にします。レベルごとに無料鉱石アイテムを追加で10%生産します。無限に調査可能です。毎分の産出量は増やしません。\n\n鉱脈中心部の採掘において、粉砕液消費量を減らします。各レベルで、必要となる同じ量の粉砕液ごとに得られる無料鉱石アイテムが10%増加します。"
+      },
+      "_base_mining_efficiency_ii": {
+        "name": "採掘の効率性（2）",
+        "description": "すべての採掘機が、鉱石区域や鉱脈を枯渇させることなく追加のアイテムを生産することを可能にします。レベルごとに無料鉱石アイテムを追加で10%生産します。無限に調査可能です。毎分の産出量は増やしません。\n\n鉱脈中心部の採掘において、粉砕液消費量を減らします。各レベルで、必要となる同じ量の粉砕液ごとに得られる無料鉱石アイテムが10%増加します。"
+      },
+      "_base_mining_force_i": {
+        "name": "採掘力 I",
+        "description": "より深い地下地形の掘削や爆破が可能になり、以前は到達できなかった資源にアクセスできるようになります。\n\nまた、短距離スキャナーが「採掘力 I」を必要とするエリアで隠されたアーティファクトをスキャンできるようにします。"
+      },
+      "_base_mining_force_ii": {
+        "name": "採掘力II",
+        "description": "より深い地下地形の掘削や爆破が可能になり、以前は到達できなかった資源にアクセスできるようになります。\n\nまた、短距離スキャナーが「採掘力 II」を必要とするエリアで隠されたアーティファクトをスキャンできるようにします。"
+      },
+      "_base_mining_robot_i": {
+        "name": "採掘ロボット組み立て",
+        "description": "組み立てラインでの採掘ロボット生産をアンロックします。"
+      },
+      "_base_modular_fluid_tank": {
+        "name": "モジュラー貯蔵タンク",
+        "description": "大量の液体とガスを保管するモジュラー建築物。"
+      },
+      "_base_monument": {
+        "name": "モニュメント",
+        "description": "大型の装飾用のあなた自身の像 - なぜなら、あなたは素晴らしく、その価値があるから！"
+      },
+      "_base_neon_decor": {
+        "name": "ネオンの飾り",
+        "description": "ネオンチューブの装飾ブロックセットをアンロックします。ペイントローラーで色を変更できます！"
+      },
+      "_base_office_blocks_deluxe_ii": {
+        "name": "大理石ブロック",
+        "description": "ご支援ありがとうございます。素晴らしい大理石で工場を美しくしてください。"
+      },
+      "_base_office_furniture": {
+        "name": "オフィス用家具",
+        "description": "さまざまなオフィスをテーマにした装飾オブジェクトのロックを解除します。"
+      },
+      "_base_office_furniture_deluxe": {
+        "name": "エグゼクティブオフィス家具",
+        "description": "ご支援いただき、誠にありがとうございます。エグゼクティブライフスタイルをお楽しみください！"
+      },
+      "_base_olumite_fuel": {
+        "name": "オルマイト燃料",
+        "description": "オルマイトを精製し、液体燃料や可燃物の基材となる低密度オルマイトにします。"
+      },
+      "_base_ore_refinement_i": {
+        "name": "鉱石の精製",
+        "description": "鉱石を精製して効率を上げるオプションをアンロックします。"
+      },
+      "_base_ore_scanner_ignium": {
+        "name": "鉱石スキャナー：イグニウム",
+        "description": "携帯型鉱石スキャナーでイグニウム鉱石のスキャンがアンロックされます。\n\nイグニウムは発電に使われる燃焼可能な元素です。燃料として使用するには、バーナージェネレーターを調査する必要があります。"
+      },
+      "_base_ore_scanner_mineral_rock": {
+        "name": "鉱石スキャナー：鉱物岩",
+        "description": "様々な機器に使用できる多用途のミネラル豊富な岩である、鉱物岩のスキャンをアンロックします。"
+      },
+      "_base_ore_vein_scanner": {
+        "name": "鉱石スキャナー：XF、TE、IGとMR鉱脈",
+        "description": "鉱石スキャナー機能をアンロックして、ゼノフェライト、テクナム、イグニウムと鉱物岩の鉱脈を検出します。"
+      },
+      "_base_ore_vein_scanner_telluxite": {
+        "name": "鉱石スキャナー：テルキサイト鉱脈",
+        "description": "テルキサイト鉱脈を検出する鉱石スキャナー機能をアンロックします。鉱脈は、「地下採掘」技術を通じてアクセスできる大きな地下資源です。"
+      },
+      "_base_personal_assistant_robot_i": {
+        "name": "専属助手ロボット組み立て",
+        "description": "組み立てラインでの専属助手ロボット生産をアンロックします。"
+      },
+      "_base_pipelines": {
+        "name": "パイプライン",
+        "description": "パイプラインは、パイプに代わる高スループットの手段を提供します。これらは主に、高炉や熱風ストーブなどのモジュラー建築物に必要です。アダプタピースを介してパイプに接続できます。"
+      },
+      "_base_piping": {
+        "name": "パイプ",
+        "description": "工場内での流体操作を可能にします。"
+      },
+      "_base_power_pole_ii": {
+        "name": "電柱（大）",
+        "description": "電力線をより遠くまで伸ばすことができる、大型の電柱。"
+      },
+      "_base_power_pole_iii": {
+        "name": "電柱（壁掛）",
+        "description": "壁に取り付けられる小型の電柱。"
+      },
+      "_base_pumpjack_efficiency": {
+        "name": "ポンプジャックの効率性",
+        "description": "ポンプジャックの資源生産量を1レベルにつき10%増加させます。余分に生産された液体はリザーバーを枯渇させません。繰り返し調査可能。"
+      },
+      "_base_pumpjack_efficiency_i": {
+        "name": "ポンプジャックの効率性（1）",
+        "description": "ポンプジャックの資源生産量を1レベルにつき10%増加させます。余分に生産された液体はリザーバーを枯渇させません。繰り返し調査可能。"
+      },
+      "_base_railings": {
+        "name": "柵",
+        "description": "安全第一！（装飾アイテム）"
+      },
+      "_base_recycler_terrain": {
+        "name": "資源分離機",
+        "description": "資源分離機をアンロックします。これは地形ブロックと類似アイテムを破壊する際により価値のある資源に変換するものですが、すべてのアイテムに有用なものが含まれるわけではありません。"
+      },
+      "_base_robot_components": {
+        "name": "ロボットの部品",
+        "description": "この調査により、組み立てラインでの使用に適した事前に組み立てられたロボットの部品が利用可能になります。"
+      },
+      "_base_rubber_production": {
+        "name": "ゴムの製造",
+        "description": "オルマイトからゴムを作る技術をアンロックします。ゴムは様々なハイテク機器で必要になります。"
+      },
+      "_base_science_bot_i": {
+        "name": "科学アシスタントドローン組み立て",
+        "description": "科学アシスタントドローン生産をアンロックします。"
+      },
+      "_base_science_bot_ii": {
+        "name": "海洋探査ボット組み立て",
+        "description": "海洋探査ボット生産をアンロックします。"
+      },
+      "_base_science_pack_ii": {
+        "name": "サイエンスパックⅡ",
+        "description": "より高度な技術をアンロックする新しいタイプのサイエンスパック。"
+      },
+      "_base_science_pack_iii": {
+        "name": "サイエンスパックⅢ",
+        "description": "より高度な技術をアンロックする新しいタイプのサイエンスパック。"
+      },
+      "_base_science_pack_iv": {
+        "name": "サイエンスパックⅣ",
+        "description": "より高度な技術をアンロックする新しい種類のサイエンスパック。"
+      },
+      "_base_science_pack_v": {
+        "name": "サイエンスパック V",
+        "description": "より高度な技術をアンロックする新しい種類のサイエンスパック。"
+      },
+      "_base_science_robot_i": {
+        "name": "科学ロボット組み立て",
+        "description": "組み立てラインでの科学ロボット生産をアンロックします。"
+      },
+      "_base_scout_robot_i": {
+        "name": "偵察ロボット組み立て",
+        "description": "組み立てラインでの偵察ロボット生産をアンロックします。"
+      },
+      "_base_screen_bot_i": {
+        "name": "スクリーンボット組み立て",
+        "description": "銀河のいたるところで広く使用されているスクリーンボットの生産を可能のにします。"
+      },
+      "_base_shaped_charge_t1": {
+        "name": "成型炸薬",
+        "description": "成型炸薬は、特定の方向にすべてのエネルギーを集中させられる爆薬です。爆発自体は標準的な爆発物と同じですが、その正確さにより、掘削または破壊するエリアを前もって把握できます。\n\n投擲可能な爆発物と同じように、起爆装置を使って起爆できます。"
+      },
+      "_base_shaped_charge_t2": {
+        "name": "成型炸薬（重）",
+        "description": "より強力なバージョンの成型炸薬。爆発範囲が広くなり、溶岩洞窟の岩盤と空のリザーバーを排除できるようになっています。"
+      },
+      "_base_sign": {
+        "name": "看板",
+        "description": "工場の部品を分類するための壁面および床面設置型看板。"
+      },
+      "_base_slag_reprocessing": {
+        "name": "スラグ再処理",
+        "description": "スラグを利用価値のある資源に変換する方法をアンロックします。"
+      },
+      "_base_snack_bot_i": {
+        "name": "スナックボット組み立て",
+        "description": "スナックボット生産をアンロックします。"
+      },
+      "_base_solar_panel_i": {
+        "name": "太陽光パネル",
+        "description": "太陽からの無料電力！"
+      },
+      "_base_solar_panel_ii": {
+        "name": "太陽光パネル（大）",
+        "description": "より多くのエネルギーを生み出し、太陽に向かってパネルを回転させることができる太陽光パネル。"
+      },
+      "_base_space_ship_fuel": {
+        "name": "宇宙船燃料生産",
+        "description": "宇宙船燃料と宇宙ステーションの燃料補給所の作成に必要な生産方法をアンロックします。"
+      },
+      "_base_space_station_antenna": {
+        "name": "ステーション: アンテナ",
+        "description": "宇宙ステーションのアンテナを修理するのに必要な設計図をアンロックします。これは銀河の他の組織と通信するのを可能にします。"
+      },
+      "_base_space_station_hull_improvements_i": {
+        "name": "ステーション: 船体改良",
+        "description": "ステーションの船体構造の完全性を改善することで、さらなる拡張とアップグレーの建設が可能になります。この調査は、対応するステーションのアップグレードをアンロックします。"
+      },
+      "_base_space_station_hull_improvements_ii": {
+        "name": "ステーション: 船体拡張",
+        "description": "船体を拡張することで、ステーション・アップグレードのさらなるスペースを作ります。"
+      },
+      "_base_space_station_orbital_laser_i": {
+        "name": "ステーション: 軌道レーザー",
+        "description": "軌道レーザーを搭載することで、広い地形を素早く破壊できますが、かなり乱雑です。\n\n軌道アップリンクを使用して操作します。"
+      },
+      "_base_space_station_terminal": {
+        "name": "宇宙ステーションターミナル",
+        "description": "2つの緊急ビーコンを組み合わせることで、軌道ステーションと通信を行えるターミナルを建設できるかもしれません。"
+      },
+      "_base_stairs": {
+        "name": "階段",
+        "description": "傾斜を作るための階段ブロック。"
+      },
+      "_base_station_radio_tower": {
+        "name": "電波塔",
+        "description": "大きな電波塔を建てることで、ターミナルに行くことなく、どこからでも宇宙ステーションと連絡を取ることができます。"
+      },
+      "_base_super_alloy_production": {
+        "name": "超合金の生産",
+        "description": "最高グレードの頑丈な金属梁である超合金の生産をアンロックします。ハイテク機械部品の生産もアンロックします。"
+      },
+      "_base_tank": {
+        "name": "タンク",
+        "description": "液体やガスの貯蔵を可能にします。"
+      },
+      "_base_trains": {
+        "name": "列車",
+        "description": "列車、および長距離貨物輸送に関連するすべてのものをアンロックします。"
+      },
+      "_base_transformer_ii": {
+        "name": "変圧器（大）",
+        "description": "容量の大きい変圧器。"
+      },
+      "_base_transport_bot_ii": {
+        "name": "ヘビーデューティ輸送ボット組み立て",
+        "description": "ヘビーデューティ輸送ボット生産をアンロックします。"
+      },
+      "_base_transport_bot_iii": {
+        "name": "水中運搬ボット組み立て",
+        "description": "水中運搬ボット生産をアンロックします。"
+      },
+      "_base_transport_drone_assembly": {
+        "name": "輸送ボットの組み立てと輸送",
+        "description": "輸送ボットの生産とボットを宇宙ステーションに運ぶための輸送パッドの建設をアンロックする。"
+      },
+      "_base_transport_drone_i": {
+        "name": "輸送ドローン組み立て",
+        "description": "貨物を空中で運ぶ必要がある際に役立つ輸送ドローン生産をアンロックする。"
+      },
+      "_base_underground_mining_i": {
+        "name": "地下採掘",
+        "description": "鉱脈で使用される高度な採掘装置。"
+      },
+      "_base_underwater_chassis_i": {
+        "name": "海洋ボット胴体",
+        "description": "様々な水中用ボットの基盤となる海洋ボット胴体をアンロックします。"
+      },
+      "_base_walkway": {
+        "name": "通路",
+        "description": "工場の特定の場所に簡単に到達したり、上からの見晴らしをよくするために通路を使用します。端には自動的に柵が生成されます。これは、より大きな建物の一部である通路に接続することができます。"
+      },
+      "_base_workstation_i": {
+        "name": "ロボットワークステーション I",
+        "description": "ワークステーションはロボットが工場で働いて、様々な機械を改善できるようにします。\n\nロボットのツールチップで提供するボーナスを確認できます（これが調査された後に表示されるようになります）。"
+      },
+      "_base_workstation_ii": {
+        "name": "ロボットワークステーション II",
+        "description": "より多くのロボットが同時に作業できるより優れたワークステーションをアンロックします。"
+      },
+      "_base_workstation_iii": {
+        "name": "ロボットワークステーション III",
+        "description": "より多くのロボットが同時に作業できるより優れたワークステーションをアンロックします。"
+      },
+      "_base_xeno_power_plant": {
+        "name": "ゼノ発電所",
+        "description": "ゼノ発電所を構築する複数のモジュール建築物をアンロックします。この発電所の建設は複雑ですが、巨大な電力を提供します。"
+      }
+    }
+  }
+}

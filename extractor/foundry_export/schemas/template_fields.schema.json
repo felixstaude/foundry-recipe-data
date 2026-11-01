@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "foundry-data/template_fields@1",
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "foundry-data/template_fields@1"
+    },
+    "gameVersion": {
+      "type": "string"
+    },
+    "steamBuildId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "count": {
+      "type": "integer"
+    },
+    "templateSource": {
+      "type": "string"
+    },
+    "types": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "count": {
+            "type": "integer"
+          },
+          "fields": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "count",
+          "fields"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schema",
+    "gameVersion",
+    "steamBuildId",
+    "count",
+    "templateSource",
+    "types"
+  ],
+  "additionalProperties": false
+}
