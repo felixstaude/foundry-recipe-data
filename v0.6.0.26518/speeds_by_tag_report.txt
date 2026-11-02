@@ -1,0 +1,38 @@
+Scanned recipe assets: 350
+Recipes with _infoBox: not read
+Recipes with SPEED markers: not read
+
+Source: foundry-data export v0.6.0.26518 (game 0.6.0.26518, Steam build 23077581).
+Speeds come from the machine templates (*_recipeTimeModifier_str of the machine type); Drop Pods and hand
+crafting from the game code. Recipe info boxes and their SPEED markers are not used.
+Hand crafting x3 follows the game simulation (FoundryNative CraftingAction::reinitialize); the in-game
+tooltip shows timeMs / 5. Not yet measured in game.
+
+Speeds by tag:
+  - advanced_smelter: 1.5 (_base_smelter_i)
+  - assembler: 1 (_base_assembler_i), 1.5 (_base_assembler_ii), 2 (_base_assembler_iii)
+  - assembler_fluid: 1 (_base_assembler_fluid_i)
+  - barrel_filler: 1 (_base_barrel_filler_i)
+  - base_station: 1 (_base_baseStation01)
+  - casting_machine: 1 (_base_casting_machine)
+  - character: 3 (character)
+  - chemical_processor: 1 (_base_chemical_processor_i)
+  - crusher: 1 (_base_crusher_i), 2 (_base_crusher_ii)
+  - crystal_refiner: 1 (_base_crystal_refiner_i)
+  - distillation_column: 1 (_base_distillation_column_i)
+  - electric_arc_furnace: 1 (_base_electric_arc_furnace)
+  - geothermal_generator: 1 (_base_geothermal_generator_i)
+  - greenhouse: 1 (_base_greenhouse_i)
+  - heavy_caster: 32 (_base_casting_building_base)
+  - npp_fuel_mixer: 1 (_base_npp_pressurizer_base)
+  - smelter: 1 (_base_smelter_small_i)
+  - smelter_lava: 1 (_base_smelter_lava_i), 2 (_base_smelter_lava_ii)
+
+Hand crafting and Drop Pods count whole game ticks: for 116 recipe/machine pairs the real rate differs from rate x multiplier (up to +5.26 %, _base_construction_decor / character).
+
+Recipes without a machine (sample up to 30):
+  - _base_pipe_adapter  tags=[] template tags=['character'] (hidden in hand crafting)
+
+Tags without a machine (sample up to 30):
+
+Consistency problems (sample up to 30):

@@ -1,0 +1,4307 @@
+{
+  "count": 9,
+  "robots": [
+    {
+      "identifier": "_base_admin_robot_i",
+      "name": "Operator Robot",
+      "starterItem": "_base_admin_robot_01_torso",
+      "sellItem": "_base_admin_robot_i",
+      "researchedBy": "_base_admin_robot_i",
+      "parts": [
+        {
+          "identifier": "_torso",
+          "name": "Torso",
+          "isInitialPart": true,
+          "paintingPowerKJ": 50,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            }
+          ]
+        },
+        {
+          "identifier": "_arms",
+          "name": "Arm (Right)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_legs",
+          "name": "Leg (Right)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_arm_left",
+          "name": "Arm (Left)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_leg_left",
+          "name": "Leg (Left)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_head",
+          "name": "Head",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            }
+          ]
+        }
+      ],
+      "stages": [
+        {
+          "identifier": "_attach_peripherals",
+          "name": "Peripherals",
+          "actions": [
+            {
+              "identifier": "_attach_arm_left",
+              "name": "Attach Arm (Left)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_ad01_attachArmLeft",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_admin_robot_01_arm",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_arm_left"
+            },
+            {
+              "identifier": "_weld_arm_left",
+              "name": "Weld Arm (Left)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_arm_left",
+              "producerAction": "_ad01_weldArmLeft",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_leg_left",
+              "name": "Attach Leg (Left)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_ad01_attachLegLeft",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_admin_robot_01_leg",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_leg_left"
+            },
+            {
+              "identifier": "_weld_leg_left",
+              "name": "Weld Leg (Left)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_leg_left",
+              "producerAction": "_ad01_weldLegLeft",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_arm_right",
+              "name": "Attach Arm (Right)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_ad01_attachArmRight",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_admin_robot_01_arm",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_arms"
+            },
+            {
+              "identifier": "_weld_arm_right",
+              "name": "Weld Arm (Right)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_arm_right",
+              "producerAction": "_admin01_weldArmRight",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_leg_right",
+              "name": "Attach Leg (Right)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_ad01_attachLegRight",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_admin_robot_01_leg",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_legs"
+            },
+            {
+              "identifier": "_weld_leg_right",
+              "name": "Weld Leg (Right)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_leg_right",
+              "producerAction": "_ad01_weldLegRight",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_head",
+              "name": "Attach Head",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_ad01_attachHead",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_admin_robot_01_head",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_head"
+            },
+            {
+              "identifier": "_weld_head",
+              "name": "Weld Head",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_head",
+              "producerAction": "_ad01_weldHead",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            }
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "identifier": "_base_admin_robot_01_arm",
+          "amount": 2
+        },
+        {
+          "identifier": "_base_admin_robot_01_head",
+          "amount": 1
+        },
+        {
+          "identifier": "_base_admin_robot_01_leg",
+          "amount": 2
+        },
+        {
+          "identifier": "_base_admin_robot_01_torso",
+          "amount": 1
+        }
+      ],
+      "fullPaint": [
+        {
+          "identifier": "_base_paint",
+          "liters": 100,
+          "powerKJ": 425
+        }
+      ],
+      "energy": {
+        "producerActions": 10,
+        "producerPowerKJ": 3500,
+        "startPowerKJ": 50,
+        "painterPowerKJ": 425,
+        "totalPowerKJ": 3975
+      },
+      "throughput": {
+        "maxObjectsPerMin": 32.0,
+        "singleStartObjectsPerMin": 31.8584
+      }
+    },
+    {
+      "identifier": "_base_agriculture_robot_i",
+      "name": "Farmer Robot",
+      "starterItem": "_base_agriculture_robot_01_torso",
+      "sellItem": "_base_agriculture_robot_i",
+      "researchedBy": "_base_agriculture_robot_i",
+      "parts": [
+        {
+          "identifier": "_torso",
+          "name": "Torso",
+          "isInitialPart": true,
+          "paintingPowerKJ": 50,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            }
+          ]
+        },
+        {
+          "identifier": "_arms",
+          "name": "Arm (Right)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_legs",
+          "name": "Leg (Right)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_arm_left",
+          "name": "Arm (Left)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_leg_left",
+          "name": "Leg (Left)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_head",
+          "name": "Head",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            }
+          ]
+        }
+      ],
+      "stages": [
+        {
+          "identifier": "_attach_peripherals",
+          "name": "Peripherals",
+          "actions": [
+            {
+              "identifier": "_attach_arm_left",
+              "name": "Attach Arm (Left)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_ar01_attachArmLeft",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_agriculture_robot_01_arm",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_arm_left"
+            },
+            {
+              "identifier": "_weld_arm_left",
+              "name": "Weld Arm (Left)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_arm_left",
+              "producerAction": "_ar01_weldArmLeft",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_leg_left",
+              "name": "Attach Leg (Left)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_ar01_attachLegLeft",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_agriculture_robot_01_leg",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_leg_left"
+            },
+            {
+              "identifier": "_weld_leg_left",
+              "name": "Weld Leg (Left)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_leg_left",
+              "producerAction": "_ar01_weldLegLeft",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_arm_right",
+              "name": "Attach Arm (Right)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_ar01_attachArmRight",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_agriculture_robot_01_arm",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_arms"
+            },
+            {
+              "identifier": "_weld_arm_right",
+              "name": "Weld Arm (Right)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_arm_right",
+              "producerAction": "_ar01_weldArmRight",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_leg_right",
+              "name": "Attach Leg (Right)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_ar01_attachLegRight",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_agriculture_robot_01_leg",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_legs"
+            },
+            {
+              "identifier": "_weld_leg_right",
+              "name": "Weld Leg (Right)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_leg_right",
+              "producerAction": "_ar01_weldLegRight",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_head",
+              "name": "Attach Head",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_ar01_attachHead",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_agriculture_robot_01_head",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_head"
+            },
+            {
+              "identifier": "_weld_head",
+              "name": "Weld Head",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_head",
+              "producerAction": "_ar01_weldHead",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            }
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "identifier": "_base_agriculture_robot_01_arm",
+          "amount": 2
+        },
+        {
+          "identifier": "_base_agriculture_robot_01_head",
+          "amount": 1
+        },
+        {
+          "identifier": "_base_agriculture_robot_01_leg",
+          "amount": 2
+        },
+        {
+          "identifier": "_base_agriculture_robot_01_torso",
+          "amount": 1
+        }
+      ],
+      "fullPaint": [
+        {
+          "identifier": "_base_paint",
+          "liters": 100,
+          "powerKJ": 425
+        }
+      ],
+      "energy": {
+        "producerActions": 10,
+        "producerPowerKJ": 3500,
+        "startPowerKJ": 50,
+        "painterPowerKJ": 425,
+        "totalPowerKJ": 3975
+      },
+      "throughput": {
+        "maxObjectsPerMin": 32.0,
+        "singleStartObjectsPerMin": 31.8584
+      }
+    },
+    {
+      "identifier": "_base_droid01",
+      "name": "Personal Assistant Robot",
+      "starterItem": "_base_robot01_torso",
+      "sellItem": "_base_robot_01",
+      "researchedBy": "_base_personal_assistant_robot_i",
+      "parts": [
+        {
+          "identifier": "_torso",
+          "name": "Torso",
+          "isInitialPart": true,
+          "paintingPowerKJ": 50,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            }
+          ]
+        },
+        {
+          "identifier": "_arms",
+          "name": "Arm (Right)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_legs",
+          "name": "Leg (Right)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_arm_left",
+          "name": "Arm (Left)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_leg_left",
+          "name": "Leg (Left)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_head",
+          "name": "Head",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            }
+          ]
+        }
+      ],
+      "stages": [
+        {
+          "identifier": "_attach_peripherals",
+          "name": "Peripherals",
+          "actions": [
+            {
+              "identifier": "_attach_arm_left",
+              "name": "Attach Arm (Left)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_d01_attachArmLeft",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_robot01_arm",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_arm_left"
+            },
+            {
+              "identifier": "_weld_arm_left",
+              "name": "Weld Arm (Left)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_arm_left",
+              "producerAction": "_d01_weldArmLeft",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_leg_left",
+              "name": "Attach Leg (Left)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_d01_attachLegLeft",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_robot01_leg",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_leg_left"
+            },
+            {
+              "identifier": "_weld_leg_left",
+              "name": "Weld Leg (Left)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_leg_left",
+              "producerAction": "_d01_weldLegLeft",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_arm_right",
+              "name": "Attach Arm (Right)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_d01_attachArmRight",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_robot01_arm",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_arms"
+            },
+            {
+              "identifier": "_weld_arm_right",
+              "name": "Weld Arm (Right)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_arm_right",
+              "producerAction": "_d01_weldArmRight",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_leg_right",
+              "name": "Attach Leg (Right)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_d01_attachLegRight",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_robot01_leg",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_legs"
+            },
+            {
+              "identifier": "_weld_leg_right",
+              "name": "Weld Leg (Right)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_leg_right",
+              "producerAction": "_d01_weldLegRight",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_head",
+              "name": "Attach Head",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_d01_attachHead",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_robot01_head",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_head"
+            },
+            {
+              "identifier": "_weld_head",
+              "name": "Weld Head",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_head",
+              "producerAction": "_d01_weldHead",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            }
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "identifier": "_base_robot01_arm",
+          "amount": 2
+        },
+        {
+          "identifier": "_base_robot01_head",
+          "amount": 1
+        },
+        {
+          "identifier": "_base_robot01_leg",
+          "amount": 2
+        },
+        {
+          "identifier": "_base_robot01_torso",
+          "amount": 1
+        }
+      ],
+      "fullPaint": [
+        {
+          "identifier": "_base_paint",
+          "liters": 100,
+          "powerKJ": 425
+        }
+      ],
+      "energy": {
+        "producerActions": 10,
+        "producerPowerKJ": 3500,
+        "startPowerKJ": 50,
+        "painterPowerKJ": 425,
+        "totalPowerKJ": 3975
+      },
+      "throughput": {
+        "maxObjectsPerMin": 32.0,
+        "singleStartObjectsPerMin": 31.8584
+      }
+    },
+    {
+      "identifier": "_base_hazard_robot_i",
+      "name": "Hazard Robot",
+      "starterItem": "_base_robot_hazard_01_torso",
+      "sellItem": "_base_hazard_robot_i",
+      "researchedBy": "_base_hazard_robot_i",
+      "parts": [
+        {
+          "identifier": "_torso",
+          "name": "Torso",
+          "isInitialPart": true,
+          "paintingPowerKJ": 50,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            }
+          ]
+        },
+        {
+          "identifier": "_arms",
+          "name": "Arm (Right)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_legs",
+          "name": "Leg (Right)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_arm_left",
+          "name": "Arm (Left)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_leg_left",
+          "name": "Leg (Left)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_head",
+          "name": "Head",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            }
+          ]
+        }
+      ],
+      "stages": [
+        {
+          "identifier": "_attach_peripherals",
+          "name": "Peripherals",
+          "actions": [
+            {
+              "identifier": "_attach_arm_left",
+              "name": "Attach Arm (Left)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_hr01_attachArmLeft",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_robot_hazard_01_arm",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_arm_left"
+            },
+            {
+              "identifier": "_weld_arm_left",
+              "name": "Weld Arm (Left)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_arm_left",
+              "producerAction": "_hr01_weldArmLeft",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_leg_left",
+              "name": "Attach Leg (Left)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_hr01_attachLegLeft",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_robot_hazard_01_leg",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_leg_left"
+            },
+            {
+              "identifier": "_weld_leg_left",
+              "name": "Weld Leg (Left)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_leg_left",
+              "producerAction": "_hr01_weldLegLeft",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_arm_right",
+              "name": "Attach Arm (Right)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_hr01_attachArmRight",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_robot_hazard_01_arm",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_arms"
+            },
+            {
+              "identifier": "_weld_arm_right",
+              "name": "Weld Arm (Right)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_arm_right",
+              "producerAction": "_hr01_weldArmRight",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_leg_right",
+              "name": "Attach Leg (Right)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_hr01_attachLegRight",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_robot_hazard_01_leg",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_legs"
+            },
+            {
+              "identifier": "_weld_leg_right",
+              "name": "Weld Leg (Right)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_leg_right",
+              "producerAction": "_hr01_weldLegRight",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_head",
+              "name": "Attach Head",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_hr01_attachHead",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_robot_hazard_01_head",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_head"
+            },
+            {
+              "identifier": "_weld_head",
+              "name": "Weld Head",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_head",
+              "producerAction": "_hr01_weldHead",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            }
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "identifier": "_base_robot_hazard_01_arm",
+          "amount": 2
+        },
+        {
+          "identifier": "_base_robot_hazard_01_head",
+          "amount": 1
+        },
+        {
+          "identifier": "_base_robot_hazard_01_leg",
+          "amount": 2
+        },
+        {
+          "identifier": "_base_robot_hazard_01_torso",
+          "amount": 1
+        }
+      ],
+      "fullPaint": [
+        {
+          "identifier": "_base_paint",
+          "liters": 100,
+          "powerKJ": 425
+        }
+      ],
+      "energy": {
+        "producerActions": 10,
+        "producerPowerKJ": 3500,
+        "startPowerKJ": 50,
+        "painterPowerKJ": 425,
+        "totalPowerKJ": 3975
+      },
+      "throughput": {
+        "maxObjectsPerMin": 32.0,
+        "singleStartObjectsPerMin": 31.8584
+      }
+    },
+    {
+      "identifier": "_base_military_robot_i",
+      "name": "Combat Robot",
+      "starterItem": "_base_military_robot_01_torso",
+      "sellItem": "_base_military_robot_i",
+      "researchedBy": "_base_military_robot_i",
+      "parts": [
+        {
+          "identifier": "_torso",
+          "name": "Torso",
+          "isInitialPart": true,
+          "paintingPowerKJ": 50,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            }
+          ]
+        },
+        {
+          "identifier": "_arms",
+          "name": "Arm (Right)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_legs",
+          "name": "Leg (Right)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_arm_left",
+          "name": "Arm (Left)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_leg_left",
+          "name": "Leg (Left)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_head",
+          "name": "Head",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            }
+          ]
+        }
+      ],
+      "stages": [
+        {
+          "identifier": "_attach_peripherals",
+          "name": "Peripherals",
+          "actions": [
+            {
+              "identifier": "_attach_arm_left",
+              "name": "Attach Arm (Left)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_mr01_attachArmLeft",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_military_robot_01_arm",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_arm_left"
+            },
+            {
+              "identifier": "_weld_arm_left",
+              "name": "Weld Arm (Left)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_arm_left",
+              "producerAction": "_mr01_weldArmLeft",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_leg_left",
+              "name": "Attach Leg (Left)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_mr01_attachLegLeft",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_military_robot_01_leg",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_leg_left"
+            },
+            {
+              "identifier": "_weld_leg_left",
+              "name": "Weld Leg (Left)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_leg_left",
+              "producerAction": "_mr01_weldLegLeft",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_arm_right",
+              "name": "Attach Arm (Right)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_mr01_attachArmRight",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_military_robot_01_arm",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_arms"
+            },
+            {
+              "identifier": "_weld_arm_right",
+              "name": "Weld Arm (Right)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_arm_right",
+              "producerAction": "_mr01_weldArmRight",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_leg_right",
+              "name": "Attach Leg (Right)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_mr01_attachLegRight",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_military_robot_01_leg",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_legs"
+            },
+            {
+              "identifier": "_weld_leg_right",
+              "name": "Weld Leg (Right)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_leg_right",
+              "producerAction": "_mr01_weldLegRight",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_head",
+              "name": "Attach Head",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_mr01_attachHead",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_military_robot_01_head",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_head"
+            },
+            {
+              "identifier": "_weld_head",
+              "name": "Weld Head",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_head",
+              "producerAction": "_mr01_weldHead",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            }
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "identifier": "_base_military_robot_01_arm",
+          "amount": 2
+        },
+        {
+          "identifier": "_base_military_robot_01_head",
+          "amount": 1
+        },
+        {
+          "identifier": "_base_military_robot_01_leg",
+          "amount": 2
+        },
+        {
+          "identifier": "_base_military_robot_01_torso",
+          "amount": 1
+        }
+      ],
+      "fullPaint": [
+        {
+          "identifier": "_base_paint",
+          "liters": 100,
+          "powerKJ": 425
+        }
+      ],
+      "energy": {
+        "producerActions": 10,
+        "producerPowerKJ": 3500,
+        "startPowerKJ": 50,
+        "painterPowerKJ": 425,
+        "totalPowerKJ": 3975
+      },
+      "throughput": {
+        "maxObjectsPerMin": 32.0,
+        "singleStartObjectsPerMin": 31.8584
+      }
+    },
+    {
+      "identifier": "_base_military_robot_ii",
+      "name": "Assault Robot",
+      "starterItem": "_base_military_robot_02_torso",
+      "sellItem": "_base_military_robot_ii",
+      "researchedBy": "_base_military_robot_ii",
+      "parts": [
+        {
+          "identifier": "_torso",
+          "name": "Torso",
+          "isInitialPart": true,
+          "paintingPowerKJ": 50,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            }
+          ]
+        },
+        {
+          "identifier": "_arms",
+          "name": "Arm (Right)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_legs",
+          "name": "Leg (Right)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_arm_left",
+          "name": "Arm (Left)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_leg_left",
+          "name": "Leg (Left)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_head",
+          "name": "Head",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            }
+          ]
+        }
+      ],
+      "stages": [
+        {
+          "identifier": "_attach_peripherals",
+          "name": "Peripherals",
+          "actions": [
+            {
+              "identifier": "_attach_arm_left",
+              "name": "Attach Arm (Left)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_mr02_attachArmLeft",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_military_robot_02_arm",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_arm_left"
+            },
+            {
+              "identifier": "_weld_arm_left",
+              "name": "Weld Arm (Left)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_arm_left",
+              "producerAction": "_mr02_weldArmLeft",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_leg_left",
+              "name": "Attach Leg (Left)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_mr02_attachLegLeft",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_military_robot_02_leg",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_leg_left"
+            },
+            {
+              "identifier": "_weld_leg_left",
+              "name": "Weld Leg (Left)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_leg_left",
+              "producerAction": "_mr02_weldLegLeft",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_arm_right",
+              "name": "Attach Arm (Right)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_mr02_attachArmRight",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_military_robot_02_arm",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_arms"
+            },
+            {
+              "identifier": "_weld_arm_right",
+              "name": "Weld Arm (Right)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_arm_right",
+              "producerAction": "_mr02_weldArmRight",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_leg_right",
+              "name": "Attach Leg (Right)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_mr02_attachLegRight",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_military_robot_02_leg",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_legs"
+            },
+            {
+              "identifier": "_weld_leg_right",
+              "name": "Weld Leg (Right)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_leg_right",
+              "producerAction": "_mr02_weldLegRight",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_head",
+              "name": "Attach Head",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_mr02_attachHead",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_military_robot_02_head",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_head"
+            },
+            {
+              "identifier": "_weld_head",
+              "name": "Weld Head",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_head",
+              "producerAction": "_mr02_weldHead",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            }
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "identifier": "_base_military_robot_02_arm",
+          "amount": 2
+        },
+        {
+          "identifier": "_base_military_robot_02_head",
+          "amount": 1
+        },
+        {
+          "identifier": "_base_military_robot_02_leg",
+          "amount": 2
+        },
+        {
+          "identifier": "_base_military_robot_02_torso",
+          "amount": 1
+        }
+      ],
+      "fullPaint": [
+        {
+          "identifier": "_base_paint",
+          "liters": 100,
+          "powerKJ": 425
+        }
+      ],
+      "energy": {
+        "producerActions": 10,
+        "producerPowerKJ": 3500,
+        "startPowerKJ": 50,
+        "painterPowerKJ": 425,
+        "totalPowerKJ": 3975
+      },
+      "throughput": {
+        "maxObjectsPerMin": 32.0,
+        "singleStartObjectsPerMin": 31.8584
+      }
+    },
+    {
+      "identifier": "_base_mining_robot_i",
+      "name": "Miner Robot",
+      "starterItem": "_base_mining_robot_01_torso",
+      "sellItem": "_base_mining_robot_i",
+      "researchedBy": "_base_mining_robot_i",
+      "parts": [
+        {
+          "identifier": "_torso",
+          "name": "Torso",
+          "isInitialPart": true,
+          "paintingPowerKJ": 50,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            }
+          ]
+        },
+        {
+          "identifier": "_arms",
+          "name": "Arm (Right)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_legs",
+          "name": "Leg (Right)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_arm_left",
+          "name": "Arm (Left)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_leg_left",
+          "name": "Leg (Left)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_head",
+          "name": "Head",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            }
+          ]
+        }
+      ],
+      "stages": [
+        {
+          "identifier": "_attach_peripherals",
+          "name": "Peripherals",
+          "actions": [
+            {
+              "identifier": "_attach_arm_left",
+              "name": "Attach Arm (Left)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_mir01_attachArmLeft",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_mining_robot_01_arm",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_arm_left"
+            },
+            {
+              "identifier": "_weld_arm_left",
+              "name": "Weld Arm (Left)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_arm_left",
+              "producerAction": "_mir01_weldArmLeft",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_leg_left",
+              "name": "Attach Leg (Left)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_mir01_attachLegLeft",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_mining_robot_01_leg",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_leg_left"
+            },
+            {
+              "identifier": "_weld_leg_left",
+              "name": "Weld Leg (Left)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_leg_left",
+              "producerAction": "_mir01_weldLegLeft",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_arm_right",
+              "name": "Attach Arm (Right)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_mir01_attachArmRight",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_mining_robot_01_arm",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_arms"
+            },
+            {
+              "identifier": "_weld_arm_right",
+              "name": "Weld Arm (Right)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_arm_right",
+              "producerAction": "_mir01_weldArmRight",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_leg_right",
+              "name": "Attach Leg (Right)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_mir01_attachLegRight",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_mining_robot_01_leg",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_legs"
+            },
+            {
+              "identifier": "_weld_leg_right",
+              "name": "Weld Leg (Right)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_leg_right",
+              "producerAction": "_mir01_weldLegRight",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_head",
+              "name": "Attach Head",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_mir01_attachHead",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_mining_robot_01_head",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_head"
+            },
+            {
+              "identifier": "_weld_head",
+              "name": "Weld Head",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_head",
+              "producerAction": "_mir01_weldHead",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            }
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "identifier": "_base_mining_robot_01_arm",
+          "amount": 2
+        },
+        {
+          "identifier": "_base_mining_robot_01_head",
+          "amount": 1
+        },
+        {
+          "identifier": "_base_mining_robot_01_leg",
+          "amount": 2
+        },
+        {
+          "identifier": "_base_mining_robot_01_torso",
+          "amount": 1
+        }
+      ],
+      "fullPaint": [
+        {
+          "identifier": "_base_paint",
+          "liters": 100,
+          "powerKJ": 425
+        }
+      ],
+      "energy": {
+        "producerActions": 10,
+        "producerPowerKJ": 3500,
+        "startPowerKJ": 50,
+        "painterPowerKJ": 425,
+        "totalPowerKJ": 3975
+      },
+      "throughput": {
+        "maxObjectsPerMin": 32.0,
+        "singleStartObjectsPerMin": 31.8584
+      }
+    },
+    {
+      "identifier": "_base_science_robot_i",
+      "name": "Science Robot",
+      "starterItem": "_base_robot_science_01_torso",
+      "sellItem": "_base_science_robot_i",
+      "researchedBy": "_base_science_robot_i",
+      "parts": [
+        {
+          "identifier": "_torso",
+          "name": "Torso",
+          "isInitialPart": true,
+          "paintingPowerKJ": 50,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            }
+          ]
+        },
+        {
+          "identifier": "_arms",
+          "name": "Arm (Right)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_legs",
+          "name": "Leg (Right)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_arm_left",
+          "name": "Arm (Left)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_leg_left",
+          "name": "Leg (Left)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_head",
+          "name": "Head",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            }
+          ]
+        }
+      ],
+      "stages": [
+        {
+          "identifier": "_attach_peripherals",
+          "name": "Peripherals",
+          "actions": [
+            {
+              "identifier": "_attach_arm_left",
+              "name": "Attach Arm (Left)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_sr01_attachArmLeft",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_robot_science_01_arm",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_arm_left"
+            },
+            {
+              "identifier": "_weld_arm_left",
+              "name": "Weld Arm (Left)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_arm_left",
+              "producerAction": "_sr01_weldArmLeft",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_leg_left",
+              "name": "Attach Leg (Left)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_sr01_attachLegLeft",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_robot_science_01_leg",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_leg_left"
+            },
+            {
+              "identifier": "_weld_leg_left",
+              "name": "Weld Leg (Left)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_leg_left",
+              "producerAction": "_sr01_weldLegLeft",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_arm_right",
+              "name": "Attach Arm (Right)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_sr01_attachArmRight",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_robot_science_01_arm",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_arms"
+            },
+            {
+              "identifier": "_weld_arm_right",
+              "name": "Weld Arm (Right)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_arm_right",
+              "producerAction": "_sr01_weldArmRight",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_leg_right",
+              "name": "Attach Leg (Right)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_sr01_attachLegRight",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_robot_science_01_leg",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_legs"
+            },
+            {
+              "identifier": "_weld_leg_right",
+              "name": "Weld Leg (Right)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_leg_right",
+              "producerAction": "_sr01_weldLegRight",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_head",
+              "name": "Attach Head",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_sr01_attachHead",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_robot_science_01_head",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_head"
+            },
+            {
+              "identifier": "_weld_head",
+              "name": "Weld Head",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_head",
+              "producerAction": "_sr01_weldHead",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            }
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "identifier": "_base_robot_science_01_arm",
+          "amount": 2
+        },
+        {
+          "identifier": "_base_robot_science_01_head",
+          "amount": 1
+        },
+        {
+          "identifier": "_base_robot_science_01_leg",
+          "amount": 2
+        },
+        {
+          "identifier": "_base_robot_science_01_torso",
+          "amount": 1
+        }
+      ],
+      "fullPaint": [
+        {
+          "identifier": "_base_paint",
+          "liters": 100,
+          "powerKJ": 425
+        }
+      ],
+      "energy": {
+        "producerActions": 10,
+        "producerPowerKJ": 3500,
+        "startPowerKJ": 50,
+        "painterPowerKJ": 425,
+        "totalPowerKJ": 3975
+      },
+      "throughput": {
+        "maxObjectsPerMin": 32.0,
+        "singleStartObjectsPerMin": 31.8584
+      }
+    },
+    {
+      "identifier": "_base_scout_robot_i",
+      "name": "Scout Robot",
+      "starterItem": "_base_robot_scout_01_torso",
+      "sellItem": "_base_scout_robot_i",
+      "researchedBy": "_base_scout_robot_i",
+      "parts": [
+        {
+          "identifier": "_torso",
+          "name": "Torso",
+          "isInitialPart": true,
+          "paintingPowerKJ": 50,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 30
+            }
+          ]
+        },
+        {
+          "identifier": "_arms",
+          "name": "Arm (Right)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_legs",
+          "name": "Leg (Right)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_arm_left",
+          "name": "Arm (Left)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_leg_left",
+          "name": "Leg (Left)",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 15
+            }
+          ]
+        },
+        {
+          "identifier": "_head",
+          "name": "Head",
+          "isInitialPart": false,
+          "paintingPowerKJ": 75,
+          "colors": [
+            {
+              "identifier": "_metal",
+              "name": "Metal",
+              "paintElement": null,
+              "paintLiters": null
+            },
+            {
+              "identifier": "_green",
+              "name": "Green",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_red",
+              "name": "Red",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_yellow",
+              "name": "Yellow",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_blue",
+              "name": "Blue",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_orange",
+              "name": "Orange",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            },
+            {
+              "identifier": "_purple",
+              "name": "Purple",
+              "paintElement": "_base_paint",
+              "paintLiters": 10
+            }
+          ]
+        }
+      ],
+      "stages": [
+        {
+          "identifier": "_attach_peripherals",
+          "name": "Peripherals",
+          "actions": [
+            {
+              "identifier": "_attach_arm_left",
+              "name": "Attach Arm (Left)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_scr01_attachArmLeft",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_robot_scout_01_arm",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_arm_left"
+            },
+            {
+              "identifier": "_weld_arm_left",
+              "name": "Weld Arm (Left)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_arm_left",
+              "producerAction": "_scr01_weldArmLeft",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_leg_left",
+              "name": "Attach Leg (Left)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_scr01_attachLegLeft",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_robot_scout_01_leg",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_leg_left"
+            },
+            {
+              "identifier": "_weld_leg_left",
+              "name": "Weld Leg (Left)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_leg_left",
+              "producerAction": "_scr01_weldLegLeft",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_arm_right",
+              "name": "Attach Arm (Right)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_scr01_attachArmRight",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_robot_scout_01_arm",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_arms"
+            },
+            {
+              "identifier": "_weld_arm_right",
+              "name": "Weld Arm (Right)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_arm_right",
+              "producerAction": "_scr01_weldArmRight",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_leg_right",
+              "name": "Attach Leg (Right)",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_scr01_attachLegRight",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_robot_scout_01_leg",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_legs"
+            },
+            {
+              "identifier": "_weld_leg_right",
+              "name": "Weld Leg (Right)",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_leg_right",
+              "producerAction": "_scr01_weldLegRight",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            },
+            {
+              "identifier": "_attach_head",
+              "name": "Attach Head",
+              "type": "AttachComponent",
+              "parentAction": null,
+              "producerAction": "_scr01_attachHead",
+              "powerKJ": 200,
+              "inputs": [
+                {
+                  "identifier": "_base_robot_scout_01_head",
+                  "amount": 1
+                }
+              ],
+              "attachesPart": "_head"
+            },
+            {
+              "identifier": "_weld_head",
+              "name": "Weld Head",
+              "type": "MachineInteraction",
+              "parentAction": "_attach_head",
+              "producerAction": "_scr01_weldHead",
+              "powerKJ": 500,
+              "inputs": [],
+              "attachesPart": null
+            }
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "identifier": "_base_robot_scout_01_arm",
+          "amount": 2
+        },
+        {
+          "identifier": "_base_robot_scout_01_head",
+          "amount": 1
+        },
+        {
+          "identifier": "_base_robot_scout_01_leg",
+          "amount": 2
+        },
+        {
+          "identifier": "_base_robot_scout_01_torso",
+          "amount": 1
+        }
+      ],
+      "fullPaint": [
+        {
+          "identifier": "_base_paint",
+          "liters": 100,
+          "powerKJ": 425
+        }
+      ],
+      "energy": {
+        "producerActions": 10,
+        "producerPowerKJ": 3500,
+        "startPowerKJ": 50,
+        "painterPowerKJ": 425,
+        "totalPowerKJ": 3975
+      },
+      "throughput": {
+        "maxObjectsPerMin": 32.0,
+        "singleStartObjectsPerMin": 31.8584
+      }
+    }
+  ]
+}
