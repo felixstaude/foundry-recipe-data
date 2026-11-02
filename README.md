@@ -2,7 +2,7 @@
 
 This repository provides **public, versioned crafting data** for the game **Foundry** (by Channel 3 Entertainment).
 
-The data is automatically extracted from the official **Foundry Modkit / Asset packs**, processed into clean JSON files, and published via **GitHub Pages** so that tools, websites, and calculators can consume it using **simple HTTP GET requests**.
+The data is automatically extracted directly from the **Foundry game data**, processed into clean JSON files, and published via **GitHub Pages** so that tools, websites, and calculators can consume it using **simple HTTP GET requests**.
 
 ---
 
@@ -17,9 +17,11 @@ Each version contains the following files:
 - `tags.json`  
   All crafting tags with identifiers and display names.
 - `speeds_by_tag.json`  
-  Crafting speed multipliers extracted from recipe info boxes.
+  Crafting speed multipliers per crafting tag, taken from the machines that use it.
 - `speeds_by_tag_report.txt`  
   Human-readable debug report of extracted speed data.
+- `assembly_line.json`  
+  Assembly line robots with parts, actions, energy, and throughput.
 - `build_meta.json`  
   Technical build metadata (no personal or local system data).
 - `manifest.json`  
@@ -104,10 +106,10 @@ All data is safe to mirror, cache, and redistribute.
 
 ## 🛠 How the data is generated
 
-The data is extracted using a custom Python pipeline that:
+The data is extracted directly from the Foundry game data. Each build:
 
-1. Parses Foundry Unity `.asset` files
-2. Extracts crafting recipes, tags, and speed markers
+1. Reads recipes, machines, crafting tags, and assembly line robots from the game files
+2. Calculates rates from the real crafting speed of each machine, including output chances and fluids
 3. Normalizes and validates the data
 4. Publishes a versioned, static dataset
 

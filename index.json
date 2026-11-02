@@ -1,5 +1,5 @@
 {
-  "latest": "v0.6.0.24200",
+  "latest": "v0.6.0.26518",
   "versions": [
     {
       "version": "v0.6.0.22650",
@@ -12,6 +12,12 @@
       "title": "Update 3",
       "description": "Xeno-Tech",
       "publishedAt": "2026-01-28T16:21:10.673188+00:00"
+    },
+    {
+      "version": "v0.6.0.26518",
+      "title": "Update 4",
+      "description": "Rails & Reactors",
+      "publishedAt": "2026-11-02T06:03:53.025009+00:00"
     }
   ]
 }
