@@ -1,0 +1,203 @@
+{
+  "machines": {
+    "advanced_smelter@1.5": {
+      "name": "Advanced Smelter",
+      "craftingTags": [
+        "advanced_smelter"
+      ],
+      "craftingSpeedMultiplier": 1.5,
+      "derivedFrom": "machine_template_recipe_time_modifier",
+      "identifier": "_base_smelter_i"
+    },
+    "assembler@1": {
+      "name": "Assembler I",
+      "craftingTags": [
+        "assembler"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "machine_template_recipe_time_modifier",
+      "identifier": "_base_assembler_i"
+    },
+    "assembler@1.5": {
+      "name": "Assembler II",
+      "craftingTags": [
+        "assembler"
+      ],
+      "craftingSpeedMultiplier": 1.5,
+      "derivedFrom": "machine_template_recipe_time_modifier",
+      "identifier": "_base_assembler_ii"
+    },
+    "assembler@2": {
+      "name": "Assembler III",
+      "craftingTags": [
+        "assembler"
+      ],
+      "craftingSpeedMultiplier": 2.0,
+      "derivedFrom": "machine_template_recipe_time_modifier",
+      "identifier": "_base_assembler_iii"
+    },
+    "assembler_fluid@1": {
+      "name": "Fluid Assembler I",
+      "craftingTags": [
+        "assembler_fluid"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "machine_template_recipe_time_modifier",
+      "identifier": "_base_assembler_fluid_i"
+    },
+    "barrel_filler@1": {
+      "name": "Barrel Filler I",
+      "craftingTags": [
+        "barrel_filler"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "machine_template_recipe_time_modifier",
+      "identifier": "_base_barrel_filler_i"
+    },
+    "base_station@1": {
+      "name": "Drop Pods",
+      "craftingTags": [
+        "base_station"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "native_base_station_crafting",
+      "identifier": "_base_baseStation01"
+    },
+    "casting_machine@1": {
+      "name": "Casting Machine",
+      "craftingTags": [
+        "casting_machine"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "machine_template_recipe_time_modifier",
+      "identifier": "_base_casting_machine"
+    },
+    "character@3": {
+      "name": "Character",
+      "craftingTags": [
+        "character"
+      ],
+      "craftingSpeedMultiplier": 3.0,
+      "derivedFrom": "native_character_crafting",
+      "identifier": "character"
+    },
+    "chemical_processor@1": {
+      "name": "Chemical Processor",
+      "craftingTags": [
+        "chemical_processor"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "machine_template_recipe_time_modifier",
+      "identifier": "_base_chemical_processor_i"
+    },
+    "crusher@1": {
+      "name": "Crusher I",
+      "craftingTags": [
+        "crusher"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "machine_template_recipe_time_modifier",
+      "identifier": "_base_crusher_i"
+    },
+    "crusher@2": {
+      "name": "Crusher II",
+      "craftingTags": [
+        "crusher"
+      ],
+      "craftingSpeedMultiplier": 2.0,
+      "derivedFrom": "machine_template_recipe_time_modifier",
+      "identifier": "_base_crusher_ii"
+    },
+    "crystal_refiner@1": {
+      "name": "Crystal Refiner",
+      "craftingTags": [
+        "crystal_refiner"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "machine_template_recipe_time_modifier",
+      "identifier": "_base_crystal_refiner_i"
+    },
+    "distillation_column@1": {
+      "name": "Distillation Column",
+      "craftingTags": [
+        "distillation_column"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "machine_template_recipe_time_modifier",
+      "identifier": "_base_distillation_column_i"
+    },
+    "electric_arc_furnace@1": {
+      "name": "Electric Arc Furnace",
+      "craftingTags": [
+        "electric_arc_furnace"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "machine_template_recipe_time_modifier",
+      "identifier": "_base_electric_arc_furnace"
+    },
+    "geothermal_generator@1": {
+      "name": "Geothermal Boiler",
+      "craftingTags": [
+        "geothermal_generator"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "machine_template_recipe_time_modifier",
+      "identifier": "_base_geothermal_generator_i"
+    },
+    "greenhouse@1": {
+      "name": "Greenhouse",
+      "craftingTags": [
+        "greenhouse"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "machine_template_recipe_time_modifier",
+      "identifier": "_base_greenhouse_i"
+    },
+    "heavy_caster@32": {
+      "name": "Heavy Caster",
+      "craftingTags": [
+        "heavy_caster"
+      ],
+      "craftingSpeedMultiplier": 32.0,
+      "derivedFrom": "machine_template_recipe_time_modifier",
+      "identifier": "_base_casting_building_base"
+    },
+    "npp_fuel_mixer@1": {
+      "name": "Reactor Fuel Mixer",
+      "craftingTags": [
+        "npp_fuel_mixer"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "machine_template_recipe_time_modifier",
+      "identifier": "_base_npp_pressurizer_base"
+    },
+    "smelter@1": {
+      "name": "Smelter (Small)",
+      "craftingTags": [
+        "smelter"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "machine_template_recipe_time_modifier",
+      "identifier": "_base_smelter_small_i"
+    },
+    "smelter_lava@1": {
+      "name": "Lava-Smelter I",
+      "craftingTags": [
+        "smelter_lava"
+      ],
+      "craftingSpeedMultiplier": 1.0,
+      "derivedFrom": "machine_template_recipe_time_modifier",
+      "identifier": "_base_smelter_lava_i"
+    },
+    "smelter_lava@2": {
+      "name": "Lava-Smelter II",
+      "craftingTags": [
+        "smelter_lava"
+      ],
+      "craftingSpeedMultiplier": 2.0,
+      "derivedFrom": "machine_template_recipe_time_modifier",
+      "identifier": "_base_smelter_lava_ii"
+    }
+  },
+  "source": "generated_from_machine_templates"
+}

@@ -1,0 +1,14 @@
+{
+  "builtAt": "2026-11-02T06:03:53.025009+00:00",
+  "generator": "foundry-export 1.0.0 (legacy format)",
+  "outputs": [
+    "recipes_clean.json",
+    "speeds_by_tag.json",
+    "speeds_by_tag_report.txt",
+    "tags.json",
+    "machines.json",
+    "assembly_line.json"
+  ],
+  "gameVersion": "0.6.0.26518",
+  "steamBuildId": "23077581"
+}
