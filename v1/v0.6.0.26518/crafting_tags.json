@@ -1,0 +1,199 @@
+{
+  "schema": "foundry-data/crafting_tags@1",
+  "gameVersion": "0.6.0.26518",
+  "steamBuildId": "23077581",
+  "count": 17,
+  "tags": [
+    {
+      "identifier": "advanced_smelter",
+      "name": "Advanced Smelter",
+      "slotLockDescription": "Smeltable",
+      "derived": {
+        "machines": [
+          "_base_smelter_i"
+        ],
+        "recipeCount": 9
+      }
+    },
+    {
+      "identifier": "assembler",
+      "name": "Assembler",
+      "slotLockDescription": null,
+      "derived": {
+        "machines": [
+          "_base_assembler_i",
+          "_base_assembler_ii",
+          "_base_assembler_iii"
+        ],
+        "recipeCount": 272
+      }
+    },
+    {
+      "identifier": "assembler_fluid",
+      "name": "Fluid-Assembler",
+      "slotLockDescription": null,
+      "derived": {
+        "machines": [
+          "_base_assembler_fluid_i"
+        ],
+        "recipeCount": 9
+      }
+    },
+    {
+      "identifier": "barrel_filler",
+      "name": "Barrel Filler",
+      "slotLockDescription": null,
+      "derived": {
+        "machines": [
+          "_base_barrel_filler_i"
+        ],
+        "recipeCount": 2
+      }
+    },
+    {
+      "identifier": "casting_machine",
+      "name": "Casting Machine",
+      "slotLockDescription": null,
+      "derived": {
+        "machines": [
+          "_base_casting_machine"
+        ],
+        "recipeCount": 8
+      }
+    },
+    {
+      "identifier": "character",
+      "name": "Character",
+      "slotLockDescription": null,
+      "derived": {
+        "machines": [
+          "character"
+        ],
+        "recipeCount": 213
+      }
+    },
+    {
+      "identifier": "chemical_processor",
+      "name": "Chemical Processor",
+      "slotLockDescription": null,
+      "derived": {
+        "machines": [
+          "_base_chemical_processor_i"
+        ],
+        "recipeCount": 9
+      }
+    },
+    {
+      "identifier": "crusher",
+      "name": "Crusher",
+      "slotLockDescription": "Crushable",
+      "derived": {
+        "machines": [
+          "_base_crusher_i",
+          "_base_crusher_ii"
+        ],
+        "recipeCount": 11
+      }
+    },
+    {
+      "identifier": "crystal_refiner",
+      "name": "Crystal Refiner",
+      "slotLockDescription": null,
+      "derived": {
+        "machines": [
+          "_base_crystal_refiner_i"
+        ],
+        "recipeCount": 2
+      }
+    },
+    {
+      "identifier": "distillation_column",
+      "name": "Distillation Column",
+      "slotLockDescription": null,
+      "derived": {
+        "machines": [
+          "_base_distillation_column_i"
+        ],
+        "recipeCount": 6
+      }
+    },
+    {
+      "identifier": "electric_arc_furnace",
+      "name": "Electric Arc Furnace",
+      "slotLockDescription": null,
+      "derived": {
+        "machines": [
+          "_base_electric_arc_furnace"
+        ],
+        "recipeCount": 2
+      }
+    },
+    {
+      "identifier": "geothermal_generator",
+      "name": "Geothermal Generator",
+      "slotLockDescription": null,
+      "derived": {
+        "machines": [
+          "_base_geothermal_generator_i"
+        ],
+        "recipeCount": 1
+      }
+    },
+    {
+      "identifier": "greenhouse",
+      "name": "Greenhouse",
+      "slotLockDescription": "Plant Seed",
+      "derived": {
+        "machines": [
+          "_base_greenhouse_i"
+        ],
+        "recipeCount": 11
+      }
+    },
+    {
+      "identifier": "heavy_caster",
+      "name": "Heavy Caster",
+      "slotLockDescription": null,
+      "derived": {
+        "machines": [
+          "_base_casting_building_base"
+        ],
+        "recipeCount": 2
+      }
+    },
+    {
+      "identifier": "npp_fuel_mixer",
+      "name": "Fuel Mixer",
+      "slotLockDescription": null,
+      "derived": {
+        "machines": [
+          "_base_npp_pressurizer_base"
+        ],
+        "recipeCount": 1
+      }
+    },
+    {
+      "identifier": "smelter",
+      "name": "Smelter",
+      "slotLockDescription": "Smeltable",
+      "derived": {
+        "machines": [
+          "_base_smelter_small_i"
+        ],
+        "recipeCount": 6
+      }
+    },
+    {
+      "identifier": "smelter_lava",
+      "name": "Lava-Smelter",
+      "slotLockDescription": "Lava-Smeltable",
+      "derived": {
+        "machines": [
+          "_base_smelter_lava_i",
+          "_base_smelter_lava_ii"
+        ],
+        "recipeCount": 1
+      }
+    }
+  ]
+}

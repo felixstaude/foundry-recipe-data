@@ -4,16 +4,21 @@ This repository provides **public, versioned crafting data** for the game **Foun
 
 The data is automatically extracted directly from the **Foundry game data**, processed into clean JSON files, and published via **GitHub Pages** so that tools, websites, and calculators can consume it using **simple HTTP GET requests**.
 
+The data comes in two formats:
+
+- **foundry-data v1** under [`/v1/`](#-foundry-data-v1-v1). This is the complete export: items, fluids, recipes with per-machine rates, machines with power and size, research, assembly line, and localization. Use it for new tools.
+- **Legacy format** in the root folders (`/v0.6.0.*/`). It contains `recipes_clean.json`, `machines.json` and similar files, and stays unchanged for existing consumers.
+
 ---
 
-## 📦 What’s included
+## 📦 What’s included (legacy format)
 
 Each version contains the following files:
 
 - `recipes_clean.json`  
   Cleaned crafting recipes with inputs, outputs, crafting time, tags, and calculated rates.
 - `machines.json`  
-  Automatically derived machine tiers and crafting speed multipliers.
+  Crafting machines and their crafting speed multipliers. From `v0.6.0.26518` on these are the real buildings taken from the machine templates. Older versions contain estimated tiers (1 / 1.5 / 2).
 - `tags.json`  
   All crafting tags with identifiers and display names.
 - `speeds_by_tag.json`  
@@ -70,6 +75,38 @@ https://felixstaude.github.io/foundry-recipe-data/v0.6.0.22650/recipes_clean.jso
 
 ---
 
+## 🧩 foundry-data v1 (`/v1/`)
+
+This is the complete export of a game version, produced by the foundry-data exporter. Every version folder is published byte for byte as exported.
+
+### Endpoints
+```
+GET /v1/index.json                    all versions: {latest, versions[{version, gameVersion, steamBuildId, channel, title, description, generatedAt}]}
+GET /v1/latest.json                   newest version of any channel
+GET /v1/latest_stable.json            newest stable version (use this as default)
+GET /v1/<version>/manifest.json       schemaVersion, gameVersion, steamBuildId, steamBranch, files{name: {count, sha256}}, ...
+GET /v1/<version>/items.json          items (names, categories, flags, stack size, ...)
+GET /v1/<version>/elements.json       fluids and gases
+GET /v1/<version>/recipes.json        recipes with inputs/outputs, fluids in liters, output chances, per-machine rates
+GET /v1/<version>/machines.json       buildings incl. crafting speed, power consumption (kW) and size
+GET /v1/<version>/assembly_line.json  assembly-line robots, stations and throughput constants
+GET /v1/<version>/research.json       research and exploration unlocks
+GET /v1/<version>/crafting_tags.json  crafting tags
+GET /v1/<version>/localization/<lang>.json   19 languages
+GET /v1/<version>/schemas/*.schema.json      JSON Schemas (Draft 2020-12) of all files
+GET /v1/<version>/CHANGES.md          changes against the previous version (German)
+```
+
+### Conventions
+- Every data file starts with `schema` (e.g. `foundry-data/items@1`), `gameVersion`, `steamBuildId` and `count`. Check `schema` before reading a file.
+- `manifest.files` lists the `sha256` and `count` of every file. Clients can verify downloads with it.
+- `channel` is `stable` (released build) or `beta` (Steam experimental branch). Treat a missing `channel` as `stable`. Default to `latest_stable.json`, not `latest.json`.
+- Folder names are opaque: `v<gameVersion>`, or `v<gameVersion>-b<steamBuildId>` when the same version is re-exported from another build. Read `gameVersion` from the data; do not parse folder names.
+- Published version folders are **immutable**. A stable version is never changed in place; new data is published as a new version. The only exception is a beta, which may be replaced by a newer export of the same experimental build.
+- Values marked as unverified in the exporter's findings (hand crafting ×3, Heavy Caster ×32, assembly line 31.86/min) come from the game code and have not been measured in game.
+
+---
+
 ## 🧠 Recommended Client Flow
 
 1. Fetch the latest version:
@@ -113,7 +150,7 @@ The data is extracted directly from the Foundry game data. Each build:
 3. Normalizes and validates the data
 4. Publishes a versioned, static dataset
 
-The build process itself is **not automated via GitHub Actions** and is intentionally run manually to match official Foundry releases.
+The build process itself is **not automated via GitHub Actions** and is intentionally run manually to match official Foundry releases. A validation workflow (`scripts/validate.py`) checks every change before it is published: all JSON parses, the hashes and counts match the manifests, the v1 files match their JSON Schemas, the indexes match the folders, and published v1 files are unchanged.
 
 ---
 
@@ -122,7 +159,7 @@ The build process itself is **not automated via GitHub Actions** and is intentio
 This project is **not affiliated with or endorsed by Channel 3 Entertainment**.  
 Foundry and all related assets are property of their respective owners.
 
-This repository only contains **derived, non-binary data** intended for community tools and analysis.
+This repository only contains **derived, non-binary data** intended for community tools and analysis. Game texts, such as item names and the localization files, belong to their owners and are not covered by any license of this repository.
 
 ---
 
