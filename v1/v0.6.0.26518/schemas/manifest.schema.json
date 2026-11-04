@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "foundry-data/manifest@1",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": "1.2"
+    },
+    "gameVersion": {
+      "type": "string"
+    },
+    "steamBuildId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "steamBranch": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "description": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "unityVersion": {
+      "type": "string"
+    },
+    "generatedAt": {
+      "type": "string"
+    },
+    "generator": {
+      "type": "string"
+    },
+    "templateSource": {
+      "enum": [
+        "StreamingAssets/Templates",
+        "foundry_main_bundle"
+      ]
+    },
+    "previousVersion": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "templateCounts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer"
+      }
+    },
+    "codeHashes": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "schemaHashes": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "files": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "count": {
+            "type": "integer"
+          },
+          "sha256": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "count",
+          "sha256"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "gameVersion",
+    "steamBuildId",
+    "steamBranch",
+    "title",
+    "description",
+    "unityVersion",
+    "generatedAt",
+    "generator",
+    "templateSource",
+    "previousVersion",
+    "languages",
+    "warnings",
+    "templateCounts",
+    "codeHashes",
+    "schemaHashes",
+    "files"
+  ],
+  "additionalProperties": false
+}
